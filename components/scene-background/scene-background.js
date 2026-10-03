@@ -1,0 +1,4 @@
+Component({
+  properties: { show: { type: Object, value: {} } },
+  data: { stars: Array.from({ length: 24 }, (_, i) => ({ id: i, style: `left:${(i * 37 + 11) % 97}%;top:${(i * 23 + 7) % 97}%;width:${i % 3 + 4}px;height:${i % 3 + 4}px;animation-delay:${-i * .37}s;` })), bubbles: Array.from({ length: 15 }, (_, i) => ({ id: i, style: `left:${(i * 29 + 4) % 96}%;top:${(i * 17 + 8) % 98}%;width:${18 + i % 5 * 13}px;height:${18 + i % 5 * 13}px;animation-delay:${-i * .7}s;animation-duration:${8 + i % 4}s;` })), papers: Array.from({ length: 12 }, (_, i) => ({ id: i, style: `left:${(i * 31 + 3) % 90}%;top:${(i * 29 + 9) % 92}%;background:${['#ff7ab655', '#ffd23f66', '#3fdcb055', '#8faaff66', '#b793ff55'][i % 5]};--fold-angle:${i * 43}deg;transform:rotate(${i * 43}deg);animation-delay:${-i * .8}s;` })), flags: [0,1,2,3,4,5,6,7,8] },
+});

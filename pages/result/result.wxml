@@ -1,0 +1,14 @@
+<scene-background show="{{show}}"/>
+<celebration wx:if="{{celebrating}}" show="{{show}}" mode="finale" label="{{score}}分" bindcomplete="celebrationComplete"/>
+<view wx:if="{{celebrating}}" class="celebration-controls"><view>这一轮完成啦！</view><button bindtap="celebrationComplete">查看成绩 →</button></view>
+<view wx:if="{{!celebrating}}" class="container paper result">
+  <show-stage show="{{show}}" quiet particles="{{false}}"/>
+  <view class="badge">✓ {{demo ? '演示完成' : final ? '加时挑战结束' : mode === 'review' ? '复习完成' : '基础练习完成'}}</view><view class="heading">又前进了一小步！</view>
+  <view class="score"><text>{{score}}</text> 分</view><view wx:if="{{final}}" class="muted">基础 100 ＋ 加时挑战 {{score - 100}}</view>
+  <view class="stats"><view>完成题目 <text>{{ok}} 题</text></view><view>再试次数 <text>{{ng}} 次</text></view><view>首次正确率 <text>{{firstRate}}%</text></view><view>基础用时 <text>{{time}}</text></view><view wx:if="{{final}}">加时答对 / 答错 <text>{{extraOk}} 题 / {{extraNg}} 次</text></view><view>欢乐值 <text>{{dopa}}</text></view></view>
+  <view wx:for="{{news}}" wx:key="*this" class="news">★ {{item}}</view><view wx:for="{{growth}}" wx:key="*this" class="news">↗ {{item}}</view>
+  <view wx:if="{{fresh.length}}" class="reward-panel"><view class="heading">获得奖杯！</view><view wx:for="{{fresh}}" wx:key="id" class="reward"><view>🏆 {{item.name}}</view><view class="muted">{{item.desc}}</view><view wx:if="{{item.reward}}">收藏「{{item.reward}}」已解锁！</view></view><button bindtap="dismissFresh">太棒啦！</button></view>
+  <quest-list wx:if="{{!demo}}" rows="{{quests}}"/>
+  <view wx:if="{{warning}}" class="warning">{{warning}}<button bindtap="retrySave">重试保存</button></view>
+  <view class="stack"><button wx:if="{{eligible && !final}}" class="primary" bindtap="extra">进入加时挑战 · 90秒</button><view wx:elif="{{mode !== 'review' && !final}}" class="muted">首次正确率达到 80% 即可进入加时挑战</view><button wx:if="{{review && (final || !eligible)}}" class="secondary" bindtap="review">再练 {{review}} 道错题</button><button bindtap="tree">查看技能树</button><button bindtap="again">再练一轮</button><button bindtap="home">返回首页</button></view>
+</view>

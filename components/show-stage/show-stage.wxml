@@ -1,0 +1,8 @@
+<view class="stage {{quiet ? '' : 'bg-' + show.bg}} {{compact ? 'compact' : ''}} {{show.motion ? 'moving' : ''}} {{show.burst ? 'burst' : ''}} {{finale ? 'finale finale-' + show.finale : ''}} preview-{{previewCat}} {{canvasReady ? 'canvas-ready' : ''}}" aria-label="瓜瓜伙伴" style="--motion:{{show.motionScale}}">
+  <canvas type="2d" id="effects" class="effects"></canvas><view class="burst-rays"></view>
+  <view wx:if="{{show.strength > 0.45 || finale || previewCat === 'crowd'}}" class="crowd crowd-{{show.crowd}}"><view wx:for="{{show.actors}}" wx:key="id" class="buddy" style="{{item.style}}"><image class="portrait" src="{{item.src}}" mode="aspectFit"/><image wx:if="{{item.wear}}" class="wear" src="{{item.wear}}" mode="aspectFit"/></view></view>
+  <view class="hero"><image wx:if="{{show.wearBack}}" class="wear" src="{{show.wearBack}}" mode="aspectFit"/><image class="portrait" src="{{show.hero}}" mode="aspectFit"/><image wx:if="{{show.wear}}" class="wear" src="{{show.wear}}" mode="aspectFit"/></view>
+  <image wx:if="{{show.burst}}" class="mark" src="{{show.markImage}}" mode="aspectFit"/>
+  <view wx:if="{{finale && show.finale === 'rocket'}}" class="rocket"><view class="rocket-window"></view><view class="rocket-flame"></view></view>
+  <view wx:if="{{finale && show.finale === 'parade'}}" class="parade-cart"><view class="cart-wheel"></view><view class="cart-wheel wheel-right"></view></view>
+</view>

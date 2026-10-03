@@ -1,0 +1,1 @@
+<view class="container paper"><view class="heading">练习日历</view><practice-calendar refresh="{{refresh}}" show-sign-in/><view class="muted note">点击有印章的日期，查看当天的全部练习记录。</view></view>

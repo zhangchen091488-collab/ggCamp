@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/play/play",
+    "pages/result/result",
+    "pages/tree/tree",
+    "pages/trophy/trophy",
+    "pages/collection/collection",
+    "pages/calendar/calendar",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "navigationBarTitleText": "瓜瓜计算营",
+    "navigationBarBackgroundColor": "#fff9ee",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff9ee"
+  },
+  "sitemapLocation": "sitemap.json"
+}

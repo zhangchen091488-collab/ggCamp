@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "设置",
+  "usingComponents": {
+    "show-stage": "/components/show-stage/show-stage"
+  }
+}

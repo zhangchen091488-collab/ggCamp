@@ -1,0 +1,8 @@
+.sheet { position:relative;width:100%;margin:26rpx auto;font-family:Chunky,"PingFang SC",sans-serif; }
+.cell {position:absolute;display:flex;align-items:center;justify-content:center;box-sizing:border-box;font-weight:800;z-index:2;line-height:1;}
+.cell-box {display:flex;align-items:center;justify-content:center;width:100%;height:100%;box-sizing:border-box;}
+.input-box {width:calc(100% - 6px);max-width:var(--cell-size);height:var(--cell-size);border-radius:12px;}
+.active .input-box {background:#e0e7ff;border:3px dashed #3b6bff;}
+.question {color:#3b6bff66;}
+.bad .input-box {background:#efe8ff;border-color:#a77bff;color:#7a4bff;}
+.op {color:#3b6bff;}.small,.mark,.carry {font-size:.58em;color:#3b6bff;}.word {font-size:.6em;white-space:nowrap;color:#4a4f86;}.crossed {text-decoration:line-through;color:#85899d;}.dot {transform:translateX(45%);}.line {position:absolute;border-bottom:3rpx solid #20234f;z-index:1;}.bracket {position:absolute;border-top:3rpx solid #20234f;border-left:3rpx solid #20234f;border-top-left-radius:12rpx;}.hint .cell-box {background:#fff3b8;box-shadow:0 0 0 3rpx #ffd23f;border-radius:10rpx;}

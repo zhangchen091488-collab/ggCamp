@@ -1,0 +1,5 @@
+<view class="sheet" style="{{sheet.style}}">
+  <view wx:if="{{sheet.bracket}}" class="bracket" style="{{sheet.bracket}}"></view>
+  <view wx:for="{{sheet.lines}}" wx:key="id" class="line" style="{{item.style}}"></view>
+  <view wx:for="{{sheet.cells}}" wx:key="id" class="cell {{item.kind}} {{item.small ? 'small' : ''}} {{item.text === '.' ? 'dot' : ''}} {{item.active ? 'active' : ''}} {{item.bad ? 'bad' : ''}} {{item.crossed ? 'crossed' : ''}} {{item.hint ? 'hint' : ''}}" style="{{item.style}}" aria-label="{{item.kind === 'input' ? '答案输入格' : item.text}}"><view class="cell-box {{item.kind === 'input' ? 'input-box' : ''}} {{item.text === '?' ? 'question' : ''}}">{{item.text}}</view></view>
+</view>

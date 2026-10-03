@@ -1,0 +1,14 @@
+<scene-background show="{{show}}"/>
+<celebration show="{{show}}" mode="{{paused ? '' : 'burst'}}"/>
+<view class="container paper play {{hurry ? 'hurry' : ''}}">
+  <view wx:if="{{demo}}" class="demo" bindtap="endDemo">自动演示 · 点击此处结束，不计入记录</view>
+  <view class="hud"><view class="hud-top"><view class="progress" aria-label="第 {{index}} / {{count}} 题"><view wx:for="{{progressDots}}" wx:key="id" class="pip {{item.done ? 'done' : ''}} {{item.current ? 'current' : ''}}"></view></view><view class="time-controls"><view class="timer"><text>{{extra ? '剩余' : '用时'}}</text><text class="timer-value">{{time}}</text></view><button class="sound" bindtap="toggleSound" aria-label="{{sound ? '关闭声音' : '开启声音'}}">{{sound ? '♪' : '静'}}</button></view></view>
+  <view class="hud-bottom"><view class="tallies"><view class="tally">答对 <text>{{ok}}</text><text class="total">/{{count}}</text></view><view class="tally wrong">再试试 <text>{{ng}}</text></view></view><view class="dopa">欢乐值 <text>{{dopa}}</text></view></view><view wx:if="{{combo >= 3}}" class="combo">{{combo}} 连击！</view></view>
+  <view class="actor-stage"><show-stage show="{{show}}" compact quiet particles="{{false}}"/><view class="ground"></view></view>
+  <view class="problem"><view wx:if="{{capsule}}" class="capsule">✉ 时光胶囊 · {{capsule}}</view><view class="problem-head"><view class="skill-badge">{{title}}</view><text>第{{index}}题</text></view><problem-sheet sheet="{{sheet}}"/><view class="label">{{label}}</view><view wx:if="{{hint}}" class="hint">{{hint}}</view><button class="hint-toggle" bindtap="showHelp" aria-label="查看解题提示"><image class="hint-icon" src="/assets/ui/hint.png" mode="aspectFit"/></button></view>
+  <view wx:if="{{feedback}}" class="feedback {{solved && motion > 0 ? 'celebrate' : ''}}">{{feedback}}</view>
+  <view wx:if="{{paused}}" class="pause"><view class="heading">休息一下也很好</view><view class="muted">已经暂停计时，答案和进度都还在。</view><button class="primary" bindtap="resume">继续练习</button></view>
+  <button wx:elif="{{solved}}" class="primary next" bindtap="next">{{!extra && index === count ? '查看练习结果' : '下一题 →'}}</button>
+  <view wx:else class="pad"><button wx:for="{{keys}}" wx:key="*this" class="key {{item === '清除' ? 'erase' : ''}} {{item === '0' ? 'zero' : ''}}" data-key="{{item}}" bindtap="press" aria-label="{{item}}">{{item === '清除' ? '⌫' : item}}</button></view>
+  <view wx:if="{{warning}}" class="warning">{{warning}}</view>
+</view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "练习完成",
+  "usingComponents": {
+    "show-stage": "/components/show-stage/show-stage",
+    "quest-list": "/components/quest-list/quest-list",
+    "scene-background": "/components/scene-background/scene-background",
+    "celebration": "/components/celebration/celebration"
+  }
+}

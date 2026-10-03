@@ -1,0 +1,14 @@
+page { background: #fff9ee; color: #20234f; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; }
+.container { padding: 32rpx; padding-bottom: calc(36rpx + env(safe-area-inset-bottom)); }
+.paper { background-image: linear-gradient(#20234f0d 1px, transparent 1px), linear-gradient(90deg, #20234f0d 1px, transparent 1px),radial-gradient(ellipse at 8% 22%,#ffe1ee80 0,transparent 46%),radial-gradient(ellipse at 92% 58%,#dfe5ff80 0,transparent 48%); background-size: 36rpx 36rpx,36rpx 36rpx,100% 100%,100% 100%; min-height: 100vh; box-sizing: border-box; }
+button { font-size: 32rpx; font-weight: 700; color: #20234f; background: #fffdf7; box-shadow:0 7rpx 0 #20234f; border: 4rpx solid #20234f; border-radius: 24rpx; margin: 0; line-height: 1.4; padding: 22rpx 16rpx; }
+button::after { border: none; }
+button[disabled] { opacity: .5; color: #20234f; }
+.primary { background: #f18bb7; box-shadow: 0 8rpx 0 #20234f; }
+.secondary { background: #fff0ab; }
+.heading { font-size: 52rpx; font-weight: 900; line-height: 1.3; }
+.muted { font-size: 26rpx; color: #565a79; line-height: 1.6; }
+.warning { margin-top: 20rpx; padding: 18rpx; color: #932e39; background: #ffe2df; border-radius: 16rpx; font-size: 26rpx; }
+.stack > button { margin-top: 24rpx; }
+
+button:active { transform: translateY(4rpx); box-shadow:0 2rpx 0 #20234f; }.primary:active { box-shadow: 0 3rpx #20234f; }

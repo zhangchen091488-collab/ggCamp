@@ -1,0 +1,122 @@
+// Generated from app/js/unlocks.js by tools/build_miniprogram.mjs. Do not edit.
+// Unlockable show (id041): backgrounds, correct marks, particles, music,
+// Guagua's costume and clothing colour, the crowd and the finale. Each item is the
+// reward of one trophy (never random), so what is unlocked follows from the
+// trophies earned; only the player's choice per category is saved.
+const { TROPHY } = require('./trophies.js');
+
+const CATS = [
+  { key: 'bg', name: '背景' },
+  { key: 'mark', name: '答对标记' },
+  { key: 'particle', name: '彩纸' },
+  { key: 'music', name: '音乐' },
+  { key: 'costume', name: '装扮' },
+  { key: 'color', name: '伙伴衣服配色' },
+  { key: 'crowd', name: '观众' },
+  { key: 'finale', name: '终场庆祝' },
+];
+
+// base: available from the start. trophy: the trophy whose reward it is.
+const ITEMS = [];
+const ITEM = {};
+function addItems(list) {
+  for (const it of list) {
+    ITEMS.push(it); ITEM[it.id] = it;
+    if (it.trophy && TROPHY[it.trophy]) TROPHY[it.trophy].reward = it.id;
+  }
+}
+addItems([
+  { id: 'bg:classic', cat: 'bg', name: '放射光线', base: true },
+  { id: 'mark:hanamaru', cat: 'mark', name: '小红花', base: true },
+  { id: 'particle:classic', cat: 'particle', name: '彩纸', base: true },
+  { id: 'music:classic', cat: 'music', name: '马林巴进行曲', base: true },
+  { id: 'costume:none', cat: 'costume', name: '无', base: true },
+  { id: 'color:pink', cat: 'color', name: '粉色', base: true },
+  { id: 'crowd:classic', cat: 'crowd', name: '彩色伙伴', base: true },
+  { id: 'finale:classic', cat: 'finale', name: '瓜瓜伙伴大庆祝', base: true },
+]);
+// id041: one sample per category, to prove the pipeline end to end.
+// Rewards follow effort and coming back (plays, days, streaks, stars earned by
+// practice), not the placement check, which can master many skills at once.
+addItems([
+  { id: 'costume:cap', cat: 'costume', name: '帽子', trophy: 'days-1' },
+  { id: 'particle:note', cat: 'particle', name: '音符', trophy: 'days-3' },
+  { id: 'mark:stamp', cat: 'mark', name: '答对印章', trophy: 'plays-3' },
+  { id: 'bg:night', cat: 'bg', name: '夜空', trophy: 'streak-3' },
+  { id: 'color:blue', cat: 'color', name: '蓝色', trophy: 'plays-5' },
+  { id: 'finale:fireworks', cat: 'finale', name: '烟花大会', trophy: 'extras-5' },
+  { id: 'music:chip', cat: 'music', name: '8 位电子乐', trophy: 'plays-10' },
+  { id: 'crowd:costume', cat: 'crowd', name: '装扮观众', trophy: 'firstTry-50' },
+]);
+// id042: backgrounds, correct marks and particles.
+addItems([
+  { id: 'bg:sea', cat: 'bg', name: '海洋泡泡', trophy: 'problems-100' },
+  { id: 'bg:festival', cat: 'bg', name: '庆典', trophy: 'days-15' },
+  { id: 'bg:paper', cat: 'bg', name: '纸艺世界', trophy: 'problems-200' },
+  { id: 'bg:space', cat: 'bg', name: '宇宙', trophy: 'extras-10' },
+  { id: 'mark:medal', cat: 'mark', name: '奖牌', trophy: 'streak-7' },
+  { id: 'mark:crown', cat: 'mark', name: '皇冠', trophy: 'perfects-3' },
+  { id: 'mark:ring', cat: 'mark', name: '烟花光环', trophy: 'combo-30' },
+  { id: 'particle:petal', cat: 'particle', name: '花瓣', trophy: 'stickers-7' },
+  { id: 'particle:digit', cat: 'particle', name: '数字', trophy: 'cells-1000' },
+  { id: 'particle:bubble', cat: 'particle', name: '泡泡', trophy: 'review-10' },
+  { id: 'particle:candy', cat: 'particle', name: '糖果', trophy: 'extraBest-10' },
+]);
+// id043: songs (8 位电子乐 is the id041 sample).
+addItems([
+  { id: 'music:matsuri', cat: 'music', name: '庆典鼓乐', trophy: 'streak-5' },
+  { id: 'music:brass', cat: 'music', name: '铜管乐队', trophy: 'days-5' },
+  { id: 'music:electro', cat: 'music', name: '电子音乐', trophy: 'extras-3' },
+]);
+// id044: costumes, colours, crowd and finales (id045 moved three rewards to the new series).
+addItems([
+  { id: 'costume:hachimaki', cat: 'costume', name: '头带', trophy: 'problems-50' },
+  { id: 'costume:cape', cat: 'costume', name: '披风', trophy: 'combo-20' },
+  { id: 'costume:glasses', cat: 'costume', name: '圆框眼镜', trophy: 'firstTry-100' },
+  { id: 'costume:ribbon', cat: 'costume', name: '蝴蝶结', trophy: 'stickers-14' },
+  { id: 'costume:crown', cat: 'costume', name: '皇冠', trophy: 'streak-14' },
+  { id: 'costume:wizard', cat: 'costume', name: '魔法帽', trophy: 'star5-1' },
+  { id: 'costume:headphones', cat: 'costume', name: '耳机', trophy: 'capsules-1' },
+  { id: 'color:mint', cat: 'color', name: '绿色', trophy: 'days-7' },
+  { id: 'color:snow', cat: 'color', name: '雪白', trophy: 'questDays-7' },
+  { id: 'color:yellow', cat: 'color', name: '黄色', trophy: 'problems-300' },
+  { id: 'color:violet', cat: 'color', name: '紫色', trophy: 'extraSolved-100' },
+  { id: 'color:gold', cat: 'color', name: '金色', trophy: 'streak-30' },
+  { id: 'color:rainbow', cat: 'color', name: '彩虹色', trophy: 'days-100' },
+  { id: 'crowd:rainbow', cat: 'crowd', name: '彩虹观众', trophy: 'days-30' },
+  { id: 'crowd:twins', cat: 'crowd', name: '双胞胎观众', trophy: 'starsTotal-100' },
+  { id: 'finale:parade', cat: 'finale', name: '巡游', trophy: 'streak-10' },
+  { id: 'finale:rocket', cat: 'finale', name: '火箭', trophy: 'extras-20' },
+]);
+// 小乌龟 (id048): the slow-and-steady mark. The other four marks reward volume
+// (plays), persistence (streak), precision (perfects) and flow (combo); none of
+// them rewards *time spent*, which is what a tortoise actually stands for. So the
+// turtle is the reward for unhurried practice: 累计练习 120 分钟 (minutes-120).
+addItems([
+  { id: 'mark:turtle', cat: 'mark', name: '小乌龟', trophy: 'minutes-120' },
+]);
+
+const isUnlocked = (it, got = {}) => !!(it && (it.base || (it.trophy && got[it.trophy])));
+const unlockedIn = (cat, got) => ITEMS.filter((it) => it.cat === cat && isUnlocked(it, got));
+const defaultEquip = () => Object.fromEntries(CATS.map((c) => [c.key, 'auto']));
+// Debug only: a `got` map that reports every trophy as earned, so the whole collection can be
+// previewed without grinding for the rewards. Derived on demand and never persisted — see
+// `miniprogram/lib/debug.js`.
+const allTrophies = () => Object.fromEntries(Object.keys(TROPHY).map((id) => [id, 1]));
+
+// The look for one play: fixed choices stay; "auto" picks among the unlocked
+// ones so every play can look and sound a little different.
+function pickLook(equip = {}, got = {}, rng = Math.random) {
+  const look = {};
+  for (const { key } of CATS) {
+    const want = equip[key];
+    const own = unlockedIn(key, got);
+    if (want && want !== 'auto' && own.some((it) => it.id === want)) look[key] = want;
+    else look[key] = own[Math.floor(rng() * own.length)].id;
+  }
+  return look;
+}
+// The part after "cat:" (what the show modules switch on).
+const variant = (id) => (id ? id.split(':')[1] : 'classic');
+
+module.exports = { CATS, ITEMS, ITEM, addItems, isUnlocked, unlockedIn, defaultEquip, allTrophies, pickLook, variant };

@@ -1,0 +1,49 @@
+<template name="dom-actor">
+  <view class="dom-art">
+    <image wx:if="{{actor.back}}" class="dom-image" src="{{actor.back}}" mode="aspectFit"/>
+    <image class="dom-image" src="{{actor.src}}" mode="aspectFit"/>
+    <image wx:if="{{actor.wear}}" class="dom-image" src="{{actor.wear}}" mode="aspectFit"/>
+  </view>
+</template>
+<view class="celebration">
+  <canvas wx:if="{{!fallback}}" type="2d" id="celebration-canvas" class="canvas" binderror="failed"></canvas>
+  <block wx:else>
+    <view wx:for="{{scenes}}" wx:for-item="scene" wx:key="key" class="dom-scene {{paused ? 'dom-paused' : ''}}" style="{{scene.style}}">
+      <view wx:if="{{scene.final}}" class="dom-glow"/>
+      <view class="dom-bit" wx:for="{{bits}}" wx:key="id" style="{{item.style}}">
+        <view class="dom-shape dom-{{item.shape}} {{item.still ? 'dom-still' : ''}}">
+          <image wx:if="{{item.src}}" class="dom-mini-image" src="{{item.src}}" mode="aspectFit"/>
+          <text wx:elif="{{item.symbol}}">{{item.symbol}}</text>
+        </view>
+      </view>
+      <view class="dom-ring" wx:for="{{scene.rings}}" wx:key="id" style="{{item.style}}"/>
+      <block wx:if="{{scene.final}}">
+        <view wx:if="{{finale === 'rocket'}}" class="dom-rocket" style="{{scene.rocketStyle}}">
+          <image class="dom-rocket-image" src="/assets/ui/rocket.png" mode="aspectFit"/>
+          <view class="dom-rocket-pilot"><template is="dom-actor" data="{{actor: scene.hero}}"/></view>
+          <view class="dom-flame"/>
+        </view>
+        <block wx:if="{{finale === 'parade'}}">
+          <view class="dom-parader" wx:for="{{scene.parade}}" wx:key="id" style="{{item.style}}">
+            <view class="dom-hop"><template is="dom-actor" data="{{actor: item}}"/></view>
+            <view wx:if="{{item.leader}}" class="dom-banner">{{label}}</view>
+          </view>
+        </block>
+        <block wx:if="{{finale === 'fireworks'}}">
+          <view class="dom-actor dom-orbit" wx:for="{{scene.orbit}}" wx:key="id" style="{{item.style}}">
+            <view class="dom-hop"><template is="dom-actor" data="{{actor: item}}"/></view>
+          </view>
+        </block>
+        <block wx:if="{{finale !== 'fireworks'}}">
+          <view class="dom-actor dom-buddy" wx:for="{{scene.buddies}}" wx:key="id" style="{{item.style}}">
+            <view class="dom-hop"><template is="dom-actor" data="{{actor: item}}"/></view>
+          </view>
+        </block>
+        <view class="dom-actor dom-hero" style="{{scene.hero.style}}">
+          <view class="dom-hop"><template is="dom-actor" data="{{actor: scene.hero}}"/></view>
+        </view>
+        <view wx:if="{{label}}" class="dom-stamp">{{label}}</view>
+      </block>
+    </view>
+  </block>
+</view>

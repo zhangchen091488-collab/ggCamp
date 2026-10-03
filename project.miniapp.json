@@ -1,0 +1,70 @@
+{
+  "miniVersion": "v2",
+  "name": "%name%",
+  "version": "0.0.1",
+  "versionCode": 100,
+  "i18nFilePath": "i18n",
+  "mini-ohos": {
+    "sdkVersion": "0.5.1"
+  },
+  "mini-android": {
+    "resourcePath": "miniapp/android/nativeResources",
+    "sdkVersion": "1.7.0",
+    "toolkitVersion": "0.11.0",
+    "useExtendedSdk": {
+      "media": true,
+      "bluetooth": false,
+      "network": false,
+      "scanner": false,
+      "xweb": false
+    },
+    "icons": {
+      "hdpi": "miniapp/icons/android/hdpi.png",
+      "xhdpi": "miniapp/icons/android/xhdpi.png",
+      "xxhdpi": "miniapp/icons/android/xxhdpi.png",
+      "xxxhdpi": "miniapp/icons/android/xxxhdpi.png"
+    },
+    "splashscreen": {
+      "hdpi": "",
+      "xhdpi": "",
+      "xxhdpi": ""
+    },
+    "enableVConsole": "close",
+    "privacy": {
+      "enable": true
+    }
+  },
+  "mini-ios": {
+    "sdkVersion": "1.7.0",
+    "toolkitVersion": "0.0.9",
+    "useExtendedSdk": {
+      "WeAppOpenFuns": true,
+      "WeAppNetwork": false,
+      "WeAppBluetooth": false,
+      "WeAppMedia": false,
+      "WeAppLBS": false,
+      "WeAppOthers": false
+    },
+    "enableVConsole": "close",
+    "icons": {
+      "mainIcon120": "miniapp/icons/ios/mainIcon120.png",
+      "mainIcon180": "miniapp/icons/ios/mainIcon180.png",
+      "spotlightIcon80": "miniapp/icons/ios/spotlightIcon80.png",
+      "spotlightIcon120": "miniapp/icons/ios/spotlightIcon120.png",
+      "settingsIcon58": "miniapp/icons/ios/settingsIcon58.png",
+      "settingsIcon87": "miniapp/icons/ios/settingsIcon87.png",
+      "notificationIcon40": "miniapp/icons/ios/notificationIcon40.png",
+      "notificationIcon60": "miniapp/icons/ios/notificationIcon60.png",
+      "appStore1024": "miniapp/icons/ios/appStore1024.png",
+      "ipadMainIcon152": "miniapp/icons/ios/ipadMainIcon152.png",
+      "ipadMainIcon167": "miniapp/icons/ios/ipadMainIcon167.png"
+    },
+    "splashScreen": {
+      "customImage": ""
+    },
+    "privacy": {
+      "enable": false
+    },
+    "enableOpenUrlNavigate": true
+  }
+}

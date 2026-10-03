@@ -1,0 +1,8 @@
+<view class="scene bg-{{show.bg || 'classic'}} {{show.motion ? 'moving' : ''}}" aria-hidden="true">
+  <view class="paper-grid"></view>
+  <view wx:if="{{show.bg === 'classic' && show.strength > .3}}" class="rays"></view>
+  <block wx:if="{{show.bg === 'night' || show.bg === 'space'}}"><view wx:for="{{stars}}" wx:key="id" class="star" style="{{item.style}}"></view><view wx:if="{{show.bg === 'space'}}" class="planet"><view class="orbit"></view></view></block>
+  <block wx:if="{{show.bg === 'sea'}}"><view wx:for="{{bubbles}}" wx:key="id" class="bubble" style="{{item.style}}"><view class="bubble-glint"></view></view></block>
+  <block wx:if="{{show.bg === 'festival'}}"><view class="flags"><view wx:for="{{flags}}" wx:key="*this" class="flag flag-{{item % 5}}"></view></view><view class="lantern left"></view><view class="lantern right"></view></block>
+  <block wx:if="{{show.bg === 'paper'}}"><view wx:for="{{papers}}" wx:key="id" class="fold" style="{{item.style}}"><view class="fold-light"></view></view></block>
+</view>
