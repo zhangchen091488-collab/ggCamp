@@ -1,6 +1,6 @@
 {
   "miniVersion": "v2",
-  "name": "GG 训练营",
+  "name": "%name%",
   "version": "0.0.1",
   "versionCode": 100,
   "i18nFilePath": "i18n",
