@@ -1,7 +1,7 @@
 {
   "miniVersion": "v2",
-  "name": "%name%",
-  "version": "0.0.1",
+  "name": "GG 训练营",
+  "version": "0.9.0",
   "versionCode": 100,
   "i18nFilePath": "i18n",
   "mini-ohos": {
@@ -16,7 +16,9 @@
       "bluetooth": false,
       "network": false,
       "scanner": false,
-      "xweb": false
+      "xweb": false,
+      "install": false,
+      "open": false
     },
     "icons": {
       "hdpi": "miniapp/icons/android/hdpi.png",
@@ -32,7 +34,28 @@
     "enableVConsole": "close",
     "privacy": {
       "enable": true
-    }
+    },
+    "abi": {
+      "arm64-v8a": true
+    },
+    "packageName": "com.chen.ggcamp",
+    "uselessPermissions": [
+      "ACCESS_COARSE_LOCATION",
+      "ACCESS_FINE_LOCATION",
+      "RECORD_AUDIO",
+      "CAMERA",
+      "READ_PHONE_STATE",
+      "READ_EXTERNAL_STORAGE",
+      "WRITE_EXTERNAL_STORAGE",
+      "BLUETOOTH",
+      "BLUETOOTH_ADMIN",
+      "REQUEST_INSTALL_PACKAGES",
+      "CHANGE_WIFI_STATE",
+      "CHANGE_NETWORK_STATE",
+      "CHANGE_WIFI_MULTICAST_STATE",
+      "ALARM_LOCK",
+      "freemme.permission.msa"
+    ]
   },
   "mini-ios": {
     "sdkVersion": "1.7.0",

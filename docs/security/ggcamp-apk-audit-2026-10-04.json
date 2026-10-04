@@ -1,0 +1,797 @@
+{
+  "apk": "<local-build>/app.apk",
+  "sha256": "cda5b39fc91865bb1426bb42bf06649051b7eff4b6b17884fa7ba943e7f6a1ce",
+  "bytes": 62688649,
+  "package": "com.tencent.weauth",
+  "versionName": "0.9.0",
+  "versionCode": "100",
+  "minSdk": "24",
+  "targetSdk": "29",
+  "permissions": [
+    "freemme.permission.msa",
+    "android.permission.INTERNET",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.BLUETOOTH",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.CHANGE_WIFI_STATE",
+    "com.tencent.weauth.vfs.broadcast",
+    "android.permission.VIBRATE",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.CHANGE_NETWORK_STATE",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.ALARM_LOCK",
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.tencent.weauth.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "application": {
+    "{http://schemas.android.com/apk/res/android}theme": "@7F1101C6",
+    "{http://schemas.android.com/apk/res/android}label": "@7F1000DC",
+    "{http://schemas.android.com/apk/res/android}icon": "@7F0E0000",
+    "{http://schemas.android.com/apk/res/android}name": "com.tencent.weauth.DemoApplication",
+    "{http://schemas.android.com/apk/res/android}persistent": "true",
+    "{http://schemas.android.com/apk/res/android}allowBackup": "false",
+    "{http://schemas.android.com/apk/res/android}extractNativeLibs": "true",
+    "{http://schemas.android.com/apk/res/android}usesCleartextTraffic": "true",
+    "{http://schemas.android.com/apk/res/android}appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "{http://schemas.android.com/apk/res/android}requestLegacyExternalStorage": "true",
+    "{http://schemas.android.com/apk/res/android}allowNativeHeapPointerTagging": "false"
+  },
+  "components": [
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101FE",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.weauth.ui.MainActivity",
+        "{http://schemas.android.com/apk/res/android}exported": "true",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": [
+        [
+          {
+            "{http://schemas.android.com/apk/res/android}name": "android.intent.action.MAIN"
+          },
+          {
+            "{http://schemas.android.com/apk/res/android}name": "android.intent.category.LAUNCHER"
+          },
+          {
+            "{http://schemas.android.com/apk/res/android}name": "android.intent.category.DEFAULT"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101FE",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.weauth.wxapi.WXEntryActivity",
+        "{http://schemas.android.com/apk/res/android}exported": "true",
+        "{http://schemas.android.com/apk/res/android}launchMode": "2"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101FE",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.weauth.wxapi.WXPayEntryActivity",
+        "{http://schemas.android.com/apk/res/android}exported": "true",
+        "{http://schemas.android.com/apk/res/android}launchMode": "2"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101DC",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.SaaA.app.SaaANetworkErrorActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1102A9",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity0",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container0",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity0",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1102A9",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity1",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container1",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity1",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity1"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1102A9",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity2",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container2",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity2",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity2"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1102A9",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity3",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container3",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity3",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity3"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1102A9",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity4",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container4",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity4",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity4"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101FC",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.SaaA.app.SaaAPrivacyPopupActivity",
+        "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x00000013"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.crash.SaaACrashUploaderService",
+        "{http://schemas.android.com/apk/res/android}exported": "false"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101DB",
+        "{http://schemas.android.com/apk/res/android}name": "com.yalantis.ucrop.UCropActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "1"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.ui.WxaProfileActivity",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxaapi.internal.ui.WxaScanResultDelegateActivity",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerToFrontProxyActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "3",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCMainService",
+        "{http://schemas.android.com/apk/res/android}exported": "false"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService0",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService1",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container1"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService2",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container2"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService3",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container3"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService4",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}process": ":wxa_container4"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110224",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.mm.ui.AlertActivity",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x000004A0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110224",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.mm.plugin.appbrand.jsapi.lbs.LbsProxyActivity",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x000004A0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.sdk.customize.impl.FullSdkExternalToolsHelper$SimpleWebViewActivity",
+        "{http://schemas.android.com/apk/res/android}launchMode": "2"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.storage.StandaloneCriticalDataProvider",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}authorities": "com.tencent.weauth.wxa_critical_content"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.opensdk.OpenSDKApiContentProvider",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}authorities": "com.tencent.weauth.openapidata",
+        "{http://schemas.android.com/apk/res/android}grantUriPermissions": "true"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaWebViewActivity",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.ui.WxaSimpleWebViewActivity",
+        "{http://schemas.android.com/apk/res/android}enabled": "true",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaWebViewActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101DC",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.jsapi.file.OpenDocInternal"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110224",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSettingActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.setting.ui.WxaSettingActivity",
+        "{http://schemas.android.com/apk/res/android}enabled": "true",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSettingActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101E6",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.ui.WxaAlertActivity",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.ui.BlankActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110221",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.ui.PrivacyWebviewActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110221",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaAuthorizeDetailActivity",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x000004A0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.setting.ui.WmpfAuthorizeDetailUI",
+        "{http://schemas.android.com/apk/res/android}enabled": "true",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaAuthorizeDetailActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110221",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaUserInfoAuthorizeActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.setting.ui.AppBrandUserInfoAuthorizeUI",
+        "{http://schemas.android.com/apk/res/android}enabled": "true",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaUserInfoAuthorizeActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1102C2",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSubscribeMsgManageActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.setting.ui.BizSubscribeMsgManagerUI",
+        "{http://schemas.android.com/apk/res/android}enabled": "true",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSubscribeMsgManageActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110221",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.ui.WxaMusicActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.jsapi.file.LuggageOpenDocFileProvider",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}authorities": "com.tencent.weauth.shareFileProvide",
+        "{http://schemas.android.com/apk/res/android}grantUriPermissions": "true"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101CF",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaScanCodeActivity",
+        "{http://schemas.android.com/apk/res/android}screenOrientation": "1"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.scanner.scanner.ui.BaseScanUI",
+        "{http://schemas.android.com/apk/res/android}enabled": "true",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaScanCodeActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110224",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaLaunchProxyActivity",
+        "{http://schemas.android.com/apk/res/android}windowSoftInputMode": "0x00000002"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity-alias",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.ui.WxaLaunchProxyActivity",
+        "{http://schemas.android.com/apk/res/android}enabled": "true",
+        "{http://schemas.android.com/apk/res/android}targetActivity": "com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaLaunchProxyActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110224",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.ui.WxaPreviewImageUI",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x00000FB0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.crash.WxaCrashUploaderService",
+        "{http://schemas.android.com/apk/res/android}exported": "false"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.wxa.WxaFileExportContentProvider",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}authorities": "com.tencent.weauth.external.fileprovider",
+        "{http://schemas.android.com/apk/res/android}grantUriPermissions": "true"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.luck.picture.lib.basic.PictureFileProvider",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}authorities": "com.tencent.weauth.luckProvider",
+        "{http://schemas.android.com/apk/res/android}grantUriPermissions": "true"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.luck.picture.lib.service.ForegroundService",
+        "{http://schemas.android.com/apk/res/android}enabled": "true",
+        "{http://schemas.android.com/apk/res/android}foregroundServiceType": "0x00000008"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F110066",
+        "{http://schemas.android.com/apk/res/android}name": "com.luck.picture.lib.basic.PictureSelectorSupporterActivity",
+        "{http://schemas.android.com/apk/res/android}multiprocess": "true",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x000004A0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F11011F",
+        "{http://schemas.android.com/apk/res/android}name": "com.luck.picture.lib.basic.PictureSelectorTransparentActivity",
+        "{http://schemas.android.com/apk/res/android}multiprocess": "true",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x000004A0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.mm.plugin.music.model.notification.MMMusicPlayerService",
+        "{http://schemas.android.com/apk/res/android}foregroundServiceType": "0x00000002"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@7F1101DB",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.mm.plugin.appbrand.jsapi.video.ui.WxaPreviewMediaActivity"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}theme": "@android:01030010",
+        "{http://schemas.android.com/apk/res/android}name": "com.tencent.luggage.ui.OpenSDKBridgedActivity",
+        "{http://schemas.android.com/apk/res/android}configChanges": "0x000004B0"
+      },
+      "intentFilters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "{http://schemas.android.com/apk/res/android}name": "androidx.startup.InitializationProvider",
+        "{http://schemas.android.com/apk/res/android}exported": "false",
+        "{http://schemas.android.com/apk/res/android}authorities": "com.tencent.weauth.androidx-startup"
+      },
+      "intentFilters": []
+    }
+  ],
+  "signatureSchemes": {
+    "v1": true,
+    "v2": true,
+    "v3": true
+  },
+  "certificates": [
+    {
+      "sha256": "ab6e8006fa99c84fe1ee93a956470a97dd45a7847750970293436b6c2a109c81",
+      "subject": "Common Name: Android Debug, Organizational Unit: Android, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: US",
+      "issuer": "Common Name: Android Debug, Organizational Unit: Android, Organization: Unknown, Locality: Unknown, State/Province: Unknown, Country: US",
+      "validity": "OrderedDict([('not_before', datetime.datetime(2011, 10, 28, 9, 14, 54, tzinfo=datetime.timezone.utc)), ('not_after', datetime.datetime(2050, 2, 25, 9, 14, 54, tzinfo=datetime.timezone.utc))])"
+    }
+  ],
+  "nativeLibraries": [
+    "lib/arm64-v8a/libxffmpeg.so",
+    "lib/arm64-v8a/libwxVcodec1.so",
+    "lib/arm64-v8a/libwxcloud.so",
+    "lib/arm64-v8a/libwxaudio.so",
+    "lib/arm64-v8a/libwxa-runtime-binding.so",
+    "lib/arm64-v8a/libwmpfcommonjni.so",
+    "lib/arm64-v8a/libwechatxlog.so",
+    "lib/arm64-v8a/libwechatsight_v7a.so",
+    "lib/arm64-v8a/libwechatpack.so",
+    "lib/arm64-v8a/libwechatcrash.so",
+    "lib/arm64-v8a/libwechatcommon.so",
+    "lib/arm64-v8a/libwechataudiosilk.so",
+    "lib/arm64-v8a/libwcdb_legacy.so",
+    "lib/arm64-v8a/libvoipVideoCodec.so",
+    "lib/arm64-v8a/libvoipComm.so",
+    "lib/arm64-v8a/libvoipCodec.so",
+    "lib/arm64-v8a/libvoipChannel.so",
+    "lib/arm64-v8a/libtsmsc.so",
+    "lib/arm64-v8a/libTPCore-master.so",
+    "lib/arm64-v8a/libtenpay_utils.so",
+    "lib/arm64-v8a/libtencentlocsapp.so",
+    "lib/arm64-v8a/libtav.so",
+    "lib/arm64-v8a/libstlport_shared.so",
+    "lib/arm64-v8a/libssl.so",
+    "lib/arm64-v8a/libqqmusic_decoder_jni.so",
+    "lib/arm64-v8a/libQmNativeDataSource.so",
+    "lib/arm64-v8a/libqm_native_decoder_ogg.so",
+    "lib/arm64-v8a/libqm_native_decoder_mp3.so",
+    "lib/arm64-v8a/libqm_native_decoder_flac.so",
+    "lib/arm64-v8a/libqm_native_decoder_ffmpeg.so",
+    "lib/arm64-v8a/libqm_native_decoder_ape.so",
+    "lib/arm64-v8a/libNLog.so",
+    "lib/arm64-v8a/libmp3lame.so",
+    "lib/arm64-v8a/libmmv8.so",
+    "lib/arm64-v8a/libmmnode.so",
+    "lib/arm64-v8a/libmmmedia.so",
+    "lib/arm64-v8a/libmmkv.so",
+    "lib/arm64-v8a/libmmj2v8.so",
+    "lib/arm64-v8a/libmmimgcodec.so",
+    "lib/arm64-v8a/libmediaplus.so",
+    "lib/arm64-v8a/libjnidispatch.so",
+    "lib/arm64-v8a/libFormatDetector.so",
+    "lib/arm64-v8a/libFFmpeg.so",
+    "lib/arm64-v8a/libDownloadProxy.so",
+    "lib/arm64-v8a/libcrypto.so",
+    "lib/arm64-v8a/libcommonimgdec.so",
+    "lib/arm64-v8a/libcodec_factory.so",
+    "lib/arm64-v8a/libc++_shared.so",
+    "lib/arm64-v8a/libaudio_common.so",
+    "lib/arm64-v8a/libappbrandcommon.so",
+    "lib/arm64-v8a/libandromeda.so"
+  ],
+  "securityConfigs": {},
+  "interestingFiles": [
+    "res/raw/sdk_protocol.json",
+    "kotlin-tooling-metadata.json",
+    "assets/wxjs-new.js",
+    "assets/wxa_library/wx_global_ctor_module_lazy_load.js",
+    "assets/wxa_library/webview_pf.js",
+    "assets/wxa_library/WAWorkerSubContext.js",
+    "assets/wxa_library/WAWorker.js",
+    "assets/wxa_library/WAWebview.js",
+    "assets/wxa_library/WAVersion.json",
+    "assets/wxa_library/WAVConsole.js",
+    "assets/wxa_library/WASubContext.js",
+    "assets/wxa_library/WASubAppSclEngine.js",
+    "assets/wxa_library/WASplashadWorker.js",
+    "assets/wxa_library/WASplashAdFloatWindow.js",
+    "assets/wxa_library/WASourceMap.js",
+    "assets/wxa_library/WASkylineStyleV2Dark.css.js",
+    "assets/wxa_library/WASkylineStyleV2.css.js",
+    "assets/wxa_library/WASkylineStyleDark.css.js",
+    "assets/wxa_library/WASkylineStyle.css.js",
+    "assets/wxa_library/WAServiceRemoteDebug.js",
+    "assets/wxa_library/WAServiceMainContext.js",
+    "assets/wxa_library/WASclContext.js",
+    "assets/wxa_library/WARenderContext.js",
+    "assets/wxa_library/WARemoteDebug.js",
+    "assets/wxa_library/WARecordSDK.js",
+    "assets/wxa_library/WAProtobuf.js",
+    "assets/wxa_library/WAProgneWebview.js",
+    "assets/wxa_library/WAProgneService.js",
+    "assets/wxa_library/WAPixi.js",
+    "assets/wxa_library/WAPerf.js",
+    "assets/wxa_library/WAOrderMidasSDK.js",
+    "assets/wxa_library/WAMidasSDK.js",
+    "assets/wxa_library/WAMagicBrushSubContext.js",
+    "assets/wxa_library/WAMagicBrushMainContext.js",
+    "assets/wxa_library/WAIdaas.js",
+    "assets/wxa_library/WAGlobalConsole.js",
+    "assets/wxa_library/WACloud.js",
+    "assets/wxa_library/WABusinessEvaluateSDK.js",
+    "assets/wxa_library/WABuiltinLibs.json",
+    "assets/wxa_library/WAAppAd.js",
+    "assets/wxa_library/WAAd.js",
+    "assets/wxa_library/WAAccelerateWorker.js",
+    "assets/wxa_library/vconsole-wxjs.js",
+    "assets/wxa_library/shared_buffer.js",
+    "assets/wxa_library/puppet_wrapper.js",
+    "assets/wxa_library/object_polyfill.js",
+    "assets/wxa_library/node_jsapi.js",
+    "assets/wxa_library/NativeGlobal-WAService.js",
+    "assets/wxa_library/NativeGlobal-WAGame.js",
+    "assets/wxa_library/NativeGlobal-Dummy.js",
+    "assets/wxa_library/lazy_load.js",
+    "assets/wxa_library/js_binding_skia.js",
+    "assets/wxa_library/bootstrap_j2v8_worker.js",
+    "assets/wxa_library/android.js",
+    "assets/wxa_library/android-webview.js",
+    "assets/SaaA_embed/release_2_wxcc186ec92471ffe7.wxapkg.sign",
+    "assets/SaaA_embed/release_2_wxcc186ec92471ffe7.wxapkg",
+    "assets/SaaA_embed/buildinfo.json",
+    "assets/miniapp-permission.json",
+    "assets/miniapp-metadata.json",
+    "assets/miniapp-gdt.json",
+    "assets/miniapp-custom-meta-data.json",
+    "assets/miniapp-commonI18nConfig.json",
+    "assets/hellDelList.json"
+  ],
+  "dexUrlStrings": [
+    "http://",
+    "http://127.0.0.1",
+    "http://127.0.0.1:",
+    "http://debugxweb.qq.com/",
+    "http://debugxweb.qq.com/?check_xwalk_update",
+    "http://debugxweb.qq.com/?inspector=true",
+    "http://debugxweb.qq.com/?set_apkver=-1",
+    "http://debugxweb.qq.com/?set_config_url=https://dldir1.qq.com/weixin/android/wxweb/updateconfig_wmpftest.xml&check_xwalk_update&",
+    "http://debugxweb.qq.com/?show_webview_version",
+    "http://localhost:",
+    "http://mpvideo.qpic.cn",
+    "http://ns.adobe.com/xap/1.0/\u0000",
+    "http://schemas.android.com/apk/res/android",
+    "http://www.w3.org/ns/ttml#parameter",
+    "http://xmlpull.org/v1/doc/features.html#indent-output",
+    "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+    "https://",
+    "https://developers.weixin.qq.com/miniprogram/dev/framework/",
+    "https://dldir1.qq.com/WechatWebDev/saaa/android/libs/",
+    "https://lhp.map.qq.com?desc_c",
+    "https://lib/",
+    "https://long.open.weixin.qq.com/connect/l/qrconnect?f=json&uuid=%s",
+    "https://long.open.weixin.qq.com/wxaruntime/qrconnect?uuid=",
+    "https://maplbs-40171.sh.gfp.tencent-cloud.com/Index/",
+    "https://mp.weixin.qq.com/publicpoc/opensdkconf?action=GetShareConf&appid=%s&sdkVersion=%s&buffer=%s",
+    "https://multiplatform-app.preview.wxcloudrun.com",
+    "https://multiplatform-app.preview.wxcloudrun.com/crosspf/syncsdkattr",
+    "https://multiplatform-app.preview.wxcloudrun.com/devapp/getdevdownloadinfo",
+    "https://open.weixin.qq.com/connect/sdk/qrconnect?appid=%s&noncestr=%s&timestamp=%s&scope=%s&signature=%s",
+    "https://open.weixin.qq.com/wxaruntime/basetransfer",
+    "https://open.weixin.qq.com/wxaruntime/checkdevicetoken",
+    "https://open.weixin.qq.com/wxaruntime/getqrcode",
+    "https://open.weixin.qq.com/wxaruntime/getuuid",
+    "https://open.weixin.qq.com/wxaruntime/login",
+    "https://open.weixin.qq.com/wxaruntime/refresh_session",
+    "https://open.weixin.qq.com/wxaruntime/transfer",
+    "https://open.weixin.qq.com/wxaruntime/uploadimg",
+    "https://p6ngateway.weixin.qq.com/cpf-report/report/batchmmdatacommreport",
+    "https://p6ngateway.weixin.qq.com/cpf-report/report/batchmmdatacommreport?module_id=",
+    "https://p6ngateway.weixin.qq.com/cpf-report/report/uploaddonutsdkmsg",
+    "https://p6ngateway.weixin.qq.com/cpf-report/report/uploaddonutsdkmsg?module_id=",
+    "https://res.servicewechat.com/weapp/getres/keepalive.txt",
+    "https://tdid.m.qq.com/tmf",
+    "https://usr/",
+    "https://weapp.tencent.com/weapplib_coverage/saveCoverageData",
+    "https://wx.qlogo.cn/"
+  ]
+}

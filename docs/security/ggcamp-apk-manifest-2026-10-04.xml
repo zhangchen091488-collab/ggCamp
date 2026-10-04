@@ -1,0 +1,140 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100" android:versionName="0.9.0" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.tencent.weauth" platformBuildVersionCode="33" platformBuildVersionName="13">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="29"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+  <queries package="com.tencent.weauth">
+    <package android:name="com.tencent.mm"/>
+    <intent>
+      <action android:name="android.media.action.IMAGE_CAPTURE"/>
+    </intent>
+    <intent>
+      <action android:name="android.media.action.ACTION_VIDEO_CAPTURE"/>
+    </intent>
+  </queries>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.ALARM_LOCK"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+  <uses-permission android:name="android.permission.CAMERA" android:required="true"/>
+  <uses-feature android:name="android.hardware.camera" android:required="true"/>
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <permission android:name="com.tencent.weauth.voiceassist.permission.READ" android:protectionLevel="0x00000000"/>
+  <permission android:name="com.tencent.weauth.voiceassist.permission.WRITE" android:protectionLevel="0x00000000"/>
+  <uses-permission android:name="freemme.permission.msa"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+  <permission android:name="com.tencent.weauth.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="0x00000002"/>
+  <uses-permission android:name="com.tencent.weauth.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+  <permission android:name="com.tencent.weauth.vfs.broadcast" android:protectionLevel="0x00000002"/>
+  <uses-permission android:name="com.tencent.weauth.vfs.broadcast"/>
+  <uses-permission android:name="android.permission.BLUETOOTH"/>
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <application android:theme="@7F1101C6" android:label="@7F1000DC" android:icon="@7F0E0000" android:name="com.tencent.weauth.DemoApplication" android:persistent="true" android:allowBackup="false" android:extractNativeLibs="true" android:usesCleartextTraffic="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true" android:allowNativeHeapPointerTagging="false">
+    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    <activity android:theme="@7F1101FE" android:name="com.tencent.weauth.ui.MainActivity" android:exported="true" android:configChanges="0x00000FB0">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@7F1101FE" android:name="com.tencent.weauth.wxapi.WXEntryActivity" android:exported="true" android:launchMode="2"/>
+    <activity android:theme="@7F1101FE" android:name="com.tencent.weauth.wxapi.WXPayEntryActivity" android:exported="true" android:launchMode="2"/>
+    <activity android:theme="@7F1101DC" android:name="com.tencent.luggage.wxa.SaaA.app.SaaANetworkErrorActivity"/>
+    <activity android:theme="@7F1102A9" android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity0" android:process=":wxa_container0" android:screenOrientation="3" android:configChanges="0x00000FB0"/>
+    <activity-alias android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity0" android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity0"/>
+    <activity android:theme="@7F1102A9" android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity1" android:process=":wxa_container1" android:screenOrientation="3" android:configChanges="0x00000FB0"/>
+    <activity-alias android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity1" android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity1"/>
+    <activity android:theme="@7F1102A9" android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity2" android:process=":wxa_container2" android:screenOrientation="3" android:configChanges="0x00000FB0"/>
+    <activity-alias android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity2" android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity2"/>
+    <activity android:theme="@7F1102A9" android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity3" android:process=":wxa_container3" android:screenOrientation="3" android:configChanges="0x00000FB0"/>
+    <activity-alias android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity3" android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity3"/>
+    <activity android:theme="@7F1102A9" android:name="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity4" android:process=":wxa_container4" android:screenOrientation="3" android:configChanges="0x00000FB0"/>
+    <activity-alias android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerActivity4" android:targetActivity="com.tencent.luggage.wxa.SaaA.app.SaaAContainerActivity4"/>
+    <activity android:theme="@7F1101FC" android:name="com.tencent.luggage.wxa.SaaA.app.SaaAPrivacyPopupActivity" android:windowSoftInputMode="0x00000013"/>
+    <service android:name="com.tencent.luggage.crash.SaaACrashUploaderService" android:exported="false"/>
+    <activity android:theme="@7F1101DB" android:name="com.yalantis.ucrop.UCropActivity" android:screenOrientation="1"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_OWNER" android:value="coverguo"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_HOSTNAME" android:value="null"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_TIME" android:value="2026-06-15 15:31:42"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_REV" android:value="656fedaee4f43539731f6d64a680b001f957d54e"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_SDK_VERSION" android:value="3.0.2"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_SDK_VERSION_INT" android:value="0x23000201"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_UPSTREAM_CLIENT_VERSION" android:value="0x28001C30"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_WEBGL_MAP_COMP" android:value="false"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_SUPPORT_GAME" android:value="true"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_USE_MINIFIED_LITEAV_SDK" android:value="false"/>
+    <meta-data android:name="com.tencent.wmpf.BuildInfo.BUILD_PIPELINE_NUM" android:value="-1"/>
+    <activity android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.WxaProfileActivity" android:configChanges="0x00000FB0"/>
+    <activity android:name="com.tencent.luggage.wxaapi.internal.ui.WxaScanResultDelegateActivity" android:configChanges="0x00000FB0"/>
+    <activity android:name="com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerToFrontProxyActivity" android:screenOrientation="3" android:configChanges="0x00000FB0"/>
+    <service android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCMainService" android:exported="false"/>
+    <service android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService0" android:exported="false" android:process=":wxa_container0"/>
+    <service android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService1" android:exported="false" android:process=":wxa_container1"/>
+    <service android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService2" android:exported="false" android:process=":wxa_container2"/>
+    <service android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService3" android:exported="false" android:process=":wxa_container3"/>
+    <service android:name="com.tencent.luggage.wxa.standalone_open_runtime.app.WxaIPCContainerService4" android:exported="false" android:process=":wxa_container4"/>
+    <activity android:theme="@7F110224" android:name="com.tencent.mm.ui.AlertActivity" android:configChanges="0x000004A0"/>
+    <meta-data android:name="use_xweb_camera" android:value="true"/>
+    <meta-data android:name="use_cpu_crop" android:value="false"/>
+    <uses-library android:name="com.google.android.maps" android:required="false"/>
+    <uses-library android:name="com.here.android" android:required="false"/>
+    <meta-data android:name="TencentMapSDK" android:value="Q3PBZ-TDH3R-4XEWO-WJUMV-YBAUJ-MQBAS"/>
+    <meta-data android:name="TencentMapSubKey" android:value="E6FBZ-OLSCQ-UIU5C-GWLJ7-ABUPT-V7FJX"/>
+    <activity android:theme="@7F110224" android:name="com.tencent.mm.plugin.appbrand.jsapi.lbs.LbsProxyActivity" android:configChanges="0x000004A0"/>
+    <activity android:name="com.tencent.luggage.sdk.customize.impl.FullSdkExternalToolsHelper$SimpleWebViewActivity" android:launchMode="2"/>
+    <provider android:name="com.tencent.luggage.storage.StandaloneCriticalDataProvider" android:exported="false" android:authorities="com.tencent.weauth.wxa_critical_content"/>
+    <provider android:name="com.tencent.luggage.opensdk.OpenSDKApiContentProvider" android:exported="false" android:authorities="com.tencent.weauth.openapidata" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F130001"/>
+    </provider>
+    <activity android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaWebViewActivity" android:configChanges="0x00000FB0"/>
+    <activity-alias android:name="com.tencent.luggage.ui.WxaSimpleWebViewActivity" android:enabled="true" android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaWebViewActivity"/>
+    <activity android:theme="@7F1101DC" android:name="com.tencent.luggage.jsapi.file.OpenDocInternal"/>
+    <activity android:theme="@7F110224" android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSettingActivity"/>
+    <activity-alias android:name="com.tencent.luggage.setting.ui.WxaSettingActivity" android:enabled="true" android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSettingActivity"/>
+    <activity android:theme="@7F1101E6" android:name="com.tencent.luggage.ui.WxaAlertActivity" android:configChanges="0x00000FB0"/>
+    <activity android:name="com.tencent.luggage.ui.BlankActivity"/>
+    <activity android:theme="@7F110221" android:name="com.tencent.luggage.ui.PrivacyWebviewActivity"/>
+    <activity android:theme="@7F110221" android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaAuthorizeDetailActivity" android:configChanges="0x000004A0"/>
+    <activity-alias android:name="com.tencent.luggage.setting.ui.WmpfAuthorizeDetailUI" android:enabled="true" android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaAuthorizeDetailActivity"/>
+    <activity android:theme="@7F110221" android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaUserInfoAuthorizeActivity"/>
+    <activity-alias android:name="com.tencent.luggage.setting.ui.AppBrandUserInfoAuthorizeUI" android:enabled="true" android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaUserInfoAuthorizeActivity"/>
+    <activity android:theme="@7F1102C2" android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSubscribeMsgManageActivity"/>
+    <activity-alias android:name="com.tencent.luggage.setting.ui.BizSubscribeMsgManagerUI" android:enabled="true" android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaSubscribeMsgManageActivity"/>
+    <activity android:theme="@7F110221" android:name="com.tencent.luggage.ui.WxaMusicActivity"/>
+    <provider android:name="com.tencent.luggage.jsapi.file.LuggageOpenDocFileProvider" android:exported="false" android:authorities="com.tencent.weauth.shareFileProvide" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F130003"/>
+    </provider>
+    <activity android:theme="@7F1101CF" android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaScanCodeActivity" android:screenOrientation="1"/>
+    <activity-alias android:name="com.tencent.luggage.scanner.scanner.ui.BaseScanUI" android:enabled="true" android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaScanCodeActivity"/>
+    <activity android:theme="@7F110224" android:name="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaLaunchProxyActivity" android:windowSoftInputMode="0x00000002"/>
+    <activity-alias android:name="com.tencent.luggage.ui.WxaLaunchProxyActivity" android:enabled="true" android:targetActivity="com.tencent.luggage.wxa.standalone_open_runtime.ui.patched.PatchedWxaLaunchProxyActivity"/>
+    <activity android:theme="@7F110224" android:name="com.tencent.luggage.ui.WxaPreviewImageUI" android:configChanges="0x00000FB0"/>
+    <service android:name="com.tencent.luggage.crash.WxaCrashUploaderService" android:exported="false"/>
+    <provider android:name="com.tencent.luggage.wxa.WxaFileExportContentProvider" android:exported="false" android:authorities="com.tencent.weauth.external.fileprovider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F130000"/>
+    </provider>
+    <provider android:name="com.luck.picture.lib.basic.PictureFileProvider" android:exported="false" android:authorities="com.tencent.weauth.luckProvider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F130002"/>
+    </provider>
+    <service android:name="com.luck.picture.lib.service.ForegroundService" android:enabled="true" android:foregroundServiceType="0x00000008"/>
+    <activity android:theme="@7F110066" android:name="com.luck.picture.lib.basic.PictureSelectorSupporterActivity" android:multiprocess="true" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F11011F" android:name="com.luck.picture.lib.basic.PictureSelectorTransparentActivity" android:multiprocess="true" android:configChanges="0x000004A0"/>
+    <service android:name="com.tencent.mm.plugin.music.model.notification.MMMusicPlayerService" android:foregroundServiceType="0x00000002"/>
+    <activity android:theme="@7F1101DB" android:name="com.tencent.mm.plugin.appbrand.jsapi.video.ui.WxaPreviewMediaActivity"/>
+    <activity android:theme="@android:01030010" android:name="com.tencent.luggage.ui.OpenSDKBridgedActivity" android:configChanges="0x000004B0"/>
+    <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.tencent.weauth.androidx-startup">
+      <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+      <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+    </provider>
+  </application>
+</manifest>

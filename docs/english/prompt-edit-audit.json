@@ -1,0 +1,6384 @@
+{
+  "date": "2026-10-04",
+  "status": "local-trial-prompt-edit",
+  "scope": "pep-start1, grades 1–6, both semesters",
+  "note": "按用户确认的提示风格整理；不是逐条教材原页审核或发布授权。仅修改 promptZh，保留其他字段和 draft/reference-only 状态。",
+  "packs": [
+    {
+      "packId": "pep-start1-g1-first",
+      "total": 53,
+      "changed": 52,
+      "pending": 1
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "total": 45,
+      "changed": 43,
+      "pending": 2
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "total": 54,
+      "changed": 50,
+      "pending": 4
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "total": 55,
+      "changed": 54,
+      "pending": 1
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "total": 102,
+      "changed": 94,
+      "pending": 8
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "total": 84,
+      "changed": 83,
+      "pending": 1
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "total": 116,
+      "changed": 115,
+      "pending": 0
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "total": 86,
+      "changed": 85,
+      "pending": 1
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "total": 66,
+      "changed": 65,
+      "pending": 0
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "total": 101,
+      "changed": 98,
+      "pending": 2
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "total": 100,
+      "changed": 94,
+      "pending": 6
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "total": 41,
+      "changed": 40,
+      "pending": 1
+    }
+  ],
+  "changes": [
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-92719fe0cf8cd515",
+      "canonical": "book",
+      "originalPromptZh": "n. 书籍；卷；帐簿；名册；工作簿 vt. 预订；登记",
+      "promptZh": "书"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-5972814068a183e2",
+      "canonical": "ruler",
+      "originalPromptZh": "n. 尺；统治者；[测] 划线板，划线的人",
+      "promptZh": "尺子"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-13809668fb436386",
+      "canonical": "pencil",
+      "originalPromptZh": "n. 铅笔；笔状物 vt. 用铅笔写；用眉笔涂 vi. 成铅笔状",
+      "promptZh": "铅笔"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-ce213852297e1719",
+      "canonical": "schoolbag",
+      "originalPromptZh": "n. 书包",
+      "promptZh": "书包"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-1057a9604e04b274",
+      "canonical": "teacher",
+      "originalPromptZh": "n. 教师；导师",
+      "promptZh": "老师"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-de7d1b721a1e0632",
+      "canonical": "I",
+      "originalPromptZh": "n. 碘元素；英语字母I pron. 我",
+      "promptZh": "我"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-193c45b5281908d2",
+      "canonical": "have",
+      "originalPromptZh": "aux. 已经 vt. 有；让；拿；从事；允许",
+      "promptZh": "有"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-ca978112ca1bbdca",
+      "canonical": "a",
+      "originalPromptZh": "n. 字母A；第一流的；学业成绩达最高标准的评价符号 abbr. [物]安（ampere）",
+      "promptZh": "一个（用于辅音音素前）"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-ea325d761f98c6b7",
+      "canonical": "an",
+      "originalPromptZh": "art. 一（在元音音素前）",
+      "promptZh": "一个（用于元音音素前）"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-0282d9b79f42c74c",
+      "canonical": "face",
+      "originalPromptZh": "n. 脸；表面；面子；面容；外观；威信 vi. 向；朝 vt. 面对；面向；承认；抹盖",
+      "promptZh": "脸"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-3c6a36b640fceaa8",
+      "canonical": "ear",
+      "originalPromptZh": "n. 耳朵；穗；听觉；倾听 vi. （美俚）听见；抽穗",
+      "promptZh": "耳朵"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-47c215b5f70eb9c9",
+      "canonical": "eye",
+      "originalPromptZh": "n. 眼睛；视力；眼光；见解，观点 vt. 注视，看",
+      "promptZh": "眼睛"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-d77e22123e64d3d8",
+      "canonical": "nose",
+      "originalPromptZh": "n. 鼻子；嗅觉；突出的部分；探问 vt. 嗅；用鼻子触 vi. 小心探索着前进；探问",
+      "promptZh": "鼻子"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-4cf35cf87435b1ba",
+      "canonical": "mouth",
+      "originalPromptZh": "n. 口，嘴；河口 vt. 做作地说，装腔作势地说；喃喃地说出 vi. 装腔作势说话",
+      "promptZh": "嘴"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-1eb79602411ef02c",
+      "canonical": "this",
+      "originalPromptZh": "adj. 这；本；这个；今 pron. 这；这个；这里 adv. 这样地；这么",
+      "promptZh": "这个"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-fa51fd49abf67705",
+      "canonical": "is",
+      "originalPromptZh": "v. 是（be的三单形式） n. 存在",
+      "promptZh": "是（用于单数主语）"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-038468518ad8122e",
+      "canonical": "my",
+      "originalPromptZh": "pron. 我的 int. 哎呀（表示惊奇等）；喔唷",
+      "promptZh": "我的"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-cd6357efdd966de8",
+      "canonical": "dog",
+      "originalPromptZh": "n. 狗；丑女人；卑鄙的人；(俚)朋友 vt. 跟踪；尾随",
+      "promptZh": "狗"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-7a5179eecc0fe187",
+      "canonical": "bird",
+      "originalPromptZh": "n. 鸟；家伙；羽毛球 vt. 向…喝倒彩；起哄 vi. 猎鸟；观察研究野鸟",
+      "promptZh": "鸟"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-f15c16b99f82d820",
+      "canonical": "tiger",
+      "originalPromptZh": "n. 老虎；凶暴的人",
+      "promptZh": "老虎"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-000c285457fc971f",
+      "canonical": "monkey",
+      "originalPromptZh": "n. 猴子；顽童 vi. 胡闹；捣蛋 vt. 嘲弄",
+      "promptZh": "猴子"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-77af778b51abd4a3",
+      "canonical": "cat",
+      "originalPromptZh": "n. 猫，猫科动物",
+      "promptZh": "猫"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-749ab2c0d06c42ae",
+      "canonical": "what",
+      "originalPromptZh": "pron. 什么；多么；多少 adv. 到什么程度，在哪一方面 adj. 什么；多么；何等 int. 什么；多么",
+      "promptZh": "什么"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-2ad8a7049d7c5511",
+      "canonical": "it",
+      "originalPromptZh": "abbr. 信息技术information technology abbr. 意大利Italy；意大利的Italian",
+      "promptZh": "它"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-7692c3ad3540bb80",
+      "canonical": "one",
+      "originalPromptZh": "pron. 一个人；任何人 adj. 一的；唯一的 n. 一 num. 一；一个",
+      "promptZh": "一"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-3fc4ccfe745870e2",
+      "canonical": "two",
+      "originalPromptZh": "num. 二 n. 两个 adj. 两个的",
+      "promptZh": "二"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-8b5b9db0c13db242",
+      "canonical": "three",
+      "originalPromptZh": "num. 三 n. 三，三个 adj. 三的，三个的",
+      "promptZh": "三"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-04efaf080f5a3e74",
+      "canonical": "four",
+      "originalPromptZh": "num. 四；四个 adj. 四的；四个的",
+      "promptZh": "四"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-222b0bd51fcef7e6",
+      "canonical": "five",
+      "originalPromptZh": "num. 五，五个 n. 五，五个；五美元钞票 adj. 五的；五个的",
+      "promptZh": "五"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-44778d82365e4af6",
+      "canonical": "six",
+      "originalPromptZh": "num. 六，六个 n. 六，六个",
+      "promptZh": "六"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-3ba8d02b16fd2a01",
+      "canonical": "seven",
+      "originalPromptZh": "num. 七个，七 n. 七个，七 adj. 七的；七个的",
+      "promptZh": "七"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-c195d2d875623436",
+      "canonical": "eight",
+      "originalPromptZh": "num. 八；八个；第八 n. 八字形 adj. 八的",
+      "promptZh": "八"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-edcd8e701a2df0cd",
+      "canonical": "nine",
+      "originalPromptZh": "n. 九，九个 num. 九；九个 adj. 九的，九个的",
+      "promptZh": "九"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-e4432baa90819aae",
+      "canonical": "ten",
+      "originalPromptZh": "num. 十个，十",
+      "promptZh": "十"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-8044aae1f86875d9",
+      "canonical": "how",
+      "originalPromptZh": "adv. 如何；多少；多么 n. 方法；方式 conj. 如何",
+      "promptZh": "怎样"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-1137b15c7797aa84",
+      "canonical": "many",
+      "originalPromptZh": "pron. 许多；许多人 adj. 许多的",
+      "promptZh": "许多"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-ba78973ddcf98d4e",
+      "canonical": "are",
+      "originalPromptZh": "v. 是（be的第二人称单复数现在式） n. 公亩",
+      "promptZh": "是（用于复数主语或“你”）"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-e244f187f696561d",
+      "canonical": "there",
+      "originalPromptZh": "n. 那个地方 adv. 在那里；在那边；在那点上 int. 你瞧",
+      "promptZh": "那里"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-c006c7e3ab14d686",
+      "canonical": "black",
+      "originalPromptZh": "n. 黑色；黑人；黑颜料 adj. 黑色的；黑人的；邪恶的 vt. 使变黑；把鞋油等涂在…上；把（眼眶）打成青肿 vi. 变黑",
+      "promptZh": "黑色"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-c685a2c9bab235cc",
+      "canonical": "yellow",
+      "originalPromptZh": "n. 黄色；黄种人；黄色颜料 adj. 黄色的；黄皮肤的 vt. 使变黄或发黄 vi. 变黄或发黄",
+      "promptZh": "黄色"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-16477688c0e00699",
+      "canonical": "blue",
+      "originalPromptZh": "adj. 蓝色的；沮丧的，忧郁的；下流的 n. 蓝色；[复数]（美国海、陆、空三军穿的）蓝色制服；蓝颜料；[the blue(s)][用作单数或复数]布鲁斯（歌曲）（一种伤感的美国黑人民歌 vi. 变成蓝色，呈蓝色 vt. 把…染成蓝色；使成蓝色；给…用上蓝剂；用上蓝剂于",
+      "promptZh": "蓝色的"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-b1f51a511f1da0cd",
+      "canonical": "red",
+      "originalPromptZh": "n. 红色，红颜料；赤字 adj. 红色的；红肿的，充血的",
+      "promptZh": "红色"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-ba4788b226aa8dc2",
+      "canonical": "green",
+      "originalPromptZh": "n. 绿色；青春 adj. 绿色的；青春的 vt. 使…变绿色 vi. 变绿色",
+      "promptZh": "绿色"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-d6838c357444c5ad",
+      "canonical": "colour",
+      "originalPromptZh": "n. 颜色；风格；气色，面色；外貌 vt. 把…涂颜色，粉饰；歪曲；使脸红 vi. 变色",
+      "promptZh": "颜色"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-3a7bd3e2360a3d29",
+      "canonical": "apple",
+      "originalPromptZh": "n. 苹果，苹果树，苹果似的东西；[美俚]炸弹，手榴弹，（棒球的）球；[美俚]人，家伙。",
+      "promptZh": "苹果"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-97cfbe87531abe0c",
+      "canonical": "pear",
+      "originalPromptZh": "n. [园艺] 梨树；梨子",
+      "promptZh": "梨"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-b493d48364afe44d",
+      "canonical": "banana",
+      "originalPromptZh": "n. 香蕉；喜剧演员；大鹰钩鼻",
+      "promptZh": "香蕉"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-ac0b52a2ae6ef999",
+      "canonical": "do",
+      "originalPromptZh": "vi. 行，足够；生长 n. 要求；规定；C大调音阶中的第一音 v. 做；干；学习；研究；进行；完成；解答；整理；算出；引起；行过 aux. 助动词（构成疑问句和否定句）；（代替动词）；（用于加强语气） n. （口语）事件；（主英国口语）诈骗；（主英国、新西兰口语）宴会；（口语）必须做到的事情",
+      "promptZh": "做"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-bb0347a468d97e98",
+      "canonical": "you",
+      "originalPromptZh": "pron. 你；你们",
+      "promptZh": "你；你们"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-cab2644828bcc1f2",
+      "canonical": "like",
+      "originalPromptZh": "vt. 喜欢；想；愿意 vi. 喜欢；希望 prep. 像；如同 adj. 同样的；相似的 n. 爱好；同样的人或物 adv. 可能 conj. 好像",
+      "promptZh": "喜欢"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-8a798890fe938171",
+      "canonical": "yes",
+      "originalPromptZh": "n. 是（表示肯定） adv. 是, 是的",
+      "promptZh": "是的"
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-9390298f3fb0c5b1",
+      "canonical": "no",
+      "originalPromptZh": "adv. 不 adj. 没有；不是 n. 不；否决票 abbr. 数字（number）；元素锘（nobelium）的符号",
+      "promptZh": "不；不是"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-3d7eb3d3dab17ee5",
+      "canonical": "chair",
+      "originalPromptZh": "n. 椅子；讲座；（会议的）主席位；大学教授的职位 vt. 担任（会议的）主席；使…入座；使就任要职",
+      "promptZh": "椅子"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-49be417ad74080a0",
+      "canonical": "desk",
+      "originalPromptZh": "n. 办公桌；服务台；编辑部；（美）讲道台；乐谱架 adj. 书桌的；桌上用的；伏案做的",
+      "promptZh": "书桌"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-00c764f20f353098",
+      "canonical": "blackboard",
+      "originalPromptZh": "n. 黑板",
+      "promptZh": "黑板"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-b8d31e852725afb1",
+      "canonical": "on",
+      "originalPromptZh": "adv. 向前地；作用中，行动中；继续着 prep. 向，朝……；关于；在……之上；在……时候 adj. 开着的；发生着的，正在进行中",
+      "promptZh": "在……上面"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-d767748a603799c8",
+      "canonical": "under",
+      "originalPromptZh": "prep. 低于，少于；在...之下 adj. 下面的；从属的 adv. 在下面；在下方",
+      "promptZh": "在……下面"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-582967534d0f909d",
+      "canonical": "in",
+      "originalPromptZh": "prep. 按照（表示方式）；从事于；在…之内 n. 执政者；门路；知情者 adj. 在里面的；时髦的 adv. 进入；当选；（服装等）时髦；在屋里",
+      "promptZh": "在……里面"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-b48111c10c65fc11",
+      "canonical": "where",
+      "originalPromptZh": "conj. 在…的地方 n. 地点 adv. 在哪里 pron. 哪里",
+      "promptZh": "哪里"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-b9776d7ddf459c9a",
+      "canonical": "the",
+      "originalPromptZh": "art. 这；那 adv. 更加（用于比较级，最高级前）",
+      "promptZh": "这；那（指特定的人或事物）"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-c5052532c2206140",
+      "canonical": "bed",
+      "originalPromptZh": "n. 床；基础；河底， 海底 vt. 使睡觉；安置，嵌入；栽种 vi. 上床；分层",
+      "promptZh": "床"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-2534e2de1dec24fe",
+      "canonical": "door",
+      "originalPromptZh": "n. 门；家，户；门口；通道",
+      "promptZh": "门"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-26f8567f25691822",
+      "canonical": "box",
+      "originalPromptZh": "n. 箱，盒子；包厢；一拳 vt. 拳击；装…入盒中；打耳光 vi. 拳击",
+      "promptZh": "盒子"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-46ba34770bccfde7",
+      "canonical": "near",
+      "originalPromptZh": "adj. 近的；亲近的；近似的 adv. 近；接近 prep. 靠近；近似于",
+      "promptZh": "在……附近"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-b1b886ce5f5750a0",
+      "canonical": "behind",
+      "originalPromptZh": "prep. 落后于；支持；晚于 n. 屁股 adv. 在后地；在原处",
+      "promptZh": "在……后面"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-fad900280ce54a04",
+      "canonical": "plane",
+      "originalPromptZh": "n. 飞机；平面；程度，水平 adj. 平的；平面的 vt. 刨平；用刨子刨；掠过水面 vi. 刨；乘飞机旅行；翱翔",
+      "promptZh": "飞机"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-e9de08263f4ad491",
+      "canonical": "ball",
+      "originalPromptZh": "n. 球；舞会 vt. 捏成球形 vi. 成团块",
+      "promptZh": "球"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-44c3e574dac5455e",
+      "canonical": "doll",
+      "originalPromptZh": "n. 洋娃娃；玩偶；无头脑的美丽女人 vt. 把…打扮得花枝招展",
+      "promptZh": "洋娃娃"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-116f54c41d0405db",
+      "canonical": "train",
+      "originalPromptZh": "n. 火车；行列；长队；裙裾 v. 培养；训练；瞄准",
+      "promptZh": "火车"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-2b2961a431b23c90",
+      "canonical": "car",
+      "originalPromptZh": "n. 汽车；车厢",
+      "promptZh": "汽车"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-bc98bb50e8094b2a",
+      "canonical": "bear",
+      "originalPromptZh": "n. 熊 vt. 结果实，开花（正式） vt. 忍受；承受；具有；支撑",
+      "promptZh": "熊"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-9f584196e7fe6de8",
+      "canonical": "can",
+      "originalPromptZh": "aux. 能； 能够； 可以； 可能 n. 罐头； （用金属或塑料制作的）容器； （马口铁或其他金属制作的）食品罐头 vt. 将…装入密封罐中保存",
+      "promptZh": "能；能够"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-c0cafcf0e2d6a236",
+      "canonical": "sure",
+      "originalPromptZh": "adj. 确信的；可靠的；必定的 adv. 当然；的确",
+      "promptZh": "当然；可以"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-484aab2f2cd0f77b",
+      "canonical": "sorry",
+      "originalPromptZh": "adj. 遗憾的；对不起的，抱歉的 int. 对不起，抱歉（表示委婉的拒绝等）",
+      "promptZh": "对不起"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-209f76418ece7c93",
+      "canonical": "rice",
+      "originalPromptZh": "n. 稻；米饭 vt. 把…捣成米糊状",
+      "promptZh": "米饭"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-838f8d9acc45bd36",
+      "canonical": "noodles",
+      "originalPromptZh": "n. 面条，挂面（noodle的复数形式)",
+      "promptZh": "面条（复数）"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-4715b734085d8d9c",
+      "canonical": "vegetable",
+      "originalPromptZh": "n. 蔬菜；植物；植物人 adj. 蔬菜的；植物的",
+      "promptZh": "蔬菜"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-811eb81b9d11d65a",
+      "canonical": "chicken",
+      "originalPromptZh": "n. 鸡肉；小鸡；胆小鬼，懦夫 adj. 鸡肉的；胆怯的；幼小的",
+      "promptZh": "鸡肉"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-34707c3f40dfa20c",
+      "canonical": "egg",
+      "originalPromptZh": "n. 蛋；卵子；家伙；鸡蛋 vt. 煽动；怂恿",
+      "promptZh": "蛋"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-ca4176138ea4086f",
+      "canonical": "hungry",
+      "originalPromptZh": "adj. 饥饿的；渴望的；荒年的；不毛的",
+      "promptZh": "饥饿的"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-8656aa55d393b032",
+      "canonical": "want",
+      "originalPromptZh": "n. 需要；缺乏；贫困；必需品 vt. 需要；希望；应该；缺少 vi. 需要；缺少",
+      "promptZh": "需要"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-6201111b83a0cb5b",
+      "canonical": "and",
+      "originalPromptZh": "conj. 和，与；就；而且；但是；然后",
+      "promptZh": "和"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-a5ad895656074bb1",
+      "canonical": "juice",
+      "originalPromptZh": "n. （水果）汁，液；果汁",
+      "promptZh": "果汁"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-a9f74d1ec36ebdeb",
+      "canonical": "tea",
+      "originalPromptZh": "n. 茶叶；茶树；茶点 vt. 给…沏茶 vi. 喝茶；进茶点",
+      "promptZh": "茶"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-8825e76530f87ff5",
+      "canonical": "milk",
+      "originalPromptZh": "n. 牛奶；乳状物 vt. 榨取；挤…的奶 vi. 挤奶",
+      "promptZh": "牛奶"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-0f4168490e38b844",
+      "canonical": "water",
+      "originalPromptZh": "n. 水；海水；雨水；海域，大片的水 vt. 使湿；供以水；给…浇水 vi. 加水；流泪；流口水",
+      "promptZh": "水"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-03f3ef306333f494",
+      "canonical": "thirsty",
+      "originalPromptZh": "adj. 口渴的，口干的；渴望的，热望的",
+      "promptZh": "口渴的"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-a6a2729cbf6bcadc",
+      "canonical": "thanks",
+      "originalPromptZh": "n. 谢谢（只用复数） int. 谢谢",
+      "promptZh": "谢谢"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-a52514252adf8606",
+      "canonical": "shirt",
+      "originalPromptZh": "n. 衬衫；汗衫，内衣",
+      "promptZh": "衬衫"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-5a6ae5c8d6d82bd9",
+      "canonical": "T-shirt",
+      "originalPromptZh": "n. 短袖圆领汗衫",
+      "promptZh": "T恤衫"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-3abafce5bc548613",
+      "canonical": "skirt",
+      "originalPromptZh": "n. 裙子 vt. 绕过，回避；位于…边缘 vi. 沿边走，绕开；环绕",
+      "promptZh": "裙子"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-5b612edb571c479d",
+      "canonical": "dress",
+      "originalPromptZh": "n. 连衣裙；女装 vt. 给…穿衣 vi. 穿衣",
+      "promptZh": "连衣裙"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-54f6d9fbe8ee576f",
+      "canonical": "socks",
+      "originalPromptZh": "n. 袜子（sock的复数）",
+      "promptZh": "袜子（复数）"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-474a744f02d8b7ff",
+      "canonical": "shorts",
+      "originalPromptZh": "n. 短裤",
+      "promptZh": "短裤"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-4d040d3f6466018c",
+      "canonical": "your",
+      "originalPromptZh": "pron. 你的，你们的",
+      "promptZh": "你的；你们的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-88a1881f0025cf71",
+      "canonical": "father",
+      "originalPromptZh": "n. 父亲，爸爸；神父；祖先；前辈 vt. 发明，创立；当…的父亲",
+      "promptZh": "爸爸"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-cf0622ef2a661cd2",
+      "canonical": "mother",
+      "originalPromptZh": "n. 母亲；大娘；女修道院院长 vt. 生下；养育；像母亲般关怀或照管 adj. 母亲的；出生地的",
+      "promptZh": "妈妈"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-0b4bd77cec705cf5",
+      "canonical": "brother",
+      "originalPromptZh": "n. 兄弟；同事；战友 int. 我的老兄！",
+      "promptZh": "兄弟"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-1980d3927f07fec9",
+      "canonical": "sister",
+      "originalPromptZh": "n. 姐妹；（称志同道合者）姐妹；修女；护士 adj. 姐妹般的；同类型的",
+      "promptZh": "姐妹"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-c04d87aa70a7d165",
+      "canonical": "grandmother",
+      "originalPromptZh": "n. 祖母；女祖先 vt. 当…的祖母 vi. 当祖母",
+      "promptZh": "祖母；外祖母"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-7ab7049973595a7f",
+      "canonical": "grandfather",
+      "originalPromptZh": "n. 祖父；始祖 vt. 不受新规定限制",
+      "promptZh": "祖父；外祖父"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-6ed0337140bd32b4",
+      "canonical": "who",
+      "originalPromptZh": "pron. 谁；什么人",
+      "promptZh": "谁"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-372f7e2fd2d01ce2",
+      "canonical": "he",
+      "originalPromptZh": "n. 男孩，男人；它（雄性动物） pron. 他",
+      "promptZh": "他"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-2cda85e504e155f3",
+      "canonical": "she",
+      "originalPromptZh": "n. 女人；雌性动物 pron. 她（主格）；它（用来指雌性动物或国家、船舶、地球、月亮等）",
+      "promptZh": "她"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-66f9b98dde76ccba",
+      "canonical": "classmate",
+      "originalPromptZh": "n. 同班同学",
+      "promptZh": "同班同学"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-cde48537ca2c2808",
+      "canonical": "friend",
+      "originalPromptZh": "n. 朋友；助手；赞助者",
+      "promptZh": "朋友"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-cf2e5bff1ef03dcd",
+      "canonical": "woman",
+      "originalPromptZh": "n. 妇女；女性；成年女子",
+      "promptZh": "妇女"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-431ba1c6936744f6",
+      "canonical": "girl",
+      "originalPromptZh": "n. 女孩；姑娘，未婚女子；女职员，女演员；（男人的）女朋友 n. （捷）吉尔",
+      "promptZh": "女孩"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-48b676e2b107da67",
+      "canonical": "man",
+      "originalPromptZh": "n. 人；男人；人类；丈夫；雇工 vt. 操纵；给…配置人员；使增强勇气；在…就位",
+      "promptZh": "男人"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-cc6a778404ea557d",
+      "canonical": "boy",
+      "originalPromptZh": "n. 男孩；男人",
+      "promptZh": "男孩"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-3c01eba119e00d79",
+      "canonical": "look",
+      "originalPromptZh": "vt. 看；期待；注意；面向；看上去像 vi. 看；看起来；注意；面向 n. 看；样子；面容",
+      "promptZh": "看"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-73c9c98668a34c54",
+      "canonical": "his",
+      "originalPromptZh": "pron. 他的",
+      "promptZh": "他的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-82a3537ff0dbce7e",
+      "canonical": "name",
+      "originalPromptZh": "n. 名称，名字；姓名；名誉 vt. 命名，任命；指定；称呼；提名；叫出 adj. 姓名的；据以取名的",
+      "promptZh": "名字"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-354cbfc814262a7a",
+      "canonical": "her",
+      "originalPromptZh": "pron. 她（she的宾格）；她的（she的所有格）；她（指某个国家；一艘船）",
+      "promptZh": "她的；她（宾格）"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-7175517a370b5cd2",
+      "canonical": "or",
+      "originalPromptZh": "conj. 或，或者；还是",
+      "promptZh": "或者"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-2a21fe6d592a19b7",
+      "canonical": "big",
+      "originalPromptZh": "adj. 大的；重要的；量大的 adv. 大量地；顺利；夸大地",
+      "promptZh": "大的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-241daf2e753a6a2f",
+      "canonical": "tall",
+      "originalPromptZh": "adj. 高的；长的；过分的；夸大的 adv. 夸大地",
+      "promptZh": "高的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-77049f6f8893dd97",
+      "canonical": "pretty",
+      "originalPromptZh": "n. 有吸引力的事物（尤指饰品）；漂亮的人 adj. 漂亮的；可爱的；优美的 adv. 相当地；颇",
+      "promptZh": "漂亮的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-1a0dc227b5aa78f8",
+      "canonical": "thin",
+      "originalPromptZh": "n. 细小部分 adj. 薄的；瘦的；稀薄的；微弱的 vt. 使瘦；使淡；使稀疏 vi. 变薄；变瘦；变淡 adv. 稀疏地；微弱地",
+      "promptZh": "瘦的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-4623f30b926198d4",
+      "canonical": "handsome",
+      "originalPromptZh": "adj. （男子）英俊的；可观的；大方的，慷慨的；健美而端庄的",
+      "promptZh": "英俊的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-11507a0e2f5e69d5",
+      "canonical": "new",
+      "originalPromptZh": "adj. 新的，新鲜的；更新的；初见的 adv. 新近",
+      "promptZh": "新的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-961eb43699731759",
+      "canonical": "does",
+      "originalPromptZh": "v. 做；工作；有用（do的第三人称单数形式）",
+      "promptZh": "做"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-0299706ac912e1d4",
+      "canonical": "bookshop",
+      "originalPromptZh": "n. 书店",
+      "promptZh": "书店"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-24fe93c9e17cb804",
+      "canonical": "zoo",
+      "originalPromptZh": "n. 动物园; <美俚>（铁路货车的最后一节）守车; <美俚>核粒子园",
+      "promptZh": "动物园"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-d64debd942d7dc26",
+      "canonical": "school",
+      "originalPromptZh": "n. 学校；学院；学派；鱼群 vt. 教育",
+      "promptZh": "学校"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-16d1c76df24f2f30",
+      "canonical": "supermarket",
+      "originalPromptZh": "n. 超级市场；自助售货商店",
+      "promptZh": "超级市场"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-4d3971de62245c94",
+      "canonical": "park",
+      "originalPromptZh": "n. 公园；[交] 停车场 vt. 停放；放置；寄存 vi. 停放车辆",
+      "promptZh": "公园"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-8afe3c83decffdf6",
+      "canonical": "hospital",
+      "originalPromptZh": "n. 医院",
+      "promptZh": "医院"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-4cd0e21a9a0795a1",
+      "canonical": "go",
+      "originalPromptZh": "n. 去；进行；尝试 vi. 走；达到；运转；趋于 vt. 忍受；出产；以…打赌 [复数 goes 第三人称单数 goes 过去式 went 过去分词 gone 现在分词 going]",
+      "promptZh": "去"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-f6cc5b085b61387a",
+      "canonical": "grass",
+      "originalPromptZh": "n. 草；草地，草坪 vt. 放牧；使……长满草；使……吃草 vi. 长草",
+      "promptZh": "草"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-dc9c5edb8b2d479e",
+      "canonical": "tree",
+      "originalPromptZh": "n. 树；木料；树状物 vt. 把...赶上树 vi. 爬上树；逃上树",
+      "promptZh": "树"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-c06b0cfe0cc5e900",
+      "canonical": "flower",
+      "originalPromptZh": "n. 花；精华；开花植物 vt. 使开花；用花装饰 vi. 成熟，发育；开花；繁荣；旺盛",
+      "promptZh": "花"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-25cdb46d8d2115a2",
+      "canonical": "boat",
+      "originalPromptZh": "n. 小船；轮船 vi. 划船",
+      "promptZh": "小船"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-6f021f0268d5dd0d",
+      "canonical": "lake",
+      "originalPromptZh": "n. 湖；深红色颜料；胭脂红 vt. （使）血球溶解 vi. （使）血球溶解",
+      "promptZh": "湖"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-f77fcbb21ddefc82",
+      "canonical": "hill",
+      "originalPromptZh": "n. 小山；丘陵；斜坡；山冈",
+      "promptZh": "小山"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-e718b2dd3e0ac1f9",
+      "canonical": "Christmas",
+      "originalPromptZh": "n. 圣诞节；圣诞节期间",
+      "promptZh": "圣诞节"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-bdcca428734b6c05",
+      "canonical": "Father Christmas",
+      "originalPromptZh": "na. 圣诞老人",
+      "promptZh": "圣诞老人"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-0a0270965b139553",
+      "canonical": "Christmas tree",
+      "originalPromptZh": "n. 【节】圣诞树",
+      "promptZh": "圣诞树"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-8367cd66fdd136bb",
+      "canonical": "card",
+      "originalPromptZh": "n. 卡片；纸牌；明信片 vt. 记于卡片上",
+      "promptZh": "卡片"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-4d4c7eee2e28d03c",
+      "canonical": "present",
+      "originalPromptZh": "n. 现在；礼物；瞄准 adj. 现在的；出席的 vt. 提出；介绍；呈现；赠送 vi. 举枪瞄准",
+      "promptZh": "礼物"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-b1f75b2e788c75a4",
+      "canonical": "New Year",
+      "originalPromptZh": "n. 新年",
+      "promptZh": "新年"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-fc261a5e3e3c85a4",
+      "canonical": "merry",
+      "originalPromptZh": "adj. 愉快的；微醉的；嬉戏作乐的 n. 甜樱桃",
+      "promptZh": "愉快的"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-fcec91509759ad99",
+      "canonical": "here",
+      "originalPromptZh": "n. 这里 adv. 在这里；此时 int. 嘿！；喂！",
+      "promptZh": "这里"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-e67fd73a84918e64",
+      "canonical": "thank",
+      "originalPromptZh": "n. 感谢 vt. 感谢 int. 谢谢",
+      "promptZh": "感谢"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-489f719cadf91909",
+      "canonical": "happy",
+      "originalPromptZh": "adj. 幸福的；高兴的；巧妙的",
+      "promptZh": "高兴的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-c261153924ff080f",
+      "canonical": "play football",
+      "originalPromptZh": "na. 踢足球；对难办的事采取踢皮球的态度",
+      "promptZh": "踢足球"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-2ae2ddd8cf048173",
+      "canonical": "fly a kite",
+      "originalPromptZh": "na. 放风筝；试探舆论；开空头支票；〈美〉(从狱中)非法寄出信件",
+      "promptZh": "放风筝"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-64e3d9d0864b16b2",
+      "canonical": "ride a bike",
+      "originalPromptZh": "骑自行车；骑车；骑单车",
+      "promptZh": "骑自行车"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-e2a967be12bcde95",
+      "canonical": "make a model plane",
+      "originalPromptZh": "无",
+      "promptZh": "制作飞机模型"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-d493f8869139bac7",
+      "canonical": "swim",
+      "originalPromptZh": "n. 游泳；漂浮；眩晕 adj. 游泳时穿戴的 vi. 游泳；漂浮；浸；眩晕 vt. 游过；使浮起",
+      "promptZh": "游泳"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-90479bef56183b50",
+      "canonical": "make a snowman",
+      "originalPromptZh": "堆雪人；做雪人；堆一个雪人",
+      "promptZh": "堆雪人"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-a4076e68ddda2e91",
+      "canonical": "can't",
+      "originalPromptZh": "abbr. 不能（can not）",
+      "promptZh": "不能"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-7b9e10dfed0288d6",
+      "canonical": "rainy",
+      "originalPromptZh": "adj. 下雨的；多雨的",
+      "promptZh": "下雨的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-5e9562c786d9ca04",
+      "canonical": "cloudy",
+      "originalPromptZh": "adj. 多云的；阴天的；愁容满面的",
+      "promptZh": "多云的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-99f72d7e511685ba",
+      "canonical": "snowy",
+      "originalPromptZh": "adj. 下雪的，多雪的；被雪覆盖的；洁白无瑕的",
+      "promptZh": "下雪的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-87480c5a4819536e",
+      "canonical": "windy",
+      "originalPromptZh": "adj. 多风的，有风的；腹胀的；吹牛的",
+      "promptZh": "多风的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-c2333a7e3a607935",
+      "canonical": "sunny",
+      "originalPromptZh": "adj. 阳光充足的，和煦的；快活的；性情开朗的",
+      "promptZh": "阳光充足的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-2974744982f08b20",
+      "canonical": "umbrella",
+      "originalPromptZh": "n. 雨伞；保护伞；庇护；伞形结构",
+      "promptZh": "雨伞"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-e5e72beb4e3c6926",
+      "canonical": "weather",
+      "originalPromptZh": "n. 天气；气象；气候；处境 vt. 经受住；使风化；侵蚀；使受风吹雨打 adj. 露天的；迎风的 vi. 风化；受侵蚀；经受风雨",
+      "promptZh": "天气"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-b6dc933311bc2357",
+      "canonical": "wow",
+      "originalPromptZh": "n. 极大的成功；一鸣惊人之举；魔兽世界(World of Warcraft)；失真 int. （表示极大的惊奇或钦佩）哇，呀",
+      "promptZh": "哇（表示惊讶）"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-f9754b61f2b7ffbd",
+      "canonical": "let's",
+      "originalPromptZh": "让我们（let us的简写）",
+      "promptZh": "让我们"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-622a494d3ea8c7ba",
+      "canonical": "spring",
+      "originalPromptZh": "n. 春天；弹簧；泉水；活力；跳跃 adj. 春天的 vt. 使跳起；使爆炸；突然提出；使弹开 vi. 生长；涌出；跃出；裂开",
+      "promptZh": "春天"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-e83664255c6963e9",
+      "canonical": "summer",
+      "originalPromptZh": "n. 夏季；全盛时期 adj. 夏季的 vi. 避暑；过夏天",
+      "promptZh": "夏季"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-defae04158b9c17d",
+      "canonical": "autumn",
+      "originalPromptZh": "n. 秋天；成熟期；渐衰期，凋落期 adj. 秋天的，秋季的",
+      "promptZh": "秋天"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-30c5461fc27b84f1",
+      "canonical": "winter",
+      "originalPromptZh": "n. 冬季；年岁；萧条期 adj. 冬天的；越冬的 vi. 过冬",
+      "promptZh": "冬季"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-7f5d1618e7d28cc7",
+      "canonical": "hot",
+      "originalPromptZh": "adj. 热的；辣的；热情的；激动的；紧迫的 vt. 增加；给…加温 adv. 热；紧迫地 vi. 变热",
+      "promptZh": "热的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-0f0aa408c1832abe",
+      "canonical": "warm",
+      "originalPromptZh": "n. 取暖；加热 adj. 温暖的；热情的 vt. 使…兴奋；使…温暖；使…感兴趣 vi. 同情；激动；变温暖",
+      "promptZh": "温暖的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-c34045c1a1db8d1b",
+      "canonical": "cool",
+      "originalPromptZh": "n. 凉爽；凉爽的空气 adj. 凉爽的；冷静的；出色的 vt. 使…冷却；使…平静下来 vi. 变凉；平息 adv. 冷静地",
+      "promptZh": "凉爽的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-e272deecde720ffc",
+      "canonical": "cold",
+      "originalPromptZh": "n. 寒冷；感冒 adj. 寒冷的；冷淡的，不热情的；失去知觉的 adv. 完全地",
+      "promptZh": "寒冷的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-775cf3abc9be6786",
+      "canonical": "favourite",
+      "originalPromptZh": "n. 特别喜爱的人（或物） adj. 特别受喜爱的",
+      "promptZh": "最喜欢的"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-8f8e24f65c57e9d5",
+      "canonical": "season",
+      "originalPromptZh": "n. 时期；季节；赛季 vt. 给…调味；使适应 vi. 变得成熟；变干燥",
+      "promptZh": "季节"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-e979074ebd5633a7",
+      "canonical": "eleven",
+      "originalPromptZh": "num. 十一；十一个 n. 十一；十一个 adj. 十一的；十一个的",
+      "promptZh": "十一"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-d1a749ad879b6c07",
+      "canonical": "twelve",
+      "originalPromptZh": "num. 十二；十二个 n. 十二；十二个 adj. 十二的；十二个的",
+      "promptZh": "十二"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-7c2c4df740f720b0",
+      "canonical": "twenty",
+      "originalPromptZh": "num. 二十 n. 二十；二十年代 adj. 二十的",
+      "promptZh": "二十"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-aca5fb59db69e5df",
+      "canonical": "thirty",
+      "originalPromptZh": "num. 三十 n. 三十年代 adj. 三十个的",
+      "promptZh": "三十"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-9cee2304bd633d42",
+      "canonical": "forty",
+      "originalPromptZh": "n. 四十 adj. 四十的；四十个的",
+      "promptZh": "四十"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-f8d807ee15e983f8",
+      "canonical": "fifty",
+      "originalPromptZh": "n. 五十；五十个；编号为50的东西 adj. 五十的；五十个的；众多的",
+      "promptZh": "五十"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-9ecc81f0a4b6dfb0",
+      "canonical": "thirteen",
+      "originalPromptZh": "n. 十三；十三岁；十三个 num. 十三 adj. 十三的；十三个的",
+      "promptZh": "十三"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-fef8f41cdcd20386",
+      "canonical": "fourteen",
+      "originalPromptZh": "num. 十四；十四个；第十四 n. 十四的记号；十四岁；十四点钟；十五世纪",
+      "promptZh": "十四"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-c463967e5708cab7",
+      "canonical": "fifteen",
+      "originalPromptZh": "n. 十五；十五个；十五人组成的橄榄球队 num. 十五 adj. 十五的",
+      "promptZh": "十五"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-336074805fc85398",
+      "canonical": "time",
+      "originalPromptZh": "n. 时间；时代；次数；节拍；倍数 adj. 定时的；定期的；分期的 vt. 计时；测定…的时间；安排…的速度",
+      "promptZh": "时间"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-7ef452f538cd23a6",
+      "canonical": "playtime",
+      "originalPromptZh": "n. 游戏或娱乐的时间；开幕时刻",
+      "promptZh": "游戏时间"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-4553dee862f05c9f",
+      "canonical": "get up",
+      "originalPromptZh": "na. 起床；起身；站起来；叫…起床",
+      "promptZh": "起床"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-9f90695031eb6faf",
+      "canonical": "eat breakfast",
+      "originalPromptZh": "吃早饭；吃早餐；食早餐",
+      "promptZh": "吃早饭"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-dbf6a16362b0ccc5",
+      "canonical": "go to school",
+      "originalPromptZh": "na. 到校上课；上学去；开始求学",
+      "promptZh": "去上学"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-ca4626eaa6210f9f",
+      "canonical": "eat lunch",
+      "originalPromptZh": "吃午饭；吃午餐；吃中午饭",
+      "promptZh": "吃午饭"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-859f4775eac966ad",
+      "canonical": "go home",
+      "originalPromptZh": "na. 回家；〈口〉死；(忠告等)刻骨铭心；击中",
+      "promptZh": "回家"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-9db4029cf019a19b",
+      "canonical": "eat dinner",
+      "originalPromptZh": "吃晚饭；吃晚餐；吃饭",
+      "promptZh": "吃晚饭"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-108b0bd76496457e",
+      "canonical": "go to bed",
+      "originalPromptZh": "na. 睡；同床；【印】付印",
+      "promptZh": "上床睡觉"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-15eaa75240aed625",
+      "canonical": "when",
+      "originalPromptZh": "conj. 考虑到；既然；当…时；在…时；如果 n. 时间，时候；日期；场合 adv. 什么时候，何时；（用于时间的表达方式之后）在那时；其时；当时 pron. 那时；什么时侯",
+      "promptZh": "什么时候"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-ed28f6cae0fa83a3",
+      "canonical": "every day",
+      "originalPromptZh": "na. 每日",
+      "promptZh": "每天"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-b6ac44e3f415a3a8",
+      "canonical": "Sunday",
+      "originalPromptZh": "n. 星期日；礼拜日",
+      "promptZh": "星期日"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-d618fb157a4b382e",
+      "canonical": "Monday",
+      "originalPromptZh": "n. 星期一",
+      "promptZh": "星期一"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-d78d1a3f3bcf22d7",
+      "canonical": "Tuesday",
+      "originalPromptZh": "n. 星期二",
+      "promptZh": "星期二"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-e86421cb8ca42871",
+      "canonical": "Wednesday",
+      "originalPromptZh": "n. 星期三",
+      "promptZh": "星期三"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-15cbfab2cca18f28",
+      "canonical": "Thursday",
+      "originalPromptZh": "n. 星期四",
+      "promptZh": "星期四"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-1a79668eac4051a9",
+      "canonical": "Friday",
+      "originalPromptZh": "n. 星期五",
+      "promptZh": "星期五"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-32f556c7248e9893",
+      "canonical": "Saturday",
+      "originalPromptZh": "n. 星期六",
+      "promptZh": "星期六"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-e0f4f767ac88a930",
+      "canonical": "today",
+      "originalPromptZh": "n. 今天；现今 adv. 今天；现今",
+      "promptZh": "今天"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-038468518ad8122e",
+      "canonical": "my",
+      "originalPromptZh": "pron. 我的 int. 哎呀（表示惊奇等）；喔唷",
+      "promptZh": "我的"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-4d040d3f6466018c",
+      "canonical": "your",
+      "originalPromptZh": "pron. 你的，你们的",
+      "promptZh": "你的；你们的"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-82a3537ff0dbce7e",
+      "canonical": "name",
+      "originalPromptZh": "n. 名称，名字；姓名；名誉 vt. 命名，任命；指定；称呼；提名；叫出 adj. 姓名的；据以取名的",
+      "promptZh": "名字"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-11507a0e2f5e69d5",
+      "canonical": "new",
+      "originalPromptZh": "adj. 新的，新鲜的；更新的；初见的 adv. 新近",
+      "promptZh": "新的"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-4cb4ea25583c2564",
+      "canonical": "year",
+      "originalPromptZh": "n. 年；年度；历年；年纪；一年的期间；某年级的学生",
+      "promptZh": "年"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-9475a71a4cf1d613",
+      "canonical": "how old",
+      "originalPromptZh": "conj. 多少岁",
+      "promptZh": "多少岁"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-0889113e04d3203f",
+      "canonical": "class",
+      "originalPromptZh": "n. 阶级；班级；种类；班；等级 adj. 极好的；很好的，优秀的，出色的 vt. 分类；把…分等级；把…归入某等级，把…看作（或分类、归类）；把…编入某一班级 vi. 属于…类（或等级），被列为某类（或某级）",
+      "promptZh": "班级"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-ffe97bba510b9f5c",
+      "canonical": "grade",
+      "originalPromptZh": "n. 年级；等级；成绩；级别；阶段 vt. 评分；把…分等级 vi. 分等级；逐渐变化",
+      "promptZh": "年级"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-013f54400c82da08",
+      "canonical": "age",
+      "originalPromptZh": "n. 年龄；时代；寿命，使用年限；阶段 vt. 使成熟；使变老，使上年纪 vi. 成熟；变老",
+      "promptZh": "年龄"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-5f4d44dfaa1b1ed7",
+      "canonical": "dear",
+      "originalPromptZh": "n. 亲爱的人 adj. 亲爱的；尊敬的；昂贵的 adv. 高价地；疼爱地 int. 哎呀",
+      "promptZh": "亲爱的"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-230d8358dc8e8890",
+      "canonical": "body",
+      "originalPromptZh": "n. 身体；主体；大量；团体；主要部分 vt. 赋以形体",
+      "promptZh": "身体"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-9f2e6d33a3717ee8",
+      "canonical": "head",
+      "originalPromptZh": "n. 头；头痛；上端；最前的部分；理解力 adj. 头的；主要的；在顶端的 vt. 前进；用头顶；作为…的首领；站在…的前头；给…加标题 vi. 出发；成头状物；船驶往",
+      "promptZh": "头（身体部位）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-4dc2159bba05da39",
+      "canonical": "hair",
+      "originalPromptZh": "n. 头发；毛发；些微 adj. 毛发的；护理毛发的；用毛发制成的 vt. 除去…的毛发 vi. 生长毛发；形成毛状纤维",
+      "promptZh": "头发"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-ddf7ff5ebd9d66ce",
+      "canonical": "arm",
+      "originalPromptZh": "n. 手臂；武器；袖子；装备；部门 vt. 武装；备战 vi. 武装起来",
+      "promptZh": "手臂"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-1b001706a418bdfc",
+      "canonical": "hand",
+      "originalPromptZh": "n. 手，手艺；帮助；指针；插手 vt. 传递，交给；支持；搀扶",
+      "promptZh": "手"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-c7c8fc91abb8ed76",
+      "canonical": "leg",
+      "originalPromptZh": "n. 腿；支柱",
+      "promptZh": "腿"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-22e4f6912a6980d6",
+      "canonical": "foot",
+      "originalPromptZh": "n. 脚；英尺；步调；末尾 vt. 支付；给……换底 vi. 步行；跳舞；总计",
+      "promptZh": "脚（单数）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-a5add13655291fd6",
+      "canonical": "feet",
+      "originalPromptZh": "n. 脚（foot的复数形式）；尺；韵脚",
+      "promptZh": "脚（复数）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-49002d515d1605d8",
+      "canonical": "hurt",
+      "originalPromptZh": "n. 痛苦；危害；痛苦的原因 vt. 使受伤；损害；使疼痛；使痛心 adj. 受伤的；痛苦的；受损的 vi. 感到疼痛；有坏处；带来痛苦",
+      "promptZh": "疼痛；受伤"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-106a5842fc5fce6f",
+      "canonical": "help",
+      "originalPromptZh": "n. 帮助；补救办法；帮忙者；有益的东西 vt. 帮助；促进；治疗；补救 vi. 帮助；有用；招待",
+      "promptZh": "帮助"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-2f05d4b689d270ca",
+      "canonical": "bad",
+      "originalPromptZh": "n. 坏事；坏人 adj. 坏的；严重的；劣质的 adv. 很，非常；坏地；邪恶地",
+      "promptZh": "坏的"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-8420c85c2aadaeba",
+      "canonical": "bite",
+      "originalPromptZh": "n. 咬；一口；咬伤；刺痛 abbr. 机内测试设备（Built-In Test Equipment） vt. 咬；刺痛 vi. 咬；刺痛",
+      "promptZh": "咬"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-b2715212d939ec80",
+      "canonical": "tongue",
+      "originalPromptZh": "n. 舌头；语言 vt. 舔；斥责；用舌吹 vi. 说话；吹管乐器",
+      "promptZh": "舌头"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-0db10f2c2f332cd2",
+      "canonical": "kick",
+      "originalPromptZh": "vt. 踢；反冲，朝后座 n. 踢；反冲，后座力 vi. 踢；反冲",
+      "promptZh": "踢"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-c23b31a0179b550f",
+      "canonical": "morning",
+      "originalPromptZh": "n. 早晨；黎明；初期",
+      "promptZh": "早晨"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-c8e07c1ac268eae0",
+      "canonical": "afternoon",
+      "originalPromptZh": "n. 午后，下午",
+      "promptZh": "下午"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-0282d9b79f42c74c",
+      "canonical": "face",
+      "originalPromptZh": "n. 脸；表面；面子；面容；外观；威信 vi. 向；朝 vt. 面对；面向；承认；抹盖",
+      "promptZh": "脸"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-47c215b5f70eb9c9",
+      "canonical": "eye",
+      "originalPromptZh": "n. 眼睛；视力；眼光；见解，观点 vt. 注视，看",
+      "promptZh": "眼睛"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-d77e22123e64d3d8",
+      "canonical": "nose",
+      "originalPromptZh": "n. 鼻子；嗅觉；突出的部分；探问 vt. 嗅；用鼻子触 vi. 小心探索着前进；探问",
+      "promptZh": "鼻子"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-4cf35cf87435b1ba",
+      "canonical": "mouth",
+      "originalPromptZh": "n. 口，嘴；河口 vt. 做作地说，装腔作势地说；喃喃地说出 vi. 装腔作势说话",
+      "promptZh": "嘴"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-3c6a36b640fceaa8",
+      "canonical": "ear",
+      "originalPromptZh": "n. 耳朵；穗；听觉；倾听 vi. （美俚）听见；抽穗",
+      "promptZh": "耳朵"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-985604c2b6024312",
+      "canonical": "bread",
+      "originalPromptZh": "n. 面包；生计 vt. 在…上洒面包屑",
+      "promptZh": "面包"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-32cdb61919620005",
+      "canonical": "cake",
+      "originalPromptZh": "n. 蛋糕；块状物；利益总额 vt. 使结块 vi. 结成块状",
+      "promptZh": "蛋糕"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-9209526aaa61b070",
+      "canonical": "fruit",
+      "originalPromptZh": "n. 水果；产物 vt. 使……结果实 vi. 结果实",
+      "promptZh": "水果"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-e91c254ad58860a0",
+      "canonical": "potato",
+      "originalPromptZh": "n. [作物] 土豆，[作物] 马铃薯",
+      "promptZh": "土豆"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-5ed728c2fa5d767b",
+      "canonical": "tomato",
+      "originalPromptZh": "n. 番茄，西红柿",
+      "promptZh": "番茄"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-59d6d61431fce7d9",
+      "canonical": "meat",
+      "originalPromptZh": "n. 肉，肉类（食用）",
+      "promptZh": "肉"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-f582b17115d87d68",
+      "canonical": "shopping list",
+      "originalPromptZh": "n. 购物单；采购单",
+      "promptZh": "购物清单"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-42be22c266603b34",
+      "canonical": "cola",
+      "originalPromptZh": "n. 可乐；可乐树（其子含咖啡碱）",
+      "promptZh": "可乐"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-e8197b20f8e71e42",
+      "canonical": "buy",
+      "originalPromptZh": "n. 购买，买卖；所购的物品 vi. 买，采购 vt. 购买；获得；贿赂",
+      "promptZh": "购买"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-209f76418ece7c93",
+      "canonical": "rice",
+      "originalPromptZh": "n. 稻；米饭 vt. 把…捣成米糊状",
+      "promptZh": "米饭"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-838f8d9acc45bd36",
+      "canonical": "noodles",
+      "originalPromptZh": "n. 面条，挂面（noodle的复数形式)",
+      "promptZh": "面条（复数）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-1a6c1efa28d5d11d",
+      "canonical": "vegetables",
+      "originalPromptZh": "n. [园艺] 蔬菜（vegetable的复数形式）；菜类",
+      "promptZh": "蔬菜（复数）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-811eb81b9d11d65a",
+      "canonical": "chicken",
+      "originalPromptZh": "n. 鸡肉；小鸡；胆小鬼，懦夫 adj. 鸡肉的；胆怯的；幼小的",
+      "promptZh": "鸡肉"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-34707c3f40dfa20c",
+      "canonical": "egg",
+      "originalPromptZh": "n. 蛋；卵子；家伙；鸡蛋 vt. 煽动；怂恿",
+      "promptZh": "蛋"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-2d2370db2447ff8c",
+      "canonical": "duck",
+      "originalPromptZh": "n. 鸭子；鸭肉；（英）宝贝儿；零分 vt. 躲避；猛按…入水 vi. 闪避；没入水中",
+      "promptZh": "鸭子"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-d37d96b42ad43384",
+      "canonical": "rabbit",
+      "originalPromptZh": "n. 兔子，野兔 vt. 让…见鬼去吧 vi. 猎兔",
+      "promptZh": "兔子"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-bbba57318f719113",
+      "canonical": "pet",
+      "originalPromptZh": "n. 宠物；生气；受宠爱的人 adj. 宠爱的 vt. 宠爱 vi. 生气；爱抚",
+      "promptZh": "宠物"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-538d7d9fe78e7baa",
+      "canonical": "snake",
+      "originalPromptZh": "n. 蛇；阴险的人 vt. 拉（木材等）；迂回前进 vi. 迂回前进",
+      "promptZh": "蛇"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-74dd730b5c36c1cb",
+      "canonical": "turtle",
+      "originalPromptZh": "n. 龟，甲鱼；海龟",
+      "promptZh": "龟"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-81db8ebbbbc69c6c",
+      "canonical": "small",
+      "originalPromptZh": "n. 小件物品；矮小的人 adj. 少的，小的；微弱的；几乎没有的；不重要的；幼小的 adv. 小小地；卑鄙地",
+      "promptZh": "小的"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-fc66f021c67d064c",
+      "canonical": "long",
+      "originalPromptZh": "n. 长时间；[语] 长音节；（服装的）长尺寸；长裤 adj. 长的；过长的；做多头的；长时间的；冗长的，长音 vi. 渴望；热望 adv. 长期地；始终",
+      "promptZh": "长的（说长度）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-49252bab0827135f",
+      "canonical": "look for",
+      "originalPromptZh": "v. 寻找；探索；渴望；盼望",
+      "promptZh": "寻找"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-0c62f876ef1dea83",
+      "canonical": "tail",
+      "originalPromptZh": "n. 尾巴；踪迹；辫子；燕尾服 adj. 从后面而来的；尾部的 vt. 尾随；装上尾巴 vi. 跟踪；变少或缩小",
+      "promptZh": "尾巴"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-2c371c2ada73a02e",
+      "canonical": "dance",
+      "originalPromptZh": "n. 舞蹈；舞会；舞曲 adj. 舞蹈的；用于跳舞的 vt. 跳舞；使跳跃 vi. 跳舞；跳跃；飘扬",
+      "promptZh": "跳舞"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-77af778b51abd4a3",
+      "canonical": "cat",
+      "originalPromptZh": "n. 猫，猫科动物",
+      "promptZh": "猫"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-cd6357efdd966de8",
+      "canonical": "dog",
+      "originalPromptZh": "n. 狗；丑女人；卑鄙的人；(俚)朋友 vt. 跟踪；尾随",
+      "promptZh": "狗"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-7a5179eecc0fe187",
+      "canonical": "bird",
+      "originalPromptZh": "n. 鸟；家伙；羽毛球 vt. 向…喝倒彩；起哄 vi. 猎鸟；观察研究野鸟",
+      "promptZh": "鸟"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-000c285457fc971f",
+      "canonical": "monkey",
+      "originalPromptZh": "n. 猴子；顽童 vi. 胡闹；捣蛋 vt. 嘲弄",
+      "promptZh": "猴子"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-f15c16b99f82d820",
+      "canonical": "tiger",
+      "originalPromptZh": "n. 老虎；凶暴的人",
+      "promptZh": "老虎"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-2a21fe6d592a19b7",
+      "canonical": "big",
+      "originalPromptZh": "adj. 大的；重要的；量大的 adv. 大量地；顺利；夸大地",
+      "promptZh": "大的"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-45e84635bc4803c5",
+      "canonical": "cap",
+      "originalPromptZh": "n. 盖；帽子 vt. 覆盖；胜过；给…戴帽；加盖于 vi. 脱帽致意",
+      "promptZh": "帽子"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-8218f3d6780abf45",
+      "canonical": "coat",
+      "originalPromptZh": "n. 外套 vt. 覆盖…的表面",
+      "promptZh": "外套"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-01ea5ddd3be5477a",
+      "canonical": "shoes",
+      "originalPromptZh": "n. 鞋子（shoe的复数） v. 穿鞋（shoe的第三人称单数）",
+      "promptZh": "鞋（复数）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-a3a89efbca9e4f45",
+      "canonical": "sweater",
+      "originalPromptZh": "n. 毛线衣，运动衫；大量出汗的人，发汗剂",
+      "promptZh": "毛衣"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-554f4d3dafc80844",
+      "canonical": "jacket",
+      "originalPromptZh": "n. 羽绒滑雪衫；西装短外套；短上衣，夹克；土豆皮；书籍的护封；文件套，公文夹 vt. 给…穿夹克；给…装护套；给…包上护封；〈口〉打",
+      "promptZh": "夹克衫"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-0e376c13c26b9a46",
+      "canonical": "gloves",
+      "originalPromptZh": "n. [服装] 手套（glove的复数） v. 给…戴手套（glove的三单形式）",
+      "promptZh": "手套（复数）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-1b5f82125c8e908a",
+      "canonical": "trousers",
+      "originalPromptZh": "n. 裤子，长裤",
+      "promptZh": "长裤"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-f86b1f62a8554232",
+      "canonical": "should",
+      "originalPromptZh": "aux. 应该；就；可能；将要",
+      "promptZh": "应该"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-c47fbc5d87a12981",
+      "canonical": "wear",
+      "originalPromptZh": "n. 衣物；磨损；耐久性 v. 穿着；用旧；耗损；面露",
+      "promptZh": "穿着（衣服）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-6df37daaa46ce714",
+      "canonical": "week",
+      "originalPromptZh": "n. 周，星期",
+      "promptZh": "周"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-4a754148b88a68e1",
+      "canonical": "soon",
+      "originalPromptZh": "adv. 快；不久，一会儿；立刻；宁愿",
+      "promptZh": "不久"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-1761f2dffb987352",
+      "canonical": "look forward to",
+      "originalPromptZh": "na. 盼望",
+      "promptZh": "盼望；期待"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-5a6ae5c8d6d82bd9",
+      "canonical": "T-shirt",
+      "originalPromptZh": "n. 短袖圆领汗衫",
+      "promptZh": "T恤衫"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-474a744f02d8b7ff",
+      "canonical": "shorts",
+      "originalPromptZh": "n. 短裤",
+      "promptZh": "短裤"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-54f6d9fbe8ee576f",
+      "canonical": "socks",
+      "originalPromptZh": "n. 袜子（sock的复数）",
+      "promptZh": "袜子（复数）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-3abafce5bc548613",
+      "canonical": "skirt",
+      "originalPromptZh": "n. 裙子 vt. 绕过，回避；位于…边缘 vi. 沿边走，绕开；环绕",
+      "promptZh": "裙子"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-5b612edb571c479d",
+      "canonical": "dress",
+      "originalPromptZh": "n. 连衣裙；女装 vt. 给…穿衣 vi. 穿衣",
+      "promptZh": "连衣裙"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-a52514252adf8606",
+      "canonical": "shirt",
+      "originalPromptZh": "n. 衬衫；汗衫，内衣",
+      "promptZh": "衬衫"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-7a6d85963363d1c2",
+      "canonical": "January",
+      "originalPromptZh": "n. 一月",
+      "promptZh": "一月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-53e2975b5e720223",
+      "canonical": "February",
+      "originalPromptZh": "n. 二月",
+      "promptZh": "二月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-fa75b5c25fc08979",
+      "canonical": "March",
+      "originalPromptZh": "n. 三月",
+      "promptZh": "三月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-aa6890829510931f",
+      "canonical": "April",
+      "originalPromptZh": "n. 四月",
+      "promptZh": "四月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-c0fa1ef864788c45",
+      "canonical": "June",
+      "originalPromptZh": "n. 六月；琼（人名，来源于拉丁语，含义是“年轻气盛的六月”）",
+      "promptZh": "六月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-05c7dbac14dc2bf3",
+      "canonical": "July",
+      "originalPromptZh": "n. 七月",
+      "promptZh": "七月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-c2afdd38565b01f2",
+      "canonical": "August",
+      "originalPromptZh": "n. 八月（简写为Aug） adj. 威严的；令人敬畏的",
+      "promptZh": "八月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-249d1f9cb846410c",
+      "canonical": "September",
+      "originalPromptZh": "n. 九月",
+      "promptZh": "九月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-7aee5b5dbb9e7815",
+      "canonical": "October",
+      "originalPromptZh": "n. [天] 十月",
+      "promptZh": "十月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-b68823eded0bc9c7",
+      "canonical": "November",
+      "originalPromptZh": "n. 十一月",
+      "promptZh": "十一月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-8745f86640ad2ed6",
+      "canonical": "December",
+      "originalPromptZh": "n. 十二月",
+      "promptZh": "十二月"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-0422d42c689b7e80",
+      "canonical": "birthday",
+      "originalPromptZh": "n. 生日，诞辰；诞生的日子",
+      "promptZh": "生日"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-a7937b64b8caa58f",
+      "canonical": "first",
+      "originalPromptZh": "num. 第一 n. 第一；开始；冠军 adj. 第一的；基本的；最早的 adv. 第一；首先；优先；宁愿",
+      "promptZh": "第一"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-1d0fea39ec33ff75",
+      "canonical": "party",
+      "originalPromptZh": "n. 政党，党派；聚会，派对；当事人 [复数 parties] vi. 参加社交聚会 [ 过去式 partied 过去分词 partied 现在分词 partying ]",
+      "promptZh": "聚会（如生日聚会）"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-3c29fc3464377a28",
+      "canonical": "delicious",
+      "originalPromptZh": "adj. 美味的；可口的",
+      "promptZh": "美味的"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-e2d3b41db9567ddf",
+      "canonical": "Chinese",
+      "originalPromptZh": "n. 中文，汉语；中国人 adj. 中国的，中国人的；中国话的",
+      "promptZh": "中文"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-b6234d2ea0d6022b",
+      "canonical": "English",
+      "originalPromptZh": "n. 英语；英国人；英文；英格兰人 adj. 英国人的；英国的；英文的 vt. 把…译成英语",
+      "promptZh": "英语"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-790fad4744a9da8d",
+      "canonical": "science",
+      "originalPromptZh": "n. 科学；技术；学科；理科",
+      "promptZh": "科学"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-cdf69b25a417e257",
+      "canonical": "PE",
+      "originalPromptZh": "abbr. 体育课，体能训练（physical education）",
+      "promptZh": "体育课"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-80f189984e5ca702",
+      "canonical": "music",
+      "originalPromptZh": "n. 音乐，乐曲",
+      "promptZh": "音乐"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-acc017392425439b",
+      "canonical": "maths",
+      "originalPromptZh": "n. 数学（等于mathematics）",
+      "promptZh": "数学"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-d3cec99112255db9",
+      "canonical": "art",
+      "originalPromptZh": "n. 艺术；美术；艺术品 v. 是（be的变体） adj. 艺术的；艺术品的",
+      "promptZh": "美术"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-2d3709f609c30d33",
+      "canonical": "computer class",
+      "originalPromptZh": "计算机课；电脑班；电脑课",
+      "promptZh": "计算机课"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-dc7c811b9561739d",
+      "canonical": "we",
+      "originalPromptZh": "pron. 我们（主格）；笔者，本人（作者或演讲人使用）；朕，寡人",
+      "promptZh": "我们"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-8e7fc0236af43df9",
+      "canonical": "that",
+      "originalPromptZh": "conj. 因为；以至于 adj. 那；那个 pron. 那；那个 adv. 那么；那样",
+      "promptZh": "那个"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-83d82a74a67aebde",
+      "canonical": "classroom",
+      "originalPromptZh": "n. 教室",
+      "promptZh": "教室"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-b718f1354f724731",
+      "canonical": "library",
+      "originalPromptZh": "n. 图书馆，藏书室；文库",
+      "promptZh": "图书馆"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-74f7fd1cf08b145c",
+      "canonical": "toilet",
+      "originalPromptZh": "n. 厕所，盥洗室；梳妆，打扮 vt. 给…梳妆打扮 vi. 梳妆，打扮",
+      "promptZh": "厕所"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-f3cc87f78b21d53d",
+      "canonical": "playground",
+      "originalPromptZh": "n. 运动场，操场；游乐场",
+      "promptZh": "运动场"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-a7937b64b8caa58f",
+      "canonical": "first",
+      "originalPromptZh": "num. 第一 n. 第一；开始；冠军 adj. 第一的；基本的；最早的 adv. 第一；首先；优先；宁愿",
+      "promptZh": "第一"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-16367aacb67a4a01",
+      "canonical": "second",
+      "originalPromptZh": "num. 第二 n. 秒；第二名；瞬间；二等品 adj. 第二的；次要的；附加的 vt. 支持 adv. 第二；其次；居第二位",
+      "promptZh": "第二"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-b1e99324505bd32d",
+      "canonical": "third",
+      "originalPromptZh": "num. 第三；三分之一 adj. 第三的；三分之一的",
+      "promptZh": "第三"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-a3e1f4935b0919b3",
+      "canonical": "floor",
+      "originalPromptZh": "n. 地板，地面；楼层；基底；议员席 vt. 铺地板；打倒，击倒；（被困难）难倒",
+      "promptZh": "楼层"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-1f1c5b2fad778434",
+      "canonical": "room",
+      "originalPromptZh": "n. 房间；空间；余地；机会；房间里所有的人 vt. 为…提供住处；租房，合住；投宿，住宿；留…住宿 vi. 居住；住宿",
+      "promptZh": "房间"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-a6556e4852e26390",
+      "canonical": "our",
+      "originalPromptZh": "pron. 我们的",
+      "promptZh": "我们的"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-151e58a831306903",
+      "canonical": "they",
+      "originalPromptZh": "pron. 他们；它们；她们",
+      "promptZh": "他们"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-3d7eb3d3dab17ee5",
+      "canonical": "chair",
+      "originalPromptZh": "n. 椅子；讲座；（会议的）主席位；大学教授的职位 vt. 担任（会议的）主席；使…入座；使就任要职",
+      "promptZh": "椅子"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-49be417ad74080a0",
+      "canonical": "desk",
+      "originalPromptZh": "n. 办公桌；服务台；编辑部；（美）讲道台；乐谱架 adj. 书桌的；桌上用的；伏案做的",
+      "promptZh": "书桌"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-00c764f20f353098",
+      "canonical": "blackboard",
+      "originalPromptZh": "n. 黑板",
+      "promptZh": "黑板"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-b86683e3b7db388c",
+      "canonical": "after school",
+      "originalPromptZh": "na. 放学后",
+      "promptZh": "放学后"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-694c808e3b24e473",
+      "canonical": "play sports",
+      "originalPromptZh": "做运动；进行体育运动；进行体育活动",
+      "promptZh": "做运动"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-a000e15fd3355faf",
+      "canonical": "draw pictures",
+      "originalPromptZh": "画画；画图画；画儿",
+      "promptZh": "画画"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-5b21af4ffb3dce21",
+      "canonical": "play chess",
+      "originalPromptZh": "na. 下象棋",
+      "promptZh": "下象棋"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-2c371c2ada73a02e",
+      "canonical": "dance",
+      "originalPromptZh": "n. 舞蹈；舞会；舞曲 adj. 舞蹈的；用于跳舞的 vt. 跳舞；使跳跃 vi. 跳舞；跳跃；飘扬",
+      "promptZh": "跳舞"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-4edd30dd967f06d8",
+      "canonical": "sing songs",
+      "originalPromptZh": "n. 歌咏",
+      "promptZh": "唱歌"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-d606ad200717a9a8",
+      "canonical": "read books",
+      "originalPromptZh": "读书；看书；阅读",
+      "promptZh": "读书"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-db8ffbe1cd19708b",
+      "canonical": "really",
+      "originalPromptZh": "adv. 实际上，事实上；真正地，真实地；真的吗？（表语气）",
+      "promptZh": "真的"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-bafd151a86f9a573",
+      "canonical": "tomorrow",
+      "originalPromptZh": "n. 明天；未来 adv. 明天；未来地（等于to-morrow）",
+      "promptZh": "明天"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-73a342884bb68061",
+      "canonical": "wake up",
+      "originalPromptZh": "na. 同“wake”；叫醒；醒来；振作起来",
+      "promptZh": "醒来"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-4ff7ff1a132a15f6",
+      "canonical": "be back",
+      "originalPromptZh": "na. 回家；回来",
+      "promptZh": "回来"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-c261153924ff080f",
+      "canonical": "play football",
+      "originalPromptZh": "na. 踢足球；对难办的事采取踢皮球的态度",
+      "promptZh": "踢足球"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-2ae2ddd8cf048173",
+      "canonical": "fly a kite",
+      "originalPromptZh": "na. 放风筝；试探舆论；开空头支票；〈美〉(从狱中)非法寄出信件",
+      "promptZh": "放风筝"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-64e3d9d0864b16b2",
+      "canonical": "ride a bike",
+      "originalPromptZh": "骑自行车；骑车；骑单车",
+      "promptZh": "骑自行车"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-d493f8869139bac7",
+      "canonical": "swim",
+      "originalPromptZh": "n. 游泳；漂浮；眩晕 adj. 游泳时穿戴的 vi. 游泳；漂浮；浸；眩晕 vt. 游过；使浮起",
+      "promptZh": "游泳"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-e2a967be12bcde95",
+      "canonical": "make a model plane",
+      "originalPromptZh": "无",
+      "promptZh": "制作飞机模型"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-90479bef56183b50",
+      "canonical": "make a snowman",
+      "originalPromptZh": "堆雪人；做雪人；堆一个雪人",
+      "promptZh": "堆雪人"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-d34a569ab7aaa54d",
+      "canonical": "family",
+      "originalPromptZh": "n. 家庭；亲属；家族；子女；[生]科；语族；[化]族 adj. 家庭的；家族的；适合于全家的",
+      "promptZh": "家庭"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-3107ea0301a27894",
+      "canonical": "uncle",
+      "originalPromptZh": "n. 叔叔；伯父；伯伯；舅父；姨丈；姑父",
+      "promptZh": "叔叔"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-a892fec0a7ca63b4",
+      "canonical": "aunt",
+      "originalPromptZh": "n. 阿姨；姑妈；伯母；舅妈",
+      "promptZh": "阿姨"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-42e20cbe942249d8",
+      "canonical": "cousin",
+      "originalPromptZh": "n. 堂兄弟姊妹；表兄弟姊妹",
+      "promptZh": "堂兄弟姐妹；表兄弟姐妹"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-4623f30b926198d4",
+      "canonical": "handsome",
+      "originalPromptZh": "adj. （男子）英俊的；可观的；大方的，慷慨的；健美而端庄的",
+      "promptZh": "英俊的"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-c6a1427d7119cd3c",
+      "canonical": "beautiful",
+      "originalPromptZh": "adj. 美丽的 出色地 出色的 迷人的 迷人地",
+      "promptZh": "美丽的"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-76f75e6129fe3013",
+      "canonical": "lost",
+      "originalPromptZh": "adj. 失去的；丧失的；迷惑的 v. 遗失（lose的过去分词）；失败",
+      "promptZh": "丢失的"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-e2b02e81b7f660b6",
+      "canonical": "water bottle",
+      "originalPromptZh": "un. 水壶；采水瓶；采水器；采水样器",
+      "promptZh": "水壶"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-cd1bb3012bcfaa0c",
+      "canonical": "know",
+      "originalPromptZh": "vt. 知道；认识；懂得 vi. 了解；熟悉；确信",
+      "promptZh": "知道"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-2689367b205c16ce",
+      "canonical": "ok",
+      "originalPromptZh": "adj. 好的；不错的 adv. 行；很好 int. 好；可以 vt. 对…表示同意 n. 同意",
+      "promptZh": "好的"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-543b1c4bd4f6b184",
+      "canonical": "much",
+      "originalPromptZh": "adv. 非常，很 adj. 大量的 n. 许多，大量 pron. 许多，大量",
+      "promptZh": "许多"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-280d44ab1e9f79b5",
+      "canonical": "welcome",
+      "originalPromptZh": "n. 欢迎 vt. 欢迎 adj. 受欢迎的 int. 欢迎",
+      "promptZh": "欢迎"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-7ab7049973595a7f",
+      "canonical": "grandfather",
+      "originalPromptZh": "n. 祖父；始祖 vt. 不受新规定限制",
+      "promptZh": "祖父；外祖父"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-c04d87aa70a7d165",
+      "canonical": "grandmother",
+      "originalPromptZh": "n. 祖母；女祖先 vt. 当…的祖母 vi. 当祖母",
+      "promptZh": "祖母；外祖母"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-88a1881f0025cf71",
+      "canonical": "father",
+      "originalPromptZh": "n. 父亲，爸爸；神父；祖先；前辈 vt. 发明，创立；当…的父亲",
+      "promptZh": "爸爸"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-cf0622ef2a661cd2",
+      "canonical": "mother",
+      "originalPromptZh": "n. 母亲；大娘；女修道院院长 vt. 生下；养育；像母亲般关怀或照管 adj. 母亲的；出生地的",
+      "promptZh": "妈妈"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-0b4bd77cec705cf5",
+      "canonical": "brother",
+      "originalPromptZh": "n. 兄弟；同事；战友 int. 我的老兄！",
+      "promptZh": "兄弟"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-1980d3927f07fec9",
+      "canonical": "sister",
+      "originalPromptZh": "n. 姐妹；（称志同道合者）姐妹；修女；护士 adj. 姐妹般的；同类型的",
+      "promptZh": "姐妹"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-39fd772b250d4196",
+      "canonical": "cooking dinner",
+      "originalPromptZh": "做饭；做晚餐；正在做饭",
+      "promptZh": "做晚饭（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-68252f5801b217ce",
+      "canonical": "walking the dog",
+      "originalPromptZh": "无",
+      "promptZh": "遛狗（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-62e36da442347a60",
+      "canonical": "watering the plants",
+      "originalPromptZh": "无",
+      "promptZh": "给植物浇水（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-c998160a91a35c07",
+      "canonical": "cleaning the room",
+      "originalPromptZh": "无",
+      "promptZh": "打扫房间（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-43f19004a0d22026",
+      "canonical": "listening to music",
+      "originalPromptZh": "无",
+      "promptZh": "听音乐（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-7c4ec67305fc6e1c",
+      "canonical": "watching TV",
+      "originalPromptZh": "看电视；正在看电视；他在看电视",
+      "promptZh": "看电视（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-e21dab4930a1dc09",
+      "canonical": "feeding the fish",
+      "originalPromptZh": "喂鱼 晕船",
+      "promptZh": "喂鱼（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-aa879344719d37b4",
+      "canonical": "play with",
+      "originalPromptZh": "na. 玩弄(火等)；以…自娱",
+      "promptZh": "和……一起玩"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-375e34e4e768a547",
+      "canonical": "in one hour",
+      "originalPromptZh": "无",
+      "promptZh": "一小时后"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-5d67991ae967994c",
+      "canonical": "everyone",
+      "originalPromptZh": "n. 每个人 pron. 每个人；人人",
+      "promptZh": "每个人"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-10910087de24bfca",
+      "canonical": "children",
+      "originalPromptZh": "n. 孩子们（child的复数）",
+      "promptZh": "孩子们（复数）"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-acba25512100f80b",
+      "canonical": "run",
+      "originalPromptZh": "n. 奔跑；赛跑；趋向；奔跑的路程 vt. 管理，经营；运行；参赛 vi. 经营；奔跑；运转",
+      "promptZh": "奔跑"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-4ea140588150773c",
+      "canonical": "home",
+      "originalPromptZh": "n. 家，住宅；产地；家乡；避难所 adj. 国内的，家庭的；有效的 vt. 归巢，回家 adv. 在家，回家；深入地",
+      "promptZh": "家"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-a05e6feb79c85416",
+      "canonical": "bedroom",
+      "originalPromptZh": "n. 卧室 adj. 两性关系的；城郊住宅区的",
+      "promptZh": "卧室"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-4c1666c3ad86a2d7",
+      "canonical": "living room",
+      "originalPromptZh": "n. 客厅；起居室",
+      "promptZh": "客厅"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-3486577cd905f870",
+      "canonical": "bathroom",
+      "originalPromptZh": "n. 浴室；厕所；盥洗室",
+      "promptZh": "浴室"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-13c0c8fa4c514c35",
+      "canonical": "dining room",
+      "originalPromptZh": "n. 饭厅；餐厅",
+      "promptZh": "饭厅"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-0c87ed818fb90f3f",
+      "canonical": "study",
+      "originalPromptZh": "n. 学习，研究；课题；书房；学问 vt. 学习；考虑；攻读；细察 vi. 研究；用功",
+      "promptZh": "书房"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-3171d89ad00530ff",
+      "canonical": "kitchen",
+      "originalPromptZh": "n. 厨房；炊具；炊事人员",
+      "promptZh": "厨房"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-d202c39c07f15731",
+      "canonical": "for rent",
+      "originalPromptZh": "na. 出租的；招租",
+      "promptZh": "出租的"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-d32ce7bf0277fd2c",
+      "canonical": "sofa",
+      "originalPromptZh": "n. 沙发；长椅",
+      "promptZh": "沙发"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-c5052532c2206140",
+      "canonical": "bed",
+      "originalPromptZh": "n. 床；基础；河底， 海底 vt. 使睡觉；安置，嵌入；栽种 vi. 上床；分层",
+      "promptZh": "床"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-2534e2de1dec24fe",
+      "canonical": "door",
+      "originalPromptZh": "n. 门；家，户；门口；通道",
+      "promptZh": "门"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-26f8567f25691822",
+      "canonical": "box",
+      "originalPromptZh": "n. 箱，盒子；包厢；一拳 vt. 拳击；装…入盒中；打耳光 vi. 拳击",
+      "promptZh": "盒子"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-c071cf5f5ed6f884",
+      "canonical": "running",
+      "originalPromptZh": "n. 运转；赛跑；流出 v. 跑；运转（run的ing形式）；行驶 adj. 连续的；流动的；跑着的；运转着的",
+      "promptZh": "跑步（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-f02c963574819724",
+      "canonical": "basketball",
+      "originalPromptZh": "n. 篮球；篮球运动",
+      "promptZh": "篮球"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-5aa3a27f02213a70",
+      "canonical": "roller skating",
+      "originalPromptZh": "un. 滑旱冰",
+      "promptZh": "滑旱冰"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-4a1ad499a95fde23",
+      "canonical": "jumping rope",
+      "originalPromptZh": "跳绳；正在跳绳；跳跳绳",
+      "promptZh": "跳绳"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-f2764ee70e739a32",
+      "canonical": "ping-pong",
+      "originalPromptZh": "n. 乒乓球；桌球",
+      "promptZh": "乒乓球"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-75d58bee5e70eda8",
+      "canonical": "What about ...?",
+      "originalPromptZh": "un. 不；…怎样",
+      "promptZh": "……怎么样？"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-637ab2808704d851",
+      "canonical": "interesting",
+      "originalPromptZh": "adj. 有趣的；引起兴趣的，令人关注的",
+      "promptZh": "有趣的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-93c68148f4acfe0d",
+      "canonical": "often",
+      "originalPromptZh": "adv. 常常，时常",
+      "promptZh": "常常"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-ed8b1bc448d39d69",
+      "canonical": "be good at",
+      "originalPromptZh": "v. 善于",
+      "promptZh": "善于"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-089001a35679a33e",
+      "canonical": "late",
+      "originalPromptZh": "adj. 晚的；迟的；已故的；最近的 adv. 晚；迟；最近；在晚期",
+      "promptZh": "晚的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d493f8869139bac7",
+      "canonical": "swim",
+      "originalPromptZh": "n. 游泳；漂浮；眩晕 adj. 游泳时穿戴的 vi. 游泳；漂浮；浸；眩晕 vt. 游过；使浮起",
+      "promptZh": "游泳"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-cde48537ca2c2808",
+      "canonical": "friend",
+      "originalPromptZh": "n. 朋友；助手；赞助者",
+      "promptZh": "朋友"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-88a1881f0025cf71",
+      "canonical": "father",
+      "originalPromptZh": "n. 父亲，爸爸；神父；祖先；前辈 vt. 发明，创立；当…的父亲",
+      "promptZh": "爸爸"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-4553dee862f05c9f",
+      "canonical": "get up",
+      "originalPromptZh": "na. 起床；起身；站起来；叫…起床",
+      "promptZh": "起床"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-575734937c7d334b",
+      "canonical": "visit one's grandparents",
+      "originalPromptZh": "无",
+      "promptZh": "看望祖父母或外祖父母"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-06610db40aeebf60",
+      "canonical": "go to a drawing club",
+      "originalPromptZh": "无",
+      "promptZh": "去绘画俱乐部"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-277d55af793fd9b6",
+      "canonical": "climb a hill",
+      "originalPromptZh": "无",
+      "promptZh": "爬小山"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-ca272e55b2d5c6a6",
+      "canonical": "pick fruit",
+      "originalPromptZh": "无",
+      "promptZh": "摘水果"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e9d5e0825b0dc38f",
+      "canonical": "play computer games",
+      "originalPromptZh": "玩电脑游戏；打电脑游戏；玩电子游戏",
+      "promptZh": "玩电脑游戏"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-12c0ca93c702e53a",
+      "canonical": "go fishing",
+      "originalPromptZh": "去钓鱼；垂钓；我以前常去钓鱼",
+      "promptZh": "去钓鱼"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-cf1cf57dcef5541d",
+      "canonical": "go to the cinema",
+      "originalPromptZh": "去看电影；去电影院；上电影院",
+      "promptZh": "去看电影"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d71f85b139dfc026",
+      "canonical": "on the weekend",
+      "originalPromptZh": "在周末；在这个周末；美式英语",
+      "promptZh": "在周末"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-00c4285274fcc5d6",
+      "canonical": "fun",
+      "originalPromptZh": "n. 乐趣；玩笑；有趣的人或事 adj. 供娱乐用的 vi. 开玩笑",
+      "promptZh": "乐趣"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-9cdc6c47aa193ae7",
+      "canonical": "always",
+      "originalPromptZh": "adv. 永远，一直；总是；常常",
+      "promptZh": "总是"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-3e64cc41cf8e07b4",
+      "canonical": "step",
+      "originalPromptZh": "n. 步，脚步；步骤；步伐；梯级 vt. 走，迈步 vi. 踏，踩；走",
+      "promptZh": "步"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-297e619db5ee855a",
+      "canonical": "paint",
+      "originalPromptZh": "vt. 油漆；绘画；装饰；涂色于；描绘；（用语言，文字等）描写；擦脂粉等 vi. 油漆；描绘；绘画；化妆 n. 油漆；颜料，涂料；绘画作品；胭脂等化妆品；色彩，装饰",
+      "promptZh": "用颜料画画"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e5bd0801d10e5965",
+      "canonical": "evening",
+      "originalPromptZh": "n. 晚上；傍晚；（联欢性的）晚会；后期 adj. 在晚上的；为晚上的；晚上用的 int. 晚上好（等于good evening）",
+      "promptZh": "晚上"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d0c92c764c5647d4",
+      "canonical": "dirty",
+      "originalPromptZh": "adj. 下流的，卑鄙的；肮脏的；恶劣的；暗淡的 vt. 弄脏 vi. 变脏",
+      "promptZh": "脏的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-fd963e4fd45949aa",
+      "canonical": "their",
+      "originalPromptZh": "pron. 他们的，她们的；它们的",
+      "promptZh": "他们的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d6e21286621a8586",
+      "canonical": "house",
+      "originalPromptZh": "n. 住宅；家庭；机构；议会；某种用途的建筑物 vt. 覆盖；给…房子住；把…储藏在房内 vi. 住",
+      "promptZh": "住宅"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-4e3795d05d9d3ed2",
+      "canonical": "poor",
+      "originalPromptZh": "adj. 贫穷的；可怜的；贫乏的；卑鄙的",
+      "promptZh": "贫穷的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-c29277f55fb31aeb",
+      "canonical": "hope",
+      "originalPromptZh": "n. 希望；期望；信心 vi. 希望；期待；信赖 vt. 希望；期望",
+      "promptZh": "希望"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-a1d9890884c1b4b9",
+      "canonical": "so",
+      "originalPromptZh": "conj. 所以；因此 adv. 如此，这么；确是如此 pron. 这样",
+      "promptZh": "所以"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-32f556c7248e9893",
+      "canonical": "Saturday",
+      "originalPromptZh": "n. 星期六",
+      "promptZh": "星期六"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-46ba34770bccfde7",
+      "canonical": "near",
+      "originalPromptZh": "adj. 近的；亲近的；近似的 adv. 近；接近 prep. 靠近；近似于",
+      "promptZh": "在……附近"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-944c27e5b97ab779",
+      "canonical": "day",
+      "originalPromptZh": "n. 一天；时期；白昼 adj. 日间的；逐日的 adv. 每天；经常在白天地",
+      "promptZh": "一天"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-ceb1e2514a1f1b45",
+      "canonical": "usually",
+      "originalPromptZh": "adv. 通常，经常",
+      "promptZh": "通常"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e72b8dbfc4ffe341",
+      "canonical": "by bus",
+      "originalPromptZh": "na. 乘公共汽车",
+      "promptZh": "乘公共汽车"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-513a4a7cf4f3f2e7",
+      "canonical": "by boat",
+      "originalPromptZh": "na. 乘船",
+      "promptZh": "乘船"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-0e82560915c48f82",
+      "canonical": "by ship",
+      "originalPromptZh": "乘船；乘轮船；坐轮船",
+      "promptZh": "乘船"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-bc559c55a26a00b8",
+      "canonical": "by car",
+      "originalPromptZh": "na. 乘电车；乘汽车",
+      "promptZh": "乘小汽车"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-1d1d30a8c2a4c1a6",
+      "canonical": "by taxi",
+      "originalPromptZh": "乘出租车；坐出租车；打的",
+      "promptZh": "乘出租车"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-0bad0c2aa6eb97c7",
+      "canonical": "by bike",
+      "originalPromptZh": "骑自行车；骑车；骑单车",
+      "promptZh": "骑自行车"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e984cac918a1a738",
+      "canonical": "on foot",
+      "originalPromptZh": "na. 步行；在进行中；徒步",
+      "promptZh": "步行"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e964eee1ac03ed64",
+      "canonical": "by school bus",
+      "originalPromptZh": "无",
+      "promptZh": "乘校车"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-603f32f02b82b377",
+      "canonical": "by subway",
+      "originalPromptZh": "乘地铁；坐地铁；乘坐地铁",
+      "promptZh": "乘地铁"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-db32b596de076827",
+      "canonical": "by plane",
+      "originalPromptZh": "adv. 乘飞机",
+      "promptZh": "乘飞机"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d98c68bd63b49fbc",
+      "canonical": "by train",
+      "originalPromptZh": "na. 坐火车",
+      "promptZh": "坐火车"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-23eeb69c681dfdb8",
+      "canonical": "garden",
+      "originalPromptZh": "n. 花园；菜园 vt. 栽培花木 vi. 从事园艺；在园中种植",
+      "promptZh": "花园"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-f344a3b445b56642",
+      "canonical": "meeting place",
+      "originalPromptZh": "n. 会场；聚集的地方",
+      "promptZh": "会场"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-c974e17b8e7321ce",
+      "canonical": "gate",
+      "originalPromptZh": "n. 大门；出入口；门道 vt. 给…装大门",
+      "promptZh": "大门"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-0b349c79e44d2b99",
+      "canonical": "transportation",
+      "originalPromptZh": "n. 运输；运输系统；运输工具；流放",
+      "promptZh": "交通方式"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d0607f7ad2628b2a",
+      "canonical": "film",
+      "originalPromptZh": "n. 电影；薄膜；胶卷；轻烟 vt. 在…上覆以薄膜；把…拍成电影 vi. 摄制电影；生薄膜；变得朦胧",
+      "promptZh": "电影"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-7b74b418a352d671",
+      "canonical": "earth",
+      "originalPromptZh": "n. 地球；地表，陆地；土地，土壤；尘事，俗事；兽穴 vt. 把（电线）[电] 接地；盖（土）；追赶入洞穴 vi. 躲进地洞",
+      "promptZh": "地球"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-a746222f09d85605",
+      "canonical": "snow",
+      "originalPromptZh": "n. 雪，积雪；下雪 vt. 使纷纷落下；使变白 vi. 降雪",
+      "promptZh": "雪"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d05c34e72352778b",
+      "canonical": "theatre",
+      "originalPromptZh": "n. 电影院，戏院；戏剧；阶梯式讲堂",
+      "promptZh": "电影院"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-9c19636ddea25f0a",
+      "canonical": "come",
+      "originalPromptZh": "vi. 来；开始；出现；发生；变成；到达 vt. 做；假装；将满（…岁） int. 嗨！",
+      "promptZh": "来"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-75fba329cb6ee890",
+      "canonical": "enjoy",
+      "originalPromptZh": "vt. 欣赏，享受；喜爱；使过得快活",
+      "promptZh": "欣赏"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-4d3971de62245c94",
+      "canonical": "park",
+      "originalPromptZh": "n. 公园；[交] 停车场 vt. 停放；放置；寄存 vi. 停放车辆",
+      "promptZh": "公园"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-3a7bd3e2360a3d29",
+      "canonical": "apple",
+      "originalPromptZh": "n. 苹果，苹果树，苹果似的东西；[美俚]炸弹，手榴弹，（棒球的）球；[美俚]人，家伙。",
+      "promptZh": "苹果"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e21a6b0cb193057e",
+      "canonical": "pen",
+      "originalPromptZh": "n. 钢笔；作家；围栏 vt. 写；关入栏中",
+      "promptZh": "钢笔"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-3d4d101cd7ea9e5e",
+      "canonical": "knife",
+      "originalPromptZh": "n. 刀；匕首 vt. 用刀切；（口）伤害 vi. 劈开；划过",
+      "promptZh": "刀"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-9010072f85ea5469",
+      "canonical": "eraser",
+      "originalPromptZh": "n. 橡皮；擦除器；[计] 清除器",
+      "promptZh": "橡皮"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d8b1858e24ae6176",
+      "canonical": "crayon",
+      "originalPromptZh": "n. 蜡笔，有色粉笔 vt. 以蜡笔作画，用颜色粉笔画",
+      "promptZh": "蜡笔"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-493a15e7bda88b07",
+      "canonical": "scissors",
+      "originalPromptZh": "n. 剪刀；剪式跳法 v. 剪开；删除（scissor的第三人称单数）",
+      "promptZh": "剪刀"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-5681cc29a1f4b3c1",
+      "canonical": "glue stick",
+      "originalPromptZh": "n. 胶棒",
+      "promptZh": "胶棒"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-382635c9325bf327",
+      "canonical": "paper",
+      "originalPromptZh": "n. 纸；论文；文件；报纸 adj. 纸做的 vt. 用纸糊；用纸包装 vi. 贴糊墙纸；发交通违章传票",
+      "promptZh": "纸"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-a3b142af6e97cfc3",
+      "canonical": "use",
+      "originalPromptZh": "n. 使用；用途；发挥 vt. 利用；耗费 vi. 使用，运用",
+      "promptZh": "使用"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-56ccc4dcfc96534b",
+      "canonical": "please",
+      "originalPromptZh": "int. 请（礼貌用语） vt. 使喜欢；使高兴，使满意 vi. 讨人喜欢；令人高兴",
+      "promptZh": "请"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e6640de835ad09fb",
+      "canonical": "find",
+      "originalPromptZh": "n. 发现 vi. 裁决 vt. 查找，找到；发现；认为；感到；获得",
+      "promptZh": "找到"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-f5022d14eac4a8d6",
+      "canonical": "Information Centre",
+      "originalPromptZh": "信息中心；资讯中心；情报中心",
+      "promptZh": "信息中心"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e3b4b8e99bda3a71",
+      "canonical": "Excuse me",
+      "originalPromptZh": "un. 请原谅；对不起",
+      "promptZh": "打扰一下"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-45569da57f4b7bf4",
+      "canonical": "phone",
+      "originalPromptZh": "n. 电话；耳机，听筒 vt. 打电话 vi. 打电话",
+      "promptZh": "电话"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-6fe8ecbc1deafa51",
+      "canonical": "dad",
+      "originalPromptZh": "n. 爸爸；爹爹",
+      "promptZh": "爸爸"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-cc86d865e47a25af",
+      "canonical": "hamburger",
+      "originalPromptZh": "n. 汉堡包，火腿汉堡；牛肉饼，肉饼；碎牛肉",
+      "promptZh": "汉堡包"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-5972814068a183e2",
+      "canonical": "ruler",
+      "originalPromptZh": "n. 尺；统治者；[测] 划线板，划线的人",
+      "promptZh": "尺子"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-13809668fb436386",
+      "canonical": "pencil",
+      "originalPromptZh": "n. 铅笔；笔状物 vt. 用铅笔写；用眉笔涂 vi. 成铅笔状",
+      "promptZh": "铅笔"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-ce213852297e1719",
+      "canonical": "schoolbag",
+      "originalPromptZh": "n. 书包",
+      "promptZh": "书包"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-8d9001d32c6a703d",
+      "canonical": "shop",
+      "originalPromptZh": "n. 商店；店铺 vt. 购物 vi. 购物；买东西",
+      "promptZh": "商店"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-91f377b2b1dd3ca5",
+      "canonical": "climb on the window ledge",
+      "originalPromptZh": "无",
+      "promptZh": "爬上窗台"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-7eaa968417c5dbde",
+      "canonical": "dangerous",
+      "originalPromptZh": "adj. 危险的 危险地",
+      "promptZh": "危险的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-9e8a9e94b62e8f2b",
+      "canonical": "play with fire",
+      "originalPromptZh": "na. 轻举妄动",
+      "promptZh": "玩火"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-c7982fcc455f0843",
+      "canonical": "Be careful!",
+      "originalPromptZh": "小心；当心；注意",
+      "promptZh": "小心"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-69cd8cd2475a09e3",
+      "canonical": "run down the stairs",
+      "originalPromptZh": "无",
+      "promptZh": "跑下楼梯"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-b6dce9d1302b80ab",
+      "canonical": "sidewalk",
+      "originalPromptZh": "n. 人行道",
+      "promptZh": "人行道"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-8dbb27d2dbab6ceb",
+      "canonical": "wait for",
+      "originalPromptZh": "na. 等；等待",
+      "promptZh": "等"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-8b3369944dd2a3fa",
+      "canonical": "safe",
+      "originalPromptZh": "n. 保险箱；冷藏室；纱橱 adj. 安全的；可靠的；平安的",
+      "promptZh": "安全的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-6c45cb72a36e63d5",
+      "canonical": "stop",
+      "originalPromptZh": "n. 停止；车站；障碍；逗留 vi. 停止；中止；逗留；被塞住 vt. 停止；堵塞；断绝",
+      "promptZh": "停止"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-6008c26f4452392a",
+      "canonical": "street",
+      "originalPromptZh": "n. 街道 adj. 街道的",
+      "promptZh": "街道  街道的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-ba4788b226aa8dc2",
+      "canonical": "green",
+      "originalPromptZh": "n. 绿色；青春 adj. 绿色的；青春的 vt. 使…变绿色 vi. 变绿色",
+      "promptZh": "绿色"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-b1f51a511f1da0cd",
+      "canonical": "red",
+      "originalPromptZh": "n. 红色，红颜料；赤字 adj. 红色的；红肿的，充血的",
+      "promptZh": "红色"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-c261153924ff080f",
+      "canonical": "play football",
+      "originalPromptZh": "na. 踢足球；对难办的事采取踢皮球的态度",
+      "promptZh": "踢足球"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-781e5116a1e14a34",
+      "canonical": "nurse",
+      "originalPromptZh": "vt. 看护，护理；照顾；培养；给…喂奶 vi. 照料，护理；喂奶；当保姆 n. 护士；奶妈，保姆",
+      "promptZh": "护士"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-03fb94180aa0ff2c",
+      "canonical": "cook",
+      "originalPromptZh": "n. 厨师，厨子 vt. 烹调，煮 vi. 烹调，做菜",
+      "promptZh": "厨师"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-72f4be89d6ebab14",
+      "canonical": "doctor",
+      "originalPromptZh": "vt. 修理；篡改，伪造；为…治病；授以博士学位 n. 医生；博士 vi. 就医；行医",
+      "promptZh": "医生"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-176026944785e9ea",
+      "canonical": "bus driver",
+      "originalPromptZh": "na. (公共汽车)驾驶员；〈俚〉轰炸机驾驶员",
+      "promptZh": "公交车司机"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-96eaff298ca28af1",
+      "canonical": "police officer",
+      "originalPromptZh": "n. 警官；警察；警务人员",
+      "promptZh": "警官"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-f4f3f81cae17ffa9",
+      "canonical": "taxi driver",
+      "originalPromptZh": "n. 计程车司机",
+      "promptZh": "出租车司机"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-51bf5502a7102c96",
+      "canonical": "farmer",
+      "originalPromptZh": "n. 农夫，农民",
+      "promptZh": "农民"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-87eba76e7f316453",
+      "canonical": "worker",
+      "originalPromptZh": "n. 工人；劳动者；职蚁",
+      "promptZh": "工人"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-ff0e77455f41ca6b",
+      "canonical": "in the future",
+      "originalPromptZh": "adv. 今后",
+      "promptZh": "今后"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-87765da6ccf06682",
+      "canonical": "great",
+      "originalPromptZh": "n. 大师；大人物；伟人们 adj. 伟大的，重大的；极好的，好的；主要的",
+      "promptZh": "很棒的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-5e8c9902207afaeb",
+      "canonical": "job",
+      "originalPromptZh": "n. 工作；职业 vt. 承包；代客买卖 vi. 做零工",
+      "promptZh": "工作"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-3b04837881bb07b6",
+      "canonical": "sick",
+      "originalPromptZh": "adj. 厌恶的；病态的；不舒服；渴望的；恶心的 ；生病的 n. 病人 vt. 使狗去咬；呕吐；追击",
+      "promptZh": "生病的"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-c9022680f888674e",
+      "canonical": "people",
+      "originalPromptZh": "n. 人；人类；民族；公民 vt. 居住于；使住满人",
+      "promptZh": "人们"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-eb0b4270edb36c1e",
+      "canonical": "teach",
+      "originalPromptZh": "vt. 教；教授；教导 vi. 教授；讲授；当老师",
+      "promptZh": "教"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-b2c66dfd45dd07f5",
+      "canonical": "just",
+      "originalPromptZh": "adv. 只是，仅仅；刚才，刚刚；正好，恰好；实在；刚要 adj. 公正的，合理的；正直的，正义的；正确的；公平的；应得的",
+      "promptZh": "只是"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e06e309b66b35433",
+      "canonical": "myself",
+      "originalPromptZh": "pron. 我自己；我亲自；我的正常的健康状况和正常情绪",
+      "promptZh": "我自己"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-dd29442deca69f52",
+      "canonical": "sound",
+      "originalPromptZh": "n. 声音，语音；噪音；海峡；吵闹；听力范围；[医] 探条 adj. 健全的，健康的；合理的；可靠的；有效彻底的 vt. 听（诊）；测量，测…深；使发声；试探；宣告 vi. 听起来；发出声音；回响；测深 adv. 彻底地，充分地",
+      "promptZh": "声音"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d618fb157a4b382e",
+      "canonical": "Monday",
+      "originalPromptZh": "n. 星期一",
+      "promptZh": "星期一"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-d78d1a3f3bcf22d7",
+      "canonical": "Tuesday",
+      "originalPromptZh": "n. 星期二",
+      "promptZh": "星期二"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-e86421cb8ca42871",
+      "canonical": "Wednesday",
+      "originalPromptZh": "n. 星期三",
+      "promptZh": "星期三"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-15cbfab2cca18f28",
+      "canonical": "Thursday",
+      "originalPromptZh": "n. 星期四",
+      "promptZh": "星期四"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-1a79668eac4051a9",
+      "canonical": "Friday",
+      "originalPromptZh": "n. 星期五",
+      "promptZh": "星期五"
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "itemId": "entry-1057a9604e04b274",
+      "canonical": "teacher",
+      "originalPromptZh": "n. 教师；导师",
+      "promptZh": "老师"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-f0b3e619501e3c96",
+      "canonical": "across from",
+      "originalPromptZh": "na. 在…的正对面",
+      "promptZh": "在…的正对面"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-b032a8abd93a9cb1",
+      "canonical": "next to",
+      "originalPromptZh": "prep. 紧邻；在…近旁；仅次于；紧接",
+      "promptZh": "紧邻"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-fbb27fbdc4f4dd04",
+      "canonical": "between",
+      "originalPromptZh": "prep. 在…之间 adv. 在中间",
+      "promptZh": "在……之间"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-ee275d64dafcd283",
+      "canonical": "restaurant",
+      "originalPromptZh": "n. 餐馆；[经] 饭店",
+      "promptZh": "餐馆"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-4b3baa4f4e5850ea",
+      "canonical": "post office",
+      "originalPromptZh": "n. 邮局；邮政部门；邮政系统；邮差敲门游戏（儿童用假托的信件换取亲吻）",
+      "promptZh": "邮局"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-4381dc2ab1428516",
+      "canonical": "bank",
+      "originalPromptZh": "n. 银行；岸；浅滩；储库 vt. 将…存入银行；倾斜转弯 vi. 堆积；倾斜转弯",
+      "promptZh": "银行"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-7aa5eb472a5562e3",
+      "canonical": "grocery",
+      "originalPromptZh": "n. 食品杂货店 食品杂货",
+      "promptZh": "食品杂货店 食品杂货"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-b5c6b0758264c7b7",
+      "canonical": "turn left",
+      "originalPromptZh": "un. 向左转",
+      "promptZh": "向左转"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-534e163330169be1",
+      "canonical": "turn right",
+      "originalPromptZh": "na. 转往右面",
+      "promptZh": "转往右面"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-d235e74ab6dd9030",
+      "canonical": "go straight",
+      "originalPromptZh": "na. 笔直走",
+      "promptZh": "笔直走"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-154b286bfed2bec5",
+      "canonical": "crossroads",
+      "originalPromptZh": "n. 十字路口；交叉路口；聚会的中心地点（crossroad的复数形式）",
+      "promptZh": "十字路口"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-d221bc0442edd1c2",
+      "canonical": "neighbourhood",
+      "originalPromptZh": "n. 邻近；周围；邻居关系；附近一带",
+      "promptZh": "街区"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-27ce1d1bf4270020",
+      "canonical": "send",
+      "originalPromptZh": "n. 上升运动 vi. 派人；寄信 vt. 发送，寄；派遣；使进入；发射",
+      "promptZh": "寄；发送"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-2998b3232d29e8dc",
+      "canonical": "get",
+      "originalPromptZh": "n. 生殖；幼兽 vi. 成为；变得；到达 vt. 使得；获得；受到；变成",
+      "promptZh": "得到"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-8d2ac8b58ead9744",
+      "canonical": "money",
+      "originalPromptZh": "n. 钱；货币；财富",
+      "promptZh": "钱"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-dc2a9e6da2f55adf",
+      "canonical": "get to",
+      "originalPromptZh": "na. 接触到；开始；〈美口〉收买",
+      "promptZh": "到达"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-6db7d803e74f1ffa",
+      "canonical": "before",
+      "originalPromptZh": "prep. 在…之前，先于 conj. 在…以前；在…之前 adv. 以前；在前",
+      "promptZh": "在…之前"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-af193190b8d3cd14",
+      "canonical": "leave",
+      "originalPromptZh": "vt. 离开；留下；遗忘；委托 vi. 离开，出发；留下 n. 许可，同意；休假",
+      "promptZh": "离开"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-0f53133ce57ca8e8",
+      "canonical": "toy",
+      "originalPromptZh": "n. 玩具；小装饰品；不值钱的东西 adj. 作为玩具的；玩物似的 vi. 玩弄；调情；随随便便地对待",
+      "promptZh": "玩具"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-8afe3c83decffdf6",
+      "canonical": "hospital",
+      "originalPromptZh": "n. 医院",
+      "promptZh": "医院"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-0299706ac912e1d4",
+      "canonical": "bookshop",
+      "originalPromptZh": "n. 书店",
+      "promptZh": "书店"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-d64debd942d7dc26",
+      "canonical": "school",
+      "originalPromptZh": "n. 学校；学院；学派；鱼群 vt. 教育",
+      "promptZh": "学校"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-16d1c76df24f2f30",
+      "canonical": "supermarket",
+      "originalPromptZh": "n. 超级市场；自助售货商店",
+      "promptZh": "超级市场"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-e9de08263f4ad491",
+      "canonical": "ball",
+      "originalPromptZh": "n. 球；舞会 vt. 捏成球形 vi. 成团块",
+      "promptZh": "球"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-11a62c23412b7747",
+      "canonical": "city",
+      "originalPromptZh": "n. 城市，都市 adj. 城市的；都会的",
+      "promptZh": "城市"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-6008c26f4452392a",
+      "canonical": "street",
+      "originalPromptZh": "n. 街道 adj. 街道的",
+      "promptZh": "街道  街道的"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-2e585de45a3d4283",
+      "canonical": "sports centre",
+      "originalPromptZh": "体育运动中心, 运动场",
+      "promptZh": "体育运动中心"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-8d53a3e3672946bd",
+      "canonical": "hotel",
+      "originalPromptZh": "n. 旅馆，饭店；客栈 vt. 使…在饭店下榻 vi. 进行旅馆式办公",
+      "promptZh": "旅馆"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-4ba3e8e3765f2970",
+      "canonical": "square",
+      "originalPromptZh": "n. 平方；广场；正方形 adj. 平方的；正方形的；直角的；正直的 vt. 使成方形；与…一致 vi. 一致；成方形 adv. 成直角地",
+      "promptZh": "平方"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-f35997b7c3b0a4a7",
+      "canonical": "buy toys",
+      "originalPromptZh": "无",
+      "promptZh": "买玩具"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-e316b528b8d4008b",
+      "canonical": "see a film",
+      "originalPromptZh": "看电影；去看电影；去电影院看电影",
+      "promptZh": "看电影"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-90281d2b6e096bb9",
+      "canonical": "go boating",
+      "originalPromptZh": "na. 乘船〔尤指划船〕游玩",
+      "promptZh": "乘船〔尤指划船〕游玩"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-c9bc072f4fa81894",
+      "canonical": "busy",
+      "originalPromptZh": "adj. 忙碌的；热闹的；正被占用的 vt. 使忙于",
+      "promptZh": "忙碌的"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-9b4ef3e5b7b4d175",
+      "canonical": "station",
+      "originalPromptZh": "n. 车站；驻地；地位；身份 vt. 配置；安置；驻扎",
+      "promptZh": "车站"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-81df63580cc9ff15",
+      "canonical": "place",
+      "originalPromptZh": "n. 地方；住所；座位 vt. 放置；任命；寄予 vi. 名列前茅；取得名次",
+      "promptZh": "地方"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-5de94d691ae3039a",
+      "canonical": "thing",
+      "originalPromptZh": "n. 事情；东西；事物；情况",
+      "promptZh": "事情"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-39be15289c7942a8",
+      "canonical": "stay",
+      "originalPromptZh": "n. 逗留；停止；支柱 vi. 停留；坚持；暂住；停下 vt. 坚持；暂住；抑制",
+      "promptZh": "逗留"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-525eca1d5089dbdc",
+      "canonical": "star",
+      "originalPromptZh": "n. 星，恒星；明星；星形物 adj. 明星的，主角的；星形的 vt. 用星号标于；由…主演，由…担任主角 vi. 担任主角",
+      "promptZh": "星"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-e81dfe69841ad2f7",
+      "canonical": "king",
+      "originalPromptZh": "n. 国王；最有势力者；王棋 vi. 统治；做国王 vt. 立…为王 adj. 主要的，最重要的，最大的",
+      "promptZh": "国王"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-8cb6279a8e1b12a9",
+      "canonical": "central",
+      "originalPromptZh": "n. 电话总机 adj. 中心的；主要的；中枢的",
+      "promptZh": "中心的"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-0f69f5e9568921d7",
+      "canonical": "take photos",
+      "originalPromptZh": "照相；拍照；拍照片",
+      "promptZh": "照相"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-4919063719e8c388",
+      "canonical": "museum",
+      "originalPromptZh": "n. 博物馆",
+      "promptZh": "博物馆"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-30fde358b34772de",
+      "canonical": "dream",
+      "originalPromptZh": "n. 梦想，愿望；梦 adj. 梦的；理想的；不切实际的 vt. 梦想；做梦；想到 vi. 梦想；做梦，梦见；想到",
+      "promptZh": "梦想"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-4a69f19c8c264850",
+      "canonical": "sea",
+      "originalPromptZh": "n. 海；海洋；许多；大量",
+      "promptZh": "海"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-cf659bd3fba074e3",
+      "canonical": "ski",
+      "originalPromptZh": "n. 滑雪橇 vi. 滑雪 adj. 滑雪（用）的",
+      "promptZh": "滑雪"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-63e85884eb680d28",
+      "canonical": "eat seafood",
+      "originalPromptZh": "无",
+      "promptZh": "吃海鲜"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-171d9370b2747840",
+      "canonical": "visit the Mogao Caves",
+      "originalPromptZh": "无",
+      "promptZh": "参观莫高窟"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-79a14564892b3df2",
+      "canonical": "West Lake",
+      "originalPromptZh": "西湖；杭州西湖；浙江杭州",
+      "promptZh": "西湖"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-be59c01bcfd9478b",
+      "canonical": "row a boat",
+      "originalPromptZh": "划船；摇船；划船最好用",
+      "promptZh": "划船"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-aba99999da63ffa9",
+      "canonical": "the Great Wall",
+      "originalPromptZh": "长城；万里长城；中国万里长城",
+      "promptZh": "长城"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-1ffd27eae56623a3",
+      "canonical": "summer vacation",
+      "originalPromptZh": "n. 暑假",
+      "promptZh": "暑假"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-0209442e115ad7bc",
+      "canonical": "travel",
+      "originalPromptZh": "n. 旅行；游历；漫游 vt. 经过；在…旅行 vi. 旅行；行进；步行；交往",
+      "promptZh": "旅行"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-d70afca615203838",
+      "canonical": "reading",
+      "originalPromptZh": "n. 阅读，朗读；读物；读数 v. 阅读（read的ing形式） adj. 阅读的",
+      "promptZh": "阅读"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-15af8950c8b0ec62",
+      "canonical": "skateboarding",
+      "originalPromptZh": "n. 滑板运动",
+      "promptZh": "滑板运动"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-d0112b0319f68c7a",
+      "canonical": "singing",
+      "originalPromptZh": "n. 歌唱；歌声；耳鸣；振鸣 v. 唱歌（sing的ing形式） adj. 唱歌的；音乐般的",
+      "promptZh": "歌唱"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-68d6641ff9421a6a",
+      "canonical": "dancing",
+      "originalPromptZh": "n. 跳舞；舞蹈 v. 跳舞；摇晃（dance的ing形式）",
+      "promptZh": "跳舞"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-4b448cc6032b061a",
+      "canonical": "doing jigsaw puzzles",
+      "originalPromptZh": "无",
+      "promptZh": "玩拼图（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-b84587fa1d52f2d7",
+      "canonical": "making models",
+      "originalPromptZh": "无",
+      "promptZh": "制作模型（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-21eba9262f4ea12e",
+      "canonical": "collecting erasers",
+      "originalPromptZh": "无",
+      "promptZh": "收集橡皮（正在进行）"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-9d6f965ac832e40a",
+      "canonical": "different",
+      "originalPromptZh": "adj. 不同的；个别的，与众不同的",
+      "promptZh": "不同的"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-0834a044f52ddbed",
+      "canonical": "hobby",
+      "originalPromptZh": "n. 嗜好；业余爱好",
+      "promptZh": "爱好"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-e0afcdbf6ad4adf5",
+      "canonical": "stamp",
+      "originalPromptZh": "n. 邮票；印记；标志；跺脚 vt. 铭记；标出；盖章于…；贴邮票于…；用脚踩踏 vi. 跺脚；捣碎；毁掉",
+      "promptZh": "邮票"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-9f925cdc4feedda4",
+      "canonical": "catch",
+      "originalPromptZh": "n. 捕捉；捕获物；窗钩 vt. 赶上；抓住；感染；了解 vi. 赶上；抓住",
+      "promptZh": "捕捉"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-4f55a18e57b877c2",
+      "canonical": "go for a picnic",
+      "originalPromptZh": "去野餐；去野炊；出去野炊",
+      "promptZh": "去野餐"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-a84a3ae08c90e4cb",
+      "canonical": "play the violin",
+      "originalPromptZh": "拉小提琴；弹小提琴；演奏小提琴",
+      "promptZh": "拉小提琴"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-3c55eb3a16128ebd",
+      "canonical": "go skating",
+      "originalPromptZh": "去滑冰；去溜冰；滑雪",
+      "promptZh": "去滑冰"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-44404281b2078fad",
+      "canonical": "go camping",
+      "originalPromptZh": "去野营；去露营；宿营",
+      "promptZh": "去野营"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-06b103ae17539e63",
+      "canonical": "do the housework",
+      "originalPromptZh": "做家务；做家务活；料理家务",
+      "promptZh": "做家务"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-6497e4b3d7bed169",
+      "canonical": "never",
+      "originalPromptZh": "adv. 从未；决不",
+      "promptZh": "从未"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-1fde216a9ded242e",
+      "canonical": "once a week",
+      "originalPromptZh": "一周一次；每周一次；一星期一次",
+      "promptZh": "一周一次"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-c492819c7dc9bb86",
+      "canonical": "twice a week",
+      "originalPromptZh": "一周两次；每周两次；一星期两次",
+      "promptZh": "一周两次"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-d808b781e5fa4cc8",
+      "canonical": "three times a week",
+      "originalPromptZh": "一周三次；每周三次；一星期三次",
+      "promptZh": "一周三次"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-408c7c5887a0f390",
+      "canonical": "Canada",
+      "originalPromptZh": "n. 加拿大（北美洲国家）",
+      "promptZh": "加拿大"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-c585f1decb986f7f",
+      "canonical": "Australia",
+      "originalPromptZh": "n. 澳大利亚，澳洲",
+      "promptZh": "澳大利亚"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-1847bd15086c7529",
+      "canonical": "the UK",
+      "originalPromptZh": "（等于the United Kingdom）英国",
+      "promptZh": "英国"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-d0d00d385669f31c",
+      "canonical": "the USA",
+      "originalPromptZh": "美国；美利坚合众国；现在我们有美国的大哥",
+      "promptZh": "美国"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-50c0152c2952082a",
+      "canonical": "China",
+      "originalPromptZh": "n. 中国 n. china，瓷器 adj. 中国的；中国制造的 adj. china，瓷制的",
+      "promptZh": "中国"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-c88cf9468f1701ff",
+      "canonical": "koala",
+      "originalPromptZh": "n. 树袋熊，无尾熊（产于澳大利亚，又名考拉）",
+      "promptZh": "树袋熊"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-b89d5bd78122711e",
+      "canonical": "maple leaves",
+      "originalPromptZh": "枫叶；枫树叶子；枫树留下",
+      "promptZh": "枫叶（复数）"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-d0253341b98083e6",
+      "canonical": "Big Ben",
+      "originalPromptZh": "n. 英国伦敦议会大厦顶的大钟, 美国得州西南部的国立大本德公园(Big Bend National Park)",
+      "promptZh": "大本钟"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-1588e50dc811a29c",
+      "canonical": "Disneyland",
+      "originalPromptZh": "n. 迪斯尼乐园；幻想世界",
+      "promptZh": "迪斯尼乐园"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-fa51a8398d307c5e",
+      "canonical": "campfire",
+      "originalPromptZh": "n. 营火；营火会",
+      "promptZh": "营火"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-17550e2bb9ff2c26",
+      "canonical": "cute",
+      "originalPromptZh": "adj. 可爱的；漂亮的；聪明的，伶俐的",
+      "promptZh": "可爱的"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-aff64e4fd520bd18",
+      "canonical": "country",
+      "originalPromptZh": "n. 国家，国土；国民；乡下，农村；乡村；故乡 adj. 祖国的，故乡的；地方的，乡村的；国家的；粗鲁的；乡村音乐的",
+      "promptZh": "国家"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-77049f6f8893dd97",
+      "canonical": "pretty",
+      "originalPromptZh": "n. 有吸引力的事物（尤指饰品）；漂亮的人 adj. 漂亮的；可爱的；优美的 adv. 相当地；颇",
+      "promptZh": "漂亮的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-0e895c323cc786e1",
+      "canonical": "clever",
+      "originalPromptZh": "adj. 聪明的；机灵的；熟练的 [ 比较级cleverer 最高级 cleverest ]",
+      "promptZh": "聪明的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-50ae1773ef826ed5",
+      "canonical": "careless",
+      "originalPromptZh": "adj. 粗心的；无忧无虑的；淡漠的",
+      "promptZh": "粗心的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-cad2a80df44e3abf",
+      "canonical": "polite",
+      "originalPromptZh": "adj. 有礼貌的，客气的；文雅的；上流的；优雅的",
+      "promptZh": "有礼貌的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-008f0747f4e27c84",
+      "canonical": "quiet",
+      "originalPromptZh": "n. 安静；和平 adj. 安静的；安定的；不动的；温顺的 vt. 使平息；安慰 vi. 平静下来",
+      "promptZh": "安静的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-17550e2bb9ff2c26",
+      "canonical": "cute",
+      "originalPromptZh": "adj. 可爱的；漂亮的；聪明的，伶俐的",
+      "promptZh": "可爱的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-4c448a406dcdf064",
+      "canonical": "friendly",
+      "originalPromptZh": "adj. 友好的；亲切的；支持的；融洽的，和睦的 adv. 友善地；温和地",
+      "promptZh": "友好的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-8678e47531eae3d2",
+      "canonical": "helpful",
+      "originalPromptZh": "adj. 有帮助的；有益的",
+      "promptZh": "有帮助的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-96879611650f80a8",
+      "canonical": "active",
+      "originalPromptZh": "n. 主动语态；积极分子 adj. 积极的；活跃的；主动的；有效的；现役的",
+      "promptZh": "活跃的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-2c810fd03484ce32",
+      "canonical": "popular",
+      "originalPromptZh": "adj. 流行的，通俗的；受欢迎的；大众的；普及的",
+      "promptZh": "受欢迎的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-ce7611e7481e75f0",
+      "canonical": "talk",
+      "originalPromptZh": "n. 谈话；演讲；空谈 vi. 谈话；说闲话 vt. 说；谈话；讨论",
+      "promptZh": "谈话"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-1d0fea39ec33ff75",
+      "canonical": "party",
+      "originalPromptZh": "n. 政党，党派；聚会，派对；当事人 [复数 parties] vi. 参加社交聚会 [ 过去式 partied 过去分词 partied 现在分词 partying ]",
+      "promptZh": "聚会（如生日聚会）"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-5ef5ef0364b6939c",
+      "canonical": "all",
+      "originalPromptZh": "n. 全部 adj. 全部的 adv. 全然地；越发 pron. 全部",
+      "promptZh": "全部"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-cdc29937887188ad",
+      "canonical": "but",
+      "originalPromptZh": "conj. 但是；而是；然而 adv. 仅仅，只 prep. 除…以外",
+      "promptZh": "但是"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-28e5c066055aeb3d",
+      "canonical": "sometimes",
+      "originalPromptZh": "adv. 有时，间或",
+      "promptZh": "有时"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-14ea6507645c2ba7",
+      "canonical": "bark",
+      "originalPromptZh": "n. 树皮；深青棕色；毛皮；皮肤；狗叫 vt. 狗叫；尖叫；剥皮",
+      "promptZh": "狗叫"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-babc1bd8ec812c74",
+      "canonical": "forget",
+      "originalPromptZh": "vi. 忘记 vt. 忘记；忽略",
+      "promptZh": "忘记"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-0695b563acde461f",
+      "canonical": "with",
+      "originalPromptZh": "prep. 用；随着；支持；和…在一起",
+      "promptZh": "和……一起"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-d8bdc23df257526a",
+      "canonical": "wear glasses",
+      "originalPromptZh": "戴眼镜；戴着眼镜；带着眼镜",
+      "promptZh": "戴眼镜"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-ebe4136fc8889cbf",
+      "canonical": "slim",
+      "originalPromptZh": "adj. 苗条的；修长的；微小的；差的 vt. 使…体重减轻；使…苗条 vi. 减轻体重；变细",
+      "promptZh": "苗条的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-6307fe494e121075",
+      "canonical": "curly",
+      "originalPromptZh": "adj. 卷曲的；卷毛的；（木材）有皱状纹理的；蜷缩的",
+      "promptZh": "卷曲的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-2a424875a8475a99",
+      "canonical": "straight",
+      "originalPromptZh": "n. 直；直线；直男，直女，异性恋者 adj. 直的；连续的；笔直的；正直的；整齐的；异性恋的 adv. 直接地；不断地；立即；坦率地",
+      "promptZh": "直"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-e186022d0931afe9",
+      "canonical": "nice",
+      "originalPromptZh": "adj. 精密的；美好的；细微的；和蔼的",
+      "promptZh": "友好的；美好的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-dbba921ce2051021",
+      "canonical": "young",
+      "originalPromptZh": "n. 年轻人；（动物的）崽，仔 adj. 年轻的；初期的；没有经验的",
+      "promptZh": "年轻的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-eb0b4270edb36c1e",
+      "canonical": "teach",
+      "originalPromptZh": "vt. 教；教授；教导 vi. 教授；讲授；当老师",
+      "promptZh": "教"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-f1abe1b083d12d18",
+      "canonical": "guess",
+      "originalPromptZh": "n. 猜测；推测 vi. 猜；推测；猜中 vt. 猜测；认为；推测；猜中 n. 盖尔斯（美国服装品牌）",
+      "promptZh": "猜测"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-9150c74c5f92d51a",
+      "canonical": "has",
+      "originalPromptZh": "v. 有，吃，得到，从事，允许，雇用，享有（have的第三人称单数）；（亲属关系中）接受；拿；买到",
+      "promptZh": "有"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-ab91a82d14cfc612",
+      "canonical": "animal",
+      "originalPromptZh": "n. 动物 动物的",
+      "promptZh": "动物"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-cd08c4c4316df20d",
+      "canonical": "elephant",
+      "originalPromptZh": "n. 象；大号图画纸",
+      "promptZh": "象"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-a7cdf5d0586b3924",
+      "canonical": "panda",
+      "originalPromptZh": "n. 熊猫；猫熊",
+      "promptZh": "熊猫"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-fd62862b6dc213be",
+      "canonical": "horse",
+      "originalPromptZh": "n. 马；骑兵；脚架；海洛因 vt. 使骑马；系马于；捉弄 vi. 骑马；作弄人",
+      "promptZh": "马"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-beb134754910a4b4",
+      "canonical": "cow",
+      "originalPromptZh": "n. 奶牛，母牛；母兽 vt. 威胁，恐吓",
+      "promptZh": "奶牛"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-f0b8c9d84dd2b877",
+      "canonical": "pig",
+      "originalPromptZh": "n. 猪；猪肉 vi. 生小猪；像猪一样过活 n. 警察（俚语，带有攻击性）",
+      "promptZh": "猪"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-5c599616ac500daa",
+      "canonical": "sheep",
+      "originalPromptZh": "n. 羊，绵羊；胆小鬼",
+      "promptZh": "羊"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-62cb81b5904a262f",
+      "canonical": "bee",
+      "originalPromptZh": "n. 蜜蜂，蜂；勤劳的人",
+      "promptZh": "蜜蜂"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-c8cf701f30ad11d3",
+      "canonical": "farm",
+      "originalPromptZh": "n. 农场；农家；畜牧场 vt. 养殖；耕种；佃出（土地） vi. 种田，务农；经营农场",
+      "promptZh": "农场"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-115dc3606fbf8691",
+      "canonical": "fast",
+      "originalPromptZh": "n. 斋戒；绝食 adj. 快速的，迅速的；紧的，稳固的 adv. 迅速地；紧紧地；彻底地 vi. 禁食，斋戒",
+      "promptZh": "快的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-2be23c585f15e5fd",
+      "canonical": "why",
+      "originalPromptZh": "int. 哎呀！什么？ adv. 为什么",
+      "promptZh": "为什么"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-f85b43067a280d4c",
+      "canonical": "lovely",
+      "originalPromptZh": "adj. 可爱的；令人愉快的；爱恋的；秀丽的，优美的 n. 美女；可爱的东西",
+      "promptZh": "可爱的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-fcfd075cbe367c15",
+      "canonical": "butterfly",
+      "originalPromptZh": "n. 蝴蝶；蝶泳；举止轻浮的人；追求享乐的人",
+      "promptZh": "蝴蝶"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-b9392747227378cf",
+      "canonical": "exercise book",
+      "originalPromptZh": "n. 练习本；练习册；作业本",
+      "promptZh": "练习本"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-8f3deff9022a0ec9",
+      "canonical": "pencil sharpener",
+      "originalPromptZh": "n. 卷笔刀",
+      "promptZh": "卷笔刀"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-28358a16ddfd2560",
+      "canonical": "a pair of scissors",
+      "originalPromptZh": "一把剪刀；一副剪刀；一双剪刀",
+      "promptZh": "一把剪刀"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-1e5544cb0fb667ef",
+      "canonical": "pencil box",
+      "originalPromptZh": "铅笔盒；文具盒；你的铅笔盒",
+      "promptZh": "铅笔盒"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-81a6897417110529",
+      "canonical": "a box of crayons",
+      "originalPromptZh": "无",
+      "promptZh": "一盒蜡笔"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-56ccc4dcfc96534b",
+      "canonical": "please",
+      "originalPromptZh": "int. 请（礼貌用语） vt. 使喜欢；使高兴，使满意 vi. 讨人喜欢；令人高兴",
+      "promptZh": "请"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-f905b19542ed08c9",
+      "canonical": "only",
+      "originalPromptZh": "adv. 只，仅仅；不料 adj. 唯一的，仅有的；最合适的 conj. 但是；不过；可是",
+      "promptZh": "只"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-bb8c8605c55dcc2d",
+      "canonical": "also",
+      "originalPromptZh": "conj. 并且；另外 adv. 也；而且；同样",
+      "promptZh": "也"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-1d898a074cb4fca3",
+      "canonical": "saleswoman",
+      "originalPromptZh": "n. [贸易] 女售货员；[贸易] 女店员",
+      "promptZh": "女售货员"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-87765da6ccf06682",
+      "canonical": "great",
+      "originalPromptZh": "n. 大师；大人物；伟人们 adj. 伟大的，重大的；极好的，好的；主要的",
+      "promptZh": "很棒的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-686f746a95b6f836",
+      "canonical": "love",
+      "originalPromptZh": "n. 恋爱；亲爱的；酷爱；喜爱的事物；爱情，爱意；疼爱；热爱；爱人，所爱之物 v. 爱，热爱；爱戴；赞美，称赞；喜爱；喜好；喜欢；爱慕",
+      "promptZh": "喜爱"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-6b6d33f066acb212",
+      "canonical": "how much",
+      "originalPromptZh": "conj. 多少",
+      "promptZh": "多少钱"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-cc421e18139f05a3",
+      "canonical": "a lot",
+      "originalPromptZh": "n. 许多 adv. 常",
+      "promptZh": "许多"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-ee04228c5c6d8b08",
+      "canonical": "wonderful",
+      "originalPromptZh": "adj. 极好的，精彩的，绝妙的；奇妙的；美妙；胜；神妙",
+      "promptZh": "极好的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-c34045c1a1db8d1b",
+      "canonical": "cool",
+      "originalPromptZh": "n. 凉爽；凉爽的空气 adj. 凉爽的；冷静的；出色的 vt. 使…冷却；使…平静下来 vi. 变凉；平息 adv. 冷静地",
+      "promptZh": "凉爽的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-659c6e8d11873dbc",
+      "canonical": "fantastic",
+      "originalPromptZh": "n. 古怪的人 adj. 奇异的；空想的；异想天开的；古怪的；极好的，极出色的；不可思议的；不切实际的",
+      "promptZh": "极好的"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-e4d50ba0983ea303",
+      "canonical": "cartoons",
+      "originalPromptZh": "n. 卡通动画；动漫图书（cartoon的复数） v. 画漫画（cartoon的三单形式）",
+      "promptZh": "动画片（复数）"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-3b8c3704cf687a1f",
+      "canonical": "nature shows",
+      "originalPromptZh": "无",
+      "promptZh": "自然类节目"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-87806434b1b04971",
+      "canonical": "chore",
+      "originalPromptZh": "n. 家庭杂务；日常的零星事务；讨厌的或累人的工作",
+      "promptZh": "家务"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-0cb530a717a02eed",
+      "canonical": "clean the room",
+      "originalPromptZh": "打扫房间；清扫房间；清洁房间",
+      "promptZh": "打扫房间"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-29cb2a4091853fda",
+      "canonical": "make the bed",
+      "originalPromptZh": "铺床；整理床铺；整理被物",
+      "promptZh": "铺床"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-508dee1f617ffa8d",
+      "canonical": "take out the rubbish",
+      "originalPromptZh": "无",
+      "promptZh": "倒垃圾"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-441ed75013cb8c66",
+      "canonical": "wash clothes",
+      "originalPromptZh": "洗衣服；爱洗衣服的小羊；清洗衣物",
+      "promptZh": "洗衣服"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-8560c1d0dd06ee07",
+      "canonical": "tidy the desk",
+      "originalPromptZh": "无",
+      "promptZh": "整理书桌"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-3e78b725dcd4fb3f",
+      "canonical": "sweep the floor",
+      "originalPromptZh": "扫地；清扫地板；打扫地板",
+      "promptZh": "扫地"
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "itemId": "entry-7edb360f06acaef2",
+      "canonical": "call",
+      "originalPromptZh": "n. 电话；呼叫；要求；访问 vi. 呼叫；拜访；叫牌 vt. 呼叫；称呼；召集",
+      "promptZh": "打电话"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-90659b3d90f643b6",
+      "canonical": "too much",
+      "originalPromptZh": "na. 太过份",
+      "promptZh": "太多"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-4d1608c849f1a496",
+      "canonical": "candy",
+      "originalPromptZh": "n. 糖果（等于sweets）；冰糖（等于sugar candy，rock candy）；毒品 adj. 新潮的（服饰）；甜言蜜语的 vt. 用糖煮；使结晶为砂糖；美化 vi. 糖煮；成为结晶",
+      "promptZh": "糖果"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-108b0bd76496457e",
+      "canonical": "go to bed",
+      "originalPromptZh": "na. 睡；同床；【印】付印",
+      "promptZh": "上床睡觉"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-f408830bcc7fab37",
+      "canonical": "early",
+      "originalPromptZh": "adj. 早期的；早熟的 adv. 提早；在初期",
+      "promptZh": "早的"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-f55101cb5e7453c7",
+      "canonical": "exercise",
+      "originalPromptZh": "n. 运动；练习；运用；操练；礼拜；典礼 vt. 锻炼；练习；使用；使忙碌；使惊恐 vi. 运动；练习",
+      "promptZh": "运动"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-c405760daf9bc32b",
+      "canonical": "tired",
+      "originalPromptZh": "v. 疲倦；对…腻烦（tire的过去分词形式） adj. 疲倦的；厌倦的，厌烦的",
+      "promptZh": "疲倦的"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-218ae6b44966c8a9",
+      "canonical": "drink",
+      "originalPromptZh": "n. 酒，饮料；喝酒 vt. 喝，饮；吸收；举杯庆贺 vi. 喝酒；饮水；干杯",
+      "promptZh": "喝"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-6db7d803e74f1ffa",
+      "canonical": "before",
+      "originalPromptZh": "prep. 在…之前，先于 conj. 在…以前；在…之前 adv. 以前；在前",
+      "promptZh": "在…之前"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-d0c92c764c5647d4",
+      "canonical": "dirty",
+      "originalPromptZh": "adj. 下流的，卑鄙的；肮脏的；恶劣的；暗淡的 vt. 弄脏 vi. 变脏",
+      "promptZh": "脏的"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-9cdc6c47aa193ae7",
+      "canonical": "always",
+      "originalPromptZh": "adv. 永远，一直；总是；常常",
+      "promptZh": "总是"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-f1962693b66c092a",
+      "canonical": "stomachache",
+      "originalPromptZh": "n. 腹痛，肚子痛；胃痛",
+      "promptZh": "腹痛"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-cfa9ac1e084975b5",
+      "canonical": "headache",
+      "originalPromptZh": "n. 头痛；麻烦；令人头痛之事",
+      "promptZh": "头痛"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-7153a86186dd04c0",
+      "canonical": "toothache",
+      "originalPromptZh": "n. [口腔] 牙痛",
+      "promptZh": "牙痛"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-f2f0174164005261",
+      "canonical": "a lot of",
+      "originalPromptZh": "det. 许多",
+      "promptZh": "许多"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-e74ca13b4c0a61dc",
+      "canonical": "sleepy",
+      "originalPromptZh": "adj. 欲睡的；困乏的；不活跃的",
+      "promptZh": "困的"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-a9491f4c1bf7b0cf",
+      "canonical": "subject",
+      "originalPromptZh": "n. 主题；科目；[语] 主语；国民 adj. 服从的；易患…的；受制于…的 vt. 使…隶属；使屈从于…",
+      "promptZh": "学科"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-6201eb4dccc956cc",
+      "canonical": "mark",
+      "originalPromptZh": "n. 标志；马克；符号；痕迹；分数 vi. 作记号 vt. .标志；做标记于；打分数 n. . 标志；做标记于；打分数",
+      "promptZh": "分数"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-02c97447687b4871",
+      "canonical": "advice",
+      "originalPromptZh": "n. 建议；忠告；劝告；通知",
+      "promptZh": "建议"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-187897ce0afcf20b",
+      "canonical": "more",
+      "originalPromptZh": "adv. 更多；此外；更大程度地 adj. 更多的；附加的 pron. 更多的数量 n. 更多",
+      "promptZh": "更多"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-417e39ea5a8eafe2",
+      "canonical": "New Year's Day",
+      "originalPromptZh": "na. 元旦",
+      "promptZh": "元旦"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-cb1a250385d9f3b6",
+      "canonical": "Tree Planting Day",
+      "originalPromptZh": "无",
+      "promptZh": "植树节"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-ec580ae2d2f77cc3",
+      "canonical": "Mother's Day",
+      "originalPromptZh": "na. (美国和加拿大的)母亲节",
+      "promptZh": "母亲节"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-f426e1ad648e5d5f",
+      "canonical": "Children's Day",
+      "originalPromptZh": "na. 儿童节",
+      "promptZh": "儿童节"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-1d5789ce4e52607a",
+      "canonical": "Father's Day",
+      "originalPromptZh": "na. 〈美〉父亲节(每年六月的第三个星期日)",
+      "promptZh": "父亲节"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-4cafb81f22133b5e",
+      "canonical": "Teachers' Day",
+      "originalPromptZh": "n. 教师节",
+      "promptZh": "教师节"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-1950f497b66444de",
+      "canonical": "National Day",
+      "originalPromptZh": "na. 国庆日",
+      "promptZh": "国庆日"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-07345448ce35d9bf",
+      "canonical": "Christmas Day",
+      "originalPromptZh": "n. 【宗,基督】圣诞节；圣诞节时期",
+      "promptZh": "圣诞节"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-0422d42c689b7e80",
+      "canonical": "birthday",
+      "originalPromptZh": "n. 生日，诞辰；诞生的日子",
+      "promptZh": "生日"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-1774b8eebdec58c5",
+      "canonical": "fifth",
+      "originalPromptZh": "num. 第五 n. 第五；五分之一 adj. 第五的；五分之一的",
+      "promptZh": "第五"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-a2dc69ccc8c948b1",
+      "canonical": "5th",
+      "originalPromptZh": "n. 第五（fifth）",
+      "promptZh": "第五（数字缩写形式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-f2d77eba1bf4519a",
+      "canonical": "tenth",
+      "originalPromptZh": "num. 第十；十分之一 adj. 十分之一的；第十个的",
+      "promptZh": "第十"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-3d303171e2763bc5",
+      "canonical": "10th",
+      "originalPromptZh": "无",
+      "promptZh": "第十（数字缩写形式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-a1355c284d1c2cc1",
+      "canonical": "twelfth",
+      "originalPromptZh": "n. 第十二；月的第十二日 adj. 第十二的，第十二个",
+      "promptZh": "第十二"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-4b90babc28938a69",
+      "canonical": "12th",
+      "originalPromptZh": "无",
+      "promptZh": "第十二（数字缩写形式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-5fffc9a409285b9b",
+      "canonical": "25th",
+      "originalPromptZh": "无",
+      "promptZh": "第二十五（数字缩写形式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-96044d9734b60441",
+      "canonical": "plant",
+      "originalPromptZh": "n. 工厂，车间；植物；设备；庄稼 vt. 种植；培养；栽培；安置 vi. 种植",
+      "promptZh": "种植"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-b926ab6368d9eabc",
+      "canonical": "make a poster",
+      "originalPromptZh": "制作海报；做海报；作一个海报",
+      "promptZh": "制作海报"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-9c457a4c48c5fe75",
+      "canonical": "celebrate",
+      "originalPromptZh": "vt. 庆祝；举行；赞美；祝贺；宣告 vi. 庆祝；过节；举行宗教仪式",
+      "promptZh": "庆祝"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-b80de74ea2b1482b",
+      "canonical": "have a picnic",
+      "originalPromptZh": "举行野餐；去野餐；吃野餐",
+      "promptZh": "野餐"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-5cc3f82838ba7260",
+      "canonical": "office",
+      "originalPromptZh": "n. 办公室；政府机关；官职；营业处",
+      "promptZh": "办公室"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-0c24734d7bf5954f",
+      "canonical": "together",
+      "originalPromptZh": "adj. 新潮的；情绪稳定的，做事有效率的 adv. 一起；同时；相互；连续地；总共",
+      "promptZh": "一起"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-7d4c5c8894e016e7",
+      "canonical": "special",
+      "originalPromptZh": "n. 特使，特派人员；特刊；特色菜；专车；特价商品 adj. 特别的；专门的，专用的",
+      "promptZh": "特别的"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-ff299e4a2466ea7c",
+      "canonical": "send an email",
+      "originalPromptZh": "无",
+      "promptZh": "发电子邮件"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-47cb4e29d4b7bfec",
+      "canonical": "write a letter",
+      "originalPromptZh": "na. 写信",
+      "promptZh": "写信"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-243720d18df4578b",
+      "canonical": "make a phone call",
+      "originalPromptZh": "打电话；打个电话；打电话号码",
+      "promptZh": "打电话"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-46ba3c6604f530fe",
+      "canonical": "send a short message",
+      "originalPromptZh": "无",
+      "promptZh": "发短信"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-bf05541ba799602d",
+      "canonical": "mail a present",
+      "originalPromptZh": "无",
+      "promptZh": "邮寄礼物"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-5242f9f060c60e54",
+      "canonical": "make a video call",
+      "originalPromptZh": "无",
+      "promptZh": "打视频电话"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-a0b967fc60136d2e",
+      "canonical": "say",
+      "originalPromptZh": "vt. 讲；说明；例如；声称；假设；指明 vi. 讲；表示；念；假定；背诵",
+      "promptZh": "讲"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-360ae8d1bc36a9ae",
+      "canonical": "make a card",
+      "originalPromptZh": "na. (牌戏)打成一墩",
+      "promptZh": "制作贺卡"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-11c209b437262b61",
+      "canonical": "everywhere",
+      "originalPromptZh": "n. 每个地方 adv. 到处",
+      "promptZh": "到处"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-e923fc707d92a0e2",
+      "canonical": "flower show",
+      "originalPromptZh": "na. 花卉展览",
+      "promptZh": "花卉展览"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-96be6b67a0154af7",
+      "canonical": "cleaned the window",
+      "originalPromptZh": "无",
+      "promptZh": "擦了窗户（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-62506ebf58927093",
+      "canonical": "watched TV",
+      "originalPromptZh": "无",
+      "promptZh": "看了电视（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-2d973091076a0ea7",
+      "canonical": "climbed a hill",
+      "originalPromptZh": "无",
+      "promptZh": "爬了小山（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-c1987cff5baed433",
+      "canonical": "visited grandparents",
+      "originalPromptZh": "无",
+      "promptZh": "看望了祖父母或外祖父母（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-e4f32b3beec6c568",
+      "canonical": "danced",
+      "originalPromptZh": "v. 跳舞( dance的过去式和过去分词 ); 手舞足蹈; 摇晃; 跳跃",
+      "promptZh": "跳了舞（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-1f085c2cbf07b5c8",
+      "canonical": "jumped rope",
+      "originalPromptZh": "跳绳游戏；跨越横线",
+      "promptZh": "跳了绳（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-6e74cd10a6421d48",
+      "canonical": "listened to music",
+      "originalPromptZh": "无",
+      "promptZh": "听了音乐（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-8963913c97e927dc",
+      "canonical": "rowed a boat",
+      "originalPromptZh": "无",
+      "promptZh": "划了船（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-c8cb4b664d1d5b74",
+      "canonical": "played computer games",
+      "originalPromptZh": "无",
+      "promptZh": "玩了电脑游戏（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-dd75bccb86f86e9c",
+      "canonical": "stayed at home",
+      "originalPromptZh": "无",
+      "promptZh": "待在家里（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-8d1f37680b61d879",
+      "canonical": "played the piano",
+      "originalPromptZh": "无",
+      "promptZh": "弹了钢琴（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-d24b87ff80e7f2c1",
+      "canonical": "played chess",
+      "originalPromptZh": "无",
+      "promptZh": "下了棋（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-bf911588ba210ddd",
+      "canonical": "washed clothes",
+      "originalPromptZh": "无",
+      "promptZh": "洗了衣服（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-f953f70b9132340e",
+      "canonical": "boring",
+      "originalPromptZh": "n. 钻孔 adj. 无聊的；令人厌烦的 v. 钻孔；使厌烦；挖空（bore的ing形式）",
+      "promptZh": "无聊的"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-99e1ff400202a2d6",
+      "canonical": "badminton",
+      "originalPromptZh": "n. 羽毛球",
+      "promptZh": "羽毛球"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-72ac68ec9bcdf7a8",
+      "canonical": "won",
+      "originalPromptZh": "vt. 赢得（win的过去式和过去分词）",
+      "promptZh": "赢了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-6d774a5808a526d3",
+      "canonical": "went to the beach",
+      "originalPromptZh": "无",
+      "promptZh": "去了海滩（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-931c29a60c49e90c",
+      "canonical": "drank cold drinks",
+      "originalPromptZh": "无",
+      "promptZh": "喝了冷饮（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-0a7aae69a25356b6",
+      "canonical": "swam",
+      "originalPromptZh": "v. 游泳（swim的过去式）",
+      "promptZh": "游了泳（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-e2a0a19000b0953f",
+      "canonical": "ate ice-cream",
+      "originalPromptZh": "无",
+      "promptZh": "吃了冰淇淋（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-51f42a3403ef7141",
+      "canonical": "the Stone Forest",
+      "originalPromptZh": "无",
+      "promptZh": "石林"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-eef0772b4c315b4d",
+      "canonical": "bought some gifts",
+      "originalPromptZh": "无",
+      "promptZh": "买了一些礼物（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-e85e0f41f69d77c3",
+      "canonical": "took photos",
+      "originalPromptZh": "无",
+      "promptZh": "拍了照片（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-a0c7e57aa2d7f75f",
+      "canonical": "saw flowers",
+      "originalPromptZh": "无",
+      "promptZh": "看见了花（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-fec75727dc4f6550",
+      "canonical": "slept",
+      "originalPromptZh": "v. 睡觉（sleep的过去式和过去分词）",
+      "promptZh": "睡了觉（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-3c29fc3464377a28",
+      "canonical": "delicious",
+      "originalPromptZh": "adj. 美味的；可口的",
+      "promptZh": "美味的"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-2be4faafaf2d51b2",
+      "canonical": "felt happy",
+      "originalPromptZh": "无",
+      "promptZh": "感到高兴（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-45c9a6614fccd4f9",
+      "canonical": "sad",
+      "originalPromptZh": "adj. 难过的；悲哀的，令人悲痛的；凄惨的，阴郁的（形容颜色）",
+      "promptZh": "难过的"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-fbeef318a1174982",
+      "canonical": "French fries",
+      "originalPromptZh": "n. 【食】炸薯条",
+      "promptZh": "炸薯条"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-910adfb424646393",
+      "canonical": "were",
+      "originalPromptZh": "v. 是，在（are的过去式）",
+      "promptZh": "是（过去式，用于复数主语或“你”）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-da92db1013a4583f",
+      "canonical": "was born",
+      "originalPromptZh": "出生；出生於；出生于",
+      "promptZh": "出生"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-c41d9874c90be741",
+      "canonical": "started to speak",
+      "originalPromptZh": "无",
+      "promptZh": "开始说话了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-885378c8681c0fcc",
+      "canonical": "learned to walk",
+      "originalPromptZh": "无",
+      "promptZh": "学会走路了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-27d03809ba71fc2d",
+      "canonical": "learned to ride a bike",
+      "originalPromptZh": "无",
+      "promptZh": "学会骑自行车了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-805689506a8297bb",
+      "canonical": "went to kindergarten",
+      "originalPromptZh": "无",
+      "promptZh": "去了幼儿园（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-cf803518667ff369",
+      "canonical": "went to school",
+      "originalPromptZh": "vbl.到校上课,开始求学",
+      "promptZh": "去上学了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-bf6a023bbba42dbf",
+      "canonical": "learned to swim",
+      "originalPromptZh": "无",
+      "promptZh": "学会游泳了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-4f4570e6f83ed802",
+      "canonical": "fifteenth",
+      "originalPromptZh": "adj. 第十五的；十五分之一的 num. 第十五",
+      "promptZh": "第十五"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-464b0c8c3c01e79c",
+      "canonical": "15th",
+      "originalPromptZh": "无",
+      "promptZh": "第十五（数字缩写形式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-8b8e2f1553d044f2",
+      "canonical": "started to buy things",
+      "originalPromptZh": "无",
+      "promptZh": "开始买东西了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-37617e4afef3898e",
+      "canonical": "started to study English",
+      "originalPromptZh": "无",
+      "promptZh": "开始学英语了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-be5c93c35c74cb05",
+      "canonical": "started to use a computer",
+      "originalPromptZh": "无",
+      "promptZh": "开始用电脑了（过去式）"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-8283d66f3fd2610a",
+      "canonical": "all over",
+      "originalPromptZh": "adj. 满 n. 全花织物",
+      "promptZh": "遍及；到处"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-6b847a0ed0b2c484",
+      "canonical": "into",
+      "originalPromptZh": "prep. 到…里；深入…之中；成为…状况；进入到…之内",
+      "promptZh": "到…里"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-473fec0ecb9339a1",
+      "canonical": "chopsticks",
+      "originalPromptZh": "n. 筷子",
+      "promptZh": "筷子"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-534c51e17770c9b7",
+      "canonical": "wet",
+      "originalPromptZh": "n. 雨天；湿气 adj. [气象][物] 潮湿的；有雨的 vt. 弄湿 vi. 变湿",
+      "promptZh": "湿的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-ec91339a4c056e31",
+      "canonical": "morning tea",
+      "originalPromptZh": "n. 早茶",
+      "promptZh": "早茶"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-9014fac8184d7ba9",
+      "canonical": "soup",
+      "originalPromptZh": "n. 汤，羹；马力 vt. 加速；增加马力",
+      "promptZh": "汤"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-23eeb69c681dfdb8",
+      "canonical": "garden",
+      "originalPromptZh": "n. 花园；菜园 vt. 栽培花木 vi. 从事园艺；在园中种植",
+      "promptZh": "花园"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-1df097bb9c50af68",
+      "canonical": "the Potala Palace",
+      "originalPromptZh": "布达拉宫；中国西藏布达拉宫",
+      "promptZh": "布达拉宫"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-adacd70e2bf86981",
+      "canonical": "the Summer Palace",
+      "originalPromptZh": "颐和园；颐和圆；之颐和园",
+      "promptZh": "颐和园"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-f71b6417fe069515",
+      "canonical": "the Terracotta Army",
+      "originalPromptZh": "无",
+      "promptZh": "兵马俑"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-1b24e0c17e952e4c",
+      "canonical": "vacation",
+      "originalPromptZh": "n. 假期；（房屋）搬出 vi. 休假，度假",
+      "promptZh": "假期"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-814e6bcc41679ddd",
+      "canonical": "taste",
+      "originalPromptZh": "n. 味道；品味；审美 vt. 尝；体验 vi. 尝起来；有…的味道",
+      "promptZh": "味道"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-60be9861750facbf",
+      "canonical": "map",
+      "originalPromptZh": "vt. 映射；计划；绘制地图；确定基因在染色体中的位置 n. 地图；示意图；染色体图 vi. 基因被安置",
+      "promptZh": "地图"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-dc365e79d41cfae1",
+      "canonical": "north",
+      "originalPromptZh": "n. 北，北方 adj. 北方的；朝北的 adv. 在北方，向北方",
+      "promptZh": "北"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-2daa8d4a05dfc643",
+      "canonical": "south",
+      "originalPromptZh": "n. 南方，南边；南部 adj. 南的，南方的 adv. 在南方，向南方",
+      "promptZh": "南方"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-6bdb262b0201799a",
+      "canonical": "east",
+      "originalPromptZh": "n. 东方；东风；东方国家 adj. 东方的；向东的；从东方来的 adv. 向东方，在东方",
+      "promptZh": "东方"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-76a796208b71779c",
+      "canonical": "west",
+      "originalPromptZh": "n. 西；西方；西部 adj. 西方的；朝西的 adv. 在西方；向西方；自西方",
+      "promptZh": "西"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-79b1bc81314de30f",
+      "canonical": "famous",
+      "originalPromptZh": "adj. 著名的；极好的，非常令人满意的",
+      "promptZh": "著名的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-67425801bf1a60fe",
+      "canonical": "temple",
+      "originalPromptZh": "n. 庙宇；寺院；神殿；太阳穴",
+      "promptZh": "庙宇"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-a4a00c840fc35599",
+      "canonical": "around",
+      "originalPromptZh": "prep. 四处；在…周围 adv. 大约；到处；在附近",
+      "promptZh": "四处"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-2df3b29b091a0b49",
+      "canonical": "the Yangtze River",
+      "originalPromptZh": "na. 长江",
+      "promptZh": "长江"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-22f44dee8d6e393f",
+      "canonical": "foggy",
+      "originalPromptZh": "adj. 有雾的；模糊的，朦胧的",
+      "promptZh": "有雾的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-2efa64f91736e51b",
+      "canonical": "spicy",
+      "originalPromptZh": "adj. 辛辣的；香的，多香料的；下流的",
+      "promptZh": "辛辣的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-f2c819b6790de306",
+      "canonical": "silk",
+      "originalPromptZh": "n. 丝绸；蚕丝；丝织物 adj. 丝的；丝绸的；丝制的 vi. （玉米）处于长须的阶段中",
+      "promptZh": "丝绸"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-619a2ccf126ce837",
+      "canonical": "forest",
+      "originalPromptZh": "n. 森林 vt. 植树于，使成为森林",
+      "promptZh": "森林  植树于"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-dc3d50da8dac041f",
+      "canonical": "stone",
+      "originalPromptZh": "n. 石头；结石；[宝] 宝石 adj. 石的，石制的 vt. 向扔石块；用石头铺",
+      "promptZh": "石头"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-6089854c94ca5454",
+      "canonical": "London",
+      "originalPromptZh": "n. 伦敦",
+      "promptZh": "伦敦"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-141256c5c1405ee3",
+      "canonical": "Toronto",
+      "originalPromptZh": "n. 多伦多（加拿大城市）",
+      "promptZh": "多伦多"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-e8032604447171cc",
+      "canonical": "Sydney",
+      "originalPromptZh": "n. 悉尼（澳大利亚港市）",
+      "promptZh": "悉尼"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-a1ed266754420498",
+      "canonical": "Washington D.C.",
+      "originalPromptZh": "华盛顿；华盛顿哥伦比亚特区；华盛顿特区",
+      "promptZh": "华盛顿"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-a47f30462a7c0739",
+      "canonical": "the British Museum",
+      "originalPromptZh": "大英博物馆；伦敦大英博物馆；不列颠博物馆",
+      "promptZh": "大英博物馆"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-f8233633243614b8",
+      "canonical": "the CN Tower",
+      "originalPromptZh": "无",
+      "promptZh": "加拿大国家电视塔"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-4a3484b3bf2fcb0f",
+      "canonical": "kangaroo",
+      "originalPromptZh": "n. 袋鼠",
+      "promptZh": "袋鼠"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-45e878deed7884ca",
+      "canonical": "the Opera House",
+      "originalPromptZh": "悉尼歌剧院；剧院及电影院；大剧院",
+      "promptZh": "悉尼歌剧院"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-000d03ca0e0737de",
+      "canonical": "the White House",
+      "originalPromptZh": "na. 白宫",
+      "promptZh": "白宫"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-d8198efa3604d164",
+      "canonical": "clock",
+      "originalPromptZh": "n. 时钟；计时器 vt. 记录；记时 vi. 打卡；记录时间",
+      "promptZh": "时钟"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-21e5205f73d9edbf",
+      "canonical": "speak",
+      "originalPromptZh": "vi. 说话；演讲；表明；陈述 vt. 讲话；发言；讲演",
+      "promptZh": "说话"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-fa649bb405c1fc60",
+      "canonical": "Tower Bridge",
+      "originalPromptZh": "n. 【旅】塔桥；【旅】伦敦塔桥",
+      "promptZh": "伦敦塔桥"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-8f875c2ac8cfd45e",
+      "canonical": "the London Eye",
+      "originalPromptZh": "伦敦眼；英航伦敦眼；英国伦敦眼",
+      "promptZh": "伦敦眼"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-fc31ac92775f34f0",
+      "canonical": "hiking",
+      "originalPromptZh": "n. 徒步旅行",
+      "promptZh": "徒步旅行"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-e9f2a0186210e30a",
+      "canonical": "sunrise",
+      "originalPromptZh": "n. 日出；黎明",
+      "promptZh": "日出"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-7a47d46e30a5efe7",
+      "canonical": "president",
+      "originalPromptZh": "n. 总统；董事长；校长；主席",
+      "promptZh": "总统"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-6a64551c19303783",
+      "canonical": "reptile",
+      "originalPromptZh": "n. 爬行动物；卑鄙的人 adj. 爬虫类的；卑鄙的",
+      "promptZh": "爬行动物"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-7a5179eecc0fe187",
+      "canonical": "bird",
+      "originalPromptZh": "n. 鸟；家伙；羽毛球 vt. 向…喝倒彩；起哄 vi. 猎鸟；观察研究野鸟",
+      "promptZh": "鸟"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-e645af8e0e4e3646",
+      "canonical": "mammal",
+      "originalPromptZh": "n. [脊椎] 哺乳动物",
+      "promptZh": "哺乳动物"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-db7304319ed7d941",
+      "canonical": "insect",
+      "originalPromptZh": "n. 昆虫；卑鄙的人",
+      "promptZh": "昆虫"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-0a4346f806b28b3c",
+      "canonical": "penguin",
+      "originalPromptZh": "n. 企鹅；空军地勤人员",
+      "promptZh": "企鹅"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-31fc15942b0c47f6",
+      "canonical": "shark",
+      "originalPromptZh": "n. 鲨鱼；骗子 vt. 敲诈 vi. 诈骗",
+      "promptZh": "鲨鱼"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-a5d2ae286d0d9e45",
+      "canonical": "whale",
+      "originalPromptZh": "n. 鲸；巨大的东西 vt. 猛揍；使惨败 vi. 捕鲸",
+      "promptZh": "鲸"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-b35ce4fd7c8fbe70",
+      "canonical": "metre",
+      "originalPromptZh": "n. 米；公尺；韵律",
+      "promptZh": "米"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-f64a33ff88c38111",
+      "canonical": "spend",
+      "originalPromptZh": "n. 预算 vt. 度过，消磨（时光）；花费；浪费；用尽 vi. 花钱；用尽，耗尽",
+      "promptZh": "花费（时间或钱）"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-5509840d0873adb0",
+      "canonical": "peanut",
+      "originalPromptZh": "n. 花生",
+      "promptZh": "花生"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-b50476d5b80f6351",
+      "canonical": "tusk",
+      "originalPromptZh": "n. 长牙；尖头，尖形物 vt. 以牙刺戳；以长牙掘",
+      "promptZh": "长牙（如象牙）"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-3f5053b3ae70794b",
+      "canonical": "Africa",
+      "originalPromptZh": "n. 非洲",
+      "promptZh": "非洲"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-ee139bd0fd941847",
+      "canonical": "Asia",
+      "originalPromptZh": "n. 亚洲",
+      "promptZh": "亚洲"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-544e2d6145f6ea1d",
+      "canonical": "smart",
+      "originalPromptZh": "adj. 聪明的；巧妙的；敏捷的；厉害的；潇洒的；剧烈的；时髦的",
+      "promptZh": "聪明的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-67f711e800796d61",
+      "canonical": "scared",
+      "originalPromptZh": "v. 使害怕（scare的过去分词） adj. 害怕的",
+      "promptZh": "害怕的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-13d9ead0ef6e1b24",
+      "canonical": "worried",
+      "originalPromptZh": "adj. 担心的",
+      "promptZh": "担心的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-0a96f1960786d85f",
+      "canonical": "angry",
+      "originalPromptZh": "adj. 生气的；愤怒的；狂暴的；（伤口等）发炎的",
+      "promptZh": "生气的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-d069c85283b98c2c",
+      "canonical": "proud",
+      "originalPromptZh": "adj. 自豪的；得意的；自负的",
+      "promptZh": "自豪的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-45c9a6614fccd4f9",
+      "canonical": "sad",
+      "originalPromptZh": "adj. 难过的；悲哀的，令人悲痛的；凄惨的，阴郁的（形容颜色）",
+      "promptZh": "难过的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-8d1c8a7a12c3739b",
+      "canonical": "excited",
+      "originalPromptZh": "v. 激动；唤起（excite的过去分词） adj. 兴奋的；激动的；活跃的",
+      "promptZh": "兴奋的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-489f719cadf91909",
+      "canonical": "happy",
+      "originalPromptZh": "adj. 幸福的；高兴的；巧妙的",
+      "promptZh": "高兴的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-c426a5fe614fcd11",
+      "canonical": "ill",
+      "originalPromptZh": "n. 疾病；不幸 adj. 生病的；坏的；邪恶的；不吉利的 adv. 不利地；恶劣地；几乎不",
+      "promptZh": "生病的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-823a3180dad3c9c3",
+      "canonical": "win",
+      "originalPromptZh": "n. 赢；胜利 vt. 赢得；在…中获胜；劝诱 vi. 赢；获胜；成功",
+      "promptZh": "赢"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-129ce50dd90bf244",
+      "canonical": "race",
+      "originalPromptZh": "n. 属，种；种族，人种；家庭，门第 vt. 使参加比赛；和…竞赛；使急走，使全速行进 vi. 比速度，参加竞赛；全速行进",
+      "promptZh": "赛跑"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-e6640de835ad09fb",
+      "canonical": "find",
+      "originalPromptZh": "n. 发现 vi. 裁决 vt. 查找，找到；发现；认为；感到；获得",
+      "promptZh": "找到"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-58a69b8bb1f5e666",
+      "canonical": "cry",
+      "originalPromptZh": "n. 叫喊；叫声；口号；呼叫 vi. 哭；叫；喊 vt. 叫喊；哭出；大声说",
+      "promptZh": "哭"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-a511aeeeb8a11993",
+      "canonical": "because",
+      "originalPromptZh": "conj. 因为",
+      "promptZh": "因为"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-9f86d081884c7d65",
+      "canonical": "test",
+      "originalPromptZh": "n. 试验；检验 vt. 试验；测试 vi. 试验；测试",
+      "promptZh": "测试"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-4721819b2bf3e332",
+      "canonical": "competition",
+      "originalPromptZh": "n. 竞争；比赛，竞赛",
+      "promptZh": "比赛"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-49002d515d1605d8",
+      "canonical": "hurt",
+      "originalPromptZh": "n. 痛苦；危害；痛苦的原因 vt. 使受伤；损害；使疼痛；使痛心 adj. 受伤的；痛苦的；受损的 vi. 感到疼痛；有坏处；带来痛苦",
+      "promptZh": "疼痛；受伤"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-78921cb5cc3ef08e",
+      "canonical": "inventor",
+      "originalPromptZh": "n. 发明家；[专利] 发明人；创造者",
+      "promptZh": "发明家"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-70b1e8e06785cae4",
+      "canonical": "artist",
+      "originalPromptZh": "n. 艺术家；美术家（尤指画家）；大师",
+      "promptZh": "艺术家"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-c2da2700b851b132",
+      "canonical": "scientist",
+      "originalPromptZh": "n. 科学家",
+      "promptZh": "科学家"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-7ccc804f5546ab8e",
+      "canonical": "poet",
+      "originalPromptZh": "n. 诗人",
+      "promptZh": "诗人"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-b93006774cbdd4b2",
+      "canonical": "writer",
+      "originalPromptZh": "n. 作家；作者",
+      "promptZh": "作家"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-e6deb10a6558650a",
+      "canonical": "American",
+      "originalPromptZh": "n. 美国人，美洲人；美国英语 adj. 美国的，美洲的；地道美国式的",
+      "promptZh": "美国人"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-4d6d9a0739a1144c",
+      "canonical": "Danish",
+      "originalPromptZh": "n. 丹麦语 adj. 丹麦的；丹麦人的；丹麦语（文）的",
+      "promptZh": "丹麦的；丹麦语"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-6449cf6fe83d25e3",
+      "canonical": "poem",
+      "originalPromptZh": "n. 诗",
+      "promptZh": "诗"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-297e619db5ee855a",
+      "canonical": "paint",
+      "originalPromptZh": "vt. 油漆；绘画；装饰；涂色于；描绘；（用语言，文字等）描写；擦脂粉等 vi. 油漆；描绘；绘画；化妆 n. 油漆；颜料，涂料；绘画作品；胭脂等化妆品；色彩，装饰",
+      "promptZh": "用颜料画画"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-5bebe4b948683362",
+      "canonical": "invention",
+      "originalPromptZh": "n. 发明；发明物；虚构；发明才能",
+      "promptZh": "发明"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-1e2f4f54c7a1c494",
+      "canonical": "invent",
+      "originalPromptZh": "vt. 发明；创造；虚构",
+      "promptZh": "发明"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-0c87ed818fb90f3f",
+      "canonical": "study",
+      "originalPromptZh": "n. 学习，研究；课题；书房；学问 vt. 学习；考虑；攻读；细察 vi. 研究；用功",
+      "promptZh": "书房"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-c478361e6869af25",
+      "canonical": "story",
+      "originalPromptZh": "n. 故事；小说；新闻报道；来历；假话 vt. 用历史故事画装饰 vi. 说谎",
+      "promptZh": "故事"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-adba6c0ec8a8d89e",
+      "canonical": "university",
+      "originalPromptZh": "n. 大学；综合性大学；大学校舍",
+      "promptZh": "大学"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-820effb874a485bf",
+      "canonical": "deaf",
+      "originalPromptZh": "adj. 聋的",
+      "promptZh": "聋的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-e5b84c89f624a40c",
+      "canonical": "blind",
+      "originalPromptZh": "n. 掩饰，借口；百叶窗 adj. 盲目的；瞎的 vt. 使失明；使失去理智 adv. 盲目地；看不见地",
+      "promptZh": "失明的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-32e382dfb93f0f3f",
+      "canonical": "dumpling",
+      "originalPromptZh": "n. 饺子，汤团；面团布丁",
+      "promptZh": "饺子"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-3538e47e9fc6d251",
+      "canonical": "ice lantern",
+      "originalPromptZh": "无",
+      "promptZh": "冰灯"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-4311902217ad5aa4",
+      "canonical": "bring",
+      "originalPromptZh": "vt. 带来；促使；引起；使某人处于某种情况或境地",
+      "promptZh": "带来"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-3373d1b3fe61a77a",
+      "canonical": "be afraid of",
+      "originalPromptZh": "na. 怕",
+      "promptZh": "害怕"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-49000c4444d51233",
+      "canonical": "hear",
+      "originalPromptZh": "vi. 听；听见 vt. 听到，听；听说；审理",
+      "promptZh": "听见"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-82a988600efa0a72",
+      "canonical": "pen pal",
+      "originalPromptZh": "abbr. (=pen-friend) n. 笔友",
+      "promptZh": "笔友"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-f526795c95399cea",
+      "canonical": "broken",
+      "originalPromptZh": "v. 折断；打碎；损坏（break的过去分词） adj. 破碎的；坏掉的",
+      "promptZh": "坏掉的"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-8c0706c0a8dcb82c",
+      "canonical": "pity",
+      "originalPromptZh": "n. 怜悯，同情；遗憾 vt. 对……表示怜悯；对……感到同情",
+      "promptZh": "遗憾"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-72a7a4f82e487ef3",
+      "canonical": "prize",
+      "originalPromptZh": "n. 奖品；奖赏；战利品 adj. 获奖的 vt. 珍视；捕获；估价",
+      "promptZh": "奖品"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-1761f2dffb987352",
+      "canonical": "look forward to",
+      "originalPromptZh": "na. 盼望",
+      "promptZh": "盼望；期待"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-247610f4dedd4ab7",
+      "canonical": "live",
+      "originalPromptZh": "adj. 活的；生动的；实况转播的；精力充沛的 vt. 经历；度过 vi. 活；居住；生存",
+      "promptZh": "居住"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-9a3058157de8b004",
+      "canonical": "quite",
+      "originalPromptZh": "adv. 很；相当；完全",
+      "promptZh": "很"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-b4a8d31d8a110812",
+      "canonical": "scarf",
+      "originalPromptZh": "n. 围巾；嵌接，嵌接处；头巾领巾 vt. 披嵌接；用围巾围",
+      "promptZh": "围巾"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-ccc9ff052aee8da1",
+      "canonical": "airport",
+      "originalPromptZh": "n. 机场；航空站",
+      "promptZh": "机场"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-074f37062561f4fa",
+      "canonical": "pupil",
+      "originalPromptZh": "n. 学生；[解剖] 瞳孔；未成年人",
+      "promptZh": "学生"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-6dc09a300747b82d",
+      "canonical": "arrive",
+      "originalPromptZh": "vi. 到达；成功；达成；出生",
+      "promptZh": "到达"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-8ccb033c0e48b27f",
+      "canonical": "meet",
+      "originalPromptZh": "vt. 满足；遇见；对付 vi. 相遇；接触 n. 集会 adj. 合适的；适宜的",
+      "promptZh": "遇见"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-7d4b47cf84bb52b6",
+      "canonical": "wardrobe",
+      "originalPromptZh": "n. 衣柜；行头；全部戏装",
+      "promptZh": "衣柜"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-519e52cff8b7affb",
+      "canonical": "show ... around",
+      "originalPromptZh": "v. 带…参观",
+      "promptZh": "带…参观"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-083e37d455b04524",
+      "canonical": "Queen's Park",
+      "originalPromptZh": "皇后公园；女王公园；女王公园酒店",
+      "promptZh": "皇后公园"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-0139638a5463a2c1",
+      "canonical": "art gallery",
+      "originalPromptZh": "n. 美术馆；艺术展览馆",
+      "promptZh": "美术馆"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-09490d2fb3b65749",
+      "canonical": "public library",
+      "originalPromptZh": "na. 公立[公共]图书馆",
+      "promptZh": "公共图书馆"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-308301fb06e9ac28",
+      "canonical": "downtown",
+      "originalPromptZh": "n. 市中心区；三分线以外 adj. 市中心的 adv. 往闹市区；在市区",
+      "promptZh": "市中心区"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-184d486a3cc7fb56",
+      "canonical": "Lake Ontario",
+      "originalPromptZh": "n. 安大略湖",
+      "promptZh": "安大略湖"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-dafc4889ee011aab",
+      "canonical": "stadium",
+      "originalPromptZh": "n. 体育场；露天大型运动场",
+      "promptZh": "体育场"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-dcbb0f3cafb30402",
+      "canonical": "volunteer",
+      "originalPromptZh": "n. 志愿者；志愿兵 adj. 志愿的 vt. 自愿 vi. 自愿",
+      "promptZh": "志愿者"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-8f5c570f55dd7921",
+      "canonical": "sandwich",
+      "originalPromptZh": "n. 三明治；夹心面包 vt. 夹入；挤进；把...做成三明治",
+      "promptZh": "三明治"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-28720365c5e7476a",
+      "canonical": "top",
+      "originalPromptZh": "n. 顶部，顶端；上部；首席；陀螺 adj. 最高的，顶上的；头等的 vt. 超越，超过；给…加盖；达到…的顶端 vi. 高出，超越；结束；达到顶点",
+      "promptZh": "顶部"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-09aee23b1fd4f638",
+      "canonical": "habit",
+      "originalPromptZh": "n. 习惯，习性；嗜好 vt. 使穿衣",
+      "promptZh": "习惯"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-ae0a9ad3227c5420",
+      "canonical": "idea",
+      "originalPromptZh": "n. 想法；主意；概念",
+      "promptZh": "想法"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-4fdd3b6201a22c78",
+      "canonical": "less",
+      "originalPromptZh": "adv. 较少地；较小地；更小地 adj. 较少的；较小的 prep. 减去 n. 较少；较小",
+      "promptZh": "更少"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-e9213756a2e67dcb",
+      "canonical": "at least",
+      "originalPromptZh": "na. 至少",
+      "promptZh": "至少"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-227fb86dfc738efb",
+      "canonical": "talk about",
+      "originalPromptZh": "na. 讲(某事)",
+      "promptZh": "谈论"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-0c24734d7bf5954f",
+      "canonical": "together",
+      "originalPromptZh": "adj. 新潮的；情绪稳定的，做事有效率的 adv. 一起；同时；相互；连续地；总共",
+      "promptZh": "一起"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-7d4c5c8894e016e7",
+      "canonical": "special",
+      "originalPromptZh": "n. 特使，特派人员；特刊；特色菜；专车；特价商品 adj. 特别的；专门的，专用的",
+      "promptZh": "特别的"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-71da248c60491347",
+      "canonical": "beaver",
+      "originalPromptZh": "n. 海狸；海狸皮毛",
+      "promptZh": "海狸"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-715c0446492292bd",
+      "canonical": "raccoon",
+      "originalPromptZh": "n. 浣熊；浣熊毛皮",
+      "promptZh": "浣熊"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-182072537ada59e4",
+      "canonical": "moose",
+      "originalPromptZh": "n. [脊椎] 驼鹿；麋 [ 复数 moose ]",
+      "promptZh": "驼鹿"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-8f2f4a9cec450912",
+      "canonical": "countryside",
+      "originalPromptZh": "n. 农村，乡下；乡下的全体居民",
+      "promptZh": "农村"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-4d902c691086ef4e",
+      "canonical": "Thanksgiving",
+      "originalPromptZh": "n. 感恩",
+      "promptZh": "感恩节"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-02604f33185047c9",
+      "canonical": "roast turkey",
+      "originalPromptZh": "n. 【食】烤火鸡",
+      "promptZh": "烤火鸡"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-960a38ace75a2fe9",
+      "canonical": "squirrel",
+      "originalPromptZh": "n. 松鼠；松鼠毛皮 vt. 贮藏",
+      "promptZh": "松鼠"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-6856daebb0115b3b",
+      "canonical": "swan",
+      "originalPromptZh": "n. 天鹅；天鹅星座 vi. 游荡，闲荡",
+      "promptZh": "天鹅"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-747399dec0307236",
+      "canonical": "wild goose",
+      "originalPromptZh": "na. 【鸟】雁",
+      "promptZh": "雁"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-74fa5327cc0f4e94",
+      "canonical": "frog",
+      "originalPromptZh": "n. 青蛙；[铁路] 辙叉；饰扣 vi. 捕蛙",
+      "promptZh": "青蛙"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-c0ad2e7f7eb18aba",
+      "canonical": "English-Chinese dictionary",
+      "originalPromptZh": "英汉字典；辞典；氏英字典",
+      "promptZh": "英汉字典"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-8e27caa260575594",
+      "canonical": "shopping centre",
+      "originalPromptZh": "n. 购物中心（集中一批商店，有时在同一建筑物内）",
+      "promptZh": "购物中心"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-31a390b2336f7e02",
+      "canonical": "shopping mall",
+      "originalPromptZh": "un. 商业区林荫路",
+      "promptZh": "购物商场"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-01431b46f1839c1e",
+      "canonical": "amazing",
+      "originalPromptZh": "adj. 令人惊异的 v. 使吃惊（amaze的ing形式）",
+      "promptZh": "令人惊叹的"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-7cb2cc9f45c4ab52",
+      "canonical": "hot pot",
+      "originalPromptZh": "na. 〈英〉马铃薯炖牛[羊]肉",
+      "promptZh": "火锅"
+    }
+  ],
+  "pending": [
+    {
+      "packId": "pep-start1-g1-first",
+      "itemId": "entry-1b4c9133da73a711",
+      "canonical": "orange",
+      "promptZh": "adj. 橙色的；橘色的 n. 橙；橙色；桔子",
+      "reason": "需区分水果和颜色。"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-99a7026172d42714",
+      "canonical": "light",
+      "promptZh": "n. 光；光线；灯；打火机；领悟；浅色；天窗 adj. 轻的；浅色的；明亮的；轻松的；容易的；清淡的 vi. 点着；变亮；着火 vt. 照亮；点燃；着火 adv. 轻地；清楚地；轻便地",
+      "reason": "需区分“灯”“光”和“轻的”。"
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "itemId": "entry-b474a99a2705e23c",
+      "canonical": "fish",
+      "promptZh": "n. 鱼，鱼类 vt. 钓鱼，捕鱼；搜寻 vi. 捕鱼，钓鱼；用钩捞取",
+      "reason": "需区分动物、食物或动词。"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-f9b0078b5df596d2",
+      "canonical": "short",
+      "promptZh": "n. 短；缺乏；短路；短裤 adj. 短的；不足的；矮的，低的 adv. 不足；突然；唐突地",
+      "reason": "需区分“矮的”和“短的”。"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-663ea1bfffe5038f",
+      "canonical": "to",
+      "promptZh": "prep. 到；向；（表示时间、方向）朝…方向 adv. 向前；（门等）关上",
+      "reason": "介词或不定式标记需原句确认。"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-94c05f1c45a1d1a9",
+      "canonical": "too",
+      "promptZh": "adv. 太；也；很；还；非常；过度",
+      "reason": "需区分“也”和“太”。"
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "itemId": "entry-10c22bcf4c768b51",
+      "canonical": "for",
+      "promptZh": "prep. 为，为了；因为；给；对于；至于；适合于 conj. 因为",
+      "reason": "介词含义依赖原句。"
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "itemId": "entry-b1d6b91b67c2afa5",
+      "canonical": "at",
+      "promptZh": "prep. 在（表示存在或出现的地点、场所、位置、空间）；以（某种价格、速度等）；向；达；因为；朝；忙于 n. 阿特（老挝货币基本单位att）；[化]砹（极不稳定放射性元素） abbr. 密封的（airtight）；气温（air temperature）",
+      "reason": "介词含义依赖原句。"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-cba06b5736faf67e",
+      "canonical": "old",
+      "promptZh": "adj. 陈旧的，古老的；年老的 n. 古时",
+      "reason": "需区分“年老的”和“旧的”。"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-244e3ecf2caf6cd9",
+      "canonical": "the matter",
+      "promptZh": "有问题，有毛病",
+      "reason": "短语片段，需要原句确认含义。"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-761b7ad8ad439b28",
+      "canonical": "summary",
+      "promptZh": "n. 概要，摘要，总结 adj. 简易的；扼要的",
+      "reason": "需确认是否误将章节标题导入词条。"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-34c5ac5923489f2e",
+      "canonical": "ice-cream",
+      "promptZh": "a. 冰淇淋的, 乳白色的",
+      "reason": "原释义为形容词，需确认教材中的目标词义。"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-10c22bcf4c768b51",
+      "canonical": "for",
+      "promptZh": "prep. 为，为了；因为；给；对于；至于；适合于 conj. 因为",
+      "reason": "介词含义依赖原句。"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-b474a99a2705e23c",
+      "canonical": "fish",
+      "promptZh": "n. 鱼，鱼类 vt. 钓鱼，捕鱼；搜寻 vi. 捕鱼，钓鱼；用钩捞取",
+      "reason": "需区分动物、食物或动词。"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-f9b0078b5df596d2",
+      "canonical": "short",
+      "promptZh": "n. 短；缺乏；短路；短裤 adj. 短的；不足的；矮的，低的 adv. 不足；突然；唐突地",
+      "reason": "需区分“矮的”和“短的”。"
+    },
+    {
+      "packId": "pep-start1-g3-first",
+      "itemId": "entry-ee4d988c65de860f",
+      "canonical": "May",
+      "promptZh": "aux. 可以，能够；可能，也许；祝，愿；会，能",
+      "reason": "月份序列支持“五月”，但原释义为情态动词，需教材确认。"
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "itemId": "entry-99a7026172d42714",
+      "canonical": "light",
+      "promptZh": "n. 光；光线；灯；打火机；领悟；浅色；天窗 adj. 轻的；浅色的；明亮的；轻松的；容易的；清淡的 vi. 点着；变亮；着火 vt. 照亮；点燃；着火 adv. 轻地；清楚地；轻便地",
+      "reason": "需区分“灯”“光”和“轻的”。"
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "itemId": "entry-ad95d5fa651ba86d",
+      "canonical": "free",
+      "promptZh": "adj. 免费的；自由的，不受约束的；[化学] 游离的 vt. 使自由，解放；释放 adv. 自由地；免费",
+      "reason": "需区分“空闲的”“免费的”和“自由的”。"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-360f84035942243c",
+      "canonical": "left",
+      "promptZh": "adj. 左边的；左派的；剩下的 adv. 在左面 n. 左边；左派；激进分子 v. 离开（leave的过去式）",
+      "reason": "需区分“左边”和“离开”的过去式。"
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "itemId": "entry-a5a21861848babbf",
+      "canonical": "out of",
+      "promptZh": "prep. 来自；离开",
+      "reason": "短语含义依赖原句。"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-21bb36ad06385b1c",
+      "canonical": "French",
+      "promptZh": "n. 法国人；法语 adj. 法国的；法语的；法国人的",
+      "reason": "需区分“法语”和“法国的”。"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-b474a99a2705e23c",
+      "canonical": "fish",
+      "promptZh": "n. 鱼，鱼类 vt. 钓鱼，捕鱼；搜寻 vi. 捕鱼，钓鱼；用钩捞取",
+      "reason": "需区分动物、食物或动词。"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-0b27c158feb36ab1",
+      "canonical": "kind",
+      "promptZh": "n. 种类；性质 adj. 和蔼的；宽容的；令人感激的",
+      "reason": "需区分“种类”和“和蔼的”。"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-3e341d2d9c67be01",
+      "canonical": "trunk",
+      "promptZh": "n. 树干；躯干；象鼻；汽车车尾的行李箱 adj. 干线的；躯干的；箱子的 vt. 把…放入旅行箱内",
+      "reason": "需区分“树干”和“象鼻”。"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-e29a7f31cac05abc",
+      "canonical": "fan",
+      "promptZh": "n. 迷；风扇；爱好者 vt. 煽动；刺激；吹拂 vi. 成扇形散开；飘动",
+      "reason": "需区分“风扇”和“爱好者”。"
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "itemId": "entry-2dc46af1b78c32df",
+      "canonical": "fall",
+      "promptZh": "n. 下降；秋天；瀑布 adj. 秋天的 vi. 落下；变成；来临；减弱 vt. 砍倒；击倒",
+      "reason": "需区分“落下”和“秋天”。"
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "itemId": "entry-308738b8195da46d",
+      "canonical": "hockey",
+      "promptZh": "n. 曲棍球；冰球",
+      "reason": "需区分曲棍球与冰球。"
+    }
+  ]
+}

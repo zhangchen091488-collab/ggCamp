@@ -1,0 +1,113 @@
+{
+  "commit": "8c3252b584fcd471ca4ace5e3c8f5caa945720f6",
+  "files": 268,
+  "js": 66,
+  "json": 25,
+  "externalApis": [],
+  "dynamicExecution": [],
+  "sensitiveFiles": [],
+  "storageProbes": [
+    {
+      "name": "malformed English session",
+      "status": "throws",
+      "error": "TypeError: Cannot read properties of undefined (reading 'packId')"
+    },
+    {
+      "name": "non-object English namespace",
+      "status": "accepted without immediate exception"
+    },
+    {
+      "name": "malformed history record",
+      "status": "throws",
+      "error": "TypeError: Cannot read properties of null (reading 'mode')"
+    }
+  ],
+  "checks": [
+    "Android/iOS vConsole closed; Android optional network/Bluetooth/scanner/xweb disabled; media enabled.",
+    "Collection debug denies unknown and release hosts even with residual debug storage.",
+    "Math practice rejects prototype/inherited/unknown skill IDs.",
+    "English content selection allowlisted; UI draft formatted to answer capacity.",
+    "Storage read failure blocks overwriting original save.",
+    "Bundled MIT/character restriction text exactly matches root LICENSE."
+  ],
+  "contents": [
+    {
+      "packId": "pep-start1-g3-first",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 102
+    },
+    {
+      "packId": "pep-start1-g3-second",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 84
+    },
+    {
+      "packId": "pep-start1-g1-first",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 53
+    },
+    {
+      "packId": "pep-start1-g1-second",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 45
+    },
+    {
+      "packId": "pep-start1-g2-first",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 54
+    },
+    {
+      "packId": "pep-start1-g2-second",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 55
+    },
+    {
+      "packId": "pep-start1-g4-first",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 116
+    },
+    {
+      "packId": "pep-start1-g4-second",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 86
+    },
+    {
+      "packId": "pep-start1-g5-first",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 66
+    },
+    {
+      "packId": "pep-start1-g5-second",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 101
+    },
+    {
+      "packId": "pep-start1-g6-first",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 100
+    },
+    {
+      "packId": "pep-start1-g6-second",
+      "status": "draft",
+      "usage": "reference-only",
+      "items": 41
+    },
+    {
+      "packId": "demo-english-g3",
+      "status": "draft",
+      "usage": "publishable",
+      "items": 12
+    }
+  ]
+}

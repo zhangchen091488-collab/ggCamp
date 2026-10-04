@@ -38,6 +38,22 @@
       {
         "value": "project.private.config.json",
         "type": "file"
+      },
+      {
+        "type": "folder",
+        "value": "docs"
+      },
+      {
+        "type": "folder",
+        "value": "tests"
+      },
+      {
+        "type": "folder",
+        "value": "tools"
+      },
+      {
+        "type": "file",
+        "value": "AGENTS.md"
       }
     ],
     "include": []
