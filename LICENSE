@@ -55,3 +55,18 @@ Exceptions to the MIT License
 
    The fonts in app/fonts/ (Dela Gothic One, Zen Maru Gothic) are licensed under
    the SIL Open Font License 1.1. See the OFL-*.txt files in that directory.
+
+3. 瓜瓜、年年角色形象（二次开发必须替换）
+
+   上述 MIT 许可证不适用于本项目中“瓜瓜”和“年年”的角色形象及其
+   视觉素材，包括角色设计稿、人物图集、头像、角色图片、包含角色的
+   应用图标，以及由这些形象制作的装扮、动画画面和其他视觉衍生素材。
+   本项目不通过 MIT 许可证授予这些角色形象的使用许可。
+
+   使用本项目进行二次开发时，无论商业或非商业用途，均不得使用
+   “瓜瓜”和“年年”的形象，必须将相关视觉素材替换为自行制作或
+   已取得适当使用授权的其他形象。仅改色、改名、调整尺寸、变换格式
+   或添加背景，不视为完成形象替换。
+
+   此限制针对角色形象及相关视觉素材，不改变通用程序代码的 MIT
+   授权，也不改变上游角色、名称、Logo 或字体的既有许可条款。
