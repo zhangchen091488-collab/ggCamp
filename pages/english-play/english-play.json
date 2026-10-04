@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "英语默写",
+  "usingComponents": {
+    "show-stage": "../../components/show-stage/show-stage",
+    "scene-background": "../../components/scene-background/scene-background",
+    "celebration": "../../components/celebration/celebration"
+  }
+}

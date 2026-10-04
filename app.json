@@ -7,10 +7,13 @@
     "pages/trophy/trophy",
     "pages/collection/collection",
     "pages/calendar/calendar",
-    "pages/settings/settings"
+    "pages/settings/settings",
+    "pages/english-home/english-home",
+    "pages/english-play/english-play",
+    "pages/english-result/english-result"
   ],
   "window": {
-    "navigationBarTitleText": "瓜瓜计算营",
+    "navigationBarTitleText": "瓜瓜训练营",
     "navigationBarBackgroundColor": "#fff9ee",
     "navigationBarTextStyle": "black",
     "backgroundColor": "#fff9ee"

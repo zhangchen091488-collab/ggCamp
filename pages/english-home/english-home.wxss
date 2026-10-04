@@ -1,0 +1,3 @@
+.english-home {position:relative;background-image:none;z-index:1;}
+.card {padding:24rpx;background:#fff;border:4rpx solid #20234f;border-radius:28rpx;box-shadow:0 7rpx #20234f;margin-bottom:28rpx;}
+.title {font-size:32rpx;font-weight:800;margin-bottom:16rpx;}.choices {display:flex;gap:16rpx;margin:24rpx 0;}.choices button {flex:1;font-size:28rpx;padding:18rpx 10rpx;}.note {margin-top:34rpx;line-height:1.7;}

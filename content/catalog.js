@@ -1,0 +1,2 @@
+// Generated from catalog.json. Do not edit.
+module.exports = [require('./pep-start1-g3-first.js'), require('./pep-start1-g3-second.js'), require('./pep-start1-g1-first.js'), require('./pep-start1-g1-second.js'), require('./pep-start1-g2-first.js'), require('./pep-start1-g2-second.js'), require('./pep-start1-g4-first.js'), require('./pep-start1-g4-second.js'), require('./pep-start1-g5-first.js'), require('./pep-start1-g5-second.js'), require('./pep-start1-g6-first.js'), require('./pep-start1-g6-second.js'), require('./english-demo.js')];

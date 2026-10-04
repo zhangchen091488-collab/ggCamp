@@ -27,21 +27,22 @@
   },
   "description": "中文算术练习小程序原型",
   "simulatorPluginLibVersion": {
-    "wxext14566970e7e9f62": "2.27.3"
+    "wxext14566970e7e9f62": "3.6.5-41"
   },
   "packOptions": {
     "ignore": [
       {
-        "type": "file",
-        "value": "README.md"
+        "value": "README.md",
+        "type": "file"
       },
       {
-        "type": "file",
-        "value": "project.private.config.json"
+        "value": "project.private.config.json",
+        "type": "file"
       }
     ],
     "include": []
   },
   "editorSetting": {},
-  "projectArchitecture": "multiPlatform"
+  "projectArchitecture": "multiPlatform",
+  "simulatorType": "wechat"
 }

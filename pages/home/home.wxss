@@ -7,3 +7,16 @@
 .guide-overlay { position: fixed; inset: 0; z-index: 99; }.guide-shade { position: absolute; inset:0; background:#101637c2; }.guide-hole { position: fixed; box-sizing: border-box; border: 5rpx solid #ffd23f; border-radius: 28rpx; box-shadow: 0 0 0 3000rpx #101637c2; }.guide-actor { position: fixed; z-index: 2; }.guide-moving { animation: guide-bob 2s ease-in-out infinite; }@keyframes guide-bob { 50% { transform: translateY(-6rpx); } }.guide-skip { position: absolute; top: 18rpx; right: 20rpx; padding: 12rpx 22rpx; font-size: 24rpx; z-index: 5; background:#fff9ee; }.guide-card { text-align:center; position: fixed; box-sizing: border-box; z-index: 4; padding: 26rpx; background:#fff9ee; border:5rpx solid #20234f; border-radius: 32rpx; box-shadow:0 9rpx #20234f; }.guide-title { font-size: 34rpx; font-weight: 900; }.guide-text { font-size: 27rpx; line-height: 1.55; margin-top: 12rpx; white-space: pre-line; }.inline-help { width: 40rpx; height: 40rpx; vertical-align: middle; margin-left: 10rpx; }.guide-dots { display: flex; justify-content: center; gap: 12rpx; margin: 22rpx 0; }.guide-dots view { width: 14rpx; height: 14rpx; border:3rpx solid #20234f; background:#fff; border-radius:50%; }.guide-dots .current { background:#ed75a8; transform:scale(1.2); }.guide-actions { display: flex; gap: 18rpx; }.guide-actions button { flex: 1; padding: 15rpx 12rpx; font-size: 28rpx; }.recommend { position:absolute; top:-34rpx; left:4rpx; background:#ffd23f; color:#20234f; padding:4rpx 16rpx; border:3rpx solid #20234f; border-radius: 12rpx; font-size: 21rpx; font-weight:900; transform:rotate(-7deg); }
 
 .guide-actions .primary { background:#3b6bff; color:#fff; }
+
+
+
+.subject-switch {width:80rpx;min-height:66rpx;padding:9rpx 0;font-size:24rpx;border-radius:22rpx;background:#fff0ab;line-height:1.3;}.subject-switch text {display:block;font-size:20rpx;}.english-choice {width:calc((100% - 12rpx) / 2);font-size:30rpx;padding:18rpx;}.selected-kind {background:#fff0ab;border-color:#4169ff;}
+
+.english-options { margin-top:20rpx;display:flex;flex-direction:column;gap:16rpx; }.english-option-row {display:flex;gap:12rpx;}.english-option-row button {flex:1;font-size:26rpx;padding:12rpx;border-radius:23rpx;box-shadow:0 5rpx #20234f;}
+
+.home-action-row {display:flex;align-items:stretch;gap:12rpx;height:144rpx;margin-bottom:24rpx;}
+.home-action-side {flex:0 0 88rpx;min-width:0;display:flex;align-items:stretch;}
+.home-action-row .level {flex:1;min-width:0;width:auto;height:144rpx;box-sizing:border-box;margin:0;padding:8rpx 10rpx;font-size:29rpx;display:flex;flex-direction:column;justify-content:center;}
+.home-action-row .button-note {font-size:18rpx;line-height:1.4;margin-top:6rpx;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.home-action-side .resume,.home-action-side .review {width:100%;height:144rpx;margin:0;padding:8rpx 4rpx;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:25rpx;line-height:1.4;border-radius:22rpx;box-sizing:border-box;}
+.home-action-side .counter {display:block;font-size:27rpx;}

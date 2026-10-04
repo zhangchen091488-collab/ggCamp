@@ -1,0 +1,28 @@
+.english-play {position:relative;background-image:none;z-index:1;padding:24rpx 20rpx 44rpx;}.progress {font-size:28rpx;font-weight:800;}
+.card {background:#fff;border:4rpx solid #20234f;box-shadow:0 9rpx #20234f;border-radius:32rpx;padding:28rpx 22rpx;margin-bottom:28rpx;}.tag {color:#4169ff;font-size:26rpx;font-weight:800;}.prompt {font-size:40rpx;font-weight:800;margin:24rpx 0;}.canonical {font-size:48rpx;color:#4169ff;font-weight:800;margin:28rpx 0;}.card button {margin-top:24rpx;}.answer {border:4rpx dashed #4169ff;background:#edf2ff;border-radius:20rpx;min-height:68rpx;white-space:pre-wrap;word-break:break-all;padding:20rpx 12rpx;font-size:38rpx;line-height:1.5;}.caret {color:#4169ff;}.feedback {font-size:26rpx;line-height:1.5;margin:20rpx 0;color:#b2376f;}.differences {font-size:32rpx;white-space:pre-wrap;margin:16rpx 0;}.edit-replace,.edit-remove,.edit-insert {background:#ffd0e5;color:#a22760;border-bottom:3rpx solid #a22760;}.pause-shade {position:fixed;inset:0;z-index:100;background:#20234f88;display:flex;align-items:center;padding:32rpx;}.pause-shade .card {width:100%;}
+
+.answer-cells {display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10rpx;min-height:76rpx;margin:24rpx 0;}
+.letter-cell {box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:52rpx;height:66rpx;border:3rpx solid #20234f;border-radius:12rpx;background:#fff9ee;box-shadow:0 4rpx #20234f;font-size:36rpx;font-weight:800;line-height:1;}
+.active-cell {border-color:#4169ff;box-shadow:0 4rpx #4169ff;background:#edf2ff;}.hint-cell {color:#4169ff;background:#edf2ff;border-style:dashed;}
+.word-space {width:20rpx;border:0;box-shadow:none;background:transparent;}.word-space.active-cell {border-bottom:3rpx solid #4169ff;}
+
+.phonetics {display:flex;flex-wrap:wrap;gap:12rpx 24rpx;color:#565a79;font-size:26rpx;line-height:1.5;margin:0 0 20rpx;}
+
+/* All letter keys share the first row's ten-key width. */
+.key-row {display:flex;justify-content:center;gap:6rpx;margin:14rpx 0;}
+.key-row button {box-sizing:border-box;flex:0 0 calc(10% - 5.4rpx);width:calc(10% - 5.4rpx);min-width:0;height:78rpx;display:flex;align-items:center;justify-content:center;padding:0;font-size:40rpx;line-height:1;border-width:3rpx;border-radius:14rpx;box-shadow:0 5rpx #20234f;}
+.key-row .modifier-key {flex:1;width:auto;font-size:40rpx;background:#edf2ff;}
+.key-row .shift-on {color:#fff;background:#4169ff;}
+.punctuation-row {justify-content:flex-start;}
+.key-row .submit-key {flex:1;width:auto;font-size:28rpx;}
+.card-heading {display:flex;align-items:center;justify-content:space-between;gap:12rpx;min-height:60rpx;}
+.answer-tools {display:flex;gap:12rpx;flex-shrink:0;}
+.card .symbol-button {box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:60rpx;height:60rpx;margin:0;padding:0;border:3rpx solid #4169ff;border-radius:50%;box-shadow:0 3rpx #4169ff;color:#4169ff;background:#edf2ff;line-height:1;}
+.hint-button {font-size:36rpx;font-weight:800;}
+.eye-icon {box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:32rpx;height:22rpx;border:3rpx solid #4169ff;border-radius:50%;}
+.eye-pupil {width:10rpx;height:10rpx;border-radius:50%;background:#4169ff;}
+
+.shift-icon {position:relative;width:36rpx;height:34rpx;color:inherit;}
+.shift-chevron {position:absolute;left:9rpx;top:5rpx;box-sizing:border-box;width:18rpx;height:18rpx;border-top:4rpx solid currentColor;border-left:4rpx solid currentColor;transform:rotate(45deg);}
+.shift-bar {position:absolute;left:6rpx;bottom:1rpx;width:24rpx;height:4rpx;border-radius:1rpx;background:currentColor;}
+.backspace-icon {width:48rpx;height:36rpx;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2036%22%3E%3Cpath%20d%3D%22M17%205H43V31H17L5%2018Z%22%20fill%3D%22none%22%20stroke%3D%22%2320234f%22%20stroke-width%3D%223.5%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M23%2012L35%2024M35%2012L23%2024%22%20fill%3D%22none%22%20stroke%3D%22%2320234f%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-position:center;background-size:contain;}

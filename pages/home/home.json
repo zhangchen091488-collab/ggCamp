@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "瓜瓜计算营",
+  "navigationBarTitleText": "瓜瓜训练营",
   "usingComponents": {
     "show-stage": "/components/show-stage/show-stage",
     "quest-list": "/components/quest-list/quest-list",
