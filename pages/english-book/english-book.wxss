@@ -1,0 +1,30 @@
+@import '../tree/tree.wxss';
+.book-page { padding-bottom: 32px; }
+.book-title { margin: 8px 0; font-weight: 700; }
+.kind-row, .book-tools, .unit-actions { display: flex; gap: 8px; margin: 12px 0; flex-wrap: wrap; }
+.kind-row button, .book-tools button, .unit-actions button { flex: 1; min-width: 100px; margin: 0; font-size: 14px; }
+.route-hint { margin: 18px 0; }
+.graph { margin: 0 auto; }
+.unit-lane { left: 0; width: 184px; }
+.node { margin: 0; white-space: normal; }
+.node.active { outline: 2px solid #4169ff; outline-offset: 2px; }
+.node-title { height: 28px; line-height: 14px; overflow: hidden; }
+.node-progress { font-size: 10px; color: #565a79; margin-top: 2px; }
+.panel-mask { position: fixed; inset: 0; z-index: 30; background: #0006; display: flex; align-items: flex-end; }
+.book-panel { width: 100%; height: 78vh; max-height: 650px; background: #fffdf7; border: 4rpx solid #20234f; border-radius: 24rpx 24rpx 0 0; margin: 0; padding: 0; display: flex; flex-direction: column; padding-bottom: env(safe-area-inset-bottom); box-sizing: border-box; }
+.panel-header { display: flex; align-items: center; gap: 12px; padding: 18px 16px 10px; }
+.panel-header .heading { flex: 1; font-size: 19px; }
+.close-button { margin: 0; font-size: 13px; padding: 4px 12px; flex-shrink: 0; }
+.panel-body { flex: 1; min-height: 0; height: 0; padding: 8px 16px 24px; box-sizing: border-box; }
+.detail-progress { font-size: 23px; font-weight: 700; margin: 20px 0 8px; }
+.mastery-note, .panel-note { margin: 16px 0; line-height: 1.6; }
+.word-list { margin-top: 12px; }
+.word-row { display: flex; flex-direction: column; align-items: flex-start; text-align: left; background: #fffdf6; padding: 10px; margin: 6px 0; line-height: 1.5; box-shadow: none; }
+.english, .card-english { overflow-wrap: anywhere; word-break: normal; }
+.meaning { font-size: 13px; color: #706352; }
+.selection-row { text-align: left; white-space: normal; font-size: 15px; line-height: 1.5; margin: 8px 0; }
+.multi-actions { padding: 16px 0; }
+.multi-actions button { margin-top: 10px; }
+.study-card { margin-top: 14px; background: #fff0ab; border: 2px solid #20234f; border-radius: 18px; padding: 14px; }
+.card-english { font-size: 24px; font-weight: 700; margin: 12px 0; }
+.content-note { margin-top: 16px; line-height: 1.6; }

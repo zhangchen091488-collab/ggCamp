@@ -39,6 +39,7 @@ addItems([
 // Rewards follow effort and coming back (plays, days, streaks, stars earned by
 // practice), not the placement check, which can master many skills at once.
 addItems([
+  { id: 'costume:cat', cat: 'costume', name: '猫咪套装', trophy: 'days-10' },
   { id: 'costume:cap', cat: 'costume', name: '帽子', trophy: 'days-1' },
   { id: 'particle:note', cat: 'particle', name: '音符', trophy: 'days-3' },
   { id: 'mark:stamp', cat: 'mark', name: '答对印章', trophy: 'plays-3' },

@@ -1,0 +1,1458 @@
+{
+  "packId": "tianyuan-g3-first",
+  "date": "2026-10-07",
+  "note": "用户图片转录候选，中文标点及英文弯撇号规范化；完整句子保留但不作为首期默写目标。",
+  "units": [
+    {
+      "unitId": "u01",
+      "source": "English/田园/三上/unit1.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "学校",
+          "sourceEn": "school",
+          "targetItemIds": [
+            "ty-d64debd942d7dc26"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "同班同学",
+          "sourceEn": "classmate",
+          "targetItemIds": [
+            "ty-66f9b98dde76ccba"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "教师；老师",
+          "sourceEn": "teacher",
+          "targetItemIds": [
+            "ty-1057a9604e04b274"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "参加体育运动",
+          "sourceEn": "play sports",
+          "targetItemIds": [
+            "ty-694c808e3b24e473"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "阅读新书",
+          "sourceEn": "read new books",
+          "targetItemIds": [
+            "ty-bc5448e5d26b5810"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "努力学习",
+          "sourceEn": "study hard",
+          "targetItemIds": [
+            "ty-e6a73455e68ae3fd"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "尽情玩耍",
+          "sourceEn": "play hard",
+          "targetItemIds": [
+            "ty-23b3828ec73c778d"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "结交新朋友",
+          "sourceEn": "make new friends",
+          "targetItemIds": [
+            "ty-95cd18624040b990"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "制作一个目标树叶",
+          "sourceEn": "make a goal leaf",
+          "targetItemIds": [
+            "ty-c7eb74715072f286"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "让我们努力学习、尽情玩耍。",
+          "sourceEn": "Let's study hard and play hard.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "你新学期的目标是什么？",
+          "sourceEn": "What's your goal for the new term?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我想把英语说好。",
+          "sourceEn": "I want to speak English well.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "你可以设定目标并努力实现它。",
+          "sourceEn": "You can set a goal and try to meet it.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我应该如何做呢？",
+          "sourceEn": "How can I do that?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "制定计划并执行它。",
+          "sourceEn": "Make a plan and follow it.",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u02",
+      "source": "English/田园/三上/unit2.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "画画",
+          "sourceEn": "draw",
+          "targetItemIds": [
+            "ty-50f7becde477bb50"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "讲故事",
+          "sourceEn": "tell a story",
+          "targetItemIds": [
+            "ty-5f752f7f053e5698"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "跳舞",
+          "sourceEn": "dance",
+          "targetItemIds": [
+            "ty-2c371c2ada73a02e"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "唱歌",
+          "sourceEn": "sing",
+          "targetItemIds": [
+            "ty-6342d0648a746457"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "使用电脑",
+          "sourceEn": "use the computer",
+          "targetItemIds": [
+            "ty-1098b8c7936c1b59"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "跑步",
+          "sourceEn": "run",
+          "targetItemIds": [
+            "ty-acba25512100f80b"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "跳跃",
+          "sourceEn": "jump",
+          "targetItemIds": [
+            "ty-6bdaf554e42029bd"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "擅长",
+          "sourceEn": "be good at",
+          "targetItemIds": [
+            "ty-ed8b1bc448d39d69"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "为……感到自豪",
+          "sourceEn": "be proud of",
+          "targetItemIds": [
+            "ty-a2332ae4c0bb4b75"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 10,
+          "sourceZh": "飞得高",
+          "sourceEn": "fly high",
+          "targetItemIds": [
+            "ty-6e3ce5411116a6c5"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 11,
+          "sourceZh": "跑得快",
+          "sourceEn": "run fast",
+          "targetItemIds": [
+            "ty-15226b3103cf1a0d"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 12,
+          "sourceZh": "在雨中行走",
+          "sourceEn": "walk in the rain",
+          "targetItemIds": [
+            "ty-1d5c81526ab597e0"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 13,
+          "sourceZh": "小房子",
+          "sourceEn": "little house",
+          "targetItemIds": [
+            "ty-dd45776e1eff16ae"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "我擅长画画。",
+          "sourceEn": "I'm good at drawing.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "你擅长跑步。",
+          "sourceEn": "You are good at running.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "她擅长跳舞。",
+          "sourceEn": "She is good at dancing.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "怎么了？",
+          "sourceEn": "What's wrong?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我们输掉了比赛。",
+          "sourceEn": "We lost the game.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "没关系。",
+          "sourceEn": "It doesn't matter.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我们为你们感到自豪！",
+          "sourceEn": "We are proud of you!",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我也为自己感到自豪。",
+          "sourceEn": "I'm proud of myself.",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u03",
+      "source": "English/田园/三上/unit3.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "植物",
+          "sourceEn": "plant",
+          "targetItemIds": [
+            "ty-96044d9734b60441"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "开",
+          "sourceEn": "open",
+          "targetItemIds": [
+            "ty-2348f99874421257"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "关",
+          "sourceEn": "close",
+          "targetItemIds": [
+            "ty-310ff200149b44a3"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "橙子树",
+          "sourceEn": "orange tree",
+          "targetItemIds": [
+            "ty-a5c445e0d7b65516"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "番茄；西红柿（单数—复数）",
+          "sourceEn": "tomato-tomatoes",
+          "targetItemIds": [
+            "ty-5ed728c2fa5d767b",
+            "ty-20c526012014489e"
+          ],
+          "status": "transcribed",
+          "note": "拆分单复数，分别默写；不互设为合法答案。"
+        },
+        {
+          "row": 6,
+          "sourceZh": "草莓（单数—复数）",
+          "sourceEn": "strawberry-strawberries",
+          "targetItemIds": [
+            "ty-5e737f891db11754",
+            "ty-1ff0938846474bff"
+          ],
+          "status": "transcribed",
+          "note": "拆分单复数，分别默写；不互设为合法答案。"
+        },
+        {
+          "row": 7,
+          "sourceZh": "叶子（单数—复数）",
+          "sourceEn": "leaf-leaves",
+          "targetItemIds": [
+            "ty-9f91161f43433e49",
+            "ty-5ed0a10b951bfe15"
+          ],
+          "status": "transcribed",
+          "note": "拆分单复数，分别默写；不互设为合法答案。"
+        },
+        {
+          "row": 8,
+          "sourceZh": "种植；生长",
+          "sourceEn": "grow",
+          "targetItemIds": [
+            "ty-adca5146416ee419"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "茶叶",
+          "sourceEn": "tea leaves",
+          "targetItemIds": [
+            "ty-831a2c1c04a36fe9"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "欢迎来到我们的校园花园。",
+          "sourceEn": "Welcome to our school garden.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "你可以在里面看到一些树、花和蔬菜。",
+          "sourceEn": "You can see some trees, flowers and vegetables in it.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "这是什么？",
+          "sourceEn": "What's this?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "它是一株胡萝卜。",
+          "sourceEn": "It's a carrot plant.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "那是什么？",
+          "sourceEn": "What's that?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "它是一株向日葵。",
+          "sourceEn": "It's a sunflower.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "这个地方是种菜的。",
+          "sourceEn": "This place is for vegetables.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "蜜蜂帮助植物生长。",
+          "sourceEn": "Bees help the plants.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我们可以给植物浇水。",
+          "sourceEn": "We can water the plants.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "茶叶在哪里？",
+          "sourceEn": "Where are the tea leaves?",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u04",
+      "source": "English/田园/三上/unit4.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "水滴（复数）",
+          "sourceEn": "water drops",
+          "targetItemIds": [
+            "ty-106a452147d668cb"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "云；云朵",
+          "sourceEn": "cloud",
+          "targetItemIds": [
+            "ty-56681010b753e1ab"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "雨；雨水",
+          "sourceEn": "rain",
+          "targetItemIds": [
+            "ty-319b44c570a417ff"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "雪",
+          "sourceEn": "snow",
+          "targetItemIds": [
+            "ty-a746222f09d85605"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "空气",
+          "sourceEn": "air",
+          "targetItemIds": [
+            "ty-9fe430e5274621be"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "到处；各处",
+          "sourceEn": "everywhere",
+          "targetItemIds": [
+            "ty-11c209b437262b61"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "热的",
+          "sourceEn": "hot",
+          "targetItemIds": [
+            "ty-7f5d1618e7d28cc7"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "冷的",
+          "sourceEn": "cold",
+          "targetItemIds": [
+            "ty-e272deecde720ffc"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "变成",
+          "sourceEn": "become",
+          "targetItemIds": [
+            "ty-9ebb1e6f5b2adf42"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 10,
+          "sourceZh": "一点一点地",
+          "sourceEn": "little by little",
+          "targetItemIds": [
+            "ty-5dce2c1663df3ae6"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 11,
+          "sourceZh": "实验报告",
+          "sourceEn": "lab report",
+          "targetItemIds": [
+            "ty-15a1cfd598a20f71"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "你可以在河流、湖泊和海洋中找到水。",
+          "sourceEn": "You can find water in rivers, lakes and seas.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "冰是如何来的？",
+          "sourceEn": "Where does the ice come from?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "它来自水和水蒸气。",
+          "sourceEn": "It comes from water and water vapour.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "水在我们的生活中无处不在。",
+          "sourceEn": "Water is everywhere in our life.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "天气非常寒冷时，水变成冰。",
+          "sourceEn": "When it is very cold, water becomes ice.",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u05",
+      "source": "English/田园/三上/unit5.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "家务",
+          "sourceEn": "family chores",
+          "targetItemIds": [
+            "ty-049d0ba1f2191bc1"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "遛狗",
+          "sourceEn": "walk the dog",
+          "targetItemIds": [
+            "ty-8c9346b57cca833c"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "让座",
+          "sourceEn": "give your seat",
+          "targetItemIds": [
+            "ty-cf3cf82924b62631"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "喝水",
+          "sourceEn": "drink water",
+          "targetItemIds": [
+            "ty-1d681db7594f0afc"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "掉进河里",
+          "sourceEn": "fall into the river",
+          "targetItemIds": [
+            "ty-4d3f003cd85f5d6e"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "扔下一片叶子",
+          "sourceEn": "drop a leaf",
+          "targetItemIds": [
+            "ty-526a6c337e65bb3b"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "咬狐狸",
+          "sourceEn": "bite the fox",
+          "targetItemIds": [
+            "ty-6bab4f7129281a81"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "好帮手",
+          "sourceEn": "good helper",
+          "targetItemIds": [
+            "ty-4b183d15f040925d"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "爸爸妈妈忙碌时，我随时准备帮忙！",
+          "sourceEn": "When Mum and Dad are busy, I'm ready to help!",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我能洗碗碟和擦桌子。",
+          "sourceEn": "I can do the dishes and clean the table.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我把旧衣服和旧玩具送给有需要的人。",
+          "sourceEn": "I give my old clothes and toys to people in need.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我能帮忙做饭。",
+          "sourceEn": "I can help with cooking.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "请坐我的座位。",
+          "sourceEn": "Take my seat, please.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "这一次，蚂蚁帮助了小鸟。",
+          "sourceEn": "This time, the ant helps the bird.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我是一个好帮手。",
+          "sourceEn": "I'm a good helper.",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u06",
+      "source": "English/田园/三上/unit6.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "有时",
+          "sourceEn": "sometimes",
+          "targetItemIds": [
+            "ty-28e5c066055aeb3d"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "不快乐的；悲伤的",
+          "sourceEn": "unhappy",
+          "targetItemIds": [
+            "ty-2e95d0e38d8deda7"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "悲伤的；难过的",
+          "sourceEn": "sad",
+          "targetItemIds": [
+            "ty-45c9a6614fccd4f9"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "令人愉快的；好的",
+          "sourceEn": "good",
+          "targetItemIds": [
+            "ty-770e607624d68926"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "令人不快的；坏的",
+          "sourceEn": "bad",
+          "targetItemIds": [
+            "ty-2f05d4b689d270ca"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "激动的；兴奋的",
+          "sourceEn": "excited",
+          "targetItemIds": [
+            "ty-8d1c8a7a12c3739b"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "害怕的；恐惧的",
+          "sourceEn": "scared",
+          "targetItemIds": [
+            "ty-67f711e800796d61"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "疲倦的；疲劳的",
+          "sourceEn": "tired",
+          "targetItemIds": [
+            "ty-c405760daf9bc32b"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "有时候",
+          "sourceEn": "sometimes",
+          "targetItemIds": [
+            "ty-28e5c066055aeb3d"
+          ],
+          "status": "merged-duplicate",
+          "note": "同义重复合并，保留两条来源。"
+        },
+        {
+          "row": 10,
+          "sourceZh": "摩天轮",
+          "sourceEn": "big wheel",
+          "targetItemIds": [
+            "ty-80d19ab68ea41654"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 11,
+          "sourceZh": "标志；标牌",
+          "sourceEn": "sign",
+          "targetItemIds": [
+            "ty-0b6f395ca14ac202"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 12,
+          "sourceZh": "真遗憾！",
+          "sourceEn": "What a pity!",
+          "targetItemIds": [
+            "ty-93a7fd4a0b4d5ed2"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 13,
+          "sourceZh": "真乱！",
+          "sourceEn": "What a mess!",
+          "targetItemIds": [
+            "ty-58962aa695c7e528"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "情绪每天都会来来去去。",
+          "sourceEn": "Feelings come and go every day.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "你今天感觉怎么样？",
+          "sourceEn": "How do you feel today?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我很兴奋。",
+          "sourceEn": "I'm happy.",
+          "status": "needs-review",
+          "note": "我很兴奋与 happy 对应存疑；不擅自改原文。"
+        },
+        {
+          "sourceZh": "发生什么事了？",
+          "sourceEn": "What happened?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我现在感觉好多了。",
+          "sourceEn": "I feel much better now.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "运动可以带走坏情绪。",
+          "sourceEn": "Bad feelings go away with sports.",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u07",
+      "source": "English/田园/三上/unit7.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "驾驶员；司机",
+          "sourceEn": "driver",
+          "targetItemIds": [
+            "ty-b4def8217cadae26"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "警察；警员",
+          "sourceEn": "police officer",
+          "targetItemIds": [
+            "ty-96eaff298ca28af1"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "医生",
+          "sourceEn": "doctor",
+          "targetItemIds": [
+            "ty-72f4be89d6ebab14"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "厨师；主厨",
+          "sourceEn": "chef",
+          "targetItemIds": [
+            "ty-f59ac0828b9a3229"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "宇航员；航天员",
+          "sourceEn": "astronaut",
+          "targetItemIds": [
+            "ty-df0c29d39619e8cf"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "小心的；谨慎的",
+          "sourceEn": "careful",
+          "targetItemIds": [
+            "ty-191c415261817259"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "宇宙飞船",
+          "sourceEn": "spaceship",
+          "targetItemIds": [
+            "ty-c2c002ca28f6ed9b"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "飞入太空",
+          "sourceEn": "fly into space",
+          "targetItemIds": [
+            "ty-e92e94dbe409af61"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "努力工作",
+          "sourceEn": "work hard",
+          "targetItemIds": [
+            "ty-9cf96f37edbf0d5e"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 10,
+          "sourceZh": "困难的",
+          "sourceEn": "difficult",
+          "targetItemIds": [
+            "ty-1e4453a98c9d7417"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "你长大后想成为什么？",
+          "sourceEn": "When you grow up, what do you want to be?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我想成为一名工程师。",
+          "sourceEn": "I want to be an engineer.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我想制造汽车、火车和太空船！",
+          "sourceEn": "I want to make cars, trains and spaceships!",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "你的梦想职业是什么？",
+          "sourceEn": "What's your dream job?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我的梦想职业是作家。",
+          "sourceEn": "My dream job is a writer.",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u08",
+      "source": "English/田园/三上/unit8.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "找路",
+          "sourceEn": "find places",
+          "targetItemIds": [],
+          "status": "needs-review",
+          "note": "原文找路与 find places 对应存疑，暂不入题；保留原文等待确认。"
+        },
+        {
+          "row": 2,
+          "sourceZh": "找到路",
+          "sourceEn": "find the way",
+          "targetItemIds": [
+            "ty-ecc101c249a85adb"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "沿着……走",
+          "sourceEn": "walk along",
+          "targetItemIds": [
+            "ty-4844ae7ee416d2c0"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "博物馆",
+          "sourceEn": "museum",
+          "targetItemIds": [
+            "ty-4919063719e8c388"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "到达",
+          "sourceEn": "get to",
+          "targetItemIds": [
+            "ty-dc2a9e6da2f55adf"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "迷路",
+          "sourceEn": "get lost",
+          "targetItemIds": [
+            "ty-c65bbf2d85271ffa"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "路；道路",
+          "sourceEn": "road",
+          "targetItemIds": [
+            "ty-362a284952d3a725"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "向左转",
+          "sourceEn": "turn left",
+          "targetItemIds": [
+            "ty-b5c6b0758264c7b7"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "向右转",
+          "sourceEn": "turn right",
+          "targetItemIds": [
+            "ty-534e163330169be1"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 10,
+          "sourceZh": "劳驾；打扰一下。",
+          "sourceEn": "Excuse me.",
+          "targetItemIds": [
+            "ty-9562d69e07607a42"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "城市里有一座新的图书馆。",
+          "sourceEn": "There is a new library in the city.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我们怎样从学校到图书馆？",
+          "sourceEn": "How can we get to the library from school?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "沿着阳光路走。在花园路向左转。",
+          "sourceEn": "Walk along Sunny Road. Turn left at Garden Road.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "你可以向警察求助。",
+          "sourceEn": "You can ask the police officer for help.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "留在这里等妈妈。",
+          "sourceEn": "Stay here and wait for Mum.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "请您给我们的妈妈打电话好吗？",
+          "sourceEn": "Would you please call our mum?",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u09",
+      "source": "English/田园/三上/unit9.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "特别的日子",
+          "sourceEn": "special days",
+          "targetItemIds": [
+            "ty-b92fbb5e1ddf48df"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "重阳节",
+          "sourceEn": "the Double Ninth Festival",
+          "targetItemIds": [
+            "ty-7c25d6b08401332a"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "中国新年",
+          "sourceEn": "Chinese New Year",
+          "targetItemIds": [
+            "ty-7373d69ef0e02de7"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "春节",
+          "sourceEn": "the Spring Festival",
+          "targetItemIds": [
+            "ty-9312cbc8a8968eeb"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "元宵节",
+          "sourceEn": "the Lantern Festival",
+          "targetItemIds": [
+            "ty-13d890da1636a553"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "庆祝",
+          "sourceEn": "celebrate",
+          "targetItemIds": [
+            "ty-9c457a4c48c5fe75"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "假期；节日",
+          "sourceEn": "holiday",
+          "targetItemIds": [
+            "ty-81c16d337a1b7314"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "一通电话",
+          "sourceEn": "a phone call",
+          "targetItemIds": [
+            "ty-5bc69f47ccf3ec1e"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "思念；想念",
+          "sourceEn": "miss",
+          "targetItemIds": [
+            "ty-80688fc3d5f88a06"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 10,
+          "sourceZh": "团聚；聚会",
+          "sourceEn": "get together",
+          "targetItemIds": [
+            "ty-513da7235cd40788"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 11,
+          "sourceZh": "拿一些茱萸",
+          "sourceEn": "get some zhuyu",
+          "targetItemIds": [
+            "ty-a0dae6646a5ca848"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 12,
+          "sourceZh": "贴春联",
+          "sourceEn": "put up Spring Festival couplets",
+          "targetItemIds": [
+            "ty-a12e2df343f6bd7c"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 13,
+          "sourceZh": "剪纸",
+          "sourceEn": "paper cuttings",
+          "targetItemIds": [
+            "ty-8fa1db1a8090de58"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 14,
+          "sourceZh": "除夕",
+          "sourceEn": "New Year's Eve",
+          "targetItemIds": [
+            "ty-1d5489a3d3b1af6c"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 15,
+          "sourceZh": "舞龙",
+          "sourceEn": "dragon dances",
+          "targetItemIds": [
+            "ty-dbabd587b2c04e0b"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 16,
+          "sourceZh": "灯会",
+          "sourceEn": "lantern shows",
+          "targetItemIds": [
+            "ty-9cab9c484699d05f"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 17,
+          "sourceZh": "好久不见。",
+          "sourceEn": "Long time no see.",
+          "targetItemIds": [
+            "ty-67ba8a9e52a2095e"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 18,
+          "sourceZh": "让我们去登山吧。",
+          "sourceEn": "Let's climb the mountain.",
+          "targetItemIds": [
+            "ty-7ec1ad48ad937d73"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "家人们团聚在一起吃丰盛的晚餐。",
+          "sourceEn": "Families get together for a big dinner.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "人们观看舞龙和灯会。",
+          "sourceEn": "People watch dragon dances and lantern shows.",
+          "status": "deferred-sentence"
+        }
+      ]
+    },
+    {
+      "unitId": "u10",
+      "source": "English/田园/三上/unit10.jpg",
+      "themeIsEditorial": true,
+      "vocabulary": [
+        {
+          "row": 1,
+          "sourceZh": "著名的",
+          "sourceEn": "famous",
+          "targetItemIds": [
+            "ty-79b1bc81314de30f"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 2,
+          "sourceZh": "面条",
+          "sourceEn": "noodle",
+          "targetItemIds": [
+            "ty-49742b4b8dd3a7ff"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 3,
+          "sourceZh": "比萨饼",
+          "sourceEn": "pizza",
+          "targetItemIds": [
+            "ty-9ed1515819dec61f"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 4,
+          "sourceZh": "三明治",
+          "sourceEn": "sandwich",
+          "targetItemIds": [
+            "ty-8f5c570f55dd7921"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 5,
+          "sourceZh": "热狗",
+          "sourceEn": "hot dog",
+          "targetItemIds": [
+            "ty-836cef5d66db4134"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 6,
+          "sourceZh": "面包",
+          "sourceEn": "bread",
+          "targetItemIds": [
+            "ty-985604c2b6024312"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 7,
+          "sourceZh": "炸鱼薯条",
+          "sourceEn": "fish and chips",
+          "targetItemIds": [
+            "ty-b0cce46da4df4240"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 8,
+          "sourceZh": "肉丸",
+          "sourceEn": "meatball",
+          "targetItemIds": [
+            "ty-cf5ae4c2ef2d0395"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 9,
+          "sourceZh": "牛肉",
+          "sourceEn": "beef",
+          "targetItemIds": [
+            "ty-aa415c4e8890cf0f"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 10,
+          "sourceZh": "蛋糕",
+          "sourceEn": "cake",
+          "targetItemIds": [
+            "ty-32cdb61919620005"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 11,
+          "sourceZh": "美味的",
+          "sourceEn": "tasty",
+          "targetItemIds": [
+            "ty-26d9a1f3e4ec5bc1"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 12,
+          "sourceZh": "尝试；品尝",
+          "sourceEn": "try",
+          "targetItemIds": [
+            "ty-1e262cd7d110812f"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 13,
+          "sourceZh": "不同的",
+          "sourceEn": "different",
+          "targetItemIds": [
+            "ty-9d6f965ac832e40a"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 14,
+          "sourceZh": "香肠",
+          "sourceEn": "sausage",
+          "targetItemIds": [
+            "ty-30caae2fcb7c34ec"
+          ],
+          "status": "transcribed"
+        },
+        {
+          "row": 15,
+          "sourceZh": "面粉",
+          "sourceEn": "flour",
+          "targetItemIds": [
+            "ty-f55f97cfa0dd5f18"
+          ],
+          "status": "transcribed"
+        }
+      ],
+      "sentences": [
+        {
+          "sourceZh": "我想品尝世界各地不同的食物。",
+          "sourceEn": "I want to try different foods around the world.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "上面有一些奶酪。",
+          "sourceEn": "There is some cheese on it.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "上面有一些蔬菜。",
+          "sourceEn": "There are some vegetables on it.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "我可以吃一个吗？",
+          "sourceEn": "May I have one?",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "人们用面粉做饺子。",
+          "sourceEn": "People use flour to make jiaozi.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "它来自意大利。",
+          "sourceEn": "It's from Italy.",
+          "status": "deferred-sentence"
+        },
+        {
+          "sourceZh": "里面有什么？",
+          "sourceEn": "What's in it?",
+          "status": "deferred-sentence"
+        }
+      ]
+    }
+  ]
+}

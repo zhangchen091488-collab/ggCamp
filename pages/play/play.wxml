@@ -7,8 +7,12 @@
   <view class="actor-stage"><show-stage show="{{show}}" compact quiet particles="{{false}}"/><view class="ground"></view></view>
   <view class="problem"><view wx:if="{{capsule}}" class="capsule">✉ 时光胶囊 · {{capsule}}</view><view class="problem-head"><view class="skill-badge">{{title}}</view><text>第{{index}}题</text></view><problem-sheet sheet="{{sheet}}"/><view class="label">{{label}}</view><view wx:if="{{hint}}" class="hint">{{hint}}</view><button class="hint-toggle" bindtap="showHelp" aria-label="查看解题提示"><image class="hint-icon" src="/assets/ui/hint.png" mode="aspectFit"/></button></view>
   <view wx:if="{{feedback}}" class="feedback {{solved && motion > 0 ? 'celebrate' : ''}}">{{feedback}}</view>
-  <view wx:if="{{paused}}" class="pause"><view class="heading">休息一下也很好</view><view class="muted">已经暂停计时，答案和进度都还在。</view><button class="primary" bindtap="resume">继续练习</button></view>
-  <button wx:elif="{{solved}}" class="primary next" bindtap="next">{{!extra && index === count ? '查看练习结果' : '下一题 →'}}</button>
-  <view wx:else class="pad"><button wx:for="{{keys}}" wx:key="*this" class="key {{item === '清除' ? 'erase' : ''}} {{item === '0' ? 'zero' : ''}}" data-key="{{item}}" bindtap="press" aria-label="{{item}}">{{item === '清除' ? '⌫' : item}}</button></view>
+  <view class="input-dock">
+    <view wx:if="{{paused}}" class="pause"><view class="heading">休息一下也很好</view><view class="muted">已经暂停计时，答案和进度都还在。</view><button class="primary" bindtap="resume">继续练习</button></view>
+    <block wx:else>
+      <view class="pad"><button wx:for="{{keys}}" wx:key="*this" disabled="{{solved}}" class="key {{item === '清除' ? 'erase' : ''}} {{item === '0' ? 'zero' : ''}}" data-key="{{item}}" bindtap="press" aria-label="{{item}}">{{item === '清除' ? '⌫' : item}}</button></view>
+      <button wx:if="{{solved}}" class="primary next" bindtap="next">{{!extra && index === count ? '查看练习结果' : '下一题 →'}}</button>
+    </block>
+  </view>
   <view wx:if="{{warning}}" class="warning">{{warning}}</view>
 </view>

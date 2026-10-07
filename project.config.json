@@ -40,20 +40,40 @@
         "type": "file"
       },
       {
-        "type": "folder",
-        "value": "docs"
+        "value": ".git",
+        "type": "folder"
       },
       {
-        "type": "folder",
-        "value": "tests"
+        "value": "docs",
+        "type": "folder"
       },
       {
-        "type": "folder",
-        "value": "tools"
+        "value": "tests",
+        "type": "folder"
       },
       {
-        "type": "file",
-        "value": "AGENTS.md"
+        "value": "tools",
+        "type": "folder"
+      },
+      {
+        "value": "release",
+        "type": "folder"
+      },
+      {
+        "value": "AGENTS.md",
+        "type": "file"
+      },
+      {
+        "value": ".gitignore",
+        "type": "file"
+      },
+      {
+        "value": "LICENSE",
+        "type": "file"
+      },
+      {
+        "value": "NOTICE.md",
+        "type": "file"
       }
     ],
     "include": []

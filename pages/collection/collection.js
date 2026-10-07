@@ -11,7 +11,7 @@ function thumbnail(item, character) {
   const key = ul.variant(item.id);
   if (item.cat === 'costume' || item.cat === 'color') {
     const color = item.cat === 'color' ? key : 'pink'; const costume = item.cat === 'costume' ? key : 'none';
-    return { src: `/assets/guagua/${character}-${color}-open.png`, wear: costume !== 'none' ? `/assets/guagua/wear-${costume}.png` : '', back: costume === 'cape' ? '/assets/guagua/back-cape.png' : '' };
+    return { src: `/assets/guagua/${character}-${color}-open.png`, wear: costume !== 'none' ? `/assets/guagua/wear-${costume}.png` : '', back: ['cape', 'cat'].includes(costume) ? `/assets/guagua/back-${costume}.png` : '' };
   }
   if (item.cat === 'crowd') return { buddies: visual({ character, crowd: item.id, costume: 'costume:none', color: 'color:pink' }).actors.slice(0, 3) };
   return { src: `/assets/ui/thumb-${item.id.replace(':', '-')}.png` };

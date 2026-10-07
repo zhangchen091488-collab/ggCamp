@@ -26,3 +26,13 @@
 .shift-chevron {position:absolute;left:9rpx;top:5rpx;box-sizing:border-box;width:18rpx;height:18rpx;border-top:4rpx solid currentColor;border-left:4rpx solid currentColor;transform:rotate(45deg);}
 .shift-bar {position:absolute;left:6rpx;bottom:1rpx;width:24rpx;height:4rpx;border-radius:1rpx;background:currentColor;}
 .backspace-icon {width:48rpx;height:36rpx;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2036%22%3E%3Cpath%20d%3D%22M17%205H43V31H17L5%2018Z%22%20fill%3D%22none%22%20stroke%3D%22%2320234f%22%20stroke-width%3D%223.5%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M23%2012L35%2024M35%2012L23%2024%22%20fill%3D%22none%22%20stroke%3D%22%2320234f%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-position:center;background-size:contain;}
+
+/* A constant dock also keeps Submit and Next at the same location. */
+.english-play { padding-bottom: calc(278px + env(safe-area-inset-bottom)); }
+.input-dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; box-sizing: border-box; height: calc(250px + env(safe-area-inset-bottom)); padding: 14px 10px calc(20px + env(safe-area-inset-bottom)); background: #fff9eef5; border-top: 2px solid #20234f; }
+.key-row { max-width: 460px; margin: 0 auto 10px; gap: 3px; }
+.key-row:last-child { margin-bottom: 0; }
+.key-row button { flex-basis: calc(10% - 2.7px); width: calc(10% - 2.7px); height: 46px; font-size: 22px; }
+.key-row button[disabled] { opacity: .45; }
+.key-row .submit-key { font-size: 16px; }
+@media (max-height: 650px) { .english-play > show-stage { display: block; height: 110rpx; overflow: hidden; } }

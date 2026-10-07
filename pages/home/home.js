@@ -13,13 +13,26 @@ Page({
     store.state.homeSubject = this.data.subject === 'english' ? 'math' : 'english'; store.save(); this.onShow();
   },
   englishKind(e) { const store = getApp().store; englishPractice.state(store).kind = e.currentTarget.dataset.kind; store.save(); this.onShow(); },
-  englishGrade(e) { englishPractice.selectScope(getApp().store, { grade: e.currentTarget.dataset.grade }); this.onShow(); },
-  englishSemester(e) { englishPractice.selectScope(getApp().store, { semester: e.currentTarget.dataset.semester }); this.onShow(); },
+  englishGrade(e) {
+    const store = getApp().store; const selected = englishPractice.selectedPack(store);
+    const grade = Number(e.currentTarget.dataset.grade);
+    const books = englishPractice.packs.filter((entry) => entry.seriesId === selected.seriesId && entry.grade === grade && entry.items.length);
+    const book = books.find((entry) => entry.semester === selected.semester) || books[0];
+    if (!book) return;
+    englishPractice.selectScope(store, { grade, semester: book.semester }); this.onShow();
+  },
+  englishSemester(e) {
+    const store = getApp().store; const selected = englishPractice.selectedPack(store);
+    const semester = e.currentTarget.dataset.semester;
+    if (!englishPractice.packs.some((entry) => entry.seriesId === selected.seriesId && entry.grade === selected.grade && entry.semester === semester && entry.items.length)) return;
+    englishPractice.selectScope(store, { semester }); this.onShow();
+  },
   startEnglish(mode = 'today') {
     const store = getApp().store; const english = englishPractice.state(store);
+    if (!englishPractice.preferences(store).learnedUnitIds.length) { wx.navigateTo({ url: '/pages/english-book/english-book?panel=scope' }); return; }
     const run = () => {
       const s = englishPractice.start(store, { kind: english.kind || 'word', count: store.state.settings.count, mode }, features.look(store));
-      if (!s) { wx.showToast({ title: '这个范围还没有错题', icon: 'none' }); return; }
+      if (!s) { wx.showToast({ title: mode === 'review' ? '这个范围还没有错题' : '已学单元暂无所选内容', icon: 'none' }); return; }
       wx.navigateTo({ url: '/pages/english-play/english-play' });
     };
     if (english.session) wx.showModal({ title: '开始新练习？', content: '当前未完成的英语练习将被替换，英语进度保留。', success: (r) => { if (r.confirm) run(); } });
@@ -36,18 +49,19 @@ Page({
     const subject = st.homeSubject === 'english' ? 'english' : 'math';
     const english = subject === 'english' ? englishPractice.state(store) : null;
     const selected = englishPractice.selectedPack(store);
-    const scoped = english ? Object.entries(english.progress.records).filter(([key]) => key.startsWith(selected.packId + ':')) : [];
-    const records = scoped.map(([, value]) => value);
-    const activeIds = selected.items.filter((item) => item.kind === (english && english.kind || 'word')).map((item) => item.itemId);
-    const reviewCount = english ? scoped.filter(([key, value]) => value.wrong && activeIds.includes(key.split(':')[1])).length : 0;
-    this.setData({ englishGrades: englishPractice.availableGrades(store), englishGrade: selected.grade, englishSemester: selected.semester, englishSemesters: [...new Set(englishPractice.packs.filter((entry) => entry.seriesId === selected.seriesId && entry.grade === selected.grade).map((entry) => entry.semester))], subject, englishKind: english && english.kind || 'word', learningTotal: english ? selected.items.length : 58, englishBookTitle: selected.title, resumeBookTitle: english && english.session ? english.session.packTitle || (englishPractice.packs.find((pack) => pack.packId === english.session.plan.packId) || selected).title : '' });
-    if (english) this.setData({ resume: !!english.session, review: reviewCount, mastered: records.filter((v) => v.mastered).length });
+    const learnedUnitIds = englishPractice.preferences(store).learnedUnitIds;
+    const summary = englishPractice.summary(store, { kind: english && english.kind || 'word', unitIds: learnedUnitIds });
+    this.setData({ homeGrades: this.data.grades.map((grade) => ({ grade, enabled: subject !== 'english' || englishPractice.packs.some((entry) => entry.seriesId === selected.seriesId && entry.grade === grade && entry.items.length) })), englishGrade: selected.grade, englishSemester: selected.semester, englishSemesters: ['first', 'second'].map((semester) => ({ semester, enabled: englishPractice.packs.some((entry) => entry.seriesId === selected.seriesId && entry.grade === selected.grade && entry.semester === semester && entry.items.length) })), subject, englishKind: english && english.kind || 'word', learnedCount: learnedUnitIds.length, englishUnitCount: selected.units.length, learningTotal: english ? summary.total : 58, englishBookTitle: selected.title, resumeBookTitle: english && english.session ? english.session.packTitle || (englishPractice.packs.find((pack) => pack.packId === english.session.plan.packId) || selected).title : '' });
+    if (english) this.setData({ resume: !!english.session, review: summary.wrong, mastered: summary.mastered });
     if (this.requestGuide || !store.web.hasSeenGuide()) { const help = !!this.requestGuide; this.requestGuide = false; this.openTour(help); }
   },
   chooseCount(e) { const store = getApp().store; store.state.settings.count = Number(e.currentTarget.dataset.count); store.save(); this.onShow(); },
   go(e) {
+    if (this.data.subject === 'english' && e.currentTarget.dataset.page === 'english-scope') {
+      wx.navigateTo({ url: '/pages/english-book/english-book?panel=scope' }); return;
+    }
     if (this.data.subject === 'english' && e.currentTarget.dataset.page === 'tree') {
-      wx.showModal({ title: '英语试用学习进度', content: `已掌握 ${this.data.mastered}/${this.data.learningTotal}；待巩固 ${this.data.review}。本册进度独立保存，不计数学技能。`, showCancel: false }); return;
+      wx.navigateTo({ url: '/pages/english-book/english-book' }); return;
     }
     wx.navigateTo({ url: `/pages/${e.currentTarget.dataset.page}/${e.currentTarget.dataset.page}` }); },
   start(e) {
@@ -62,8 +76,8 @@ Page({
   openTour(help) { this.guidePages = tour.pages(help);
     if (this.data.subject === 'english') this.guidePages = this.guidePages.map((p) => {
       if (p.target === '#tour-level') return { ...p, title: '每天练一点英语', text: '选择单词或常用语，点击今日练习。新内容先看学习卡，再看中文完整默写英文。' };
-      if (p.target === '#tour-grades') return { ...p, title: '选择练习内容', text: '在这里选择年级，上下册和单词／常用语也在首页切换。在设置中选择教材版本。当前为未审核整册试用，教材单元尚未划分。' };
-      if (p.target === '#tour-tree') return { ...p, title: '看看英语进度', text: '英语与数学进度独立记录，点击查看已掌握与待巩固内容。' };
+      if (p.target === '#tour-grades') return { ...p, title: '选择练习内容', text: '在这里选择年级，上下册和单词／常用语也在首页切换。在设置中选择教材版本。在英语技能树中标记学校已学范围，也可以自由选择单元练习。' };
+      if (p.target === '#tour-tree') return { ...p, title: '打开技能树', text: '查看每个单元的词表与掌握进度，标记学校已学范围，选择单元练习。' };
       if (!p.target) return { ...p, text: '选择单词或常用语，练习完整英文答案。右上角可切换数学与英语。' };
       if (p.target === '#tour-trophy') return { ...p, text: '奖杯和收藏由两个学科共用。数学和英语共同推进每日任务、签到与通用奖杯；学科掌握进度各自保存。' };
       return p;
