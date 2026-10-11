@@ -34,9 +34,9 @@
       <block wx:elif="{{panel === 'content'}}">
         <button bindtap="backDetail">返回单元详情</button>
         <view wx:if="{{!items.length}}" class="muted">本单元暂无所选内容。</view>
-        <view wx:if="{{card}}" class="study-card"><view class="muted">学习卡</view><view class="card-english">{{card.canonical}}</view><view>{{card.promptZh}}</view><view wx:if="{{card.phoneticUk}}" class="muted">英 {{card.phoneticUk}}</view><view wx:if="{{card.phoneticUs}}" class="muted">美 {{card.phoneticUs}}</view><view class="unit-actions"><button class="primary" bindtap="nextCard">下一张</button><button bindtap="closeCard">收起</button></view></view>
+        <view wx:if="{{card}}" class="study-card"><view class="muted">学习卡</view><view class="card-english">{{card.canonical}}</view><view>{{card.promptZh}}</view><view class="pronunciation-row"><view class="phonetics"><view wx:if="{{card.phoneticUk}}" class="muted">英 {{card.phoneticUk}}</view><view wx:if="{{card.phoneticUs}}" class="muted">美 {{card.phoneticUs}}</view></view><button class="pronunciation-icon" disabled="{{!canListen || !canListenSlow}}" bindtap="listen" aria-label="播放正常读音和慢读"><view class="speaker-icon"/></button></view><view class="unit-actions"><button class="primary" bindtap="nextCard">下一张</button><button bindtap="closeCard">收起</button></view></view>
         <view class="word-list"><button wx:for="{{items}}" wx:for-item="entry" wx:key="itemId" class="word-row" data-index="{{index}}" bindtap="study"><text class="english">{{entry.canonical}}</text><text class="meaning">{{entry.promptZh}}</text></button></view>
-        <view class="muted content-note">点击词条查看学习卡。朗读与听音默写尚未提供。</view>
+        <view class="muted content-note">点击词条查看学习卡；已配音的词条可听读。</view>
       </block>
       <block wx:else>
         <view class="muted panel-note">{{panel === 'scope' ? '勾选学校已经教过的单元，今日练习从这些单元出题。标记不代表掌握。' : '选择本次想练的单元，不会改变学校已学范围。'}}</view>

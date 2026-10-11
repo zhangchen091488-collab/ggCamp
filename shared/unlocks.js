@@ -68,6 +68,8 @@ addItems([
   { id: 'music:matsuri', cat: 'music', name: '庆典鼓乐', trophy: 'streak-5' },
   { id: 'music:brass', cat: 'music', name: '铜管乐队', trophy: 'days-5' },
   { id: 'music:electro', cat: 'music', name: '电子音乐', trophy: 'extras-3' },
+  { id: 'music:jazz', cat: 'music', name: '轻快爵士', trophy: 'plays-30' },
+  { id: 'music:forest', cat: 'music', name: '森林八音盒', trophy: 'days-20' },
 ]);
 // id044: costumes, colours, crowd and finales (id045 moved three rewards to the new series).
 addItems([

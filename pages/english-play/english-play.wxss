@@ -3,7 +3,8 @@
 
 .answer-cells {display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10rpx;min-height:76rpx;margin:24rpx 0;}
 .letter-cell {box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:52rpx;height:66rpx;border:3rpx solid #20234f;border-radius:12rpx;background:#fff9ee;box-shadow:0 4rpx #20234f;font-size:36rpx;font-weight:800;line-height:1;}
-.active-cell {border-color:#4169ff;box-shadow:0 4rpx #4169ff;background:#edf2ff;}.hint-cell {color:#4169ff;background:#edf2ff;border-style:dashed;}
+.active-cell {border:3px dashed #3b6bff;box-shadow:none;background:#e0e7ff;}
+.cell-question {color:#3b6bff66;}.hint-cell {color:#4169ff;background:#edf2ff;border-style:dashed;}
 .word-space {width:20rpx;border:0;box-shadow:none;background:transparent;}.word-space.active-cell {border-bottom:3rpx solid #4169ff;}
 
 .phonetics {display:flex;flex-wrap:wrap;gap:12rpx 24rpx;color:#565a79;font-size:26rpx;line-height:1.5;margin:0 0 20rpx;}
@@ -35,4 +36,37 @@
 .key-row button { flex-basis: calc(10% - 2.7px); width: calc(10% - 2.7px); height: 46px; font-size: 22px; }
 .key-row button[disabled] { opacity: .45; }
 .key-row .submit-key { font-size: 16px; }
-@media (max-height: 650px) { .english-play > show-stage { display: block; height: 110rpx; overflow: hidden; } }
+.english-stage { position: relative; overflow: hidden; }
+.answer-word { display: flex; flex-wrap: wrap; justify-content: center; gap: 10rpx; max-width: 100%; }
+
+.pronunciation-row {display:flex;align-items:center;gap:16rpx;margin-bottom:20rpx;}
+.pronunciation-row .phonetics {flex:1;min-width:0;margin:0;}
+.pronunciation-row .pronunciation-icon {display:flex;align-items:center;justify-content:center;flex-shrink:0;width:72rpx;height:72rpx;margin:0;padding:8rpx;border:0;background:transparent;box-shadow:none;line-height:1;}
+.pronunciation-icon::after {border:0;}
+.pronunciation-icon[disabled] {opacity:.3;}
+.speaker-icon {width:44rpx;height:44rpx;background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M3%209h4l5-4v14l-5-4H3z%22%20fill%3D%22%23000%22%2F%3E%3Cpath%20d%3D%22M15%208a6%206%200%200%201%200%208m3-11a10%2010%200%200%201%200%2014%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E") center/contain no-repeat;}
+
+.cards-dock { padding-top: 10px; }
+.cards-caption { max-width: 360px; margin: 0 auto 8px; font-size: 14px; font-weight: 800; line-height: 20px; }
+.cards-caption text { float: right; font-size: 12px; color: #565a79; }
+.letter-pool { display: flex; flex-wrap: wrap; align-content: flex-start; justify-content: center; gap: 10px; height: 142px; max-width: 360px; margin: 0 auto; }
+.letter-pool .letter-tile { box-sizing: border-box; flex: 0 0 40px; width: 40px; height: 42px; margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; border: 2px solid #20234f; border-radius: 12px; box-shadow: 0 4px #20234f; color: #20234f; font-size: 25px; font-weight: 800; line-height: 1; }
+.letter-pool .consumed-tile { border-style: dashed; border-color: #d5d4ce; box-shadow: none; background: transparent; }
+.letter-pool .hint-tile { border-color: #4169ff; background: #edf2ff; color: #4169ff; box-shadow: 0 4px #4169ff; }
+.letter-pool .tile-pressed { transform: translateY(3px); box-shadow: 0 1px #20234f; }
+.letter-pool .wrong-tile { background: #ffd0e5; border-color: #b2376f; }
+.shake-tile { animation: card-shake .3s ease; }
+.cards-dock .cards-next { max-width: 360px; height: 40px; margin: 8px auto 0; padding: 0; font-size: 16px; line-height: 36px; }
+.flying-letter { pointer-events: none; position: fixed; z-index: 30; width: 40px; height: 44px; display: flex; align-items: center; justify-content: center; border: 2px solid #20234f; border-radius: 10px; color: #20234f; font-size: 25px; font-weight: 800; }
+.cell-pop { animation: cell-pop .2s ease; }
+.fixed-cell { border: 0; width: 20rpx; box-shadow: none; background: transparent; }
+@keyframes card-shake { 25%,75% { transform: translateX(-5px) rotate(-4deg); } 50% { transform: translateX(5px) rotate(4deg); } }
+@keyframes cell-pop { 50% { transform: scale(1.16); background: #fff0ab; } }
+
+.card-answer-cells { column-gap: 30rpx; row-gap: 16rpx; }
+.tile-tone-0 { background: #f9dce8; }
+.tile-tone-1 { background: #d9f0e5; }
+.tile-tone-2 { background: #e6dff7; }
+.tile-tone-3 { background: #dceafa; }
+.tile-tone-4 { background: #fce1cd; }
+.tile-tone-5 { background: #faf0c6; }

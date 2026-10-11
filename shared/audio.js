@@ -171,6 +171,15 @@ const SYNTH = {
     const p = pan(g, 0); if (p.pan) { p.pan.setValueAtTime(up ? -0.7 : 0.7, t); p.pan.linearRampToValueAtTime(up ? 0.7 : -0.7, t + dur); }
     n.connect(bp); bp.connect(e); e.connect(p); p.connect(g.sfx); send(g, e, 0.25);
   },
+  epiano(g, t, { m, dur = 0.7, v = 0.12 }) {
+    const f = midiHz(m); const p = pan(g, -0.15);
+    for (const [ratio, gain, decay] of [[1, 1, dur], [2, 0.3, dur * 0.6], [3, 0.12, 0.16]]) {
+      const o = osc(g, 'sine', f * ratio, t, t + decay + 0.1);
+      const e = env(g, t, { a: 0.005, peak: v * gain, d: decay });
+      o.connect(e); e.connect(p);
+    }
+    p.connect(g.music); send(g, p, 0.15);
+  },
   bass(g, t, { m, dur = 0.2, v = 0.5 }) {
     const f = midiHz(m);
     const o1 = osc(g, 'sawtooth', f, t, t + dur + 0.15); const o2 = osc(g, 'square', f / 2, t, t + dur + 0.15);
@@ -409,6 +418,32 @@ const DRUMS = {
   },
 };
 const SONGS = {
+  jazz: {
+    name: '轻快爵士', prog: [chord(0, [0, 4, 7, 11]), chord(9, [0, 3, 7, 10]), chord(2, [0, 3, 7, 10]), chord(7, [0, 4, 7, 10])],
+    step(e, s, bar, t, L, ch, k) {
+      const swung = t + (s % 2 ? e.stepDur / 3 : 0);
+      if ([0, 3, 6, 10, 14].includes(s)) {
+        const m = ch.tones[(bar + (s >> 1)) % ch.tones.length];
+        e.play('epiano', swung, { m: m + 12 + k, dur: e.stepDur * 3, v: 0.13 });
+        if (L >= 5) e.play('epiano', swung, { m: ch.tones[(s >> 2) % ch.tones.length] + k, dur: e.stepDur * 2, v: 0.055 });
+      }
+      if (s % 4 === 0) e.play('pluck', t, { m: ch.bass + k + (s === 8 ? 7 : 0), dur: e.stepDur * 2.5, v: 0.25 });
+      if (L >= 1 && (s === 0 || s === 8)) { e.play('kick', t, { v: 0.3 }); e.kicks.push(t); }
+      if (L >= 3 && (s === 4 || s === 12)) e.play('snare', t, { v: 0.09 });
+      if (L >= 2 && s % 2 === 0) e.play('hat', t, { v: 0.035 });
+      if (L >= 6 && s % 2 === 1) e.play('shaker', swung, { v: 0.025 });
+    },
+  },
+  forest: {
+    name: '森林八音盒', prog: [chord(0, [0, 4, 7]), chord(5, [0, 4, 7]), chord(9, [0, 3, 7]), chord(7, [0, 4, 7])],
+    step(e, s, bar, t, L, ch, k) {
+      if ([0, 4, 7, 10, 14].includes(s)) e.play('glock', t, { m: ch.tones[(bar + (s >> 1)) % 3] + 24 + k, v: 0.1, pan: s % 4 ? 0.25 : -0.25 });
+      if (s === 2 || s === 12) e.play('pluck', t, { m: ch.tones[s === 2 ? 0 : 2] + 12 + k, dur: e.stepDur * 4, v: 0.075 });
+      if (L >= 2 && s === 0) e.play('pluck', t, { m: ch.bass + 12 + k, dur: e.stepDur * 5, v: 0.12 });
+      if (L >= 4 && (s === 6 || s === 14)) e.play('shaker', t, { v: 0.025 });
+      if (L >= 7 && s === 8) e.play('glock', t, { m: ch.tones[1] + 36 + k, v: 0.035, pan: 0.3 });
+    },
+  },
   chip: {
     name: '8 位电子乐', prog: [chord(0, [0, 4, 7]), chord(9, [0, 3, 7]), chord(5, [0, 4, 7]), chord(7, [0, 4, 7])],
     hook: [[72, 76, 79, 76, 84, null, 79, 76], [72, 76, 81, 76, 79, null, 76, 72], [77, 81, 84, 81, 79, 77, 76, 74], [79, 83, 86, 83, 84, null, 79, null]],

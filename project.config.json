@@ -74,6 +74,10 @@
       {
         "value": "NOTICE.md",
         "type": "file"
+      },
+      {
+        "value": ".github",
+        "type": "folder"
       }
     ],
     "include": []

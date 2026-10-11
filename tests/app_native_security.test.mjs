@@ -12,7 +12,7 @@ function fixture() {
   practice.selectPack(store, practice.pack.packId);
   return { store, reload: () => clone(saved) };
 }
-function begin(store, kind = 'word') { return practice.start(store, { kind, count: 10, mode: 'unit', rng: () => .2 }, {}, Date.parse('2026-10-03T08:00:00Z')); }
+function begin(store, kind = 'word') { return practice.start(store, { inputMethod: 'keyboard', kind, count: 10, mode: 'unit', rng: () => .2 }, {}, Date.parse('2026-10-03T08:00:00Z')); }
 
 test('corrupt history elements are discarded without losing valid records or rewards', () => {
   for (const miniFeatures of [undefined, 2]) {
@@ -47,10 +47,11 @@ test('corrupt English namespace and incomplete sessions recover without losing o
 test('valid legacy English sessions migrate and resume with their draft and earned progress', () => {
   const { store, reload } = fixture(); begin(store, 'phrase'); practice.learn(store);
   practice.updateDraft(store, 'oops'); practice.complete(store); practice.hint(store);
-  const saved = reload(); saved.session = null; delete saved.englishDemo.session.rewardEnabled;
+  const saved = reload(); saved.session = null; delete saved.englishDemo.session.rewardEnabled; delete saved.englishDemo.session.inputMethod;
   const restored = createStore({ getStorageSync: () => saved, setStorageSync() {} });
   const english = practice.state(restored);
   assert.equal(english.session.rewardEnabled, false);
+  assert.equal(english.session.inputMethod, 'keyboard');
   assert.equal(practice.current(restored).draft, 'oops');
   assert.deepEqual(english.progress, saved.englishDemo.progress);
   assert.equal(restored.warning(), '');

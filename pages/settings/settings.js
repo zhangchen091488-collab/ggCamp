@@ -10,7 +10,7 @@ Page({
   onShow() { this.setData({ ...getApp().store.state.settings, volumePercent: Math.round(getApp().store.state.settings.volume * 100), warning: getApp().store.warning() }); this.preview();
     const store = getApp().store; const selected = englishPractice.selectedPack(store);
     const versions = englishPractice.seriesOptions().filter((version) => version.id !== 'demo-english');
-    this.setData({ englishVersions: versions, englishBookIndex: versions.findIndex((version) => version.id === selected.seriesId) });
+    this.setData({ englishInputMethod: englishPractice.inputMethod(store), englishVersions: versions, englishBookIndex: versions.findIndex((version) => version.id === selected.seriesId) });
   },
   // Live preview of 计算伙伴, mirroring the web build where the hero on the title screen changes as
   // soon as a partner is picked. Strength stays under the 0.45 crowd threshold so the chosen
@@ -21,6 +21,7 @@ Page({
     const look = features.look(store, () => .01);
     this.setData({ show: visual(look, 'happy', .4, this.burst || 0, store.state.settings.motion), characterName: NAMES[look.character] || NAMES.girl });
   },
+  englishInput(e) { englishPractice.setInputMethod(getApp().store, e.currentTarget.dataset.method); this.onShow(); },
   englishBook(e) {
     const selected = this.data.englishVersions[Number(e.currentTarget && e.currentTarget.dataset.index !== undefined ? e.currentTarget.dataset.index : e.detail.value)];
     if (selected) { englishPractice.selectScope(getApp().store, { seriesId: selected.id }); this.onShow(); }

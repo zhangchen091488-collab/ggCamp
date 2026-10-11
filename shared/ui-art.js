@@ -47,7 +47,7 @@ function collectionThumbSvg(cat, kind) {
     if (kind === 'sea') drawing += '<g fill="none" stroke="#fff" stroke-width="1.5"><circle cx="-10" cy="-5" r="5"/><circle cx="9" cy="8" r="7"/></g>';
     if (kind === 'night' || kind === 'space') drawing += '<path d="M0 -12 L2 -7 L7 -7 L3 -3 L5 2 L0 -1 L-5 2 L-3 -3 L-7 -7 L-2 -7Z" fill="#ffd23f"/>';
   } else if (cat === 'music') {
-    const col = { classic: '#3fdcb0', chip: '#8fb4ff', matsuri: '#ff4f6d', brass: '#ffd23f', electro: '#a77bff' }[kind];
+    const col = { classic: '#3fdcb0', chip: '#8fb4ff', matsuri: '#ff4f6d', brass: '#ffd23f', electro: '#a77bff', jazz: '#e5a85d', forest: '#66bd91' }[kind];
     drawing = `<path d="M-6 10 V-14 L12 -18 V6" fill="none" stroke="#1b1d4d" stroke-width="3" stroke-linejoin="round"/><ellipse cx="-11" cy="11" rx="6.5" ry="5" fill="${col}" stroke="#1b1d4d" stroke-width="2"/><ellipse cx="7" cy="7" rx="6.5" ry="5" fill="${col}" stroke="#1b1d4d" stroke-width="2"/>`;
   } else if (cat === 'particle') {
     const glyph = { classic: '▰', note: '♫', petal: '✿', digit: '7', bubble: '○', candy: '◆' }[kind];

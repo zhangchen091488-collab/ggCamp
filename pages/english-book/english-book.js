@@ -1,9 +1,21 @@
+const { createAudio } = require('../../lib/audio.js');
+const { createReadingMusic } = require('../../lib/reading-music.js');
+const { createPronunciation } = require('../../lib/pronunciation.js');
 const practice = require('../../lib/english-practice.js');
 const features = require('../../lib/features.js');
 Page({
   data: { units: [], practiceUnitIds: [], kind: 'word', items: [], card: null, selected: null, panel: null },
   onLoad(options) { this.initialPanel = options && options.panel === 'scope' ? 'scope' : null; },
-  onShow() { this.refresh(); if (this.initialPanel) { this.openScope(); this.initialPanel = null; } },
+  onShow() {
+    if (typeof wx !== 'undefined') {
+      if (!this.readingMusic) this.readingMusic = createReadingMusic(createAudio(wx));
+      if (!this.pronunciation) this.pronunciation = createPronunciation(wx, (message) => wx.showToast({ title: message, icon: 'none' }), undefined, this.readingMusic);
+      const store = getApp().store;
+      this.readingMusic.show(store.state.settings, features.look(store));
+    }
+    this.refresh();
+    if (this.initialPanel) { this.openScope(); this.initialPanel = null; }
+  },
   refresh() {
     const store = getApp().store;
     const pack = practice.selectedPack(store);
@@ -45,7 +57,7 @@ Page({
       overview: practice.summary(store, { kind }),
     });
   },
-  chooseKind(e) {
+  chooseKind(e) { if (this.pronunciation) this.pronunciation.stop();
     const kind = e.currentTarget.dataset.kind;
     if (!['word', 'phrase'].includes(kind)) return;
     const store = getApp().store; practice.state(store).kind = kind; store.save();
@@ -62,16 +74,26 @@ Page({
     this.setData({ practiceUnitIds: ids.includes(id) ? ids.filter((value) => value !== id) : [...ids, id] });
     this.refresh();
   },
-  inspect(e) { this.expandedId = e.currentTarget.dataset.id; this.setData({ card: null, panel: 'detail' }); this.refresh(); },
+  inspect(e) { if (this.pronunciation) this.pronunciation.stop(); this.expandedId = e.currentTarget.dataset.id; this.setData({ card: null, panel: 'detail' }); this.refresh(); },
   expand(e) { this.inspect(e); },
-  openContent() { this.setData({ panel: 'content', card: null }); },
-  openScope() { this.setData({ panel: 'scope', card: null }); },
-  openCombo() { this.setData({ panel: 'combo', card: null }); },
-  closePanel() { this.setData({ panel: null, card: null }); },
-  backDetail() { this.setData({ panel: 'detail', card: null }); },
-  study(e) { const index = Number(e.currentTarget.dataset.index || 0); this.cardIndex = index; this.setData({ card: this.data.items[index] || null }); },
-  nextCard() { if (!this.data.items.length) return; this.cardIndex = (this.cardIndex + 1) % this.data.items.length; this.setData({ card: this.data.items[this.cardIndex] }); },
-  closeCard() { this.setData({ card: null }); },
+  openContent() { if (this.pronunciation) this.pronunciation.stop(); this.setData({ panel: 'content', card: null }); },
+  openScope() { if (this.pronunciation) this.pronunciation.stop(); this.setData({ panel: 'scope', card: null }); },
+  openCombo() { if (this.pronunciation) this.pronunciation.stop(); this.setData({ panel: 'combo', card: null }); },
+  closePanel() { if (this.pronunciation) this.pronunciation.stop(); this.setData({ panel: null, card: null }); },
+  backDetail() { if (this.pronunciation) this.pronunciation.stop(); this.setData({ panel: 'detail', card: null }); },
+  updateCard(card) {
+    if (this.pronunciation) this.pronunciation.stop();
+    this.setData({ card, canListen: !!card && this.pronunciation && this.pronunciation.available(practice.selectedPack(getApp().store).packId, card, 'normal'), canListenSlow: !!card && this.pronunciation && this.pronunciation.available(practice.selectedPack(getApp().store).packId, card, 'slow') });
+  },
+  listen(e) {
+    if (!this.data.card || !this.pronunciation) return;
+    this.pronunciation.play(practice.selectedPack(getApp().store).packId, this.data.card, 'both');
+  },
+  onHide() { if (this.readingMusic) this.readingMusic.hide(); if (this.pronunciation) this.pronunciation.stop(); },
+  onUnload() { if (this.readingMusic) this.readingMusic.close(); if (this.pronunciation) this.pronunciation.close(); },
+  study(e) { const index = Number(e.currentTarget.dataset.index || 0); this.cardIndex = index; this.updateCard(this.data.items[index] || null); },
+  nextCard() { if (!this.data.items.length) return; this.cardIndex = (this.cardIndex + 1) % this.data.items.length; this.updateCard(this.data.items[this.cardIndex]); },
+  closeCard() { this.updateCard(null); },
   start(e) {
     const mode = e.currentTarget.dataset.mode || 'unit';
     const unitIds = e.currentTarget.dataset.id ? [e.currentTarget.dataset.id] : this.data.practiceUnitIds;
