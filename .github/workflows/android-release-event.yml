@@ -1,0 +1,12 @@
+name: Android release changed
+on:
+  release:
+    types: [published, edited, unpublished, deleted]
+permissions:
+  contents: read
+jobs:
+  changed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request update feed refresh on the default branch
+        run: echo 'A release changed; the Pages workflow will rebuild verified public feeds.'

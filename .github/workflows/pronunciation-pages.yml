@@ -1,8 +1,9 @@
 name: Publish pronunciation and Android updates
 on:
   workflow_dispatch:
-  release:
-    types: [published, edited, unpublished, deleted]
+  workflow_run:
+    workflows: [Android release changed]
+    types: [completed]
   push:
     branches: [main]
     paths:
@@ -20,6 +21,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
