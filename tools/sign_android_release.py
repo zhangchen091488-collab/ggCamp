@@ -12,6 +12,7 @@ def main():
   parser = argparse.ArgumentParser(description=__doc__)
   parser.add_argument('apk', type=Path)
   parser.add_argument('--out', required=True, type=Path)
+  parser.add_argument('--cloud-release', action='store_true', help='仅用户明确批准的 1.0.0/109：保留云宿主明文及相机声明，其它检查不变')
   parser.add_argument('--cloud-candidate', action='store_true', help='仅0.9.6/108草稿：记录云宿主限制，不构成公开发布验收')
   parser.add_argument('--cloud-validation', action='store_true', help='仅验证包：记录云宿主明文/相机默认项，保留其它检查')
   parser.add_argument('--apksigner', type=Path, help='存在多份官方工具时指定 apksigner.jar')
@@ -43,19 +44,19 @@ def main():
     errors.append('正式宿主需显式禁止明文流量；当前签名流程不修改 APK 内容。')
   if any(node.get(ns + 'name') == 'android.hardware.camera' and node.get(ns + 'required', 'true') == 'true' for node in manifest.findall('uses-feature')):
     errors.append('APK 仍要求相机硬件。')
-  if args.cloud_validation and args.cloud_candidate:
-    raise SystemExit('不能同时使用两种云候选模式')
-  if args.cloud_validation or args.cloud_candidate:
+  if sum([args.cloud_validation, args.cloud_candidate, args.cloud_release]) > 1:
+    raise SystemExit('不能同时使用多种云构建模式')
+  if args.cloud_validation or args.cloud_candidate or args.cloud_release:
     from android_validation_metadata import validate_embedded_build
-    validate_embedded_build(apk, validation=not args.cloud_candidate, public_updates=args.cloud_candidate)
-    allowed = {('0.9.6', 108)} if args.cloud_candidate else {('0.9.4', 106), ('0.9.5', 107)}
+    validate_embedded_build(apk, validation=not (args.cloud_candidate or args.cloud_release), public_updates=args.cloud_candidate or args.cloud_release)
+    allowed = {('1.0.0', 109)} if args.cloud_release else {('0.9.6', 108)} if args.cloud_candidate else {('0.9.4', 106), ('0.9.5', 107)}
     if (apk.get_androidversion_name(), int(apk.get_androidversion_code())) not in allowed:
-      errors.append('云宿主例外仅限明确的验证组合 0.9.4/106 或 0.9.5/107。')
+      errors.append('云宿主例外仅限当前选项明确批准的版本及构建号。')
     else:
       exceptions = [error for error in errors if error.startswith('正式宿主需显式禁止明文') or error == 'APK 仍要求相机硬件。']
       errors = [error for error in errors if error not in exceptions]
       for error in exceptions:
-        print('验证包已记录的云宿主限制：' + error)
+        print('当前版本已记录的云宿主限制：' + error)
   if errors:
     raise SystemExit('\n'.join(errors))
   if args.out.resolve() == args.apk.resolve() or args.out.exists():

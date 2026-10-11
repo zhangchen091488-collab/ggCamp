@@ -1,4 +1,4 @@
-"""Strict metadata and APK checks for publicly offered updates (no cloud exceptions)."""
+"""Validate public updates; only the explicitly approved 1.0.0 cloud host has two exceptions."""
 import hashlib
 from pathlib import Path
 import re
@@ -8,6 +8,26 @@ from android_validation_metadata import validate_embedded_build
 REPO = 'zhangchen091488-collab/ggCamp'
 ROOT = 'https://github.com/' + REPO
 CERT = '9ecbc0690bc086721c81ad61a1ec6a9ec0fe521b7937c6473ac94b7ee845ae67'
+
+
+# User approved these two cloud-host declarations for this exact release on 2026-10-11.
+# This does not allow debug builds, sensitive permissions, or different app identities.
+APPROVED_CLOUD_RELEASE = ('com.chen.ggcamp', '1.0.0', 109)
+
+
+def check_host_manifest(manifest, identity):
+  ns = '{http://schemas.android.com/apk/res/android}'
+  app = manifest.find('application')
+  if app is None or app.get(ns + 'debuggable') == 'true':
+    raise ValueError('公开更新拒绝调试宿主')
+  limitations = []
+  if app.get(ns + 'usesCleartextTraffic') != 'false':
+    limitations.append('云宿主尚未禁止明文网络')
+  if any(n.get(ns + 'name', '').startswith('android.hardware.camera') and n.get(ns + 'required', 'true') == 'true' for n in manifest.findall('uses-feature')):
+    limitations.append('云宿主声明必需相机硬件')
+  if limitations and tuple(identity) != APPROVED_CLOUD_RELEASE:
+    raise ValueError('该版本未获准接受云宿主限制：' + '；'.join(limitations))
+  return limitations
 
 
 def validate_release(release, metadata):
@@ -55,13 +75,7 @@ def inspect_apk(path, artifact, version, apksigner):
   certificates = apk.get_certificates_der_v2()
   if len(certificates) != 1 or hashlib.sha256(certificates[0]).hexdigest() != CERT:
     raise ValueError('实际APK证书不符')
-  ns = '{http://schemas.android.com/apk/res/android}'
-  manifest = apk.get_android_manifest_xml()
-  app = manifest.find('application')
-  if app.get(ns + 'debuggable') == 'true' or app.get(ns + 'usesCleartextTraffic') != 'false':
-    raise ValueError('公开更新拒绝调试或明文宿主')
-  if any(n.get(ns + 'name', '').startswith('android.hardware.camera') and n.get(ns + 'required', 'true') == 'true' for n in manifest.findall('uses-feature')):
-    raise ValueError('公开更新拒绝必需相机硬件')
+  check_host_manifest(apk.get_android_manifest_xml(), (apk.get_package(), apk.get_androidversion_name(), int(apk.get_androidversion_code())))
   if sorted({name.split('/')[1] for name in apk.get_files() if name.startswith('lib/') and name.endswith('.so')}) != ['arm64-v8a'] or int(apk.get_min_sdk_version()) != artifact['minSdk']:
     raise ValueError('实际APK架构或系统要求不符')
   forbidden = {'CAMERA', 'RECORD_AUDIO', 'ACCESS_FINE_LOCATION', 'ACCESS_COARSE_LOCATION', 'READ_PHONE_STATE', 'READ_EXTERNAL_STORAGE', 'WRITE_EXTERNAL_STORAGE'}

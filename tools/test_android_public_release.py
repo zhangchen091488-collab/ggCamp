@@ -1,6 +1,7 @@
 import copy
 import unittest
-from android_public_release import ROOT, CERT, validate_release
+from android_public_release import ROOT, CERT, validate_release, check_host_manifest, APPROVED_CLOUD_RELEASE
+import xml.etree.ElementTree as ET
 from build_android_update_site import public_candidates
 
 class PublicFeedTests(unittest.TestCase):
@@ -29,5 +30,18 @@ class PublicFeedTests(unittest.TestCase):
   def test_published_beta_only_enters_beta(self):
     result=public_candidates([self.release],lambda _:self.metadata)
     self.assertIsNone(result['stable']); self.assertEqual(result['beta']['versionCode'],109)
+
+class HostExceptionTests(unittest.TestCase):
+  def manifest(self, debug='false'):
+    return ET.fromstring('<manifest xmlns:android="http://schemas.android.com/apk/res/android"><uses-feature android:name="android.hardware.camera" android:required="true"/><application android:debuggable="'+debug+'" android:usesCleartextTraffic="true"/></manifest>')
+  def test_only_approved_release_accepts_the_two_declarations(self):
+    self.assertEqual(len(check_host_manifest(self.manifest(),APPROVED_CLOUD_RELEASE)),2)
+    for identity in [('com.chen.ggcamp','0.9.6',108),('com.chen.ggcamp','1.0.0',110),('com.other','1.0.0',109),('com.chen.ggcamp','1.0.1',109)]:
+      with self.assertRaises(ValueError): check_host_manifest(self.manifest(),identity)
+  def test_debug_is_always_rejected(self):
+    with self.assertRaises(ValueError): check_host_manifest(self.manifest('true'),APPROVED_CLOUD_RELEASE)
+  def test_fixed_host_requires_no_exception(self):
+    manifest=ET.fromstring('<manifest xmlns:android="http://schemas.android.com/apk/res/android"><application android:usesCleartextTraffic="false"/></manifest>')
+    self.assertEqual(check_host_manifest(manifest,('com.chen.ggcamp','1.0.1',110)),[])
 
 if __name__ == '__main__': unittest.main()
