@@ -56,15 +56,16 @@ test('valid legacy English sessions migrate and resume with their draft and earn
   assert.deepEqual(english.progress, saved.englishDemo.progress);
   assert.equal(restored.warning(), '');
 });
-test('Android release identity removes permissions unrelated to training and disables install SDK', () => {
+test('Android release identity removes permissions unrelated to training and enables only the required update install SDK', () => {
   const config = JSON.parse(readFileSync(new URL('../project.miniapp.json', import.meta.url), 'utf8'))['mini-android'];
   assert.equal(config.packageName, 'com.chen.ggcamp');
   assert.equal(config.enableVConsole, 'close');
   assert.equal(config.useExtendedSdk.media, true);
-  assert.equal(config.useExtendedSdk.install, false);
+  assert.equal(config.useExtendedSdk.install, true);
   assert.equal(config.useExtendedSdk.open, false);
-  for (const name of ['RECORD_AUDIO', 'CAMERA', 'ACCESS_FINE_LOCATION', 'ACCESS_COARSE_LOCATION', 'READ_PHONE_STATE', 'READ_EXTERNAL_STORAGE', 'WRITE_EXTERNAL_STORAGE', 'BLUETOOTH', 'BLUETOOTH_ADMIN', 'REQUEST_INSTALL_PACKAGES']) {
+  for (const name of ['RECORD_AUDIO', 'CAMERA', 'ACCESS_FINE_LOCATION', 'ACCESS_COARSE_LOCATION', 'READ_PHONE_STATE', 'READ_EXTERNAL_STORAGE', 'WRITE_EXTERNAL_STORAGE', 'BLUETOOTH', 'BLUETOOTH_ADMIN']) {
     assert.ok(config.uselessPermissions.includes(name), `remove unused ${name}`);
   }
   assert.ok(!config.uselessPermissions.includes('INTERNET'));
+  assert.ok(!config.uselessPermissions.includes('REQUEST_INSTALL_PACKAGES'));
 });

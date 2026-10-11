@@ -1,5 +1,6 @@
 const englishPractice = require('../../lib/english-practice.js');
 const { createStore } = require('../../lib/storage.js');
+const androidUpdate = require('../../lib/android-update.js');
 const debug = require('../../lib/debug.js');
 const features = require('../../lib/features.js');
 const { visual } = require('../../lib/visual.js');
@@ -7,7 +8,7 @@ const NAMES = { girl: '瓜瓜', boy: '年年' };
 Page({
   data: { counts: [6, 10, 14], guide: false, show: {}, characterName: NAMES.girl },
   onLoad(query) { this.setData({ guide: !!query.guide }); },
-  onShow() { this.setData({ ...getApp().store.state.settings, volumePercent: Math.round(getApp().store.state.settings.volume * 100), warning: getApp().store.warning() }); this.preview();
+  onShow() { this.setData({ apkValidation: androidUpdate.available(wx), ...getApp().store.state.settings, volumePercent: Math.round(getApp().store.state.settings.volume * 100), warning: getApp().store.warning() }); this.preview();
     const store = getApp().store; const selected = englishPractice.selectedPack(store);
     const versions = englishPractice.seriesOptions().filter((version) => version.id !== 'demo-english');
     this.setData({ englishInputMethod: englishPractice.inputMethod(store), englishVersions: versions, englishBookIndex: versions.findIndex((version) => version.id === selected.seriesId) });
@@ -32,6 +33,7 @@ Page({
   sound(e) { this.update('sound', e.detail.value); },
   volume(e) { this.update('volume', e.detail.value / 100); },
   motion(e) { this.update('motion', e.detail.value); },
+  apkUpdate() { wx.navigateTo({ url: '/pages/update-validation/update-validation' }); },
   guide() { wx.reLaunch({ url: '/pages/home/home?guide=1' }); },
   demo() { wx.navigateTo({ url: '/pages/play/play?mode=demo' }); },
   reset() { wx.showModal({ title: '重置全部数据？', content: '练习记录、技能、签到、奖杯、收藏和未完成练习都将清除，此操作无法撤销。', confirmText: '重置', confirmColor: '#b6354b', success: (res) => { if (res.confirm) { debug.clear(wx); getApp().store.web.reset(); getApp().store = createStore(wx); wx.reLaunch({ url: '/pages/home/home' }); } } }); },

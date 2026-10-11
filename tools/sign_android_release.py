@@ -12,6 +12,9 @@ def main():
   parser = argparse.ArgumentParser(description=__doc__)
   parser.add_argument('apk', type=Path)
   parser.add_argument('--out', required=True, type=Path)
+  parser.add_argument('--cloud-validation', action='store_true', help='仅验证包：记录云宿主明文/相机默认项，保留其它检查')
+  parser.add_argument('--apksigner', type=Path, help='存在多份官方工具时指定 apksigner.jar')
+  parser.add_argument('--java', type=Path, help='存在多份 JDK 时指定 java')
   parser.add_argument('--credentials', type=Path, default=Path.home() / '.ggcamp/signing/credentials.json')
   args = parser.parse_args()
   try:
@@ -39,6 +42,16 @@ def main():
     errors.append('正式宿主需显式禁止明文流量；当前签名流程不修改 APK 内容。')
   if any(node.get(ns + 'name') == 'android.hardware.camera' and node.get(ns + 'required', 'true') == 'true' for node in manifest.findall('uses-feature')):
     errors.append('APK 仍要求相机硬件。')
+  if args.cloud_validation:
+    from android_validation_metadata import validate_embedded_build
+    validate_embedded_build(apk)
+    if (apk.get_androidversion_name(), int(apk.get_androidversion_code())) not in {('0.9.4', 106), ('0.9.5', 107)}:
+      errors.append('云宿主例外仅限明确的验证组合 0.9.4/106 或 0.9.5/107。')
+    else:
+      exceptions = [error for error in errors if error.startswith('正式宿主需显式禁止明文') or error == 'APK 仍要求相机硬件。']
+      errors = [error for error in errors if error not in exceptions]
+      for error in exceptions:
+        print('验证包已记录的云宿主限制：' + error)
   if errors:
     raise SystemExit('\n'.join(errors))
   if args.out.resolve() == args.apk.resolve() or args.out.exists():
@@ -51,8 +64,14 @@ def main():
   cache = Path.home() / 'Library/Application Support/微信开发者工具'
   jars = sorted(cache.glob('*/WeappPlugin/*/toolkit/android/lib/apksigner.jar'))
   javas = sorted(cache.glob('*/WeappMiniApp/jdk/*/bin/java'))
+  if args.apksigner:
+    jars = [args.apksigner.resolve()]
+  if args.java:
+    javas = [args.java.resolve()]
   if len(jars) != 1 or len(javas) != 1:
-    raise SystemExit('无法唯一定位官方 apksigner / JDK；请核对开发工具安装环境。')
+    raise SystemExit('存在多份或缺失官方工具；请用 --apksigner / --java 明确指定。')
+  if not jars[0].is_file() or not javas[0].is_file():
+    raise SystemExit('指定的 apksigner / Java 文件不存在。')
   env = dict(os.environ)
   env['GGCAMP_STORE_PASS'] = credentials['storePass']
   env['GGCAMP_KEY_PASS'] = credentials['keyPass']

@@ -1,8 +1,8 @@
 {
   "miniVersion": "v2",
   "name": "GG 训练营",
-  "version": "0.9.1",
-  "versionCode": 101,
+  "version": "0.9.5",
+  "versionCode": 107,
   "i18nFilePath": "i18n",
   "mini-ohos": {
     "sdkVersion": "0.5.1"
@@ -17,7 +17,7 @@
       "network": false,
       "scanner": false,
       "xweb": false,
-      "install": false,
+      "install": true,
       "open": false
     },
     "icons": {
@@ -49,7 +49,6 @@
       "WRITE_EXTERNAL_STORAGE",
       "BLUETOOTH",
       "BLUETOOTH_ADMIN",
-      "REQUEST_INSTALL_PACKAGES",
       "CHANGE_WIFI_STATE",
       "CHANGE_NETWORK_STATE",
       "CHANGE_WIFI_MULTICAST_STATE",

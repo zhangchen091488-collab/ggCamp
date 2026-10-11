@@ -11,7 +11,8 @@
     "pages/english-home/english-home",
     "pages/english-play/english-play",
     "pages/english-result/english-result",
-    "pages/english-book/english-book"
+    "pages/english-book/english-book",
+    "pages/update-validation/update-validation"
   ],
   "window": {
     "navigationBarTitleText": "瓜瓜训练营",
