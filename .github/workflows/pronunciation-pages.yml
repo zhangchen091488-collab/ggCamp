@@ -1,6 +1,16 @@
-name: Publish pronunciation samples
+name: Publish pronunciation and Android updates
 on:
   workflow_dispatch:
+  release:
+    types: [published, edited, unpublished, deleted]
+  push:
+    branches: [main]
+    paths:
+      - 'docs/pronunciation-site/**'
+      - 'tools/build_android_update_site.py'
+      - 'tools/android_public_release.py'
+      - 'tools/android_validation_metadata.py'
+      - '.github/workflows/pronunciation-pages.yml'
 permissions:
   contents: read
   pages: write
@@ -16,12 +26,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Check sample site
-        run: test -f docs/pronunciation-site/index.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install APK inspection dependency
+        run: python -m pip install androguard==4.1.4
+      - name: Build audio site and public update feeds
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          APK_SIGNER=$(find "$ANDROID_HOME/build-tools" -name apksigner -type f | sort -V | tail -1)
+          test -n "$APK_SIGNER"
+          python tools/build_android_update_site.py --site docs/pronunciation-site --output /tmp/ggcamp-pages --apksigner "$APK_SIGNER"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/pronunciation-site
-      - name: Deploy samples
+          path: /tmp/ggcamp-pages
+      - name: Deploy audio and updates together
         id: deployment
         uses: actions/deploy-pages@v4

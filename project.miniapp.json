@@ -1,8 +1,8 @@
 {
   "miniVersion": "v2",
   "name": "GG 训练营",
-  "version": "0.9.5",
-  "versionCode": 107,
+  "version": "0.9.6",
+  "versionCode": 108,
   "i18nFilePath": "i18n",
   "mini-ohos": {
     "sdkVersion": "0.5.1"

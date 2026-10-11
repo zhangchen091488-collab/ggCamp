@@ -1,3 +1,4 @@
+const releaseUpdate = require('../../lib/release-update.js');
 const englishPractice = require('../../lib/english-practice.js');
 const features = require('../../lib/features.js');
 const { visual } = require('../../lib/visual.js');
@@ -40,8 +41,10 @@ Page({
   },
   data: { calendarRefresh: 0, show: {}, quests: [], grades: [1, 2, 3, 4, 5, 6], counts: [6, 10, 14], count: 10, subject: 'math', englishKind: 'word', learningTotal: 58 },
   onLoad(query = {}) { this.requestGuide = !!query.guide; },
-  onUnload() { this.guideEpoch = (this.guideEpoch || 0) + 1; },
+  onHide() { this.updateVisible = false; },
+  onUnload() { this.updateVisible = false; this.guideEpoch = (this.guideEpoch || 0) + 1; },
   onShow() {
+    if (typeof wx !== 'undefined') releaseUpdate.onHomeShow(this, wx);
     const store = getApp().store; const st = store.state; const info = features.enterHome(store);
     this.hammer = info.hammer;
     const now = new Date(); const calendar = monthModel(store, now.getFullYear(), now.getMonth());

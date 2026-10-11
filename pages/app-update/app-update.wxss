@@ -1,0 +1,1 @@
+.setting-row{display:flex;align-items:center;justify-content:space-between;gap:24rpx}.update-status{margin-bottom:20rpx}.release-notes{white-space:pre-wrap;line-height:1.7;overflow-wrap:anywhere}

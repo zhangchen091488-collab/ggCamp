@@ -6,6 +6,8 @@ const require = createRequire(import.meta.url);
 const { createHash, hashFile } = require('../lib/apk-sha256.js');
 const update = require('../lib/android-update.js');
 const build = require('../lib/android-build.js');
+// Exercise the separate private validation profile, retained for regression only.
+build.validation = true;
 const bytes = Buffer.from('apk payload');
 const digest = nodeHash('sha256').update(bytes).digest('hex');
 const manifest = () => ({ schemaVersion: 1, channel: 'validation', packageName: build.packageName, versionCode: build.versionCode + 1, versionName: '0.9.3', url: 'http://127.0.0.1:18765/target.apk', size: bytes.length, sha256: digest, certificateSha256: build.certificateSha256 });

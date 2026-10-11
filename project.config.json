@@ -78,6 +78,10 @@
       {
         "value": ".github",
         "type": "folder"
+      },
+      {
+        "value": "miniapp/icons",
+        "type": "folder"
       }
     ],
     "include": []

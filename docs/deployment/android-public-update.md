@@ -1,0 +1,18 @@
+# Android 公网更新入口
+
+更新服务与英语音频共用 GitHub Pages：https://zhangchen091488-collab.github.io/ggCamp/updates/android/stable.json 。测试渠道使用同目录 beta.json。
+
+Android 设置提供“检查应用更新”。默认正式渠道；开启测试版后比较两个渠道，按整数 versionCode 选最新版本。首页每天检查一次，只在首页提示，选择稍后延迟一天。下载前确认，校验大小和 SHA-256 后调用系统安装；不会清空学习数据。版本元数据固定在 APK 内，不允许通过独立 JS 热更新修改。
+
+## 发布方式
+
+1. 用递增 versionCode 和 a.b.c versionName 构建，沿用现有正式证书。
+2. 使用 tools/prepare_android_update_metadata.py 对真实签名 APK 生成 ANDROID-UPDATE.json；工具检查实际版本、证书、权限、架构及宿主清单。
+3. 将 APK 与元数据上传到相同 GitHub Release。保持草稿时不会进入更新清单。
+4. 经人工确认发布后，现有 pronunciation-pages 工作流同时部署音频和更新清单；预发布进入 beta，正式发布进入 stable。没有合格公开版本时 latest 为 null。
+
+公开更新的检查不豁免云宿主的明文流量和必需相机声明。当前云构建候选包仍受这两项限制；可验证公网检查入口，但不能生成合格的公开更新附件。0.9.6/108 的 --cloud-candidate 仅用于草稿和真机评审，不能替代公开发布检查。
+
+## 2026-10-11 验证
+
+220 项 Node 测试通过，5 项发布清单测试通过，共享模块一致。真实 GitHub 发布列表生成 stable/beta 空清单成功，草稿未进入渠道。正式线上部署及新候选包真机检查需单独记录，不能用这些测试替代。

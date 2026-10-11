@@ -12,7 +12,8 @@
     "pages/english-play/english-play",
     "pages/english-result/english-result",
     "pages/english-book/english-book",
-    "pages/update-validation/update-validation"
+    "pages/update-validation/update-validation",
+    "pages/app-update/app-update"
   ],
   "window": {
     "navigationBarTitleText": "瓜瓜训练营",

@@ -12,6 +12,7 @@ def main():
   parser = argparse.ArgumentParser(description=__doc__)
   parser.add_argument('apk', type=Path)
   parser.add_argument('--out', required=True, type=Path)
+  parser.add_argument('--cloud-candidate', action='store_true', help='仅0.9.6/108草稿：记录云宿主限制，不构成公开发布验收')
   parser.add_argument('--cloud-validation', action='store_true', help='仅验证包：记录云宿主明文/相机默认项，保留其它检查')
   parser.add_argument('--apksigner', type=Path, help='存在多份官方工具时指定 apksigner.jar')
   parser.add_argument('--java', type=Path, help='存在多份 JDK 时指定 java')
@@ -42,10 +43,13 @@ def main():
     errors.append('正式宿主需显式禁止明文流量；当前签名流程不修改 APK 内容。')
   if any(node.get(ns + 'name') == 'android.hardware.camera' and node.get(ns + 'required', 'true') == 'true' for node in manifest.findall('uses-feature')):
     errors.append('APK 仍要求相机硬件。')
-  if args.cloud_validation:
+  if args.cloud_validation and args.cloud_candidate:
+    raise SystemExit('不能同时使用两种云候选模式')
+  if args.cloud_validation or args.cloud_candidate:
     from android_validation_metadata import validate_embedded_build
-    validate_embedded_build(apk)
-    if (apk.get_androidversion_name(), int(apk.get_androidversion_code())) not in {('0.9.4', 106), ('0.9.5', 107)}:
+    validate_embedded_build(apk, validation=not args.cloud_candidate, public_updates=args.cloud_candidate)
+    allowed = {('0.9.6', 108)} if args.cloud_candidate else {('0.9.4', 106), ('0.9.5', 107)}
+    if (apk.get_androidversion_name(), int(apk.get_androidversion_code())) not in allowed:
       errors.append('云宿主例外仅限明确的验证组合 0.9.4/106 或 0.9.5/107。')
     else:
       exceptions = [error for error in errors if error.startswith('正式宿主需显式禁止明文') or error == 'APK 仍要求相机硬件。']
