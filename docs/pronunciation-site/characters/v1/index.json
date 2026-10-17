@@ -1,9 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 2,
-  "codes": {
-    "XHNG2345ABCD": "partner-xiaohang"
-  },
+  "revision": 3,
+  "codes": {},
   "characters": {
     "partner-xiaohang": {
       "available": true,
@@ -13,5 +11,5 @@
       "sha256": "93d1a756cf064ec144a3bc54556c9bfba91936468cd0b062d15f73240ee34274"
     }
   },
-  "generatedAt": "2026-10-17T10:52:59.341Z"
+  "generatedAt": "2026-10-17T11:10:12.749934+00:00"
 }
