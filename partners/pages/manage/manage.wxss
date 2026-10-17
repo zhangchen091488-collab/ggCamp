@@ -1,0 +1,21 @@
+.intro { margin: 16rpx 0 28rpx; }
+.panel { margin: 24rpx 0; padding: 28rpx; border: 3rpx solid #20234f; border-radius: 24rpx; background: #fffdf7; }
+.label { font-size: 36rpx; font-weight: 800; overflow-wrap: anywhere; }
+.code { margin: 24rpx 0; border: 2rpx solid #777c98; border-radius: 12rpx; padding: 22rpx 16rpx; font-size: 30rpx; height: 48rpx; background: white; }
+.hint { margin-top: 20rpx; }
+.partner-card { display: flex; align-items: center; gap: 16rpx; padding: 22rpx 16rpx; margin-top: 24rpx; background: #fffdf7; border: 3rpx solid #20234f; border-radius: 24rpx; }
+.portrait { width: 112rpx; height: 128rpx; flex-shrink: 0; }
+.empty, .portrait-placeholder { display: flex; align-items: center; justify-content: center; color: #565a79; background: #f2ecdf; border-radius: 16rpx; font-size: 26rpx; }
+.partner-info { flex: 1; min-width: 0; }
+.partner-name { font-size: 32rpx; font-weight: 800; overflow-wrap: anywhere; }
+.card-actions { width: 130rpx; flex-shrink: 0; }
+.card-actions button { padding: 14rpx 8rpx; font-size: 26rpx; margin: 10rpx 0; }
+.large-portrait, .portrait-placeholder { width: 260rpx; height: 260rpx; margin: 0 auto 24rpx; display: block; }
+.portrait-placeholder { line-height: 260rpx; text-align: center; }
+.description { font-size: 30rpx; line-height: 1.6; margin: 16rpx 0; overflow-wrap: anywhere; }
+.download-progress { margin-top: 28rpx; }
+.download-progress button { margin-top: 24rpx; }
+.space { margin: 32rpx 0; display: flex; align-items: center; justify-content: space-between; gap: 20rpx; }
+.space button { font-size: 26rpx; padding: 16rpx; }
+.expressions { display: flex; gap: 16rpx; margin-bottom: 28rpx; }
+.expressions button { flex: 1; font-size: 26rpx; padding: 14rpx 8rpx; }

@@ -3,3 +3,5 @@
 .partner-preview .partner-name { position: absolute; left: 16rpx; top: 14rpx; z-index: 5; font-size: 22rpx; font-weight: 800; padding: 5rpx 16rpx; border-radius: 30rpx; background: #20234f; color: #fff9ee; }
 
 .book-picker {padding:22rpx 16rpx;border:3rpx solid #20234f;border-radius:20rpx;background:#fff0ab;font-size:28rpx;line-height:1.5;margin:18rpx 0;}
+
+.manage-partners { margin-top: 24rpx; }

@@ -21,5 +21,13 @@
     "navigationBarTextStyle": "black",
     "backgroundColor": "#fff9ee"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "subpackages": [
+    {
+      "root": "partners",
+      "pages": [
+        "pages/manage/manage"
+      ]
+    }
+  ]
 }

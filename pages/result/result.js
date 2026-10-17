@@ -17,7 +17,7 @@ Page({
   },
   celebrationComplete() { if (!this.data.celebrating) return; this.setData({ celebrating: false }); this.scheduleDemo(); },
   scheduleDemo() { clearTimeout(this.demoTimer); if (this.data.demo) this.demoTimer = setTimeout(() => { if (this.data.eligible && !this.data.final) this.extra(); else this.home(); }, 3500); },
-  onHide() { clearTimeout(this.demoTimer); if (this.audio) this.audio.pause(); }, onUnload() { clearTimeout(this.demoTimer); if (this.audio) this.audio.close(); },
+  onHide() { const result = getApp().store.state.result; if (result) { result.partnerViewed = true; getApp().store.save(); } clearTimeout(this.demoTimer); if (this.audio) this.audio.pause(); }, onUnload() { clearTimeout(this.demoTimer); if (this.audio) this.audio.close(); },
   retrySave() { getApp().store.save(); this.onShow(); },
   again() { wx.redirectTo({ url: `/pages/play/play?mode=${this.data.mode || 'grade'}&grade=${this.data.grade}&skill=${this.data.skill || ''}` }); },
   extra() { wx.redirectTo({ url: '/pages/play/play?extra=1' }); },

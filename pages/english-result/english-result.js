@@ -13,7 +13,7 @@ Page({
     if (!this.audio) this.audio = createAudio(wx);
     this.audio.start(store.state.settings, r.look, 1); this.audio.finale();
   },
-  onHide() { if (this.audio) this.audio.pause(); },
+  onHide() { const result = getApp().store.state.englishDemo && getApp().store.state.englishDemo.result; if (result) { result.partnerViewed = true; getApp().store.save(); } if (this.audio) this.audio.pause(); },
   onUnload() { if (this.audio) this.audio.close(); },
   celebrationComplete() { this.setData({ celebrating: false }); },
   home() { wx.reLaunch({ url: '/pages/home/home' }); },

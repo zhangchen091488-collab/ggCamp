@@ -1,0 +1,44 @@
+<view class="container paper">
+  <view class="heading">我的伙伴</view>
+  <view class="muted intro">选择陪你练习的伙伴，数学和英语共用。</view>
+  <view class="panel">
+    <view class="label">兑换新伙伴</view>
+    <input class="code" value="{{code}}" maxlength="64" placeholder="输入或粘贴伙伴兑换码" aria-label="伙伴兑换码" bindinput="input" bindconfirm="redeem" disabled="{{busy}}"/>
+    <button class="primary" bindtap="redeem" disabled="{{busy}}">{{busy ? '请稍候…' : '查看伙伴'}}</button>
+    <view class="muted hint">兑换码可以重复使用，下载后离线可用。</view>
+  </view>
+  <view wx:if="{{message}}" class="warning" role="alert">{{message}}</view>
+  <view wx:if="{{detail}}" class="panel detail">
+    <image wx:if="{{detail.thumbnail}}" class="large-portrait" src="{{detail.thumbnail}}" mode="aspectFit"/>
+    <view wx:else class="portrait-placeholder">伙伴预览</view>
+    <view class="expressions"><button data-face="open" bindtap="expression" disabled="{{busy}}">平常</button><button data-face="happy" bindtap="expression" disabled="{{busy}}">开心</button><button data-face="tight" bindtap="expression" disabled="{{busy}}">加油</button></view>
+    <view class="label">{{detail.name}}</view>
+    <view class="description">{{detail.description}}</view>
+    <view class="muted">第 {{detail.revision}} 版 · {{detail.size}} MB</view>
+    <view class="muted">{{detail.colors}} 种配色 · {{detail.costumes}} 种适配装扮</view>
+    <view class="muted">其他配色使用原色，未适配装扮暂不显示。</view>
+    <view wx:if="{{detail.offline}}" class="muted">暂未取得最新目录，正在显示已领取版本。</view>
+    <view wx:if="{{downloading}}" class="download-progress">
+      <progress percent="{{progress}}" show-info activeColor="#ed75a8"/>
+      <button bindtap="cancel">暂停下载</button>
+    </view>
+    <view wx:else class="stack">
+      <button wx:if="{{!detail.installedLatest}}" class="primary" bindtap="download" disabled="{{busy}}">{{detail.ready ? '下载更新' : '下载伙伴'}}</button>
+      <button wx:if="{{detail.ready}}" class="secondary" bindtap="selectDetail" disabled="{{busy}}">使用这位伙伴</button>
+      <button wx:if="{{detail.claimed}}" bindtap="remove" disabled="{{busy}}">删除下载资源</button>
+      <button bindtap="closeDetail" disabled="{{busy}}">收起详情</button>
+    </view>
+  </view>
+  <view class="partner-list">
+    <view wx:for="{{rows}}" wx:key="id" class="partner-card">
+      <image wx:if="{{item.thumbnail}}" class="portrait" src="{{item.thumbnail}}" mode="aspectFit"/>
+      <view wx:else class="portrait empty">伙伴</view>
+      <view class="partner-info"><view class="partner-name">{{item.name}}</view><view class="muted">{{item.status}}{{item.selected ? ' · 使用中' : ''}}</view></view>
+      <view class="card-actions">
+        <button wx:if="{{item.ready}}" class="{{item.selected ? 'secondary' : ''}}" data-id="{{item.id}}" bindtap="select" disabled="{{busy || item.selected}}">{{item.selected ? '使用中' : '使用'}}</button>
+        <button wx:if="{{!item.builtin}}" data-id="{{item.id}}" bindtap="details" disabled="{{busy}}">{{item.ready ? '详情' : '下载'}}</button>
+      </view>
+    </view>
+  </view>
+  <view class="space"><text class="muted">角色资源 {{space}} MB</text><button bindtap="manageSpace">管理空间</button></view>
+</view>
