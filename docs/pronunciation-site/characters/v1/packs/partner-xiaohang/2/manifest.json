@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "characterId": "partner-xiaohang",
+  "name": "牛仔",
+  "description": "戴着透明眼镜，和你一起认真思考、开心进步的学习伙伴。",
+  "revision": 2,
+  "minClientBuild": 1,
+  "thumbnail": "happy",
+  "capabilities": {
+    "colors": [
+      "original"
+    ],
+    "costumes": []
+  },
+  "frames": {
+    "original": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    }
+  },
+  "files": {
+    "open": {
+      "path": "open.png",
+      "bytes": 11726,
+      "sha256": "18711a607f7bec42a4e09a32d0fa529a45cc83652ee83fa65ca42e15fb27f44c",
+      "width": 256,
+      "height": 256
+    },
+    "happy": {
+      "path": "happy.png",
+      "bytes": 11441,
+      "sha256": "728b60112aea4773cfdbc58b8938bacb4c9e61003df450e22bb501948de5249b",
+      "width": 256,
+      "height": 256
+    },
+    "tight": {
+      "path": "tight.png",
+      "bytes": 10561,
+      "sha256": "5c0f94b401a414d99d35fbafd0a4757e48dc8091d7cd2de939e7ed9e42617d7f",
+      "width": 256,
+      "height": 256
+    }
+  },
+  "totalBytes": 33728
+}
