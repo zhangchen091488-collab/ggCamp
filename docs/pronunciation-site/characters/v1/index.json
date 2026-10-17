@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "revision": 2,
+  "codes": {
+    "XHNG2345ABCD": "partner-xiaohang"
+  },
+  "characters": {
+    "partner-xiaohang": {
+      "available": true,
+      "revision": 2,
+      "path": "packs/partner-xiaohang/2/manifest.json",
+      "bytes": 1064,
+      "sha256": "93d1a756cf064ec144a3bc54556c9bfba91936468cd0b062d15f73240ee34274"
+    }
+  },
+  "generatedAt": "2026-10-17T10:52:59.341Z"
+}
