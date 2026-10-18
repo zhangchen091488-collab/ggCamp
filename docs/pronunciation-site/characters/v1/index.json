@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "revision": 4,
+  "revision": 5,
   "characters": {
     "partner-xiaohang": {
       "available": true,
-      "revision": 2,
-      "path": "packs/partner-xiaohang/2/manifest.json",
-      "bytes": 1064,
-      "sha256": "93d1a756cf064ec144a3bc54556c9bfba91936468cd0b062d15f73240ee34274"
+      "revision": 3,
+      "path": "packs/partner-xiaohang/3/manifest.json",
+      "bytes": 14468,
+      "sha256": "4f8216ed6fefda7b16e7728b5b875e7081627b89b6a7901ea143d7cefeb8090b"
     }
   },
-  "generatedAt": "2026-10-17T11:14:06.103Z",
+  "generatedAt": "2026-10-18T12:21:48.523Z",
   "codeHashes": {
     "0642214265664253894a29a160748fb4ad0ab575decfc05fde77d772cfe7648c": "partner-xiaohang"
   }
