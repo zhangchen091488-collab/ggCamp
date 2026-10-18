@@ -39,7 +39,7 @@ function assertIndex(index) {
 function assertManifest(m, expected = null) {
   check(isRecord(m) && m.schemaVersion === 1 && characterId(m.characterId) && Number.isSafeInteger(m.revision) && m.revision >= 1);
   check(Number.isSafeInteger(m.minClientBuild) && m.minClientBuild >= 1);
-  check(m.minClientBuild <= 1, '请更新游戏后再领取这位伙伴');
+  check(m.minClientBuild <= 2, '请更新游戏后再领取这位伙伴');
   check(typeof m.name === 'string' && m.name.trim().length > 0 && m.name.length <= 24 && typeof m.description === 'string' && m.description.length <= 300);
   if (expected) check(m.characterId === expected.characterId && m.revision === expected.revision, '角色身份或版本不一致');
   check(isRecord(m.files) && Object.keys(m.files).length > 0 && Object.keys(m.files).length <= 64 && isRecord(m.frames) && isRecord(m.capabilities));
@@ -57,6 +57,33 @@ function assertManifest(m, expected = null) {
   for (const color of caps.colors) {
     check(isRecord(m.frames[color]) && Object.keys(m.frames[color]).length === 3);
     for (const face of FACES) check(own(m.files, m.frames[color][face]));
+  }
+  if (m.clothes !== undefined) {
+    check(m.minClientBuild >= 2 && isRecord(m.clothes), '分层衣服需要新版游戏');
+    check(Object.keys(m.clothes).length === caps.colors.filter(c => c !== 'original').length);
+    for (const color of caps.colors.filter(c => c !== 'original')) {
+      check(isRecord(m.clothes[color]) && Object.keys(m.clothes[color]).length === 3);
+      for (const face of FACES) check(own(m.files, m.clothes[color][face]));
+    }
+  }
+  if (caps.wearTransforms !== undefined) {
+    check(m.minClientBuild >= 2 && isRecord(caps.wearTransforms));
+    check(Object.keys(caps.wearTransforms).length === caps.costumes.length);
+    for (const costume of caps.costumes) {
+      const faces = caps.wearTransforms[costume];
+      check(isRecord(faces) && Object.keys(faces).length === 3);
+      for (const face of FACES) {
+        const layers = faces[face];
+        check(isRecord(layers) && isRecord(layers.front) && Object.keys(layers).every(k => ['front', 'back'].includes(k)));
+        if (['cape', 'cat'].includes(costume)) check(isRecord(layers.back));
+        for (const t of Object.values(layers)) {
+          check(isRecord(t) && Object.keys(t).every(k => ['x', 'y', 'scaleX', 'scaleY', 'rotate'].includes(k)));
+          check(Number.isFinite(t.x) && Math.abs(t.x) <= 128 && Number.isFinite(t.y) && Math.abs(t.y) <= 128);
+          check(Number.isFinite(t.scaleX) && t.scaleX >= .25 && t.scaleX <= 2 && Number.isFinite(t.scaleY) && t.scaleY >= .25 && t.scaleY <= 2);
+          check(Number.isFinite(t.rotate) && Math.abs(t.rotate) <= 30);
+        }
+      }
+    }
   }
   if (caps.wearTransform !== undefined) {
     const t = caps.wearTransform;

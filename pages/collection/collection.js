@@ -4,6 +4,8 @@ const { createAudio } = require('../../lib/audio.js');
 const debug = require('../../lib/debug.js');
 const features = require('../../lib/features.js');
 const { visual } = require('../../lib/visual.js');
+const partners = require('../../lib/partners.js');
+const thumbStyle = t => t ? `transform:translate(${t.x / 2.56}%,${t.y / 2.56}%) rotate(${t.rotate || 0}deg) scale(${t.scaleX || t.scale || 1},${t.scaleY || t.scale || 1});transform-origin:50% 50%;` : '';
 // The trophies the page reads. With the debug switch on, everything counts as earned so every
 // variant can be previewed; otherwise it is the real, saved set.
 const earned = () => (debug.enabled() ? ul.allTrophies() : getApp().store.state.trophies.got || {});
@@ -11,7 +13,8 @@ function thumbnail(item, character) {
   const key = ul.variant(item.id);
   if (item.cat === 'costume' || item.cat === 'color') {
     const color = item.cat === 'color' ? key : 'pink'; const costume = item.cat === 'costume' ? key : 'none';
-    return { src: `/assets/guagua/${character}-${color}-open.png`, wear: costume !== 'none' ? `/assets/guagua/wear-${costume}.png` : '', back: ['cape', 'cat'].includes(costume) ? `/assets/guagua/back-${costume}.png` : '' };
+    const layers = partners.resolve(character, partners.snapshot(character).characterRevision, color, 'open', costume);
+    return { ...layers, wearStyle: thumbStyle(layers.wearTransform), backStyle: thumbStyle(layers.backTransform) };
   }
   if (item.cat === 'crowd') return { buddies: visual({ character, crowd: item.id, costume: 'costume:none', color: 'color:pink' }).actors.slice(0, 3) };
   return { src: `/assets/ui/thumb-${item.id.replace(':', '-')}.png` };
