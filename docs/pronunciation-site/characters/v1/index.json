@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": 5,
+  "revision": 6,
   "characters": {
     "partner-xiaohang": {
       "available": true,
@@ -8,10 +8,18 @@
       "path": "packs/partner-xiaohang/3/manifest.json",
       "bytes": 14468,
       "sha256": "4f8216ed6fefda7b16e7728b5b875e7081627b89b6a7901ea143d7cefeb8090b"
+    },
+    "partner-yiru": {
+      "available": true,
+      "revision": 1,
+      "path": "packs/partner-yiru/1/manifest.json",
+      "bytes": 14837,
+      "sha256": "5e8eac89730b75c15892b5321bd80c673b447d9aebb9fbd3f5a9098d7a4bf62b"
     }
   },
-  "generatedAt": "2026-10-18T12:21:48.523Z",
+  "generatedAt": "2026-10-19T13:41:12.525Z",
   "codeHashes": {
-    "0642214265664253894a29a160748fb4ad0ab575decfc05fde77d772cfe7648c": "partner-xiaohang"
+    "0642214265664253894a29a160748fb4ad0ab575decfc05fde77d772cfe7648c": "partner-xiaohang",
+    "b6e4b30e512084ce67edc76959e75bcbf103f9ce3025530d6597432c958d9b9d": "partner-yiru"
   }
 }
