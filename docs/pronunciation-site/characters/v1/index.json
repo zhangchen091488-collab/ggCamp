@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": 6,
+  "revision": 7,
   "characters": {
     "partner-xiaohang": {
       "available": true,
@@ -11,13 +11,13 @@
     },
     "partner-yiru": {
       "available": true,
-      "revision": 1,
-      "path": "packs/partner-yiru/1/manifest.json",
-      "bytes": 14837,
-      "sha256": "5e8eac89730b75c15892b5321bd80c673b447d9aebb9fbd3f5a9098d7a4bf62b"
+      "revision": 2,
+      "path": "packs/partner-yiru/2/manifest.json",
+      "bytes": 43768,
+      "sha256": "08d428cedf9c36ef3b6492b282b23dc6b1e7b9488811f27a01081d2af4b6cc3d"
     }
   },
-  "generatedAt": "2026-10-19T13:41:12.525Z",
+  "generatedAt": "2026-10-20T14:22:39.887Z",
   "codeHashes": {
     "0642214265664253894a29a160748fb4ad0ab575decfc05fde77d772cfe7648c": "partner-xiaohang",
     "b6e4b30e512084ce67edc76959e75bcbf103f9ce3025530d6597432c958d9b9d": "partner-yiru"
