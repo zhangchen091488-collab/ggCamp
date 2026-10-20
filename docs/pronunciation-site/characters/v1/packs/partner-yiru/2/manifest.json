@@ -1,0 +1,1677 @@
+{
+  "schemaVersion": 1,
+  "characterId": "partner-yiru",
+  "name": "艺茹",
+  "description": "戴着透明圆框眼镜、系着红领巾，陪你思考和进步的学习伙伴。",
+  "revision": 2,
+  "minClientBuild": 3,
+  "thumbnail": "happy",
+  "capabilities": {
+    "colors": [
+      "original",
+      "pink",
+      "blue",
+      "yellow",
+      "mint",
+      "violet",
+      "gold",
+      "snow",
+      "rainbow"
+    ],
+    "costumes": [
+      "ribbon",
+      "cap",
+      "hachimaki",
+      "headphones",
+      "wizard",
+      "crown",
+      "glasses",
+      "cat",
+      "cape"
+    ],
+    "wearTransforms": {
+      "ribbon": {
+        "open": {
+          "front": {
+            "x": 12.586,
+            "y": -35.086,
+            "scaleX": 0.6543,
+            "scaleY": 0.6552,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 33.334,
+            "y": -33.822,
+            "scaleX": 0.6543,
+            "scaleY": 0.6552,
+            "rotate": -8
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 33.334,
+            "y": -33.822,
+            "scaleX": 0.6543,
+            "scaleY": 0.6552,
+            "rotate": -8
+          }
+        }
+      },
+      "cap": {
+        "open": {
+          "front": {
+            "x": -3.702,
+            "y": -9.082,
+            "scaleX": 0.8227,
+            "scaleY": 0.8197,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 19.456,
+            "y": -9.344,
+            "scaleX": 0.8227,
+            "scaleY": 0.8197,
+            "rotate": -8
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 19.456,
+            "y": -9.344,
+            "scaleX": 0.8227,
+            "scaleY": 0.8197,
+            "rotate": -8
+          }
+        }
+      },
+      "hachimaki": {
+        "open": {
+          "front": {
+            "x": -11.711,
+            "y": -27.028,
+            "scaleX": 0.6506,
+            "scaleY": 0.6389,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 5.827,
+            "y": -25.777,
+            "scaleX": 0.6506,
+            "scaleY": 0.6389,
+            "rotate": -8
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 5.827,
+            "y": -25.777,
+            "scaleX": 0.6506,
+            "scaleY": 0.6389,
+            "rotate": -8
+          }
+        }
+      },
+      "headphones": {
+        "open": {
+          "front": {
+            "x": 0,
+            "y": -13.105,
+            "scaleX": 0.7,
+            "scaleY": 0.7018,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 17.274,
+            "y": -13.474,
+            "scaleX": 0.7,
+            "scaleY": 0.7018,
+            "rotate": -8
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 17.274,
+            "y": -13.474,
+            "scaleX": 0.7,
+            "scaleY": 0.7018,
+            "rotate": -8
+          }
+        }
+      },
+      "wizard": {
+        "open": {
+          "front": {
+            "x": 0,
+            "y": -37.846,
+            "scaleX": 0.6875,
+            "scaleY": 0.6923,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 20.093,
+            "y": -38.412,
+            "scaleX": 0.6875,
+            "scaleY": 0.6923,
+            "rotate": -8
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 20.093,
+            "y": -38.412,
+            "scaleX": 0.6875,
+            "scaleY": 0.6923,
+            "rotate": -8
+          }
+        }
+      },
+      "crown": {
+        "open": {
+          "front": {
+            "x": 0,
+            "y": -30.154,
+            "scaleX": 0.6852,
+            "scaleY": 0.6923,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 21.442,
+            "y": -30.814,
+            "scaleX": 0.6852,
+            "scaleY": 0.6923,
+            "rotate": -8
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 21.442,
+            "y": -30.814,
+            "scaleX": 0.6852,
+            "scaleY": 0.6923,
+            "rotate": -8
+          }
+        }
+      },
+      "glasses": {
+        "open": {
+          "front": {
+            "x": 0,
+            "y": -27.667,
+            "scaleX": 0.6667,
+            "scaleY": 0.6667,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 14.134,
+            "y": -27.816,
+            "scaleX": 0.6667,
+            "scaleY": 0.6667,
+            "rotate": -8
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 14.134,
+            "y": -27.816,
+            "scaleX": 0.6667,
+            "scaleY": 0.6667,
+            "rotate": -8
+          }
+        }
+      },
+      "cat": {
+        "open": {
+          "front": {
+            "x": 0,
+            "y": -14.72,
+            "scaleX": 0.85,
+            "scaleY": 0.86,
+            "rotate": 0
+          },
+          "back": {
+            "x": 8.411,
+            "y": 11.194,
+            "scaleX": 0.505,
+            "scaleY": 0.5278,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 23.73,
+            "y": -15.54,
+            "scaleX": 0.85,
+            "scaleY": 0.86,
+            "rotate": -8
+          },
+          "back": {
+            "x": 20.411,
+            "y": 11.194,
+            "scaleX": 0.505,
+            "scaleY": 0.5278,
+            "rotate": 0
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 23.73,
+            "y": -15.54,
+            "scaleX": 0.85,
+            "scaleY": 0.86,
+            "rotate": -8
+          },
+          "back": {
+            "x": 20.411,
+            "y": 11.194,
+            "scaleX": 0.505,
+            "scaleY": 0.5278,
+            "rotate": 0
+          }
+        }
+      },
+      "cape": {
+        "open": {
+          "front": {
+            "x": 0,
+            "y": -25.737,
+            "scaleX": 0.6515,
+            "scaleY": 0.6316,
+            "rotate": 0
+          },
+          "back": {
+            "x": 0,
+            "y": -23.825,
+            "scaleX": 0.8254,
+            "scaleY": 0.8072,
+            "rotate": 0
+          }
+        },
+        "happy": {
+          "front": {
+            "x": 12,
+            "y": -25.737,
+            "scaleX": 0.6515,
+            "scaleY": 0.6316,
+            "rotate": 0
+          },
+          "back": {
+            "x": 12,
+            "y": -23.825,
+            "scaleX": 0.8254,
+            "scaleY": 0.8072,
+            "rotate": 0
+          }
+        },
+        "tight": {
+          "front": {
+            "x": 12,
+            "y": -25.737,
+            "scaleX": 0.6515,
+            "scaleY": 0.6316,
+            "rotate": 0
+          },
+          "back": {
+            "x": 12,
+            "y": -23.825,
+            "scaleX": 0.8254,
+            "scaleY": 0.8072,
+            "rotate": 0
+          }
+        }
+      }
+    }
+  },
+  "frames": {
+    "original": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    },
+    "pink": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    },
+    "blue": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    },
+    "yellow": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    },
+    "mint": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    },
+    "violet": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    },
+    "gold": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    },
+    "snow": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    },
+    "rainbow": {
+      "open": "open",
+      "happy": "happy",
+      "tight": "tight"
+    }
+  },
+  "clothes": {
+    "pink": {
+      "open": "shirt-pink-open",
+      "happy": "shirt-pink-happy",
+      "tight": "shirt-pink-tight"
+    },
+    "blue": {
+      "open": "shirt-blue-open",
+      "happy": "shirt-blue-happy",
+      "tight": "shirt-blue-tight"
+    },
+    "yellow": {
+      "open": "shirt-yellow-open",
+      "happy": "shirt-yellow-happy",
+      "tight": "shirt-yellow-tight"
+    },
+    "mint": {
+      "open": "shirt-mint-open",
+      "happy": "shirt-mint-happy",
+      "tight": "shirt-mint-tight"
+    },
+    "violet": {
+      "open": "shirt-violet-open",
+      "happy": "shirt-violet-happy",
+      "tight": "shirt-violet-tight"
+    },
+    "gold": {
+      "open": "shirt-gold-open",
+      "happy": "shirt-gold-happy",
+      "tight": "shirt-gold-tight"
+    },
+    "snow": {
+      "open": "shirt-snow-open",
+      "happy": "shirt-snow-happy",
+      "tight": "shirt-snow-tight"
+    },
+    "rainbow": {
+      "open": "shirt-rainbow-open",
+      "happy": "shirt-rainbow-happy",
+      "tight": "shirt-rainbow-tight"
+    }
+  },
+  "actions": {
+    "open": [
+      {
+        "id": "wave",
+        "name": "挥手打招呼",
+        "frame": "wave",
+        "clothes": {
+          "pink": "shirt-pink-wave",
+          "blue": "shirt-blue-wave",
+          "yellow": "shirt-yellow-wave",
+          "mint": "shirt-mint-wave",
+          "violet": "shirt-violet-wave",
+          "gold": "shirt-gold-wave",
+          "snow": "shirt-snow-wave",
+          "rainbow": "shirt-rainbow-wave"
+        },
+        "wearTransforms": {
+          "ribbon": {
+            "front": {
+              "x": 30.334,
+              "y": -33.822,
+              "scaleX": 0.6543,
+              "scaleY": 0.6552,
+              "rotate": -8
+            }
+          },
+          "cap": {
+            "front": {
+              "x": 16.456,
+              "y": -9.344,
+              "scaleX": 0.8227,
+              "scaleY": 0.8197,
+              "rotate": -8
+            }
+          },
+          "hachimaki": {
+            "front": {
+              "x": 2.827,
+              "y": -25.777,
+              "scaleX": 0.6506,
+              "scaleY": 0.6389,
+              "rotate": -8
+            }
+          },
+          "headphones": {
+            "front": {
+              "x": 14.274,
+              "y": -13.474,
+              "scaleX": 0.7,
+              "scaleY": 0.7018,
+              "rotate": -8
+            }
+          },
+          "wizard": {
+            "front": {
+              "x": 17.093,
+              "y": -38.412,
+              "scaleX": 0.6875,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "crown": {
+            "front": {
+              "x": 18.442,
+              "y": -30.814,
+              "scaleX": 0.6852,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "glasses": {
+            "front": {
+              "x": 11.134,
+              "y": -27.816,
+              "scaleX": 0.6667,
+              "scaleY": 0.6667,
+              "rotate": -8
+            }
+          },
+          "cat": {
+            "front": {
+              "x": 20.73,
+              "y": -15.54,
+              "scaleX": 0.85,
+              "scaleY": 0.86,
+              "rotate": -8
+            },
+            "back": {
+              "x": 17.411,
+              "y": 18.194,
+              "scaleX": 0.505,
+              "scaleY": 0.5278,
+              "rotate": 0
+            }
+          },
+          "cape": {
+            "front": {
+              "x": 9,
+              "y": -22.737,
+              "scaleX": 0.6515,
+              "scaleY": 0.6316,
+              "rotate": 0
+            },
+            "back": {
+              "x": 9,
+              "y": -16.825,
+              "scaleX": 0.8254,
+              "scaleY": 0.8072,
+              "rotate": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "adjust-glasses",
+        "name": "轻扶眼镜",
+        "frame": "adjust-glasses",
+        "clothes": {
+          "pink": "shirt-pink-adjust-glasses",
+          "blue": "shirt-blue-adjust-glasses",
+          "yellow": "shirt-yellow-adjust-glasses",
+          "mint": "shirt-mint-adjust-glasses",
+          "violet": "shirt-violet-adjust-glasses",
+          "gold": "shirt-gold-adjust-glasses",
+          "snow": "shirt-snow-adjust-glasses",
+          "rainbow": "shirt-rainbow-adjust-glasses"
+        },
+        "wearTransforms": {
+          "ribbon": {
+            "front": {
+              "x": 35.334,
+              "y": -33.822,
+              "scaleX": 0.6543,
+              "scaleY": 0.6552,
+              "rotate": -8
+            }
+          },
+          "cap": {
+            "front": {
+              "x": 21.456,
+              "y": -9.344,
+              "scaleX": 0.8227,
+              "scaleY": 0.8197,
+              "rotate": -8
+            }
+          },
+          "hachimaki": {
+            "front": {
+              "x": 7.827,
+              "y": -25.777,
+              "scaleX": 0.6506,
+              "scaleY": 0.6389,
+              "rotate": -8
+            }
+          },
+          "headphones": {
+            "front": {
+              "x": 19.274,
+              "y": -13.474,
+              "scaleX": 0.7,
+              "scaleY": 0.7018,
+              "rotate": -8
+            }
+          },
+          "wizard": {
+            "front": {
+              "x": 22.093,
+              "y": -38.412,
+              "scaleX": 0.6875,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "crown": {
+            "front": {
+              "x": 23.442,
+              "y": -30.814,
+              "scaleX": 0.6852,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "glasses": {
+            "front": {
+              "x": 16.134,
+              "y": -27.816,
+              "scaleX": 0.6667,
+              "scaleY": 0.6667,
+              "rotate": -8
+            }
+          },
+          "cat": {
+            "front": {
+              "x": 25.73,
+              "y": -15.54,
+              "scaleX": 0.85,
+              "scaleY": 0.86,
+              "rotate": -8
+            },
+            "back": {
+              "x": 22.411,
+              "y": 18.194,
+              "scaleX": 0.505,
+              "scaleY": 0.5278,
+              "rotate": 0
+            }
+          },
+          "cape": {
+            "front": {
+              "x": 14,
+              "y": -22.737,
+              "scaleX": 0.6515,
+              "scaleY": 0.6316,
+              "rotate": 0
+            },
+            "back": {
+              "x": 14,
+              "y": -16.825,
+              "scaleX": 0.8254,
+              "scaleY": 0.8072,
+              "rotate": 0
+            }
+          }
+        }
+      }
+    ],
+    "happy": [
+      {
+        "id": "peace",
+        "name": "开心比耶",
+        "frame": "peace",
+        "clothes": {
+          "pink": "shirt-pink-peace",
+          "blue": "shirt-blue-peace",
+          "yellow": "shirt-yellow-peace",
+          "mint": "shirt-mint-peace",
+          "violet": "shirt-violet-peace",
+          "gold": "shirt-gold-peace",
+          "snow": "shirt-snow-peace",
+          "rainbow": "shirt-rainbow-peace"
+        },
+        "wearTransforms": {
+          "ribbon": {
+            "front": {
+              "x": 34.334,
+              "y": -33.822,
+              "scaleX": 0.6543,
+              "scaleY": 0.6552,
+              "rotate": -8
+            }
+          },
+          "cap": {
+            "front": {
+              "x": 20.456,
+              "y": -9.344,
+              "scaleX": 0.8227,
+              "scaleY": 0.8197,
+              "rotate": -8
+            }
+          },
+          "hachimaki": {
+            "front": {
+              "x": 6.827,
+              "y": -25.777,
+              "scaleX": 0.6506,
+              "scaleY": 0.6389,
+              "rotate": -8
+            }
+          },
+          "headphones": {
+            "front": {
+              "x": 18.274,
+              "y": -13.474,
+              "scaleX": 0.7,
+              "scaleY": 0.7018,
+              "rotate": -8
+            }
+          },
+          "wizard": {
+            "front": {
+              "x": 21.093,
+              "y": -38.412,
+              "scaleX": 0.6875,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "crown": {
+            "front": {
+              "x": 22.442,
+              "y": -30.814,
+              "scaleX": 0.6852,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "glasses": {
+            "front": {
+              "x": 15.134,
+              "y": -27.816,
+              "scaleX": 0.6667,
+              "scaleY": 0.6667,
+              "rotate": -8
+            }
+          },
+          "cat": {
+            "front": {
+              "x": 24.73,
+              "y": -15.54,
+              "scaleX": 0.85,
+              "scaleY": 0.86,
+              "rotate": -8
+            },
+            "back": {
+              "x": 21.411,
+              "y": 18.194,
+              "scaleX": 0.505,
+              "scaleY": 0.5278,
+              "rotate": 0
+            }
+          },
+          "cape": {
+            "front": {
+              "x": 13,
+              "y": -22.737,
+              "scaleX": 0.6515,
+              "scaleY": 0.6316,
+              "rotate": 0
+            },
+            "back": {
+              "x": 13,
+              "y": -16.825,
+              "scaleX": 0.8254,
+              "scaleY": 0.8072,
+              "rotate": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "clap",
+        "name": "鼓掌庆祝",
+        "frame": "clap",
+        "clothes": {
+          "pink": "shirt-pink-clap",
+          "blue": "shirt-blue-clap",
+          "yellow": "shirt-yellow-clap",
+          "mint": "shirt-mint-clap",
+          "violet": "shirt-violet-clap",
+          "gold": "shirt-gold-clap",
+          "snow": "shirt-snow-clap",
+          "rainbow": "shirt-rainbow-clap"
+        },
+        "wearTransforms": {
+          "ribbon": {
+            "front": {
+              "x": 39.334,
+              "y": -33.822,
+              "scaleX": 0.6543,
+              "scaleY": 0.6552,
+              "rotate": -8
+            }
+          },
+          "cap": {
+            "front": {
+              "x": 25.456,
+              "y": -9.344,
+              "scaleX": 0.8227,
+              "scaleY": 0.8197,
+              "rotate": -8
+            }
+          },
+          "hachimaki": {
+            "front": {
+              "x": 11.827,
+              "y": -25.777,
+              "scaleX": 0.6506,
+              "scaleY": 0.6389,
+              "rotate": -8
+            }
+          },
+          "headphones": {
+            "front": {
+              "x": 23.274,
+              "y": -13.474,
+              "scaleX": 0.7,
+              "scaleY": 0.7018,
+              "rotate": -8
+            }
+          },
+          "wizard": {
+            "front": {
+              "x": 26.093,
+              "y": -38.412,
+              "scaleX": 0.6875,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "crown": {
+            "front": {
+              "x": 27.442,
+              "y": -30.814,
+              "scaleX": 0.6852,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "glasses": {
+            "front": {
+              "x": 20.134,
+              "y": -24.816,
+              "scaleX": 0.6667,
+              "scaleY": 0.6667,
+              "rotate": -8
+            }
+          },
+          "cat": {
+            "front": {
+              "x": 29.73,
+              "y": -15.54,
+              "scaleX": 0.85,
+              "scaleY": 0.86,
+              "rotate": -8
+            },
+            "back": {
+              "x": 26.411,
+              "y": 18.194,
+              "scaleX": 0.505,
+              "scaleY": 0.5278,
+              "rotate": 0
+            }
+          },
+          "cape": {
+            "front": {
+              "x": 18,
+              "y": -22.737,
+              "scaleX": 0.6515,
+              "scaleY": 0.6316,
+              "rotate": 0
+            },
+            "back": {
+              "x": 18,
+              "y": -16.825,
+              "scaleX": 0.8254,
+              "scaleY": 0.8072,
+              "rotate": 0
+            }
+          }
+        }
+      }
+    ],
+    "tight": [
+      {
+        "id": "arms-crossed",
+        "name": "抱臂思考",
+        "frame": "arms-crossed",
+        "clothes": {
+          "pink": "shirt-pink-arms-crossed",
+          "blue": "shirt-blue-arms-crossed",
+          "yellow": "shirt-yellow-arms-crossed",
+          "mint": "shirt-mint-arms-crossed",
+          "violet": "shirt-violet-arms-crossed",
+          "gold": "shirt-gold-arms-crossed",
+          "snow": "shirt-snow-arms-crossed",
+          "rainbow": "shirt-rainbow-arms-crossed"
+        },
+        "wearTransforms": {
+          "ribbon": {
+            "front": {
+              "x": 33.334,
+              "y": -33.822,
+              "scaleX": 0.6543,
+              "scaleY": 0.6552,
+              "rotate": -8
+            }
+          },
+          "cap": {
+            "front": {
+              "x": 19.456,
+              "y": -9.344,
+              "scaleX": 0.8227,
+              "scaleY": 0.8197,
+              "rotate": -8
+            }
+          },
+          "hachimaki": {
+            "front": {
+              "x": 5.827,
+              "y": -25.777,
+              "scaleX": 0.6506,
+              "scaleY": 0.6389,
+              "rotate": -8
+            }
+          },
+          "headphones": {
+            "front": {
+              "x": 17.274,
+              "y": -13.474,
+              "scaleX": 0.7,
+              "scaleY": 0.7018,
+              "rotate": -8
+            }
+          },
+          "wizard": {
+            "front": {
+              "x": 20.093,
+              "y": -38.412,
+              "scaleX": 0.6875,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "crown": {
+            "front": {
+              "x": 21.442,
+              "y": -30.814,
+              "scaleX": 0.6852,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "glasses": {
+            "front": {
+              "x": 14.134,
+              "y": -24.816,
+              "scaleX": 0.6667,
+              "scaleY": 0.6667,
+              "rotate": -8
+            }
+          },
+          "cat": {
+            "front": {
+              "x": 23.73,
+              "y": -15.54,
+              "scaleX": 0.85,
+              "scaleY": 0.86,
+              "rotate": -8
+            },
+            "back": {
+              "x": 20.411,
+              "y": 18.194,
+              "scaleX": 0.505,
+              "scaleY": 0.5278,
+              "rotate": 0
+            }
+          },
+          "cape": {
+            "front": {
+              "x": 12,
+              "y": -22.737,
+              "scaleX": 0.6515,
+              "scaleY": 0.6316,
+              "rotate": 0
+            },
+            "back": {
+              "x": 12,
+              "y": -16.825,
+              "scaleX": 0.8254,
+              "scaleY": 0.8072,
+              "rotate": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "encourage",
+        "name": "握拳加油",
+        "frame": "encourage",
+        "clothes": {
+          "pink": "shirt-pink-encourage",
+          "blue": "shirt-blue-encourage",
+          "yellow": "shirt-yellow-encourage",
+          "mint": "shirt-mint-encourage",
+          "violet": "shirt-violet-encourage",
+          "gold": "shirt-gold-encourage",
+          "snow": "shirt-snow-encourage",
+          "rainbow": "shirt-rainbow-encourage"
+        },
+        "wearTransforms": {
+          "ribbon": {
+            "front": {
+              "x": 36.334,
+              "y": -33.822,
+              "scaleX": 0.6543,
+              "scaleY": 0.6552,
+              "rotate": -8
+            }
+          },
+          "cap": {
+            "front": {
+              "x": 22.456,
+              "y": -9.344,
+              "scaleX": 0.8227,
+              "scaleY": 0.8197,
+              "rotate": -8
+            }
+          },
+          "hachimaki": {
+            "front": {
+              "x": 8.827,
+              "y": -25.777,
+              "scaleX": 0.6506,
+              "scaleY": 0.6389,
+              "rotate": -8
+            }
+          },
+          "headphones": {
+            "front": {
+              "x": 20.274,
+              "y": -13.474,
+              "scaleX": 0.7,
+              "scaleY": 0.7018,
+              "rotate": -8
+            }
+          },
+          "wizard": {
+            "front": {
+              "x": 23.093,
+              "y": -38.412,
+              "scaleX": 0.6875,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "crown": {
+            "front": {
+              "x": 24.442,
+              "y": -30.814,
+              "scaleX": 0.6852,
+              "scaleY": 0.6923,
+              "rotate": -8
+            }
+          },
+          "glasses": {
+            "front": {
+              "x": 17.134,
+              "y": -24.816,
+              "scaleX": 0.6667,
+              "scaleY": 0.6667,
+              "rotate": -8
+            }
+          },
+          "cat": {
+            "front": {
+              "x": 26.73,
+              "y": -15.54,
+              "scaleX": 0.85,
+              "scaleY": 0.86,
+              "rotate": -8
+            },
+            "back": {
+              "x": 23.411,
+              "y": 18.194,
+              "scaleX": 0.505,
+              "scaleY": 0.5278,
+              "rotate": 0
+            }
+          },
+          "cape": {
+            "front": {
+              "x": 15,
+              "y": -22.737,
+              "scaleX": 0.6515,
+              "scaleY": 0.6316,
+              "rotate": 0
+            },
+            "back": {
+              "x": 15,
+              "y": -16.825,
+              "scaleX": 0.8254,
+              "scaleY": 0.8072,
+              "rotate": 0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "files": {
+    "open": {
+      "path": "open.png",
+      "bytes": 14089,
+      "sha256": "4e489287aa099b19edfe232e8a61287a2f76cb942dda9d502461167d1f2caa41",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-open": {
+      "path": "shirt-pink-open.png",
+      "bytes": 2590,
+      "sha256": "c21b45ecfc200ceb61043ada3a50df5cc3ab6317ceb79e3813440e256cba390d",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-open": {
+      "path": "shirt-blue-open.png",
+      "bytes": 2799,
+      "sha256": "0c12436c80d45970e7491ef6d53460b4c245b0b7f4916377e352d738a7374912",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-open": {
+      "path": "shirt-yellow-open.png",
+      "bytes": 2781,
+      "sha256": "8e5221dad0b6b7874f1728481332de65e6862fc5c92985ffcf3768da16be9302",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-open": {
+      "path": "shirt-mint-open.png",
+      "bytes": 2546,
+      "sha256": "570377fb0bc2db5e960a4e96f8e46b9da71e238c79fc2298884fa54ee5906add",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-open": {
+      "path": "shirt-violet-open.png",
+      "bytes": 2765,
+      "sha256": "ce08262b56ee2adb07b67aa1bd99f315cc94c4d9220d16b746ae820b58220f31",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-open": {
+      "path": "shirt-gold-open.png",
+      "bytes": 2854,
+      "sha256": "e7f931d07d9107584a8b901d018d7bd2c5f514ea9831586ca6dc4feebe0304ae",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-open": {
+      "path": "shirt-snow-open.png",
+      "bytes": 2593,
+      "sha256": "b0271f47064c61f4b1c533fe20fa5ebc155d554d25879c00fd59c6afeaf7ff54",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-open": {
+      "path": "shirt-rainbow-open.png",
+      "bytes": 3229,
+      "sha256": "b98aea2a8599ee7d19f7dc544a03896af9bafbc03aff58b6525bdaaed5198716",
+      "width": 256,
+      "height": 256
+    },
+    "happy": {
+      "path": "happy.png",
+      "bytes": 13121,
+      "sha256": "eb62fb48195e5ba01cc440704c46f71ddb7b4dc46369c0f4f12fc9a7ad651c6f",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-happy": {
+      "path": "shirt-pink-happy.png",
+      "bytes": 2547,
+      "sha256": "2816603632fd869477ad908be21e52a1d1e187546f64198ba44d4e13656d82cd",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-happy": {
+      "path": "shirt-blue-happy.png",
+      "bytes": 2775,
+      "sha256": "6fc857708ea5c478dd6e01ebcfad1ee5620958c8b80692d97cdde0bf3edb3ce2",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-happy": {
+      "path": "shirt-yellow-happy.png",
+      "bytes": 2707,
+      "sha256": "98456e00161e17f885fc43ec5845e402db8f229584198e99208d82fe4fa828c0",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-happy": {
+      "path": "shirt-mint-happy.png",
+      "bytes": 2507,
+      "sha256": "931010ac4c478a8dfd28a5c509515486270a3006574966601525ef20fa76913c",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-happy": {
+      "path": "shirt-violet-happy.png",
+      "bytes": 2655,
+      "sha256": "7b4130f6bbedd7d1e577cec01d725cf78b792f0958e37c26fd53e677062ef148",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-happy": {
+      "path": "shirt-gold-happy.png",
+      "bytes": 2697,
+      "sha256": "29de4a731a982bb3bbae61837eda770dfc6916b96b275a910e1713c4271a0407",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-happy": {
+      "path": "shirt-snow-happy.png",
+      "bytes": 2538,
+      "sha256": "bcc3f0bab246afd91bba6cca004dc8e2810e02c92c3a89e99db93be472d55f12",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-happy": {
+      "path": "shirt-rainbow-happy.png",
+      "bytes": 3100,
+      "sha256": "3e2f2a825b69358f0876bdb3d3cced71c29df04b52ebbee92449281e973a1113",
+      "width": 256,
+      "height": 256
+    },
+    "tight": {
+      "path": "tight.png",
+      "bytes": 12918,
+      "sha256": "9be0365a5699bef166b366ed622a0a4d2ca9f90bed9da23ca3f5f24fc37f7b7e",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-tight": {
+      "path": "shirt-pink-tight.png",
+      "bytes": 2322,
+      "sha256": "6e37e2d0d49047920ed2335b4f7c5c43782af8deac42715051b89417c2ecedd6",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-tight": {
+      "path": "shirt-blue-tight.png",
+      "bytes": 2491,
+      "sha256": "000853203eb5c9f0d03b5222cc424409abc937f330d17d0f2b8eece74d502cdd",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-tight": {
+      "path": "shirt-yellow-tight.png",
+      "bytes": 2483,
+      "sha256": "57f5b0b03fffce23048f5daa98d8bda6ee2994e73ae3ad1cd6d16fabef7bf523",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-tight": {
+      "path": "shirt-mint-tight.png",
+      "bytes": 2321,
+      "sha256": "1b1b6c6de350a8b95646632d2e58267c043bb65b1f02db1ee9dab16a9a4a2dfa",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-tight": {
+      "path": "shirt-violet-tight.png",
+      "bytes": 2451,
+      "sha256": "3940d269b1ea45068698695ffbda7ef018e420fbb3e53c5916eefd064ac117a7",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-tight": {
+      "path": "shirt-gold-tight.png",
+      "bytes": 2569,
+      "sha256": "fa9d3e5c3e778666b67eb7c16456e2824d74b5b6c0c51eeef5cc0133416bee57",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-tight": {
+      "path": "shirt-snow-tight.png",
+      "bytes": 2602,
+      "sha256": "8c438301fffc3b388e53621c41aec42a73a66f542d9193edd50ee46a3efb5376",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-tight": {
+      "path": "shirt-rainbow-tight.png",
+      "bytes": 2765,
+      "sha256": "d9488f30bbc39c7e925eb6eb3348e066cfb2ffe660b1665e0ef2f349abb917f0",
+      "width": 256,
+      "height": 256
+    },
+    "wave": {
+      "path": "wave.png",
+      "bytes": 13505,
+      "sha256": "3941e7d4406274a23105d2ce24df8185ed5193d5ab5be4c8736fb0be08534979",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-wave": {
+      "path": "shirt-pink-wave.png",
+      "bytes": 2486,
+      "sha256": "063ddd30f127c3d81642338d1df12570c54bc9352d688c43ece529cf913eb7dc",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-wave": {
+      "path": "shirt-blue-wave.png",
+      "bytes": 2723,
+      "sha256": "3efd6286f6403095de3be210edad242423978b8d8da07fbc221527d94730ecbd",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-wave": {
+      "path": "shirt-yellow-wave.png",
+      "bytes": 2708,
+      "sha256": "b0fdf4014ed3b3ed4b839e69cecd977032436fd33e185bd20e855b019c5d9704",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-wave": {
+      "path": "shirt-mint-wave.png",
+      "bytes": 2482,
+      "sha256": "0537723e9a41da8cbcf94027d49261ff05d4d10477f143c6b4055ac51ffbf676",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-wave": {
+      "path": "shirt-violet-wave.png",
+      "bytes": 2672,
+      "sha256": "1ba2f27399e2a5fe458aa59c51735f8f1219d99f8da767cf7095060f5b4a6be1",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-wave": {
+      "path": "shirt-gold-wave.png",
+      "bytes": 2692,
+      "sha256": "71c941bb2bece698fee35ebba26e80b653a02662585ba360bab1cef3c75149f1",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-wave": {
+      "path": "shirt-snow-wave.png",
+      "bytes": 2755,
+      "sha256": "c3b2abc24faaf811997bcb40737669ab408b88cafe7560a8dd3ae0e15306cbb9",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-wave": {
+      "path": "shirt-rainbow-wave.png",
+      "bytes": 3087,
+      "sha256": "27c679c77d40cc77c9c9903c8c8c68dc119ccfb2bb66101bcbabdda12eb14383",
+      "width": 256,
+      "height": 256
+    },
+    "adjust-glasses": {
+      "path": "adjust-glasses.png",
+      "bytes": 13502,
+      "sha256": "3729e30103d37fb38d7a9ba777e144aed454a48cc96474e237e1b8da730e8fca",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-adjust-glasses": {
+      "path": "shirt-pink-adjust-glasses.png",
+      "bytes": 2518,
+      "sha256": "0d5e8194cf04ac997a574c8394cfa40693929f2e6b9f11efe4f1fbc98081b969",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-adjust-glasses": {
+      "path": "shirt-blue-adjust-glasses.png",
+      "bytes": 2734,
+      "sha256": "68a20046a24aa3007f5885de4fb4031ab0ef99f03891a283a0c8803a4085e551",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-adjust-glasses": {
+      "path": "shirt-yellow-adjust-glasses.png",
+      "bytes": 2738,
+      "sha256": "49163ce904af90f7f5f8c22a7e6391a5f1d179dc32382dcad77f5dd6b2029afc",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-adjust-glasses": {
+      "path": "shirt-mint-adjust-glasses.png",
+      "bytes": 2499,
+      "sha256": "352a9295c18f823d3b156c030bc52cee809b9c9513e75e4b8b534d26f6518f47",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-adjust-glasses": {
+      "path": "shirt-violet-adjust-glasses.png",
+      "bytes": 2670,
+      "sha256": "8ec72df1b7f3c1baf9ebb566a9638fcc9c2989f17ff9bdd1f32b258a915ef6be",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-adjust-glasses": {
+      "path": "shirt-gold-adjust-glasses.png",
+      "bytes": 2702,
+      "sha256": "043ab964ec85c7e44b9f54ad45308e83ec6158c828768e431140303f2c867300",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-adjust-glasses": {
+      "path": "shirt-snow-adjust-glasses.png",
+      "bytes": 2807,
+      "sha256": "b6af8b111f989b1aa5f0fcc723d44fbfcf43f9b095e67f6d4dbbde6f2be49019",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-adjust-glasses": {
+      "path": "shirt-rainbow-adjust-glasses.png",
+      "bytes": 3085,
+      "sha256": "eb42f0dc0007be9d802627b4bcaa0bee8c6d74cf9927dbebf833eabf340060b0",
+      "width": 256,
+      "height": 256
+    },
+    "peace": {
+      "path": "peace.png",
+      "bytes": 13790,
+      "sha256": "98354f3c58a6ece5cc96ee79e41356956bb64504237da1e522cf980ede4e9b84",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-peace": {
+      "path": "shirt-pink-peace.png",
+      "bytes": 2467,
+      "sha256": "9dbb1e95c42a8e4b61f03028ff0d03f3517a42e418371f2000c9eb60d4aa9abd",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-peace": {
+      "path": "shirt-blue-peace.png",
+      "bytes": 2655,
+      "sha256": "b2457200b7625f381dd0dea04c5a77625f4f79578498141b6f575ac7476b34a3",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-peace": {
+      "path": "shirt-yellow-peace.png",
+      "bytes": 2655,
+      "sha256": "8fef6e796c792170ae20041aaf5603b880aae2227265c4fa65327b0e13807a70",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-peace": {
+      "path": "shirt-mint-peace.png",
+      "bytes": 2450,
+      "sha256": "8fcb9e1d7abc3f4f11dc10b2a7a069f9d15d18d5a760ad31a730376491125b5d",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-peace": {
+      "path": "shirt-violet-peace.png",
+      "bytes": 2617,
+      "sha256": "d6af63d0f15aafef6025aba07ecf27a1bbb2f5c6185255d03bc6b60002e77ecc",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-peace": {
+      "path": "shirt-gold-peace.png",
+      "bytes": 2611,
+      "sha256": "9f01e4b83741c8ae82e60737bd1115a2140584a1828b93a506208d1cd6c27738",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-peace": {
+      "path": "shirt-snow-peace.png",
+      "bytes": 2651,
+      "sha256": "3f2066a743260041d5e8d886baa824c6e92653f32c452303edfb331e3889c8f5",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-peace": {
+      "path": "shirt-rainbow-peace.png",
+      "bytes": 2985,
+      "sha256": "5fc2103748cb183b29f7203a3af92f3dcb7c573570e1aac10e1e6012b8ebb160",
+      "width": 256,
+      "height": 256
+    },
+    "clap": {
+      "path": "clap.png",
+      "bytes": 13193,
+      "sha256": "abfddab696e935d7d396607ba38f94a1fa248d4ede05ef1691632e3966780474",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-clap": {
+      "path": "shirt-pink-clap.png",
+      "bytes": 2346,
+      "sha256": "2291a1f8c341184bc9bc1e054e2f582fc97924628df019ee1478b9ee51a2f0d0",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-clap": {
+      "path": "shirt-blue-clap.png",
+      "bytes": 2514,
+      "sha256": "d863a5c5fde81e8e0a738c2f45ca15b4be6f829a27983c26f5e25c002d46e918",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-clap": {
+      "path": "shirt-yellow-clap.png",
+      "bytes": 2510,
+      "sha256": "f1421439e6456b077e4a6359c8749a60e149d4ff89a323ca59244c7064712c76",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-clap": {
+      "path": "shirt-mint-clap.png",
+      "bytes": 2322,
+      "sha256": "f00c066f9cf8175a9ffc12922478657fc4ecfbfd1de3b80df4982f06739a2b7d",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-clap": {
+      "path": "shirt-violet-clap.png",
+      "bytes": 2465,
+      "sha256": "fd0f8e09e529794803ba17bfb784545b1fc3f6d31e89b47206c9b47584e9537a",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-clap": {
+      "path": "shirt-gold-clap.png",
+      "bytes": 2480,
+      "sha256": "d3cbb5bb5c788e627f7eeefd2e85d6b2e8f5702988c2661d0b6f9957370c084b",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-clap": {
+      "path": "shirt-snow-clap.png",
+      "bytes": 2523,
+      "sha256": "60aadf511112faefcc9a70428b594b896eeb30f9974cb922930977a0504caa7c",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-clap": {
+      "path": "shirt-rainbow-clap.png",
+      "bytes": 2804,
+      "sha256": "116491e8c4b2c2b35045c0553371488bedd8e49838e7418b758e08d50c26d083",
+      "width": 256,
+      "height": 256
+    },
+    "arms-crossed": {
+      "path": "arms-crossed.png",
+      "bytes": 13050,
+      "sha256": "87a04b7b2b3755d850701b22b8a8a622e7ebc2104651fa58622de2dd61336bc2",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-arms-crossed": {
+      "path": "shirt-pink-arms-crossed.png",
+      "bytes": 2418,
+      "sha256": "bb6362aa0b63a326dc09e2cc9badf85e4e415a207d0de20ec2ceeb7148d8eb25",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-arms-crossed": {
+      "path": "shirt-blue-arms-crossed.png",
+      "bytes": 2612,
+      "sha256": "634d6d410ab894a41c203e6280c5d87ef870a5e8606f7f4e53cbaa6b95cbb802",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-arms-crossed": {
+      "path": "shirt-yellow-arms-crossed.png",
+      "bytes": 2609,
+      "sha256": "dd4fda4840d440024ad44103f5f91dc8c0d00363c5d43bb033d80f9c604aa0dd",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-arms-crossed": {
+      "path": "shirt-mint-arms-crossed.png",
+      "bytes": 2419,
+      "sha256": "6d00279b055d8349d4bc4ff6dd15af458f973d87239e5a54c8f11c9d74e21574",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-arms-crossed": {
+      "path": "shirt-violet-arms-crossed.png",
+      "bytes": 2556,
+      "sha256": "982fbd5ba5eb1e2d9ae65dcb3bbec96c86e762cdd81ebf55e0b56d5fed67ad99",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-arms-crossed": {
+      "path": "shirt-gold-arms-crossed.png",
+      "bytes": 2582,
+      "sha256": "8fe72723c0d722745757957d3ee5df43f01dc3c9e7dd90a34d55d2539116905c",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-arms-crossed": {
+      "path": "shirt-snow-arms-crossed.png",
+      "bytes": 2634,
+      "sha256": "c1548bff86c00566a34bda753151b12e76dfc6adb95f17d5b47dfbc173c2cfbb",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-arms-crossed": {
+      "path": "shirt-rainbow-arms-crossed.png",
+      "bytes": 2929,
+      "sha256": "3872a329f8b0a2e22b9fd6f887acf001b352bedfdcefb60fe6eeb2374d36d4a3",
+      "width": 256,
+      "height": 256
+    },
+    "encourage": {
+      "path": "encourage.png",
+      "bytes": 13401,
+      "sha256": "07c7e065c896a0a041d203d6b904b54bdd6360c1190aacb0c414a2d72bc98d50",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-pink-encourage": {
+      "path": "shirt-pink-encourage.png",
+      "bytes": 2512,
+      "sha256": "4b00511d2e8b0f20476210694b06c77bad28fcbf30e96257029bcea24efe3ef9",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-blue-encourage": {
+      "path": "shirt-blue-encourage.png",
+      "bytes": 2713,
+      "sha256": "64e20cf679181e47cc929017275764f0d75b1e868ef431d31aa37735eaa354cc",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-yellow-encourage": {
+      "path": "shirt-yellow-encourage.png",
+      "bytes": 2713,
+      "sha256": "6ecb57a0c2ae70537fb756df2e9d654d42d999d164b2dff9461aee2ee9a9e1f8",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-mint-encourage": {
+      "path": "shirt-mint-encourage.png",
+      "bytes": 2485,
+      "sha256": "a814d5dcfd308aa09c82bc11a6b75317ee0aeb0d2c4d79d2b77cd83ad050a333",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-violet-encourage": {
+      "path": "shirt-violet-encourage.png",
+      "bytes": 2659,
+      "sha256": "c0c94ddeb6613b09f6bf731e9a92a3b7d8e3e2abd114a3ec82e4744b18dc9131",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-gold-encourage": {
+      "path": "shirt-gold-encourage.png",
+      "bytes": 2645,
+      "sha256": "1b5ac1939650a3c6175f1112c3e7ac060e3b61f0ef489f31b013c7cc951f8f06",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-snow-encourage": {
+      "path": "shirt-snow-encourage.png",
+      "bytes": 2719,
+      "sha256": "cd137843b5872e030aa9d471e28fc2e54bae9c5a14de4de050cc61ba948fa0a0",
+      "width": 256,
+      "height": 256
+    },
+    "shirt-rainbow-encourage": {
+      "path": "shirt-rainbow-encourage.png",
+      "bytes": 3061,
+      "sha256": "fe8c4fb375eb8f5f07ee3085755f291333c60c30bf5650f7543dd0a2fb6a0fee",
+      "width": 256,
+      "height": 256
+    }
+  },
+  "totalBytes": 310935
+}
