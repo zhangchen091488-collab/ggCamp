@@ -39,10 +39,10 @@ function assertIndex(index) {
 function assertManifest(m, expected = null) {
   check(isRecord(m) && m.schemaVersion === 1 && characterId(m.characterId) && Number.isSafeInteger(m.revision) && m.revision >= 1);
   check(Number.isSafeInteger(m.minClientBuild) && m.minClientBuild >= 1);
-  check(m.minClientBuild <= 2, '请更新游戏后再领取这位伙伴');
+  check(m.minClientBuild <= 3, '请更新游戏后再领取这位伙伴');
   check(typeof m.name === 'string' && m.name.trim().length > 0 && m.name.length <= 24 && typeof m.description === 'string' && m.description.length <= 300);
   if (expected) check(m.characterId === expected.characterId && m.revision === expected.revision, '角色身份或版本不一致');
-  check(isRecord(m.files) && Object.keys(m.files).length > 0 && Object.keys(m.files).length <= 64 && isRecord(m.frames) && isRecord(m.capabilities));
+  check(isRecord(m.files) && Object.keys(m.files).length > 0 && Object.keys(m.files).length <= (m.minClientBuild >= 3 ? 160 : 64) && isRecord(m.frames) && isRecord(m.capabilities));
   const paths = new Set(); let total = 0;
   for (const [id, file] of Object.entries(m.files)) {
     check(/^[a-z0-9][a-z0-9-]{0,63}$/.test(id)); digest(file, 256 * 1024);
@@ -88,6 +88,38 @@ function assertManifest(m, expected = null) {
   if (caps.wearTransform !== undefined) {
     const t = caps.wearTransform;
     check(isRecord(t) && Object.keys(t).every(k => ['x', 'y', 'scale'].includes(k)) && Number.isFinite(t.x) && Math.abs(t.x) <= 64 && Number.isFinite(t.y) && Math.abs(t.y) <= 64 && Number.isFinite(t.scale) && t.scale >= .5 && t.scale <= 1.5);
+  }
+  if (m.actions !== undefined) {
+    check(m.minClientBuild >= 3 && isRecord(m.actions) && Object.keys(m.actions).every(k => FACES.includes(k)), '多动作需要新版游戏');
+    const ids = new Set(FACES);
+    for (const variants of Object.values(m.actions)) {
+      check(Array.isArray(variants) && variants.length >= 1 && variants.length <= 4);
+      for (const action of variants) {
+        check(isRecord(action) && Object.keys(action).every(k => ['id', 'name', 'frame', 'clothes', 'wearTransforms'].includes(k)));
+        check(typeof action.id === 'string' && /^[a-z][a-z0-9-]{0,47}$/.test(action.id) && !ids.has(action.id)); ids.add(action.id);
+        check(typeof action.name === 'string' && action.name.trim().length > 0 && action.name.length <= 24 && own(m.files, action.frame));
+        // Reuse the exact clothing and fitting rules for every additional pose.
+        const pose = { ...m, minClientBuild: 2, files: { [action.frame]: m.files[action.frame] }, thumbnail: action.frame,
+          frames: Object.fromEntries(caps.colors.map(color => [color, Object.fromEntries(FACES.map(face => [face, action.frame]))])),
+          capabilities: { ...caps, wearTransforms: action.wearTransforms } };
+        delete pose.actions; delete pose.clothes;
+        if (m.clothes) {
+          check(isRecord(action.clothes) && Object.keys(action.clothes).length === caps.colors.filter(c => c !== 'original').length);
+          pose.clothes = {};
+          for (const color of caps.colors.filter(c => c !== 'original')) {
+            check(own(m.files, action.clothes[color]));
+            pose.files[action.clothes[color]] = m.files[action.clothes[color]];
+            pose.clothes[color] = Object.fromEntries(FACES.map(face => [face, action.clothes[color]]));
+          }
+        } else check(action.clothes === undefined);
+        if (caps.wearTransforms) {
+          check(isRecord(action.wearTransforms));
+          pose.capabilities.wearTransforms = Object.fromEntries(Object.entries(action.wearTransforms).map(([costume, layers]) => [costume, Object.fromEntries(FACES.map(face => [face, layers]))]));
+        } else check(action.wearTransforms === undefined);
+        pose.totalBytes = Object.values(pose.files).reduce((n, f) => n + f.bytes, 0);
+        assertManifest(pose);
+      }
+    }
   }
   return m;
 }

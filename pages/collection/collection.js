@@ -16,7 +16,7 @@ function thumbnail(item, character) {
     const layers = partners.resolve(character, partners.snapshot(character).characterRevision, color, 'open', costume);
     return { ...layers, wearStyle: thumbStyle(layers.wearTransform), backStyle: thumbStyle(layers.backTransform) };
   }
-  if (item.cat === 'crowd') return { buddies: visual({ character, crowd: item.id, costume: 'costume:none', color: 'color:pink' }).actors.slice(0, 3) };
+  if (item.cat === 'crowd') return { buddies: visual({ character, crowd: item.id, costume: 'costume:none', color: 'color:pink' }, 'open', 0, 0, 100, { scope: 'thumbnail' }).actors.slice(0, 3) };
   return { src: `/assets/ui/thumb-${item.id.replace(':', '-')}.png` };
 }
 Page({

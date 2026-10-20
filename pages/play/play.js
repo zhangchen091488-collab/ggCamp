@@ -6,7 +6,7 @@ const { fmtDopa } = require('../../shared/scoring.js');
 Page({
   data: { sheet: {}, show: {}, quests: [], keys: ['7', '8', '9', '4', '5', '6', '1', '2', '3', '清除', '0'], paused: false },
   onLoad(query) {
-    this.store = getApp().store; this.audio = createAudio(wx); this.burst = 0;
+    this.store = getApp().store; this.audio = createAudio(wx); this.burst = 0; this.actionEvent = 0;
     const allowed = ['grade', 'level', 'practice', 'review', 'demo'];
     try { this.session = query.resume && this.store.state.session ? this.store.state.session : query.extra && practice.startExtra(this.store) ? this.store.state.session : practice.sessionFor(this.store, { grade: Math.min(6, Math.max(1, Number(query.grade) || 1)), mode: allowed.includes(query.mode) ? query.mode : 'grade', skill: query.skill }); }
     catch (error) { wx.showToast({ title: error.message, icon: 'none' }); wx.navigateBack(); return; }
@@ -44,26 +44,28 @@ Page({
     const s = this.session; const p = practice.current(s); if (!p) return;
     const sheet = sheetView(p, s); s.marks = sheet.marks; const step = p.steps[s.step];
     if (step && step.help && (this.showHint || s.stepNg >= 2)) for (const cell of sheet.cells) cell.hint = step.help.ids.includes(cell.id);
-    this.setData({ sound: this.store.state.settings.sound, progressDots: Array.from({ length: s.count }, (_, id) => ({ id, done: id < s.index, current: id === s.index })), sheet, title: p.title, grade: s.grade, index: s.phase === 'extra' ? s.ok + 1 : s.index + 1, count: s.count, ok: s.ok, ng: s.ng, time: this.timeText(), paused: s.paused, solved: !step, extra: s.phase === 'extra', demo: s.demo, combo: s.combo, dopa: fmtDopa(s.dopaL), label: step ? step.label : '这一题完成啦！', hint: (this.showHint || s.stepNg >= 3) && step && step.help ? step.help.text : '', feedback: s.feedback, motion: this.store.state.settings.motion, show: visual(s.look, face, this.level(), this.burst, this.store.state.settings.motion), capsule: p.capsule ? `${p.capsule.d} 的题目又回来啦！` : '', warning: this.store.warning(), hurry: s.phase === 'extra' && s.extraRemaining < 15000 });
+    this.setData({ sound: this.store.state.settings.sound, progressDots: Array.from({ length: s.count }, (_, id) => ({ id, done: id < s.index, current: id === s.index })), sheet, title: p.title, grade: s.grade, index: s.phase === 'extra' ? s.ok + 1 : s.index + 1, count: s.count, ok: s.ok, ng: s.ng, time: this.timeText(), paused: s.paused, solved: !step, extra: s.phase === 'extra', demo: s.demo, combo: s.combo, dopa: fmtDopa(s.dopaL), label: step ? step.label : '这一题完成啦！', hint: (this.showHint || s.stepNg >= 3) && step && step.help ? step.help.text : '', feedback: s.feedback, motion: this.store.state.settings.motion, show: visual(s.look, face, this.level(), this.burst, this.store.state.settings.motion, { event: this.actionEvent || 0 }), capsule: p.capsule ? `${p.capsule.d} 的题目又回来啦！` : '', warning: this.store.warning(), hurry: s.phase === 'extra' && s.extraRemaining < 15000 });
   },
-  showHelp() { this.showHint = true; this.render(); },
+  showHelp() { this.showHint = true; this.actionEvent = (this.actionEvent || 0) + 1; this.render('tight'); },
   toggleSound() { const settings = this.store.state.settings; settings.sound = !settings.sound; this.store.save(); if (settings.sound && !this.session.paused) this.startSound(); else this.audio.close(); this.render(); },
   press(e) { if (this.session.demo) { this.endDemo(); return; } if (this.session.paused) return; this.answer(String(e.currentTarget.dataset.key)); },
   answer(digit) {
     if (digit === '清除') { this.session.wrong = ''; this.session.feedback = ''; this.store.save(); this.render(); return; }
-    if (digit === '提示') { this.showHint = true; this.render(); return; }
+    if (digit === '提示') { this.showHelp(); return; }
     this.updateTime(); if (this.session.over) { this.complete(); return; }
     const outcome = practice.input(this.session, digit, this.store.state.progress, Date.now(), this.store); if (outcome === 'ignored') return;
+    this.actionEvent = (this.actionEvent || 0) + 1;
     if (outcome !== 'wrong') { this.showHint = false; this.burst++; }
     this.audio.play(outcome !== 'wrong', this.store.state.settings.sound, this.session.combo, this.level(), outcome === 'solved');
     this.store.save(); this.render(outcome === 'wrong' ? 'tight' : 'happy');
     if (outcome === 'solved' && !this.session.demo) { clearTimeout(this.advanceTimer); this.advanceTimer = setTimeout(() => { if (!this.session.paused && !this.finished) this.next(); }, this.store.state.settings.motion > 0 ? 1150 : 450); }
   },
   next() {
+    this.actionEvent = (this.actionEvent || 0) + 1;
     clearTimeout(this.advanceTimer); if (this.session.paused) return;
     this.updateTime(); if (this.session.over) { this.complete(); return; }
     if (!practice.next(this.session, this.store.state.progress)) return;
-    this.showHint = false; this.burst = 0; this.store.save(); practice.markCapsule(this.store);
+    this.showHint = false; this.burst = 0; this.actionEvent = 0; this.store.save(); practice.markCapsule(this.store);
     if (this.session.phase !== 'extra' && this.session.index >= this.session.count) this.complete(); else { this.audio.setLevel(this.level()); this.render(); }
   },
   complete() { clearInterval(this.timer); clearTimeout(this.advanceTimer); const result = practice.finish(this.store); if (!result) return; this.finished = true; this.audio.close(); wx.redirectTo({ url: '/pages/result/result' }); },

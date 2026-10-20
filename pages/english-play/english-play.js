@@ -6,7 +6,7 @@ const { fmtDopa } = require('../../shared/scoring.js');
 const { visual } = require('../../lib/visual.js');
 Page({
   data: { show: {}, paused: false, shift: false, before: '', after: '', cursor: 0, rows: ['qwertyuiop'.split(''), 'asdfghjkl'.split(''), 'zxcvbnm'.split('')], upperRows: ['QWERTYUIOP'.split(''), 'ASDFGHJKL'.split(''), 'ZXCVBNM'.split('')], punctuation: ["'", '-', '.', '?', '!'], feedback: '', hintText: '', edits: [], inputMethod: 'keyboard', cards: [], flights: [], wrongCard: -1, hintCard: -1, pulseCell: -1 },
-  onLoad() { this.cursor = 0; this.burst = 0; this.visualEpoch = 0; this.visualTimers = new Set(); },
+  onLoad() { this.cursor = 0; this.burst = 0; this.actionFace = 'open'; this.actionEvent = 0; this.visualEpoch = 0; this.visualTimers = new Set(); },
   onShow() {
     const s = practice.state(getApp().store).session;
     if (!s) { wx.redirectTo({ url: '/pages/home/home' }); return; }
@@ -42,7 +42,7 @@ Page({
       wordCells[wordCells.length - 1].cells.push(cell);
     }
     const windowInfo = typeof wx !== 'undefined' && wx.getWindowInfo ? wx.getWindowInfo() : null;
-    this.setData({ stageReady: true, compactStage: !!windowInfo && windowInfo.windowHeight <= 650, wordCells, inputMethod: s.inputMethod, questionId: a.questionId, cards: cardView ? cardView.cards : [], wordNumber: cardView ? cardView.wordNumber : 0, wordCount: cardView ? cardView.wordCount : 0, canListen: !!this.pronunciation && this.pronunciation.available(s.plan.packId, a.item, 'normal'), canListenSlow: !!this.pronunciation && this.pronunciation.available(s.plan.packId, a.item, 'slow'), combo: s.combo || 0, dopa: fmtDopa(s.dopaL || 0), phoneticUk: a.item.phoneticUk || '', phoneticUs: a.item.phoneticUs || '', packTitle: s.packTitle || (practice.packs.find((pack) => pack.packId === s.plan.packId) || practice.pack).title, cells: cardView ? cardView.cells : practice.answerCells(a, this.cursor), phase: s.phase, prompt: a.item.promptZh, canonical: a.item.canonical, number: s.index + 1, total: s.attempts.length, before: a.draft.slice(0, this.cursor), after: a.draft.slice(this.cursor), cursor: this.cursor, feedback: feedback || this.data.feedback, warning: store.warning(), show: visual(s.look, celebrating ? 'happy' : 'open', celebrating ? .6 : .1, celebrating ? this.burst || 0 : 0, store.state.settings.motion) });
+    this.setData({ stageReady: true, compactStage: !!windowInfo && windowInfo.windowHeight <= 650, wordCells, inputMethod: s.inputMethod, questionId: a.questionId, cards: cardView ? cardView.cards : [], wordNumber: cardView ? cardView.wordNumber : 0, wordCount: cardView ? cardView.wordCount : 0, canListen: !!this.pronunciation && this.pronunciation.available(s.plan.packId, a.item, 'normal'), canListenSlow: !!this.pronunciation && this.pronunciation.available(s.plan.packId, a.item, 'slow'), combo: s.combo || 0, dopa: fmtDopa(s.dopaL || 0), phoneticUk: a.item.phoneticUk || '', phoneticUs: a.item.phoneticUs || '', packTitle: s.packTitle || (practice.packs.find((pack) => pack.packId === s.plan.packId) || practice.pack).title, cells: cardView ? cardView.cells : practice.answerCells(a, this.cursor), phase: s.phase, prompt: a.item.promptZh, canonical: a.item.canonical, number: s.index + 1, total: s.attempts.length, before: a.draft.slice(0, this.cursor), after: a.draft.slice(this.cursor), cursor: this.cursor, feedback: feedback || this.data.feedback, warning: store.warning(), show: visual(s.look, celebrating ? 'happy' : this.actionFace || 'open', celebrating ? .6 : .1, celebrating ? this.burst || 0 : 0, store.state.settings.motion, { event: this.actionEvent || 0 }) });
   },
   listen(e) {
     if (this.data.paused || !this.pronunciation) return;
@@ -58,6 +58,7 @@ Page({
     const store = getApp().store; const a = practice.current(store); let draft = a.draft;
     const key = e.currentTarget.dataset.key;
     if (key === 'shift') { this.setData({ shift: !this.data.shift }); return; }
+    this.actionFace = 'open';
     const edit = practice.editDraft(a, this.cursor, key, this.data.shift);
     draft = edit.draft; this.cursor = edit.cursor;
     practice.updateDraft(store, draft); this.setData({ feedback: '', edits: [] }); this.render();
@@ -76,6 +77,7 @@ Page({
       const id = practice.cardHint(getApp().store);
       this.setData({ hintCard: id == null ? -1 : id, hintText: '蓝色卡片是提示，本题不计独立答对。' }); this.render(); return;
     }
+    this.actionFace = 'tight'; this.actionEvent++;
     const choice = practice.hint(getApp().store);
     this.setData({ hintText: choice ? '蓝色字母是随机提示，本题不计独立答对。' : '可以提示的字母都已给出，试着完成答案吧。' });
     this.render();
@@ -97,6 +99,8 @@ Page({
     const result = practice.tapCard(store, question, Number(id));
     if (result.status === 'ignored') return;
     this.setData({ hintCard: -1, feedback: '' });
+    this.actionFace = result.status === 'wrong' ? 'tight' : 'open';
+    if (result.status === 'wrong' || result.completion) this.actionEvent++;
     if (result.completion) { this.stopPronunciation(); this.burst++; }
     const outcome = result.completion || (result.status === 'wrong' ? result : null);
     if (outcome && this.audio) this.audio.play(outcome.status === 'correct', store.state.settings.sound, 1, .2, outcome.status === 'correct');
@@ -144,6 +148,7 @@ Page({
     if (this.data.paused || this.data.inputMethod === 'cards') return;
     this.stopPronunciation();
     const r = practice.complete(getApp().store);
+    if (['correct', 'wrong'].includes(r.status)) { this.actionEvent++; this.actionFace = r.status === 'wrong' ? 'tight' : 'open'; }
     if (r.status === 'correct') this.burst = (this.burst || 0) + 1;
     if (this.audio && ['correct', 'wrong'].includes(r.status)) this.audio.play(r.status === 'correct', getApp().store.state.settings.sound, 1, 0.2, r.status === 'correct');
     if (r.status === 'empty') this.setData({ feedback: '先写下你的答案，再提交。' });
@@ -153,6 +158,7 @@ Page({
   skip() { if (this.data.paused) return; this.cancelVisuals(); this.stopPronunciation(); practice.complete(getApp().store, true); this.render(); },
   next() {
     if (this.data.paused) return;
+    this.actionFace = 'open'; this.actionEvent++;
     this.cancelVisuals(); this.stopPronunciation(); this.flushTime(); const done = practice.advance(getApp().store); this.cursor = 0;
     this.setData({ feedback: '', hintText: '', edits: [], hintCard: -1 });
     if (done) { if (this.readingMusic) this.readingMusic.close(); else if (this.audio) this.audio.close(); wx.redirectTo({ url: '/pages/english-result/english-result' }); }
